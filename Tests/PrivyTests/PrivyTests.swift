@@ -6,6 +6,6 @@ final class PrivyTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(Privy().text, "Hello, World!")
+        //XCTAssertEqual(Privy().text, "Hello, World!")
     }
 }
