@@ -7,7 +7,7 @@
 import Foundation
 
 /// The privy client config data
-public struct PrivyClientConfig {
+struct PrivyClientConfig {
 
     /// Whether the wallet should be created at login
     let shouldCreateWalletOnLogin: Bool

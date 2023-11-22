@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// The users Auth State
+/// The user's authenticated state
 public enum AuthState {
     case unauthenticated
     case authenticated(User, EmbeddedWalletState)

@@ -6,7 +6,7 @@
 
 import Foundation
 
-/// The class that handles everything wallet recovery
+/// Handles wallet recovery
 public class WalletRecovery {
 
     /// Use this to recover wallet

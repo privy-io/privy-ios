@@ -19,9 +19,24 @@ public class EmbeddedWalletProvider {
         self.rpcURL = rpcURL
     }
 
-    /// The request
-    /// - Parameter request: The Wallet request
-    /// - Returns: The return can be string or [String: String]
+    /**
+     The Ethereum provider RPC request
+     # Returns
+            Returns Any which is either a String or Dictionary
+     # Code
+     ```
+     do {
+         let response = try await request(
+             Request(
+                 method: "personal_sign",
+                 params: ["insert-message", "insert-embedded-wallet-address"]
+             )
+         )
+     } catch {
+         print(error)
+     }
+     ```
+    */
     public func request(_ request: Request) async throws -> Any {
         return ""
     }
@@ -83,18 +98,37 @@ extension EmbeddedWalletProvider {
     /// The EmbeddedWalletProvider request
     public struct Request {
 
-        /// The request method
+        /// The request method.
+
+
+        /**
+         The request method.
+
+         Methods can be found in the [JSON RPC API ](https://ethereum.org/en/developers/docs/apis/json-rpc/).
+
+         Supported methods:
+
+         * eth_accounts
+         * personal_sign
+         * eth_sign
+         * eth_signTypedData_v4
+         * eth_signTransaction
+         * eth_sendTransaction
+         * eth_sendRawTransaction
+         * personal_sign
+         * eth_chainId
+        */
         public let method: String
 
         /// The request parameter
-        public let params: [String: String]
+        public let params: [String]
     }
 }
 
 extension EmbeddedWalletProvider {
 
     /// The Transaction Request data
-    public struct TransactionRequest {
+    struct TransactionRequest {
 
         /// The account of the request
         public let account: String
@@ -107,5 +141,5 @@ extension EmbeddedWalletProvider {
     }
 
     /// The Transaction Response data
-    public struct TransactionResponse {}
+    struct TransactionResponse {}
 }

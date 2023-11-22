@@ -6,10 +6,10 @@
 
 import Foundation
 
-/// The different State of the embedded wallet
+/// The different states of the embedded wallet
 public enum EmbeddedWalletState {
     case connecting
-    case connnected(EmbeddedWalletProvider)
+    case connected(EmbeddedWalletProvider)
     case notCreated(WalletCreator)
     case needsRecovery
     case error

@@ -6,7 +6,7 @@
 
 import Foundation
 
-/// The user object from the backend
+/// The user object representing an authenticated user
 public struct User {
 
     /// The user id

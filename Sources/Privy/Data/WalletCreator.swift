@@ -6,7 +6,7 @@
 
 import Foundation
 
-/// The class that handles every wallet creation
+/// Handles wallet creation after user authentication
 public class WalletCreator {
 
     /// Use this to create a wallet

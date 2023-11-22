@@ -8,9 +8,9 @@
 import Foundation
 
 
-/// The Privy App Configure
+/// The Privy app configuration
 public struct PrivyConfig {
 
-    /// The App Id that can be gotten on the console
+    /// The app ID that can be retrieved from the developer dashboard
     public let appId: String
 }

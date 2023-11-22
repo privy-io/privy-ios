@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// The Privy State. It can either be not ready or ready
+/// Describes whether the wallet environment is ready
 public enum PrivyState {
     case notReady
     case ready

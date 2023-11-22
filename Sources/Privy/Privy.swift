@@ -14,11 +14,11 @@ public final class Privy {
     public typealias AuthStateChangeCallback = (AuthState) -> Void
     public typealias PrivyStateChangeCallback = (PrivyState) -> Void
 
-    /// The shared Instance for privy
+    /// The shared Privy instance
     public static let shared = Privy()
 
     /**
-     The JWT token provider used for requesting token
+     The provider used for requesting custom access tokens
 
     # Code
     ```
@@ -38,7 +38,7 @@ public final class Privy {
         }
     }
 
-    /// The user auth state
+    /// The user's authenticated state
     public private(set) var authState = AuthState.unauthenticated {
         didSet {
             onAuthStateChange?(authState)
@@ -49,11 +49,11 @@ public final class Privy {
     public private(set) var appId: String?
 
 
-    /// The App configuration
+    /// The app configuration
     public private(set) var config: PrivyConfig?
 
     /// The App Client configuration
-    public private(set) var clientConfig: PrivyClientConfig?
+    private var clientConfig: PrivyClientConfig?
 
     /**
     The Privy State change callback
@@ -86,9 +86,8 @@ public final class Privy {
 
      # Code
      ```
-     let config = PrivyConfig(appId: "")
      Privy.shared.configure(
-         config: config,
+         config: PrivyConfig(appId: "insert-your-privy-app-id"),
          tokenProvider: {
              // Implementation to provide a JWT token
              return await fetchToken()
@@ -105,12 +104,13 @@ public final class Privy {
         clientConfig = PrivyClientConfig(shouldCreateWalletOnLogin: true)
         // setupIframewithiframe
         privyState = .ready
+        //login
     }
 
     /**
-     Login with JWT
+     Login with custom access token
      # Returns
-            Returns the users object
+            Returns the user object. This method calls the tokenProvider callback
      # Code
      ```
      do {
@@ -120,12 +120,19 @@ public final class Privy {
      }
      ```
     */
-    public func loginWithJwt() async throws -> User {
+    public func loginWithCustomAccessToken() async throws -> User {
         guard privyState == .ready else {
             throw NSError()
         }
 
-        guard (try await tokenProvider?()) != nil else {
+        switch privyState {
+        case .notReady:
+            break
+        case .ready:
+            break
+        }
+
+        guard let token = try await tokenProvider?() else {
             throw NSError(domain: "PrivyError", code: 1001, userInfo: [NSLocalizedDescriptionKey: "Token provider not set or failed to provide a token"])
         }
 
@@ -150,7 +157,16 @@ public final class Privy {
         return user
     }
 
+    /**
+     Log out your user
+     # Code
+     ```
+     Privy.shared.logout()
+     ```
+    */
+    public func logout() {
 
+    }
 
     private init() {
 
