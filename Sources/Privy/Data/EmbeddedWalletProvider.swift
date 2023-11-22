@@ -37,7 +37,7 @@ public class EmbeddedWalletProvider {
      }
      ```
     */
-    public func request(_ request: Request) async throws -> Any {
+    public func request(_ request: RpcRequest) async throws -> Any {
         return ""
     }
 
@@ -96,7 +96,7 @@ public class EmbeddedWalletProvider {
 extension EmbeddedWalletProvider {
 
     /// The EmbeddedWalletProvider request
-    public struct Request {
+    public struct RpcRequest {
 
         /// The request method.
 
