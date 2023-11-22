@@ -1,12 +1,14 @@
 //
 //  Account.swift
-//  HeadlessSDK
 //
 //  Created by Dalu Udeogu on 2023-11-21.
 //
 
 import Foundation
 
-internal protocol Account {
+/// A protocol for an account
+public protocol Account {
+
+    /// The id of the account
     var id: String {get}
 }

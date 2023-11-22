@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  AuthState.swift
 //  
 //
 //  Created by Dalu Udeogu on 2023-11-21.

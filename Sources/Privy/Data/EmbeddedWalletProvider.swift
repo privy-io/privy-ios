@@ -1,24 +1,10 @@
 //
 //  EmbeddedWalletProvider.swift
-//  HeadlessSDK
 //
 //  Created by Dalu Udeogu on 2023-11-21.
 //
 
 import Foundation
-
-extension EmbeddedWalletProvider {
-
-    /// The EmbeddedWalletProvider request
-    public struct Request {
-
-        /// The request method
-        public let method: String
-
-        /// The request parameter
-        public let params: [String: String]
-    }
-}
 
 /// The embedded wallet provider
 public class EmbeddedWalletProvider {
@@ -92,13 +78,31 @@ public class EmbeddedWalletProvider {
 //    }
 }
 
+extension EmbeddedWalletProvider {
+
+    /// The EmbeddedWalletProvider request
+    public struct Request {
+
+        /// The request method
+        public let method: String
+
+        /// The request parameter
+        public let params: [String: String]
+    }
+}
 
 extension EmbeddedWalletProvider {
 
     /// The Transaction Request data
     public struct TransactionRequest {
+
+        /// The account of the request
         public let account: String
+
+        /// The to account of the request
         public let to: String
+
+        /// The value thats being transferred
         public let value: UInt64
     }
 

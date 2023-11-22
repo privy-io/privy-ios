@@ -1,6 +1,5 @@
 //
 //  EmbeddedWalletState.swift
-//  HeadlessSDK
 //
 //  Created by Dalu Udeogu on 2023-11-21.
 //
