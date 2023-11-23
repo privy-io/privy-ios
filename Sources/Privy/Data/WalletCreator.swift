@@ -15,3 +15,9 @@ public class WalletCreator {
 
     }
 }
+
+extension WalletCreator: Equatable {
+    public static func == (lhs: WalletCreator, rhs: WalletCreator) -> Bool {
+        true
+    }
+}

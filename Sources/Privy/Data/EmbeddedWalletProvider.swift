@@ -93,6 +93,12 @@ public class EmbeddedWalletProvider {
 //    }
 }
 
+extension EmbeddedWalletProvider: Equatable {
+    public static func == (lhs: EmbeddedWalletProvider, rhs: EmbeddedWalletProvider) -> Bool {
+        lhs.chainId == rhs.chainId && lhs.rpcURL == rhs.rpcURL
+    }
+}
+
 extension EmbeddedWalletProvider {
 
     /// The EmbeddedWalletProvider request

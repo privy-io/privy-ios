@@ -45,10 +45,6 @@ public final class Privy {
         }
     }
 
-    /// The current appId
-    public private(set) var appId: String?
-
-
     /// The app configuration
     public private(set) var config: PrivyConfig?
 
@@ -125,13 +121,6 @@ public final class Privy {
             throw NSError()
         }
 
-        switch privyState {
-        case .notReady:
-            break
-        case .ready:
-            break
-        }
-
         guard let token = try await tokenProvider?() else {
             throw NSError(domain: "PrivyError", code: 1001, userInfo: [NSLocalizedDescriptionKey: "Token provider not set or failed to provide a token"])
         }
@@ -141,18 +130,24 @@ public final class Privy {
         // if failed throw
         let user = User(
             id: "1",
-            linkedAccount: []
+            linkedAccounts: []
         )
 
-//        if config?.shouldWalletOnLogin == true && !user.linkedAccount.contains(where: { $0 is WalletAccount }) {
-//            // create a wallet
-//            // iframe
-//            //proxy.createWallet()
-//            // wa
-//            //authState = .authenticated(user, .connnected(WalletProvider(address: "")))
-//        } else {
-//            //authState = .authenticated(user, )
-//        }
+        if clientConfig?.shouldCreateWalletOnLogin == true && !user.linkedAccounts.contains(where: { $0 is WalletAccount }) {
+            // create a wallet
+            // iframe
+            //proxy.createWallet()
+            // wa
+
+            let walletCreator = WalletCreator()
+            walletCreator.create()
+
+            let provider = EmbeddedWalletProvider(chainId: "", rpcURL: "")
+            authState = .authenticated(user, .connected(provider))
+        } else {
+            let provider = EmbeddedWalletProvider(chainId: "", rpcURL: "")
+            authState = .authenticated(user, .connected(provider))
+        }
 
         return user
     }
@@ -165,10 +160,9 @@ public final class Privy {
      ```
     */
     public func logout() {
-
+        privyState = .notReady
+        authState = .unauthenticated
     }
 
-    private init() {
-
-    }
+    private init() {}
 }

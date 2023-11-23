@@ -12,3 +12,16 @@ public enum AuthState {
     case unauthenticated
     case authenticated(User, EmbeddedWalletState)
 }
+
+extension AuthState: Equatable {
+    public static func == (lhs: AuthState, rhs: AuthState) -> Bool {
+        switch (lhs, rhs) {
+        case (.authenticated(let lhsUser, let lhsState), .authenticated(let rhsUser, let rhsState)):
+            return lhsUser == rhsUser && lhsState == rhsState
+        case (.unauthenticated, .unauthenticated):
+            return true
+        default:
+            return false
+        }
+    }
+}

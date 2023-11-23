@@ -7,8 +7,8 @@
 import Foundation
 
 /// A protocol for an account
-public protocol Account {
+public protocol Account: Identifiable, Equatable {
 
     /// The id of the account
-    var id: String {get}
+    var id: String { get }
 }
