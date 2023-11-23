@@ -1,4 +1,5 @@
 import Foundation
+import HeadlessSDK
 
 /**
  The Privy SDK Main Class.
@@ -164,5 +165,7 @@ public final class Privy {
         authState = .unauthenticated
     }
 
-    private init() {}
+    private init() {
+        HeadlessSDK.Privy.shared.state
+    }
 }
