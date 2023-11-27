@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		uR+dm/Q5rKpkpSL6i2AUXx2VzOA=
+		N+jKruDsD1xoJ97N/M5pSerBvE8=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hBHG+wfcYi9NiOTYRB6hvlTv3yw=
+		9xXuuvPEc7fPUt36aCgMwxl+Q4U=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Y49pzj67os+R6nTK0YeOmLDZ8Ao=
+		NRaIRW4xNuEUH/6ZQiKr+FZchGA=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y49pzj67os+R6nTK0YeOmLDZ8Ao=
+		NRaIRW4xNuEUH/6ZQiKr+FZchGA=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hxb6yllhWUhhZcM1SRrCl4BwXV0=
+		MCBi9oybOMWXW8aN2qmteD2fGhg=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YlS2mMHt2GxDjbbdme1wJqC/bVqGAaPinYcFYEuNkpE=
+			iVGRMXRXLsD+vsE1Mg2lwoYAPvVLvLZJ+HUGwmwfzPM=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
@@ -107,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pqD+zgkyYmMje0X81boNS/wT+wRfMiLGRqVF2hd8ITs=
+			krN2xrltkFWX/QudS65IOEwKggj4ubAoS4Tmu5t6FLU=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q3C4FMohPkO8cyj7ytqhpXzZd3IvBgKXAUSUXMG9358=
+			O4UN1KaQFw+62c5oqLHaCVKkQRein1lSV74UlQTshys=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -128,14 +128,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q3C4FMohPkO8cyj7ytqhpXzZd3IvBgKXAUSUXMG9358=
+			O4UN1KaQFw+62c5oqLHaCVKkQRein1lSV74UlQTshys=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xb/c5MHRja2vNVdy9KnK9C28fhHxFsvYqHTKaVWJLAQ=
+			eMq8Q+x79oanfrOSwsr2wS67lMWQv3OgnCtAY9u9zzg=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>

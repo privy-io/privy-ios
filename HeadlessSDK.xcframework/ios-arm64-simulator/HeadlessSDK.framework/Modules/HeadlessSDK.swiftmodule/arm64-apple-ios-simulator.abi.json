@@ -15137,13 +15137,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Web3",
-        "printedName": "Web3",
-        "declKind": "Import",
-        "moduleName": "HeadlessSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "BaseConnectedWallet",
         "printedName": "BaseConnectedWallet",
@@ -15457,7 +15450,10 @@
         "declKind": "Protocol",
         "usr": "s:11HeadlessSDK19BaseConnectedWalletP",
         "mangledName": "$s11HeadlessSDK19BaseConnectedWalletP",
-        "moduleName": "HeadlessSDK"
+        "moduleName": "HeadlessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -40554,13 +40550,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "BigInt",
-        "printedName": "BigInt",
-        "declKind": "Import",
-        "moduleName": "HeadlessSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "Quantity",
         "printedName": "Quantity",
@@ -40572,18 +40561,17 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "BigInt",
-                "printedName": "BigInt.BigInt",
-                "usr": "s:6BigIntAAV"
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11HeadlessSDK8QuantityV5value6BigIntAEVvp",
-            "mangledName": "$s11HeadlessSDK8QuantityV5value6BigIntAEVvp",
+            "usr": "s:11HeadlessSDK8QuantityV5values5Int64Vvp",
+            "mangledName": "$s11HeadlessSDK8QuantityV5values5Int64Vvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "hasStorage": true,
             "accessors": [
@@ -40594,14 +40582,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "BigInt",
-                    "printedName": "BigInt.BigInt",
-                    "usr": "s:6BigIntAAV"
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK8QuantityV5value6BigIntAEVvg",
-                "mangledName": "$s11HeadlessSDK8QuantityV5value6BigIntAEVvg",
+                "usr": "s:11HeadlessSDK8QuantityV5values5Int64Vvg",
+                "mangledName": "$s11HeadlessSDK8QuantityV5values5Int64Vvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -40618,14 +40606,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "BigInt",
-                    "printedName": "BigInt.BigInt",
-                    "usr": "s:6BigIntAAV"
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK8QuantityV5value6BigIntAEVvs",
-                "mangledName": "$s11HeadlessSDK8QuantityV5value6BigIntAEVvs",
+                "usr": "s:11HeadlessSDK8QuantityV5values5Int64Vvs",
+                "mangledName": "$s11HeadlessSDK8QuantityV5values5Int64Vvs",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -40642,8 +40630,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK8QuantityV5value6BigIntAEVvM",
-                "mangledName": "$s11HeadlessSDK8QuantityV5value6BigIntAEVvM",
+                "usr": "s:11HeadlessSDK8QuantityV5values5Int64VvM",
+                "mangledName": "$s11HeadlessSDK8QuantityV5values5Int64VvM",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -40834,7 +40822,8 @@
         "mangledName": "$s11HeadlessSDK8QuantityV",
         "moduleName": "HeadlessSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -50762,13 +50751,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "PromiseKit",
-        "printedName": "PromiseKit",
-        "declKind": "Import",
-        "moduleName": "HeadlessSDK"
-      },
-      {
         "kind": "TypeDecl",
         "name": "EventCallbackQueueError",
         "printedName": "EventCallbackQueueError",
@@ -50912,6 +50894,9 @@
         "usr": "s:11HeadlessSDK23EventCallbackQueueErrorO",
         "mangledName": "$s11HeadlessSDK23EventCallbackQueueErrorO",
         "moduleName": "HeadlessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ],
         "isEnumExhaustive": true,
         "conformances": [
           {
@@ -50949,721 +50934,6 @@
         "name": "EventCallbackQueue",
         "printedName": "EventCallbackQueue",
         "children": [
-          {
-            "kind": "Var",
-            "name": "cbReady",
-            "printedName": "cbReady",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : PromiseKit.Resolver<HeadlessSDK.IframeReadyResponse>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolver",
-                    "printedName": "PromiseKit.Resolver<HeadlessSDK.IframeReadyResponse>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IframeReadyResponse",
-                        "printedName": "HeadlessSDK.IframeReadyResponse",
-                        "usr": "s:11HeadlessSDK19IframeReadyResponseV"
-                      }
-                    ],
-                    "usr": "s:10PromiseKit8ResolverC"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7cbReady33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06IframeG8ResponseVGGvp",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7cbReady33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06IframeG8ResponseVGGvp",
-            "moduleName": "HeadlessSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "fixedbinaryorder": 0,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "cbCreate",
-            "printedName": "cbCreate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : PromiseKit.Resolver<HeadlessSDK.WalletCreateResponse>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolver",
-                    "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletCreateResponse>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WalletCreateResponse",
-                        "printedName": "HeadlessSDK.WalletCreateResponse",
-                        "usr": "s:11HeadlessSDK20WalletCreateResponseV"
-                      }
-                    ],
-                    "usr": "s:10PromiseKit8ResolverC"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC8cbCreate33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC8cbCreate33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "moduleName": "HeadlessSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "cbConnect",
-            "printedName": "cbConnect",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : PromiseKit.Resolver<HeadlessSDK.WalletConnectResponse>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolver",
-                    "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletConnectResponse>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WalletConnectResponse",
-                        "printedName": "HeadlessSDK.WalletConnectResponse",
-                        "usr": "s:11HeadlessSDK21WalletConnectResponseV"
-                      }
-                    ],
-                    "usr": "s:10PromiseKit8ResolverC"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC9cbConnect33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC9cbConnect33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "moduleName": "HeadlessSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 2,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "cbRecover",
-            "printedName": "cbRecover",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : PromiseKit.Resolver<HeadlessSDK.WalletRecoverResponse>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolver",
-                    "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletRecoverResponse>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WalletRecoverResponse",
-                        "printedName": "HeadlessSDK.WalletRecoverResponse",
-                        "usr": "s:11HeadlessSDK21WalletRecoverResponseV"
-                      }
-                    ],
-                    "usr": "s:10PromiseKit8ResolverC"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC9cbRecover33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC9cbRecover33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "moduleName": "HeadlessSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 3,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "cbRpc",
-            "printedName": "cbRpc",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : PromiseKit.Resolver<HeadlessSDK.WalletRpcResponse>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolver",
-                    "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletRpcResponse>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WalletRpcResponse",
-                        "printedName": "HeadlessSDK.WalletRpcResponse",
-                        "usr": "s:11HeadlessSDK17WalletRpcResponseV"
-                      }
-                    ],
-                    "usr": "s:10PromiseKit8ResolverC"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC5cbRpc33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC5cbRpc33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletG8ResponseVGGvp",
-            "moduleName": "HeadlessSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 4,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "cbSetPassword",
-            "printedName": "cbSetPassword",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : PromiseKit.Resolver<HeadlessSDK.WalletSetPasswordResponse>]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Resolver",
-                    "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletSetPasswordResponse>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "WalletSetPasswordResponse",
-                        "printedName": "HeadlessSDK.WalletSetPasswordResponse",
-                        "usr": "s:11HeadlessSDK25WalletSetPasswordResponseV"
-                      }
-                    ],
-                    "usr": "s:10PromiseKit8ResolverC"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC13cbSetPassword33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletgH8ResponseVGGvp",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC13cbSetPassword33_99D2392C4A359EFB8B7F7CB423E1930CLLSDySS10PromiseKit8ResolverCyAA06WalletgH8ResponseVGGvp",
-            "moduleName": "HeadlessSDK",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 5,
-            "hasStorage": true
-          },
-          {
-            "kind": "Function",
-            "name": "enqueue",
-            "printedName": "enqueue(id:resolver:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.IframeReadyResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IframeReadyResponse",
-                    "printedName": "HeadlessSDK.IframeReadyResponse",
-                    "usr": "s:11HeadlessSDK19IframeReadyResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA19IframeReadyResponseVGtF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA19IframeReadyResponseVGtF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enqueue",
-            "printedName": "enqueue(id:resolver:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletCreateResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletCreateResponse",
-                    "printedName": "HeadlessSDK.WalletCreateResponse",
-                    "usr": "s:11HeadlessSDK20WalletCreateResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA20WalletCreateResponseVGtF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA20WalletCreateResponseVGtF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enqueue",
-            "printedName": "enqueue(id:resolver:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletConnectResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletConnectResponse",
-                    "printedName": "HeadlessSDK.WalletConnectResponse",
-                    "usr": "s:11HeadlessSDK21WalletConnectResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA21WalletConnectResponseVGtF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA21WalletConnectResponseVGtF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enqueue",
-            "printedName": "enqueue(id:resolver:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletRecoverResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletRecoverResponse",
-                    "printedName": "HeadlessSDK.WalletRecoverResponse",
-                    "usr": "s:11HeadlessSDK21WalletRecoverResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA21WalletRecoverResponseVGtF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA21WalletRecoverResponseVGtF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enqueue",
-            "printedName": "enqueue(id:resolver:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletRpcResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletRpcResponse",
-                    "printedName": "HeadlessSDK.WalletRpcResponse",
-                    "usr": "s:11HeadlessSDK17WalletRpcResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA17WalletRpcResponseVGtF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA17WalletRpcResponseVGtF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enqueue",
-            "printedName": "enqueue(id:resolver:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletSetPasswordResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletSetPasswordResponse",
-                    "printedName": "HeadlessSDK.WalletSetPasswordResponse",
-                    "usr": "s:11HeadlessSDK25WalletSetPasswordResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA25WalletSetPasswordResponseVGtF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7enqueue2id8resolverySS_10PromiseKit8ResolverCyAA25WalletSetPasswordResponseVGtF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dequeue",
-            "printedName": "dequeue(id:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.IframeReadyResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IframeReadyResponse",
-                    "printedName": "HeadlessSDK.IframeReadyResponse",
-                    "usr": "s:11HeadlessSDK19IframeReadyResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA19IframeReadyResponseVGSS_tKF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA19IframeReadyResponseVGSS_tKF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dequeue",
-            "printedName": "dequeue(id:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletCreateResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletCreateResponse",
-                    "printedName": "HeadlessSDK.WalletCreateResponse",
-                    "usr": "s:11HeadlessSDK20WalletCreateResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA20WalletCreateResponseVGSS_tKF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA20WalletCreateResponseVGSS_tKF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dequeue",
-            "printedName": "dequeue(id:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletConnectResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletConnectResponse",
-                    "printedName": "HeadlessSDK.WalletConnectResponse",
-                    "usr": "s:11HeadlessSDK21WalletConnectResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA21WalletConnectResponseVGSS_tKF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA21WalletConnectResponseVGSS_tKF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dequeue",
-            "printedName": "dequeue(id:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletRecoverResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletRecoverResponse",
-                    "printedName": "HeadlessSDK.WalletRecoverResponse",
-                    "usr": "s:11HeadlessSDK21WalletRecoverResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA21WalletRecoverResponseVGSS_tKF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA21WalletRecoverResponseVGSS_tKF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dequeue",
-            "printedName": "dequeue(id:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletRpcResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletRpcResponse",
-                    "printedName": "HeadlessSDK.WalletRpcResponse",
-                    "usr": "s:11HeadlessSDK17WalletRpcResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA17WalletRpcResponseVGSS_tKF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA17WalletRpcResponseVGSS_tKF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dequeue",
-            "printedName": "dequeue(id:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Resolver",
-                "printedName": "PromiseKit.Resolver<HeadlessSDK.WalletSetPasswordResponse>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "WalletSetPasswordResponse",
-                    "printedName": "HeadlessSDK.WalletSetPasswordResponse",
-                    "usr": "s:11HeadlessSDK25WalletSetPasswordResponseV"
-                  }
-                ],
-                "usr": "s:10PromiseKit8ResolverC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA25WalletSetPasswordResponseVGSS_tKF",
-            "mangledName": "$s11HeadlessSDK18EventCallbackQueueC7dequeue2id10PromiseKit8ResolverCyAA25WalletSetPasswordResponseVGSS_tKF",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -55880,20 +55150,6 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BytesRepresentable",
-            "printedName": "BytesRepresentable",
-            "usr": "s:4Web318BytesRepresentableP",
-            "mangledName": "$s4Web318BytesRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BytesInitializable",
-            "printedName": "BytesInitializable",
-            "usr": "s:4Web318BytesInitializableP",
-            "mangledName": "$s4Web318BytesInitializableP"
           }
         ]
       },
@@ -57238,48 +56494,6 @@
             ],
             "usr": "s:17_StringProcessing14RegexComponentP",
             "mangledName": "$s17_StringProcessing14RegexComponentP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "EthereumValueRepresentable",
-            "printedName": "EthereumValueRepresentable",
-            "usr": "s:4Web326EthereumValueRepresentableP",
-            "mangledName": "$s4Web326EthereumValueRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "EthereumValueInitializable",
-            "printedName": "EthereumValueInitializable",
-            "usr": "s:4Web326EthereumValueInitializableP",
-            "mangledName": "$s4Web326EthereumValueInitializableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RLPItemRepresentable",
-            "printedName": "RLPItemRepresentable",
-            "usr": "s:4Web320RLPItemRepresentableP",
-            "mangledName": "$s4Web320RLPItemRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RLPItemInitializable",
-            "printedName": "RLPItemInitializable",
-            "usr": "s:4Web320RLPItemInitializableP",
-            "mangledName": "$s4Web320RLPItemInitializableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BytesRepresentable",
-            "printedName": "BytesRepresentable",
-            "usr": "s:4Web318BytesRepresentableP",
-            "mangledName": "$s4Web318BytesRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BytesInitializable",
-            "printedName": "BytesInitializable",
-            "usr": "s:4Web318BytesInitializableP",
-            "mangledName": "$s4Web318BytesInitializableP"
           }
         ]
       },
