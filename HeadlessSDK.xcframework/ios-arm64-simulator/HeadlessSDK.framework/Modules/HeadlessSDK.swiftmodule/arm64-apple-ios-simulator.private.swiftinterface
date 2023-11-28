@@ -1,0 +1,805 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name HeadlessSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import HeadlessSDK
+import JavaScriptCore
+import LocalAuthentication
+import RegexBuilder
+import Swift
+import SwiftUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+public class Wallet : Swift.Codable {
+  public var address: Swift.String
+  public var chainId: Swift.String?
+  public var walletClientType: HeadlessSDK.WalletClientType?
+  public var connectorType: HeadlessSDK.SupportedConnectorType?
+  public var recoveryMethod: HeadlessSDK.WalletRecoveryMethod?
+  public init(address: Swift.String, chainId: Swift.String? = nil, walletClientType: HeadlessSDK.WalletClientType? = nil, connectorType: HeadlessSDK.SupportedConnectorType? = nil, recoveryMethod: HeadlessSDK.WalletRecoveryMethod? = nil)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class WalletCreator {
+  @objc deinit
+}
+extension HeadlessSDK.WalletCreator : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.WalletCreator, rhs: HeadlessSDK.WalletCreator) -> Swift.Bool
+}
+public enum WalletRecoveryMethod : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case privy
+  case userPasscode
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [HeadlessSDK.WalletRecoveryMethod]
+  public typealias RawValue = Swift.String
+  public static var allCases: [HeadlessSDK.WalletRecoveryMethod] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public typealias FetchRetryInBetween = (Foundation.HTTPURLResponse?) -> Swift.Bool
+public typealias FetchRetryOnIgnore = () -> Swift.Void
+public enum FetchResponseStrategy : Swift.CustomStringConvertible, Swift.Equatable {
+  case success(codes: [Swift.ClosedRange<Swift.Int>])
+  case failure(codes: [Swift.ClosedRange<Swift.Int>], useError: (any Swift.Error)? = nil)
+  case retry(codes: [Swift.ClosedRange<Swift.Int>], remainingTries: Swift.Int = 3, inBetween: HeadlessSDK.FetchRetryInBetween? = { _ in true })
+  case ignore(codes: [Swift.ClosedRange<Swift.Int>], onIgnore: HeadlessSDK.FetchRetryOnIgnore?, useError: (any Swift.Error)? = nil)
+  public var description: Swift.String {
+    get
+  }
+  public static func == (lhs: HeadlessSDK.FetchResponseStrategy, rhs: HeadlessSDK.FetchResponseStrategy) -> Swift.Bool
+}
+public struct TransactionLog : Swift.Codable {
+  public var blockNumber: Swift.Int64
+  public var blockHash: Swift.String
+  public var transactionIndex: Swift.Int
+  public var removed: Swift.Bool
+  public var address: Swift.String
+  public var data: Swift.String
+  public var topics: Swift.String
+  public var transactionHash: Swift.String
+  public var logIndex: Swift.Int
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol Discord : HeadlessSDK.SocialLoginMethod {
+  var type: HeadlessSDK.LinkedAccountType { get }
+  var username: Swift.String? { get set }
+  var email: HeadlessSDK.EmailAddress? { get set }
+}
+extension HeadlessSDK.Discord {
+  public var type: HeadlessSDK.LinkedAccountType {
+    get
+  }
+}
+extension Foundation.Data {
+  public func json<T>(as type: T.Type, configure: ((_ decoder: Foundation.JSONDecoder) -> Foundation.JSONDecoder?)? = nil) -> T? where T : Swift.Decodable
+}
+public enum HTTPHeader : Swift.String {
+  case accept
+  case acceptCharset
+  case acceptEncoding
+  case acceptLanguage
+  case acceptRanges
+  case accessControlAllowCredentials
+  case accessControlAllowHeaders
+  case accessControlAllowMethods
+  case accessControlAllowOrigin
+  case accessControlExposeHeaders
+  case accessControlMaxAge
+  case accessControlRequestHeaders
+  case accessControlRequestMethod
+  case age
+  case allow
+  case altSvc
+  case authorization
+  case cacheControl
+  case clearSiteData
+  case connection
+  case contentDisposition
+  case contentEncoding
+  case contentLanguage
+  case contentLength
+  case contentLocation
+  case contentRange
+  case contentSercurityPolicy
+  case contentSecurityPolicyReportOnly
+  case contentType
+  case cookie
+  case crossOriginResourcePolicy
+  case dnt
+  case date
+  case eTag
+  case earlyData
+  case expect
+  case expectCT
+  case expires
+  case featurePolicy
+  case forwarded
+  case from
+  case host
+  case ifMatch
+  case ifModifiedSince
+  case ifNoneMatch
+  case ifRange
+  case ifUnmodifiedSince
+  case index
+  case keepAlive
+  case largeAllocation
+  case lastModified
+  case location
+  case origin
+  case pragma
+  case proxyAuthenticate
+  case proxyAuthorization
+  case publicKeyPins
+  case publicKeyPinsReportOnly
+  case range
+  case referer
+  case referrerPolicy
+  case retryAfter
+  case secWebSocketAccept
+  case server
+  case serverTiming
+  case setCookie
+  case sourceMap
+  case strictTransportSecurity
+  case te
+  case timingAllowOrigin
+  case tk
+  case trailer
+  case transferEncoding
+  case upgradeInsecureRequests
+  case userAgent
+  case vary
+  case via
+  case wwwAuthenticate
+  case warning
+  case xContentTypeOptions
+  case xDNSPrefetchControl
+  case xForwardedFor
+  case xForwardedHost
+  case xForwardedProto
+  case xFrameProto
+  case xXSSProtection
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct AppearanceConfig : Swift.Codable {
+  public var theme: HeadlessSDK.Theme?
+  public var accentColor: HeadlessSDK.HexColor?
+  public var logo: HeadlessSDK.Logo?
+  public var showWalletLoginFirst: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct EmbeddedWalletsConfig : Swift.Codable {
+  public var createOnLogin: HeadlessSDK.EmbeddedWalletCreateOnLoginConfig?
+  public var requireUserPasswordOnCreate: Swift.Bool?
+  public var noPromptOnSignature: Swift.Bool?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct UnsignedTransactionRequest : Swift.Codable {
+  public var from: Swift.String?
+  public var to: Swift.String?
+  public var nonce: Swift.Int?
+  public var gasLimit: HeadlessSDK.Quantity?
+  public var gasPrice: HeadlessSDK.Quantity?
+  public var data: [Swift.UInt8]?
+  public var value: HeadlessSDK.Quantity?
+  public var chainId: Swift.Int?
+  public var type: Swift.Int?
+  public var accessList: HeadlessSDK.AccessList?
+  public var maxPriorityFeePerGas: HeadlessSDK.Quantity?
+  public var maxFeePerGas: HeadlessSDK.Quantity?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol Github : HeadlessSDK.SocialLoginMethod {
+  var type: HeadlessSDK.LinkedAccountType { get }
+  var username: Swift.String? { get set }
+  var name: Swift.String? { get set }
+  var email: HeadlessSDK.EmailAddress? { get set }
+}
+extension HeadlessSDK.Github {
+  public var type: HeadlessSDK.LinkedAccountType {
+    get
+  }
+}
+public struct User {
+  public let id: Swift.String
+  public let linkedAccounts: [any HeadlessSDK.Account]
+}
+extension HeadlessSDK.User : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.User, rhs: HeadlessSDK.User) -> Swift.Bool
+}
+public enum EmbeddedWalletState {
+  case connecting
+  case connected(HeadlessSDK.EmbeddedWalletProvider)
+  case notCreated(HeadlessSDK.WalletCreator)
+  case needsRecovery
+  case error
+}
+extension HeadlessSDK.EmbeddedWalletState : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.EmbeddedWalletState, rhs: HeadlessSDK.EmbeddedWalletState) -> Swift.Bool
+}
+public struct DiscordWithMetadata : HeadlessSDK.Discord, HeadlessSDK.LinkedAccountWithMetadata {
+  public var username: Swift.String?
+  public var subject: Swift.String
+  public var email: HeadlessSDK.EmailAddress?
+  public var verifiedAt: Foundation.Date
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class EmbeddedWalletProvider {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request(_ request: HeadlessSDK.EmbeddedWalletProvider.RpcRequest) async throws -> Any
+  #endif
+  @objc deinit
+}
+extension HeadlessSDK.EmbeddedWalletProvider : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.EmbeddedWalletProvider, rhs: HeadlessSDK.EmbeddedWalletProvider) -> Swift.Bool
+}
+extension HeadlessSDK.EmbeddedWalletProvider {
+  public struct RpcRequest {
+    public let method: Swift.String
+    public let params: [Swift.String]
+  }
+}
+public struct PrivySDKStateInput : HeadlessSDK.SDKConfig {
+  public var appId: Swift.String
+  public var environment: HeadlessSDK.Environment
+  public var timeout: Swift.Int
+  public init(appId: Swift.String, environment: HeadlessSDK.Environment = .live, timeout: Swift.Int = 10000)
+}
+public enum Theme : Swift.String, Swift.Codable {
+  case light
+  case dark
+  case custom
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum WalletConnectType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case metamask
+  case trust
+  case safe
+  case rainbow
+  case uniswap
+  case zerion
+  case argent
+  case spot
+  case omni
+  case cryptocom
+  case blockchain
+  case safepal
+  case bitkeep
+  case zengo
+  case oneinch
+  case binance
+  case exodus
+  case mewWallet
+  case alphawallet
+  case keyringPro
+  case mathwallet
+  case unstoppable
+  case obvious
+  case ambire
+  case internetMoneyWallet
+  case coin98
+  case abcWallet
+  case arculusWallet
+  case haha
+  case clingWallet
+  case broearn
+  case copiosa
+  case burritoWallet
+  case enjinWallet
+  case plasmaWallet
+  case avacus
+  case bee
+  case pitaka
+  case pltwallet
+  case minerva
+  case kryptogo
+  case prema
+  case slingshot
+  case kriptonio
+  case timeless
+  case secux
+  case bitizen
+  case blocto
+  case safemoon
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [HeadlessSDK.WalletConnectType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [HeadlessSDK.WalletConnectType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_Concurrency.MainActor(unsafe) public struct EmbeddedWalletIframe : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11HeadlessSDK20EmbeddedWalletIframeV4bodyQrvp", 0) __
+}
+public struct EmailAddress : Swift.ExpressibleByStringLiteral, Swift.Codable {
+  public var local: Swift.String
+  public var domain: Swift.String
+  public var tld: Swift.String
+  public var valid: Swift.Bool {
+    get
+  }
+  public var full: Swift.String {
+    get
+  }
+  public init(stringLiteral value: Swift.String)
+  public init(local: Swift.String, domain: Swift.String, tld: Swift.String)
+  public static func validate(email: Swift.String) -> Swift.Bool
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum EmbeddedWalletCreateOnLoginConfig : Swift.String, Swift.Codable {
+  case usersWithoutWallets
+  case allUsers
+  case off
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct TransactionReceipt : Swift.Codable {
+  public var to: Swift.String
+  public var from: Swift.String
+  public var contractAddress: Swift.String
+  public var transactionIndex: Swift.Int
+  public var root: Swift.String?
+  public var logs: [HeadlessSDK.TransactionLog]
+  public var logsBloom: Swift.String
+  public var blockHash: Swift.String
+  public var transactionHash: Swift.String
+  public var blockNumber: Swift.Int
+  public var confirmations: Swift.Int
+  public var byzantium: Swift.Bool
+  public var type: Swift.Int
+  public var status: Swift.Int?
+  public var gasUsed: Swift.String
+  public var cumulativeGasUsed: Swift.String
+  public var effectiveGasPrice: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GithubWithMetadata : HeadlessSDK.Github, HeadlessSDK.LinkedAccountWithMetadata {
+  public var username: Swift.String?
+  public var name: Swift.String?
+  public var email: HeadlessSDK.EmailAddress?
+  public var subject: Swift.String
+  public var verifiedAt: Foundation.Date
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum LinkedAccountType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case wallet
+  case email
+  case phone
+  case google
+  case twitter
+  case discord
+  case github
+  case apple
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [HeadlessSDK.LinkedAccountType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [HeadlessSDK.LinkedAccountType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol Phone : HeadlessSDK.LoginMethodProtocol, Swift.Decodable, Swift.Encodable {
+  var type: HeadlessSDK.LinkedAccountType { get }
+  var number: Swift.String { get set }
+}
+extension HeadlessSDK.Phone {
+  public var type: HeadlessSDK.LinkedAccountType {
+    get
+  }
+}
+public enum AccessList : Swift.Codable {
+  case arrayAddressStorageKeys([HeadlessSDK.AddressStorageKeys])
+  case arrayStringArrayString([[Swift.String]])
+  case recordStringArrayString([Swift.String : [Swift.String]])
+  public enum CodingKeys : Swift.String, Swift.CodingKey {
+    case type, value
+    public init?(rawValue: Swift.String)
+    public init?(stringValue: Swift.String)
+    public init?(intValue: Swift.Int)
+    public typealias RawValue = Swift.String
+    public var intValue: Swift.Int? {
+      get
+    }
+    public var rawValue: Swift.String {
+      get
+    }
+    public var stringValue: Swift.String {
+      get
+    }
+  }
+  public enum AccessListType : Swift.String, Swift.Codable {
+    case arrayAddressStorageKeys
+    case arrayStringArrayString
+    case recordStringArrayString
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct AddressStorageKeys : Swift.Codable {
+  public var address: Swift.String
+  public var storageKeys: [Swift.String]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum SupportedConnectorType : Swift.String, Swift.CaseIterable, Swift.Codable {
+  case injected
+  case walletConnect
+  case walletConnect2
+  case coinbaseWallet
+  case embedded
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [HeadlessSDK.SupportedConnectorType]
+  public typealias RawValue = Swift.String
+  public static var allCases: [HeadlessSDK.SupportedConnectorType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum HTTPMethod : Swift.String, Swift.Codable, Swift.CaseIterable {
+  case get
+  case head
+  case post
+  case put
+  case delete
+  case connect
+  case options
+  case patch
+  case redirect
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [HeadlessSDK.HTTPMethod]
+  public typealias RawValue = Swift.String
+  public static var allCases: [HeadlessSDK.HTTPMethod] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class Privy {
+  #if compiler(>=5.3) && $AsyncAwait
+  public typealias TokenProvider = () async throws -> Swift.String
+  #endif
+  public typealias AuthStateChangeCallback = (HeadlessSDK.AuthState) -> Swift.Void
+  public typealias PrivyStateChangeCallback = (HeadlessSDK.PrivyState) -> Swift.Void
+  public static let shared: HeadlessSDK.Privy
+  final public var tokenProvider: HeadlessSDK.Privy.TokenProvider?
+  final public var privyState: HeadlessSDK.PrivyState {
+    get
+  }
+  final public var authState: HeadlessSDK.AuthState {
+    get
+  }
+  final public var config: HeadlessSDK.PrivyConfig? {
+    get
+  }
+  final public var getEmbeddedWalletURL: Swift.String? {
+    get
+  }
+  final public var onPrivyStateChange: HeadlessSDK.Privy.PrivyStateChangeCallback?
+  final public var onAuthStateChange: HeadlessSDK.Privy.AuthStateChangeCallback?
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func configure(config: HeadlessSDK.PrivyConfig, tokenProvider: @escaping HeadlessSDK.Privy.TokenProvider)
+  #endif
+  final public func ready()
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func loginWithCustomAccessToken() async throws -> HeadlessSDK.User
+  #endif
+  final public func logout()
+  @objc deinit
+}
+public struct Quantity : Swift.Codable {
+  public var int64: Swift.Int64? {
+    get
+  }
+  public var string: Swift.String {
+    get
+  }
+  public init(_ value: Swift.Int64)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers @objc public class k : ObjectiveC.NSObject {
+  @objc public static let privyEtherscanID: Swift.String
+  @objc public static let privyInfuraID: Swift.String
+  @objc public static let privyWalletConnectCloudID: Swift.String
+  public static let defaultFetchStrategies: [HeadlessSDK.FetchResponseStrategy]
+  public static let defaultRetryDelay: () -> Swift.Double
+  public static let defaultSuccessStrategy: HeadlessSDK.FetchResponseStrategy
+  public static let defaultFailureStrategy: HeadlessSDK.FetchResponseStrategy
+  public static let defaultRetryStrategy: HeadlessSDK.FetchResponseStrategy
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct PrivyConfig {
+  public let appId: Swift.String
+  public init(appId: Swift.String)
+}
+extension Swift.Array where Element == HeadlessSDK.FetchResponseStrategy {
+  public var failures: [HeadlessSDK.FetchResponseStrategy] {
+    get
+  }
+  public var successes: [HeadlessSDK.FetchResponseStrategy] {
+    get
+  }
+  public var ignores: [HeadlessSDK.FetchResponseStrategy] {
+    get
+  }
+  public var retries: [HeadlessSDK.FetchResponseStrategy] {
+    get
+  }
+  public func replaceFailures(forCode: Swift.Int, with: HeadlessSDK.FetchResponseStrategy) -> [HeadlessSDK.FetchResponseStrategy]
+  public func replaceFailures(usingError: (any Swift.Error)?, with: HeadlessSDK.FetchResponseStrategy) -> [HeadlessSDK.FetchResponseStrategy]
+  public func replaceRetries(forCode: Swift.Int, with: HeadlessSDK.FetchResponseStrategy) -> [HeadlessSDK.FetchResponseStrategy]
+  public func replaceSuccesses(forCode: Swift.Int, with: HeadlessSDK.FetchResponseStrategy) -> [HeadlessSDK.FetchResponseStrategy]
+  public func replaceIgnores(forCode: Swift.Int, with: HeadlessSDK.FetchResponseStrategy) -> [HeadlessSDK.FetchResponseStrategy]
+}
+public typealias HexColor = Swift.String
+public typealias Logo = Swift.String
+public struct PrivyClientConfig : Swift.Codable {
+  public var appearance: HeadlessSDK.AppearanceConfig?
+  public var loginMethods: [HeadlessSDK.LoginMethod]?
+  public var legal: HeadlessSDK.LegalConfig?
+  public var walletConnectCloudProjectId: Swift.String?
+  public var shouldCreateWalletConnectAtLogin: Swift.Bool
+  public var embeddedWallets: HeadlessSDK.EmbeddedWalletsConfig?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol SDKConfig {
+  var environment: HeadlessSDK.Environment { get }
+  var appId: Swift.String { get }
+  var timeout: Swift.Int { get }
+}
+public enum EnvURLs : Swift.String, Swift.CaseIterable {
+  case base
+  case api
+  case infura
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [HeadlessSDK.EnvURLs]
+  public typealias RawValue = Swift.String
+  public static var allCases: [HeadlessSDK.EnvURLs] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Environment : Swift.CustomStringConvertible {
+  case live
+  case local(_: Swift.Int)
+  case custom(_: Swift.String)
+  public var baseURL: Swift.String {
+    get
+  }
+  public var apiURL: Swift.String {
+    get
+  }
+  public var infuraURL: Swift.String {
+    get
+  }
+  public var infuraWSURL: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public func url(type: HeadlessSDK.EnvURLs = .base) -> Foundation.URL?
+  public func apiUrl(_ path: Swift.String, _ queryParams: [Swift.String : Swift.String?]? = nil) -> Foundation.URL?
+  public func url(_ path: Swift.String, _ queryParams: [Swift.String : Swift.String?]? = nil, type: HeadlessSDK.EnvURLs = .base) -> Foundation.URL?
+}
+public protocol Email : HeadlessSDK.LoginMethodProtocol, Swift.Decodable, Swift.Encodable {
+  var type: HeadlessSDK.LinkedAccountType { get }
+  var address: HeadlessSDK.EmailAddress { get set }
+}
+extension HeadlessSDK.Email {
+  public var type: HeadlessSDK.LinkedAccountType {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class WalletRecovery {
+  @objc deinit
+}
+public struct AppleWithMetadata : HeadlessSDK.LinkedAccountWithMetadata {
+  public var subject: Swift.String
+  public var email: HeadlessSDK.EmailAddress
+  public var verifiedAt: Foundation.Date
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum WalletClientType : Swift.Codable {
+  case metamask
+  case phantom
+  case privy
+  case coinbase
+  case walletConnect(_: HeadlessSDK.WalletConnectType)
+  case unknown
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PrivySDKState {
+  public init(config: any HeadlessSDK.SDKConfig)
+}
+public class WalletWithMetadata : HeadlessSDK.Wallet, HeadlessSDK.LinkedAccountWithMetadata {
+  public var type: HeadlessSDK.LinkedAccountType {
+    get
+  }
+  public var verifiedAt: Foundation.Date
+  public init(address: Swift.String, chainId: Swift.String? = nil, walletClientType: HeadlessSDK.WalletClientType? = nil, connectorType: HeadlessSDK.SupportedConnectorType? = nil, recoveryMethod: HeadlessSDK.WalletRecoveryMethod? = nil, verifiedAt: Foundation.Date = .now)
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+public protocol LinkedAccountWithMetadata : HeadlessSDK.LinkMetadata, HeadlessSDK.LoginMethodProtocol {
+}
+public protocol LinkMetadata : Swift.Decodable, Swift.Encodable {
+  var type: HeadlessSDK.LinkedAccountType { get }
+  var verifiedAt: Foundation.Date { get }
+}
+public enum PrivyState {
+  case notReady
+  case ready
+  public static func == (a: HeadlessSDK.PrivyState, b: HeadlessSDK.PrivyState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AuthState {
+  case unauthenticated
+  case authenticated(HeadlessSDK.User, HeadlessSDK.EmbeddedWalletState)
+}
+extension HeadlessSDK.AuthState : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.AuthState, rhs: HeadlessSDK.AuthState) -> Swift.Bool
+}
+public protocol Account : Swift.Equatable {
+  var id: Swift.String { get }
+}
+public enum CompletionType {
+  case fetch(HeadlessSDK.FetchCompletion)
+  case fetchBody(HeadlessSDK.FetchCompletionBody)
+}
+public struct FetchParams {
+  public let url: Swift.String
+  public let method: HeadlessSDK.HTTPMethod
+  public let parameters: [Swift.String : Swift.String]?
+  public let headers: [HeadlessSDK.HTTPHeader : Swift.String]?
+  public let body: Foundation.Data?
+  public let urlSessionDelegate: (any Foundation.URLSessionDelegate)?
+  public let responseStrategies: [HeadlessSDK.FetchResponseStrategy]
+  public let fetchQueue: Dispatch.DispatchQueue
+  public let completionQueue: Dispatch.DispatchQueue?
+  public var file: Swift.String
+  public var function: Swift.String
+  public var line: Swift.Int
+  public let completion: HeadlessSDK.CompletionType
+  public init(url: Swift.String, method: HeadlessSDK.HTTPMethod = .get, parameters: [Swift.String : Swift.String]? = nil, headers: [HeadlessSDK.HTTPHeader : Swift.String]? = nil, body: Foundation.Data? = nil, urlSessionDelegate: (any Foundation.URLSessionDelegate)? = nil, responseStrategies: [HeadlessSDK.FetchResponseStrategy] = k.defaultFetchStrategies, fetchQueue: Dispatch.DispatchQueue = DispatchQueue.global(qos: .userInitiated), completionQueue: Dispatch.DispatchQueue? = DispatchQueue.main, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, completion: HeadlessSDK.CompletionType)
+  public init(from: HeadlessSDK.FetchParams, url: Swift.String? = nil, method: HeadlessSDK.HTTPMethod? = nil, parameters: [Swift.String : Swift.String]? = nil, headers: [HeadlessSDK.HTTPHeader : Swift.String]? = nil, body: Foundation.Data? = nil, urlSessionDelegate: (any Foundation.URLSessionDelegate)? = nil, responseStrategies: [HeadlessSDK.FetchResponseStrategy]? = nil, fetchQueue: Dispatch.DispatchQueue? = nil, completionQueue: Dispatch.DispatchQueue? = nil, file: Swift.String? = nil, function: Swift.String? = nil, line: Swift.Int? = nil, completion: HeadlessSDK.CompletionType? = nil)
+}
+public struct LegalConfig : Swift.Codable {
+  public var termsAndConditionsUrl: Swift.String?
+  public var privacyPolicyUrl: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol LoginMethodProtocol {
+  var type: HeadlessSDK.LinkedAccountType { get }
+}
+public struct LoginMethod : HeadlessSDK.LoginMethodProtocol, Swift.Codable {
+  public var type: HeadlessSDK.LinkedAccountType
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public typealias FetchCompletion = (Foundation.Data?, Foundation.HTTPURLResponse?, (any Swift.Error)?) -> Swift.Void
+public typealias FetchCompletionBody = (Swift.String?, Foundation.HTTPURLResponse?, (any Swift.Error)?) -> Swift.Void
+public func fetch(_ url: Swift.String, method: HeadlessSDK.HTTPMethod = .get, parameters: [Swift.String : Swift.String]? = nil, headers: [HeadlessSDK.HTTPHeader : Swift.String]? = nil, body: Foundation.Data? = nil, urlSessionDelegate: (any Foundation.URLSessionDelegate)? = nil, responseStrategies: [HeadlessSDK.FetchResponseStrategy] = k.defaultFetchStrategies, fetchQueue: Dispatch.DispatchQueue = DispatchQueue.global(qos: .userInitiated), completionQueue: Dispatch.DispatchQueue? = DispatchQueue.main, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, completion: @escaping HeadlessSDK.FetchCompletion)
+public struct WalletAccount : HeadlessSDK.Account {
+  public let id: Swift.String
+  public let address: Swift.String
+  public static func == (a: HeadlessSDK.WalletAccount, b: HeadlessSDK.WalletAccount) -> Swift.Bool
+}
+public enum FetchError : Swift.Error, Swift.CustomStringConvertible, Swift.Equatable {
+  case UnableToUseProvidedURL
+  case JSONParseError
+  case CannotMakeStringFromData
+  case OutOfRetries
+  case Retrying
+  case InvalidFetchParamsCompletion(_: Swift.String)
+  public var description: Swift.String {
+    get
+  }
+  public static func == (lhs: HeadlessSDK.FetchError, rhs: HeadlessSDK.FetchError) -> Swift.Bool
+}
+public typealias FaceIDCompletion = (_ success: Swift.Bool, _ context: LocalAuthentication.LAContext, _ error: HeadlessSDK.VerifyFaceIDError) -> Swift.Void
+public enum VerifyFaceIDError : Swift.Error {
+  case custom(message: Swift.String?, swiftError: (any Swift.Error)?, nsError: Foundation.NSError?)
+  case faceIdNotAvailable
+  case hostAppHasNotProvidedFaceIDUsageDesc
+  case none
+}
+public func VerifyFaceID(completion: @escaping HeadlessSDK.FaceIDCompletion)
+public protocol SocialLoginMethod : HeadlessSDK.LoginMethodProtocol, Swift.Decodable, Swift.Encodable {
+  var subject: Swift.String { get set }
+}
+extension HeadlessSDK.WalletRecoveryMethod : Swift.Equatable {}
+extension HeadlessSDK.WalletRecoveryMethod : Swift.Hashable {}
+extension HeadlessSDK.WalletRecoveryMethod : Swift.RawRepresentable {}
+extension HeadlessSDK.HTTPHeader : Swift.Equatable {}
+extension HeadlessSDK.HTTPHeader : Swift.Hashable {}
+extension HeadlessSDK.HTTPHeader : Swift.RawRepresentable {}
+extension HeadlessSDK.Theme : Swift.Equatable {}
+extension HeadlessSDK.Theme : Swift.Hashable {}
+extension HeadlessSDK.Theme : Swift.RawRepresentable {}
+extension HeadlessSDK.WalletConnectType : Swift.Equatable {}
+extension HeadlessSDK.WalletConnectType : Swift.Hashable {}
+extension HeadlessSDK.WalletConnectType : Swift.RawRepresentable {}
+extension HeadlessSDK.EmbeddedWalletCreateOnLoginConfig : Swift.Equatable {}
+extension HeadlessSDK.EmbeddedWalletCreateOnLoginConfig : Swift.Hashable {}
+extension HeadlessSDK.EmbeddedWalletCreateOnLoginConfig : Swift.RawRepresentable {}
+extension HeadlessSDK.LinkedAccountType : Swift.Equatable {}
+extension HeadlessSDK.LinkedAccountType : Swift.Hashable {}
+extension HeadlessSDK.LinkedAccountType : Swift.RawRepresentable {}
+extension HeadlessSDK.AccessList.CodingKeys : Swift.Equatable {}
+extension HeadlessSDK.AccessList.CodingKeys : Swift.Hashable {}
+extension HeadlessSDK.AccessList.CodingKeys : Swift.RawRepresentable {}
+extension HeadlessSDK.AccessList.AccessListType : Swift.Equatable {}
+extension HeadlessSDK.AccessList.AccessListType : Swift.Hashable {}
+extension HeadlessSDK.AccessList.AccessListType : Swift.RawRepresentable {}
+extension HeadlessSDK.SupportedConnectorType : Swift.Equatable {}
+extension HeadlessSDK.SupportedConnectorType : Swift.Hashable {}
+extension HeadlessSDK.SupportedConnectorType : Swift.RawRepresentable {}
+extension HeadlessSDK.HTTPMethod : Swift.Equatable {}
+extension HeadlessSDK.HTTPMethod : Swift.Hashable {}
+extension HeadlessSDK.HTTPMethod : Swift.RawRepresentable {}
+extension HeadlessSDK.EnvURLs : Swift.Equatable {}
+extension HeadlessSDK.EnvURLs : Swift.Hashable {}
+extension HeadlessSDK.EnvURLs : Swift.RawRepresentable {}
+extension HeadlessSDK.AppleWithMetadata : HeadlessSDK.SocialLoginMethod {}
+extension HeadlessSDK.PrivyState : Swift.Equatable {}
+extension HeadlessSDK.PrivyState : Swift.Hashable {}
