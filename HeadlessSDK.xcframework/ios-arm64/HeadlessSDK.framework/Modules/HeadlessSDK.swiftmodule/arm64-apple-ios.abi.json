@@ -480,6 +480,7 @@
             "mangledName": "$s11HeadlessSDK25WalletConnectResponseDataV4fromACs7Decoder_p_tKcfc",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -505,6 +506,7 @@
             "mangledName": "$s11HeadlessSDK25WalletConnectResponseDataV6encode2toys7Encoder_p_tKF",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3929,6 +3931,7 @@
             "mangledName": "$s11HeadlessSDK21WalletRpcResponseDataV4fromACs7Decoder_p_tKcfc",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -3954,6 +3957,7 @@
             "mangledName": "$s11HeadlessSDK21WalletRpcResponseDataV6encode2toys7Encoder_p_tKF",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -6826,257 +6830,6 @@
               "RawDocComment"
             ],
             "isFromExtension": true
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "TransactionRequest",
-            "printedName": "TransactionRequest",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "account",
-                "printedName": "account",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV7accountSSvp",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV7accountSSvp",
-                "moduleName": "HeadlessSDK",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "fixedbinaryorder": 0,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV7accountSSvg",
-                    "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV7accountSSvg",
-                    "moduleName": "HeadlessSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "to",
-                "printedName": "to",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV2toSSvp",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV2toSSvp",
-                "moduleName": "HeadlessSDK",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "fixedbinaryorder": 1,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV2toSSvg",
-                    "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV2toSSvg",
-                    "moduleName": "HeadlessSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "value",
-                "printedName": "value",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV5values6UInt64Vvp",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV5values6UInt64Vvp",
-                "moduleName": "HeadlessSDK",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "fixedbinaryorder": 2,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UInt64",
-                        "printedName": "Swift.UInt64",
-                        "usr": "s:s6UInt64V"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV5values6UInt64Vvg",
-                    "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV5values6UInt64Vvg",
-                    "moduleName": "HeadlessSDK",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(account:to:value:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TransactionRequest",
-                    "printedName": "HeadlessSDK.EmbeddedWalletProvider.TransactionRequest",
-                    "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV7account2to5valueAESS_SSs6UInt64Vtcfc",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV7account2to5valueAESS_SSs6UInt64Vtcfc",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV",
-            "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC18TransactionRequestV",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "TransactionResponse",
-            "printedName": "TransactionResponse",
-            "children": [
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TransactionResponse",
-                    "printedName": "HeadlessSDK.EmbeddedWalletProvider.TransactionResponse",
-                    "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC19TransactionResponseV"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC19TransactionResponseVAEycfc",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC19TransactionResponseVAEycfc",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC19TransactionResponseV",
-            "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC19TransactionResponseV",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              }
-            ]
           }
         ],
         "declKind": "Class",
@@ -12296,6 +12049,7 @@
             "mangledName": "$s11HeadlessSDK29WalletSetPasswordResponseDataV4fromACs7Decoder_p_tKcfc",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -12321,6 +12075,7 @@
             "mangledName": "$s11HeadlessSDK29WalletSetPasswordResponseDataV6encode2toys7Encoder_p_tKF",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -12769,6 +12524,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -12796,6 +12552,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -13014,50 +12771,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "type",
-            "printedName": "type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK10CustomAuthV4typeSSvp",
-            "mangledName": "$s11HeadlessSDK10CustomAuthV4typeSSvp",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK10CustomAuthV4typeSSvg",
-                "mangledName": "$s11HeadlessSDK10CustomAuthV4typeSSvg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "customUserId",
             "printedName": "customUserId",
             "children": [
@@ -13074,7 +12787,8 @@
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13145,9 +12859,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HeadlessSDK10CustomAuthV4typeSSvp",
+            "mangledName": "$s11HeadlessSDK10CustomAuthV4typeSSvp",
+            "moduleName": "HeadlessSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HeadlessSDK10CustomAuthV4typeSSvg",
+                "mangledName": "$s11HeadlessSDK10CustomAuthV4typeSSvg",
+                "moduleName": "HeadlessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:customUserId:verifiedAt:)",
+            "printedName": "init(customUserId:verifiedAt:type:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13163,20 +12921,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11HeadlessSDK10CustomAuthV4type12customUserId10verifiedAtACSS_SSSdtcfc",
-            "mangledName": "$s11HeadlessSDK10CustomAuthV4type12customUserId10verifiedAtACSS_SSSdtcfc",
+            "usr": "s:11HeadlessSDK10CustomAuthV12customUserId10verifiedAt4typeACSS_SdSStcfc",
+            "mangledName": "$s11HeadlessSDK10CustomAuthV12customUserId10verifiedAt4typeACSS_SdSStcfc",
             "moduleName": "HeadlessSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -13391,7 +13149,8 @@
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13435,7 +13194,8 @@
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13479,7 +13239,8 @@
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13507,94 +13268,6 @@
           },
           {
             "kind": "Var",
-            "name": "chainType",
-            "printedName": "chainType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK6WalletV9chainTypeSSvp",
-            "mangledName": "$s11HeadlessSDK6WalletV9chainTypeSSvp",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK6WalletV9chainTypeSSvg",
-                "mangledName": "$s11HeadlessSDK6WalletV9chainTypeSSvg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "walletClient",
-            "printedName": "walletClient",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK6WalletV12walletClientSSvp",
-            "mangledName": "$s11HeadlessSDK6WalletV12walletClientSSvp",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK6WalletV12walletClientSSvg",
-                "mangledName": "$s11HeadlessSDK6WalletV12walletClientSSvg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "walletClientType",
             "printedName": "walletClientType",
             "children": [
@@ -13611,7 +13284,8 @@
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13644,26 +13318,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK6WalletV13connectorTypeSSvp",
-            "mangledName": "$s11HeadlessSDK6WalletV13connectorTypeSSvp",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
+                "name": "Optional",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -13672,34 +13328,17 @@
                     "usr": "s:SS"
                   }
                 ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK6WalletV13connectorTypeSSvg",
-                "mangledName": "$s11HeadlessSDK6WalletV13connectorTypeSSvg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "verifiedAt",
-            "printedName": "verifiedAt",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:11HeadlessSDK6WalletV10verifiedAtSdvp",
-            "mangledName": "$s11HeadlessSDK6WalletV10verifiedAtSdvp",
+            "usr": "s:11HeadlessSDK6WalletV13connectorTypeSSSgvp",
+            "mangledName": "$s11HeadlessSDK6WalletV13connectorTypeSSSgvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13711,14 +13350,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Double",
-                    "printedName": "Swift.Double",
-                    "usr": "s:Sd"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK6WalletV10verifiedAtSdvg",
-                "mangledName": "$s11HeadlessSDK6WalletV10verifiedAtSdvg",
+                "usr": "s:11HeadlessSDK6WalletV13connectorTypeSSSgvg",
+                "mangledName": "$s11HeadlessSDK6WalletV13connectorTypeSSSgvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13743,7 +13390,8 @@
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -13770,9 +13418,54 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "verifiedAt",
+            "printedName": "verifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11HeadlessSDK6WalletV10verifiedAtSdvp",
+            "mangledName": "$s11HeadlessSDK6WalletV10verifiedAtSdvp",
+            "moduleName": "HeadlessSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11HeadlessSDK6WalletV10verifiedAtSdvg",
+                "mangledName": "$s11HeadlessSDK6WalletV10verifiedAtSdvg",
+                "moduleName": "HeadlessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(type:address:chainId:chainType:walletClient:walletClientType:connectorType:verifiedAt:recoveryMethod:)",
+            "printedName": "init(type:address:chainId:walletClientType:connectorType:recoveryMethod:verifiedAt:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13806,15 +13499,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -13827,17 +13522,11 @@
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11HeadlessSDK6WalletV4type7address7chainId0F4Type12walletClient0ijH009connectorH010verifiedAt14recoveryMethodACSS_S6SSdSStcfc",
-            "mangledName": "$s11HeadlessSDK6WalletV4type7address7chainId0F4Type12walletClient0ijH009connectorH010verifiedAt14recoveryMethodACSS_S6SSdSStcfc",
+            "usr": "s:11HeadlessSDK6WalletV4type7address7chainId16walletClientType09connectorJ014recoveryMethod10verifiedAtACSS_S4SSgSSSdtcfc",
+            "mangledName": "$s11HeadlessSDK6WalletV4type7address7chainId16walletClientType09connectorJ014recoveryMethod10verifiedAtACSS_S4SSgSSSdtcfc",
             "moduleName": "HeadlessSDK",
             "implicit": true,
             "init_kind": "Designated"
@@ -14752,7 +14441,6 @@
         "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Equatable>",
         "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Equatable>",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ],
         "conformances": [
@@ -14769,233 +14457,6 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HeadlessSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "WalletAccount",
-        "printedName": "WalletAccount",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "id",
-            "printedName": "id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK13WalletAccountV2idSSvp",
-            "mangledName": "$s11HeadlessSDK13WalletAccountV2idSSvp",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK13WalletAccountV2idSSvg",
-                "mangledName": "$s11HeadlessSDK13WalletAccountV2idSSvg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "address",
-            "printedName": "address",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK13WalletAccountV7addressSSvp",
-            "mangledName": "$s11HeadlessSDK13WalletAccountV7addressSSvp",
-            "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK13WalletAccountV7addressSSvg",
-                "mangledName": "$s11HeadlessSDK13WalletAccountV7addressSSvg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(id:address:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WalletAccount",
-                "printedName": "HeadlessSDK.WalletAccount",
-                "usr": "s:11HeadlessSDK13WalletAccountV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HeadlessSDK13WalletAccountV2id7addressACSS_SStcfc",
-            "mangledName": "$s11HeadlessSDK13WalletAccountV2id7addressACSS_SStcfc",
-            "moduleName": "HeadlessSDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WalletAccount",
-                "printedName": "HeadlessSDK.WalletAccount",
-                "usr": "s:11HeadlessSDK13WalletAccountV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HeadlessSDK13WalletAccountV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s11HeadlessSDK13WalletAccountV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "HeadlessSDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WalletAccount",
-                "printedName": "HeadlessSDK.WalletAccount",
-                "usr": "s:11HeadlessSDK13WalletAccountV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WalletAccount",
-                "printedName": "HeadlessSDK.WalletAccount",
-                "usr": "s:11HeadlessSDK13WalletAccountV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HeadlessSDK13WalletAccountV2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11HeadlessSDK13WalletAccountV2eeoiySbAC_ACtFZ",
-            "moduleName": "HeadlessSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:11HeadlessSDK13WalletAccountV",
-        "mangledName": "$s11HeadlessSDK13WalletAccountV",
-        "moduleName": "HeadlessSDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Account",
-            "printedName": "Account",
-            "usr": "s:11HeadlessSDK7AccountP",
-            "mangledName": "$s11HeadlessSDK7AccountP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           }
         ]
       },
@@ -15861,9 +15322,6 @@
             "usr": "s:11HeadlessSDK3JWTV9jwtStringACSgSS_tcfc",
             "mangledName": "$s11HeadlessSDK3JWTV9jwtStringACSgSS_tcfc",
             "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "init_kind": "Designated"
           },
           {
@@ -15952,8 +15410,7 @@
             "mangledName": "$s11HeadlessSDK24WalletConnectRequestDataV11accessTokenSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "fixedbinaryorder": 0,
             "isLet": true,
@@ -16000,8 +15457,7 @@
             "mangledName": "$s11HeadlessSDK24WalletConnectRequestDataV7addressSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "fixedbinaryorder": 1,
             "isLet": true,
@@ -16059,9 +15515,7 @@
             "usr": "s:11HeadlessSDK24WalletConnectRequestDataV11accessToken7addressACSS_SStcfc",
             "mangledName": "$s11HeadlessSDK24WalletConnectRequestDataV11accessToken7addressACSS_SStcfc",
             "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "init_kind": "Designated"
           },
           {
@@ -16171,6 +15625,7 @@
             "declAttributes": [
               "HasStorage"
             ],
+            "fixedbinaryorder": 0,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -16191,6 +15646,9 @@
                 "mangledName": "$s11HeadlessSDK20WalletConnectRequestV2idSSvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -16216,6 +15674,7 @@
               "HasStorage",
               "SetterAccess"
             ],
+            "fixedbinaryorder": 1,
             "hasStorage": true,
             "accessors": [
               {
@@ -16235,6 +15694,9 @@
                 "mangledName": "$s11HeadlessSDK20WalletConnectRequestV5eventAA14PrivyEventTypeOvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -16258,6 +15720,7 @@
             "declAttributes": [
               "HasStorage"
             ],
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -16278,6 +15741,9 @@
                 "mangledName": "$s11HeadlessSDK20WalletConnectRequestV4dataAA0cdE4DataVvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -16376,9 +15842,6 @@
         "usr": "s:11HeadlessSDK20WalletConnectRequestV",
         "mangledName": "$s11HeadlessSDK20WalletConnectRequestV",
         "moduleName": "HeadlessSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -16415,6 +15878,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -17436,6 +16906,7 @@
             "mangledName": "$s11HeadlessSDK25WalletRecoverResponseDataV4fromACs7Decoder_p_tKcfc",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -17461,6 +16932,7 @@
             "mangledName": "$s11HeadlessSDK25WalletRecoverResponseDataV6encode2toys7Encoder_p_tKF",
             "moduleName": "HeadlessSDK",
             "implicit": true,
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -17801,9 +17273,9 @@
             "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV11accessTokenSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
+            "fixedbinaryorder": 0,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -17824,6 +17296,9 @@
                 "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV11accessTokenSSvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -17845,9 +17320,9 @@
             "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV7addressSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -17868,6 +17343,9 @@
                 "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV7addressSSvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -17897,9 +17375,9 @@
             "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV16recoveryPasswordSSSgvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -17928,6 +17406,9 @@
                 "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV16recoveryPasswordSSSgvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -17974,9 +17455,7 @@
             "usr": "s:11HeadlessSDK24WalletRecoverRequestDataV11accessToken7address16recoveryPasswordACSS_S2SSgtcfc",
             "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV11accessToken7address16recoveryPasswordACSS_S2SSgtcfc",
             "moduleName": "HeadlessSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "init_kind": "Designated"
           },
           {
@@ -18036,7 +17515,6 @@
         "mangledName": "$s11HeadlessSDK24WalletRecoverRequestDataV",
         "moduleName": "HeadlessSDK",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ],
         "conformances": [
@@ -18053,6 +17531,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -18078,8 +17563,7 @@
             "mangledName": "$s11HeadlessSDK20WalletRecoverRequestV2idSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -18166,8 +17650,7 @@
             "mangledName": "$s11HeadlessSDK20WalletRecoverRequestV4dataAA0cdE4DataVvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -18361,9 +17844,9 @@
             "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV11accessTokenSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
+            "fixedbinaryorder": 0,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -18384,6 +17867,9 @@
                 "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV11accessTokenSSvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -18405,9 +17891,9 @@
             "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV7addressSSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
+            "fixedbinaryorder": 1,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -18428,6 +17914,9 @@
                 "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV7addressSSvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -18449,9 +17938,9 @@
             "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV08recoveryE0SSvp",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
-              "HasStorage",
-              "AccessControl"
+              "HasStorage"
             ],
+            "fixedbinaryorder": 2,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -18472,6 +17961,9 @@
                 "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV08recoveryE0SSvg",
                 "moduleName": "HeadlessSDK",
                 "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -18570,7 +18062,6 @@
         "mangledName": "$s11HeadlessSDK28WalletSetPasswordRequestDataV",
         "moduleName": "HeadlessSDK",
         "declAttributes": [
-          "AccessControl",
           "RawDocComment"
         ],
         "conformances": [
@@ -18587,6 +18078,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -18867,6 +18365,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -21817,7 +21322,7 @@
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/PrivyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 332,
+      "offset": 436,
       "length": 23,
       "value": "\"https:\/\/auth.privy.io\""
     },
@@ -21838,126 +21343,98 @@
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2562,
+      "offset": 2718,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 2761,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2562,
+      "offset": 2718,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2605,
+      "offset": 2761,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3114,
+      "offset": 4591,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3150,
-      "length": 12,
-      "value": "\"chain_type\""
-    },
-    {
-      "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
-      "kind": "StringLiteral",
-      "offset": 3191,
-      "length": 15,
-      "value": "\"wallet_client\""
-    },
-    {
-      "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
-      "kind": "StringLiteral",
-      "offset": 3239,
+      "offset": 4634,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3289,
+      "offset": 4684,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3332,
+      "offset": 4727,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3376,
+      "offset": 4771,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3114,
+      "offset": 4591,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3150,
-      "length": 12,
-      "value": "\"chain_type\""
-    },
-    {
-      "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
-      "kind": "StringLiteral",
-      "offset": 3191,
-      "length": 15,
-      "value": "\"wallet_client\""
-    },
-    {
-      "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
-      "kind": "StringLiteral",
-      "offset": 3239,
+      "offset": 4634,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3289,
+      "offset": 4684,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3332,
+      "offset": 4727,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3376,
+      "offset": 4771,
       "length": 17,
       "value": "\"recovery_method\""
     },
