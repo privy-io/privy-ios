@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HeadlessSDK-Swift.h</key>
 		<data>
-		qk2EX+q2/G+Z+8BUxMuC/FVkW4g=
+		bUc7XfYsufArbGF5YMVh9fgBWko=
 		</data>
 		<key>Headers/HeadlessSDK.h</key>
 		<data>
@@ -18,51 +18,27 @@
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		N+jKruDsD1xoJ97N/M5pSerBvE8=
-		</data>
-		<key>Modules/HeadlessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		AdzZgwwODB8U3YVyFLzn/Z+BIWE=
+		dhKee761J3oIPpu/g3nDfzZFZgU=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9xXuuvPEc7fPUt36aCgMwxl+Q4U=
+		x6UNSSCragVMM4vAf6VKUnUgNR0=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NRaIRW4xNuEUH/6ZQiKr+FZchGA=
+		0VDuhb5Rh5vX4CGH1HKOlJLMK3M=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9sOeyHmbJn3luVyZWuDe1UNgzDM=
+		YtXOaAhwnTHzBgNDhIMwo6E+CV8=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NRaIRW4xNuEUH/6ZQiKr+FZchGA=
+		0VDuhb5Rh5vX4CGH1HKOlJLMK3M=
 		</data>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MCBi9oybOMWXW8aN2qmteD2fGhg=
-		</data>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		e3dxdco7z8A09GDcId0EOR3zrFc=
-		</data>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		LXM9X7m9fNt6ohufeB7E96abvf8=
-		</data>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		5s++7w6xZ+mm0SQufUZrwakZpNk=
-		</data>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		LXM9X7m9fNt6ohufeB7E96abvf8=
-		</data>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		HiP015mRD9d8nb+T6hOfbAxyHNc=
+		ysyl+E4E6c+8+9leAnswACep8XU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wSL6+CNpIELA8XChed95PmRxW9ijlDiyKkKbtq9wAzQ=
+			fagtuOFc0B2VlDlljQDGmwn/hiMKCLQx7NaqKUtA9A4=
 			</data>
 		</dict>
 		<key>Headers/HeadlessSDK.h</key>
@@ -93,84 +69,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iVGRMXRXLsD+vsE1Mg2lwoYAPvVLvLZJ+HUGwmwfzPM=
-			</data>
-		</dict>
-		<key>Modules/HeadlessSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Mvbe0Fxmrot+ljrwsziBT4yVAsc5L5wNQ7vdbu82MCo=
+			x57Zz7hhCAfUfzErE7Us7iq/lZ5oIVg2y257lxE5E78=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			krN2xrltkFWX/QudS65IOEwKggj4ubAoS4Tmu5t6FLU=
+			BPWVCXAvymafHnoQqF/mlIqq2J1MIrec1cHHcgHd5Kg=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4UN1KaQFw+62c5oqLHaCVKkQRein1lSV74UlQTshys=
+			QL5pyB79ravL+yqn0s4eYo15muq3n9QXxJo9xLhwIJU=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vPAxJxjoOBe7bIh0W4FLHEDi3bnzro/5HZwg5oLPWKo=
+			u0TnsuUxJQJHuabzUSfVFbIzpeV1rlhGPP+2o/03GqQ=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4UN1KaQFw+62c5oqLHaCVKkQRein1lSV74UlQTshys=
+			QL5pyB79ravL+yqn0s4eYo15muq3n9QXxJo9xLhwIJU=
 			</data>
 		</dict>
 		<key>Modules/HeadlessSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eMq8Q+x79oanfrOSwsr2wS67lMWQv3OgnCtAY9u9zzg=
-			</data>
-		</dict>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			18Gu3cWBZFFOwQaEeSTh5kxiMl1m753IWFOSjbcTslk=
-			</data>
-		</dict>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b7VtqUDLM0422sLYtoWZP1fh/CO2ifhNjEEGh/10YAM=
-			</data>
-		</dict>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fAOg6L/LPUOHUEXj5XPYGwggqpGkhX6qG+PB0LJ+g8M=
-			</data>
-		</dict>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b7VtqUDLM0422sLYtoWZP1fh/CO2ifhNjEEGh/10YAM=
-			</data>
-		</dict>
-		<key>Modules/HeadlessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VSlXN67OMGgOhyNFs35HvBx0Xv/cv+5il+h5UeAsQho=
+			rf/pJmxkct0NVdcMeEArO84XIIv3zlNtrjPmWGy4vVE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

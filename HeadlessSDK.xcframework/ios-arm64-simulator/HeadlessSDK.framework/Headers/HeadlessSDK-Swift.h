@@ -260,7 +260,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
 #endif
 
 #endif
@@ -281,32 +280,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class NSString;
-
-/// Why k? Traditionally due to Hungarian notation is the answer. Mostly Objective-C uses
-/// the syntax and Swift does not, but throwing a bone to and playing on the old notation
-/// we have k the class with static constants available anywhere in the space. Feel free
-/// to change this.
-/// How do I use this? In any bit of code that you might need access to the constant,
-/// reference
-/// \code
-///   // Use the constant to build a mainnet Infura URL
-///   let infurlURL = "https://mainnet.infura.io/v3/\(k.privyInfuraID)"
-///
-/// \endcodeThis is example also includes k being extended from NSObject and the constants being
-/// prefixed with Objective-C @objc property wrappers. This makes these available to the
-/// user of the framework when the host language is still Objective-C.
-SWIFT_CLASS("_TtC11HeadlessSDK1k")
-@interface k : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull privyEtherscanID;)
-+ (NSString * _Nonnull)privyEtherscanID SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull privyInfuraID;)
-+ (NSString * _Nonnull)privyInfuraID SWIFT_WARN_UNUSED_RESULT;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull privyWalletConnectCloudID;)
-+ (NSString * _Nonnull)privyWalletConnectCloudID SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 #endif
 #if defined(__cplusplus)
 #endif
