@@ -1,0 +1,380 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HeadlessSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import HeadlessSDK
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class WalletCreator {
+  @objc deinit
+}
+extension HeadlessSDK.WalletCreator : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.WalletCreator, rhs: HeadlessSDK.WalletCreator) -> Swift.Bool
+}
+extension HeadlessSDK.WalletCreator {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func create(passowrd: Swift.String? = nil) async throws -> HeadlessSDK.WalletCreateResponseData
+  #endif
+}
+public struct WalletConnectResponseData {
+  public let address: Swift.String
+}
+extension HeadlessSDK.WalletConnectResponseData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol Chainable {
+  var id: Swift.Int { get }
+  var name: Swift.String { get }
+  var network: Swift.String { get }
+  var nativeCurrency: HeadlessSDK.NativeCurrency { get }
+  var rpcUrls: HeadlessSDK.RpcUrls { get }
+  var blockExplorers: HeadlessSDK.BlockExplorers { get }
+  var contracts: HeadlessSDK.Contracts? { get }
+  var testnet: Swift.Bool { get }
+}
+public struct NativeCurrency {
+  public let name: Swift.String
+  public let symbol: Swift.String
+  public let decimals: Swift.Int
+}
+public struct RpcUrl {
+  public let http: [Swift.String]
+  public let webSocket: [Swift.String]?
+}
+public struct RpcUrls {
+  public let `default`: HeadlessSDK.RpcUrl
+  public let `public`: HeadlessSDK.RpcUrl
+  public let alchemy: HeadlessSDK.RpcUrl?
+  public let infura: HeadlessSDK.RpcUrl?
+  public init(default: HeadlessSDK.RpcUrl, public: HeadlessSDK.RpcUrl, alchemy: HeadlessSDK.RpcUrl? = nil, infura: HeadlessSDK.RpcUrl? = nil)
+}
+public struct BlockExplorer {
+  public let name: Swift.String
+  public let url: Swift.String
+}
+public struct BlockExplorers {
+  public let etherscan: HeadlessSDK.BlockExplorer
+  public let `default`: HeadlessSDK.BlockExplorer?
+  public let filscan: HeadlessSDK.BlockExplorer?
+  public init(etherscan: HeadlessSDK.BlockExplorer, default: HeadlessSDK.BlockExplorer? = nil, filscan: HeadlessSDK.BlockExplorer? = nil)
+}
+public struct Contracts {
+  public let multicall3: HeadlessSDK.Multicall3
+}
+public struct Multicall3 {
+  public let address: Swift.String
+  public let blockCreated: Swift.Int
+}
+public struct WalletRpcResponseData {
+  public let address: Swift.String
+  public let response: HeadlessSDK.WalletRpcResponseData.Response
+}
+extension HeadlessSDK.WalletRpcResponseData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension HeadlessSDK.WalletRpcResponseData {
+  public struct Response {
+    public let method: Swift.String
+    public let data: Swift.String
+  }
+}
+extension HeadlessSDK.WalletRpcResponseData.Response : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct User {
+  public let id: Swift.String
+  public let createdAt: Swift.Int
+  public let linkedAccounts: [HeadlessSDK.LinkedAccount]
+}
+extension HeadlessSDK.User : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension HeadlessSDK.User : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.User, rhs: HeadlessSDK.User) -> Swift.Bool
+}
+public enum EmbeddedWalletState {
+  case connecting
+  case creating
+  case recovering
+  case disconnected(HeadlessSDK.WalletConnector)
+  case connected(HeadlessSDK.EmbeddedWalletProvider)
+  case notCreated(HeadlessSDK.WalletCreator)
+  case needsRecovery(HeadlessSDK.WalletRecoverer)
+  case error
+}
+extension HeadlessSDK.EmbeddedWalletState : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.EmbeddedWalletState, rhs: HeadlessSDK.EmbeddedWalletState) -> Swift.Bool
+}
+public func toHexString(_ value: Any) -> Swift.String?
+public func hexStringToInt(_ hexString: Swift.String) -> Swift.Int?
+public enum PrivyEmbeddedWalletError : Swift.Error {
+  case invalidParams
+  case invalidChainID
+  case rpcUrlNotFound
+  case rpcError
+  public static func == (a: HeadlessSDK.PrivyEmbeddedWalletError, b: HeadlessSDK.PrivyEmbeddedWalletError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class EmbeddedWalletProvider {
+  final public let address: Swift.String
+  public var chainId: Swift.Int
+  @objc deinit
+}
+extension HeadlessSDK.EmbeddedWalletProvider : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.EmbeddedWalletProvider, rhs: HeadlessSDK.EmbeddedWalletProvider) -> Swift.Bool
+}
+extension HeadlessSDK.EmbeddedWalletProvider {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request(_ request: HeadlessSDK.RpcRequest) async throws -> HeadlessSDK.WalletRpcResponseData
+  #endif
+}
+final public class Privy {
+  #if compiler(>=5.3) && $AsyncAwait
+  public typealias TokenProvider = () async throws -> Swift.String?
+  #endif
+  public typealias AuthStateChangeCallback = (HeadlessSDK.AuthState) -> Swift.Void
+  final public var tokenProvider: HeadlessSDK.Privy.TokenProvider?
+  final public var authState: HeadlessSDK.AuthState {
+    get
+  }
+  final public let config: HeadlessSDK.PrivyConfig
+  final public var onAuthStateChange: HeadlessSDK.Privy.AuthStateChangeCallback?
+  public init(config: HeadlessSDK.PrivyConfig)
+  @objc deinit
+}
+extension HeadlessSDK.Privy {
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func loginWithCustomAccessToken() async throws -> HeadlessSDK.AuthState
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func refreshSession() async throws -> HeadlessSDK.AuthResponse
+  #endif
+  final public func logout()
+}
+public struct PrivyConfig {
+  public let appId: Swift.String
+  public var baseUrl: Swift.String
+  public init(appId: Swift.String)
+}
+public enum SupportedChain : Swift.Int, Swift.Identifiable, Swift.CaseIterable {
+  case mainnet
+  case goerli
+  case optimism
+  case matic
+  case filecoinMainnet
+  case optimismGoerli
+  case base
+  case arbitrum
+  case celo
+  case celoAlfajores
+  case avalancheFuji
+  case avalanche
+  case lineaTestnet
+  case lineaMainnet
+  case polygonMumbai
+  case baseGoerli
+  case filecoinCalibration
+  case arbitrumGoerli
+  case sepolia
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [HeadlessSDK.SupportedChain]
+  public typealias ID = Swift.Int
+  public typealias RawValue = Swift.Int
+  public static var allCases: [HeadlessSDK.SupportedChain] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension HeadlessSDK.SupportedChain {
+  public var id: Swift.Int {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var network: Swift.String {
+    get
+  }
+  public var nativeCurrency: HeadlessSDK.NativeCurrency {
+    get
+  }
+  public var rpcUrls: HeadlessSDK.RpcUrls {
+    get
+  }
+  public var blockExplorers: HeadlessSDK.BlockExplorers {
+    get
+  }
+  public var contracts: HeadlessSDK.Contracts? {
+    get
+  }
+  public var testnet: Swift.Bool {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class WalletRecoverer {
+  @objc deinit
+}
+extension HeadlessSDK.WalletRecoverer : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.WalletRecoverer, rhs: HeadlessSDK.WalletRecoverer) -> Swift.Bool
+}
+extension HeadlessSDK.WalletRecoverer {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func recover(passowrd: Swift.String? = nil) async throws -> HeadlessSDK.WalletRecoverResponseData
+  #endif
+}
+@_hasMissingDesignatedInitializers public class WalletConnector {
+  @objc deinit
+}
+extension HeadlessSDK.WalletConnector : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.WalletConnector, rhs: HeadlessSDK.WalletConnector) -> Swift.Bool
+}
+extension HeadlessSDK.WalletConnector {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func connect() async throws -> HeadlessSDK.WalletConnectResponseData
+  #endif
+}
+public struct WalletCreateResponseData : Swift.Codable {
+  public let address: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AuthResponse : Swift.Equatable {
+  public let user: HeadlessSDK.User
+  public let token: Swift.String
+  public let refreshToken: Swift.String
+  public static func == (a: HeadlessSDK.AuthResponse, b: HeadlessSDK.AuthResponse) -> Swift.Bool
+}
+extension HeadlessSDK.AuthResponse : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Chain : HeadlessSDK.Chainable {
+  public let id: Swift.Int
+  public let name: Swift.String
+  public let network: Swift.String
+  public let nativeCurrency: HeadlessSDK.NativeCurrency
+  public let rpcUrls: HeadlessSDK.RpcUrls
+  public let blockExplorers: HeadlessSDK.BlockExplorers
+  public let contracts: HeadlessSDK.Contracts?
+  public let testnet: Swift.Bool
+  public init(id: Swift.Int, name: Swift.String, network: Swift.String, nativeCurrency: HeadlessSDK.NativeCurrency, rpcUrls: HeadlessSDK.RpcUrls, blockExplorers: HeadlessSDK.BlockExplorers, contracts: HeadlessSDK.Contracts? = nil, testnet: Swift.Bool = false)
+}
+public struct WalletSetPasswordResponseData {
+  public let address: Swift.String
+}
+extension HeadlessSDK.WalletSetPasswordResponseData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum LinkedAccount {
+  case customAuth(HeadlessSDK.CustomAuth)
+  case wallet(HeadlessSDK.Wallet)
+}
+extension HeadlessSDK.LinkedAccount : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension HeadlessSDK.LinkedAccount : Swift.Hashable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public static func == (lhs: HeadlessSDK.LinkedAccount, rhs: HeadlessSDK.LinkedAccount) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct CustomAuth : Swift.Codable, Swift.Hashable {
+  public let customUserId: Swift.String
+  public let verifiedAt: Foundation.TimeInterval
+  public let type: Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: HeadlessSDK.CustomAuth, b: HeadlessSDK.CustomAuth) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Wallet : Swift.Codable, Swift.Hashable {
+  public let type: Swift.String
+  public let address: Swift.String
+  public let chainId: Swift.String
+  public let walletClientType: Swift.String
+  public let connectorType: Swift.String?
+  public let recoveryMethod: Swift.String
+  public let verifiedAt: Foundation.TimeInterval
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: HeadlessSDK.Wallet, b: HeadlessSDK.Wallet) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum AuthState {
+  case notReady
+  case unauthenticated
+  case authenticated(HeadlessSDK.AuthResponse, HeadlessSDK.EmbeddedWalletState)
+  case error(Swift.String)
+}
+extension HeadlessSDK.AuthState : Swift.Equatable {
+  public static func == (lhs: HeadlessSDK.AuthState, rhs: HeadlessSDK.AuthState) -> Swift.Bool
+}
+public enum PrivyError {
+  case notReady
+  case tokenError
+  case timeout
+  case dataParse
+  case noWalletAvailable
+  public static func == (a: HeadlessSDK.PrivyError, b: HeadlessSDK.PrivyError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension HeadlessSDK.PrivyError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct JWT {
+}
+public struct RpcRequest {
+  public let method: Swift.String
+  public let params: [Swift.String]
+  public init(method: Swift.String, params: [Swift.String])
+}
+public struct WalletRecoverResponseData {
+  public let address: Swift.String
+}
+extension HeadlessSDK.WalletRecoverResponseData : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WalletRecoverRequest {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension HeadlessSDK.PrivyEmbeddedWalletError : Swift.Equatable {}
+extension HeadlessSDK.PrivyEmbeddedWalletError : Swift.Hashable {}
+extension HeadlessSDK.SupportedChain : Swift.Equatable {}
+extension HeadlessSDK.SupportedChain : Swift.Hashable {}
+extension HeadlessSDK.SupportedChain : Swift.RawRepresentable {}
+extension HeadlessSDK.PrivyError : Swift.Equatable {}
+extension HeadlessSDK.PrivyError : Swift.Hashable {}
+extension HeadlessSDK.WalletRecoverRequest : Swift.Encodable {}
+extension HeadlessSDK.WalletRecoverRequest : Swift.Decodable {}

@@ -1,0 +1,717 @@
+caed1f370a9896762e02b804a87a789cd0e61752	not-for-merge	branch 'beta' of https://github.com/auth0/Auth0.swift
+6ea6ff5595a05d6365c57c3252985237e96e4f67	not-for-merge	branch 'custom-useragents-poc' of https://github.com/auth0/Auth0.swift
+cbc5ce6282317160827c3d9b5e3edd66da614c89	not-for-merge	branch 'debug' of https://github.com/auth0/Auth0.swift
+0c2a0ef6c51139a9cd8997af00a47464ad2616eb	not-for-merge	branch 'debug-logger' of https://github.com/auth0/Auth0.swift
+3f2d7094b154eea95f3684d316de67b5bd0e5358	not-for-merge	branch 'fix/request-parameters' of https://github.com/auth0/Auth0.swift
+4602fdbd6c232ccf5afcb2e96b201f9b65724ce8	not-for-merge	branch 'master' of https://github.com/auth0/Auth0.swift
+e73ccecc9caead550f7e392cc7277775182a13ce	not-for-merge	branch 'organizations-poc' of https://github.com/auth0/Auth0.swift
+a6545bbf56a31b13309cb268acc8d9e60330709e	not-for-merge	branch 'poc/handle-clear-credentials-error' of https://github.com/auth0/Auth0.swift
+7bd60d74e7668c2456520aeba1fb78cb3bd05575	not-for-merge	branch 'poc/list-authenticators' of https://github.com/auth0/Auth0.swift
+bb78c74f308507a94d35ecde964f3f38536c318a	not-for-merge	branch 'release/2.0.1' of https://github.com/auth0/Auth0.swift
+d17cfc33c5f2b83e7905ad4a0245f77af611610d	not-for-merge	branch 'update-vulnerable-dependencies' of https://github.com/auth0/Auth0.swift
+1363d8e97f1ff73260c3a24ae42c3142c176618d	not-for-merge	branch 'v0' of https://github.com/auth0/Auth0.swift
+ed8079f27b32f3fc96b6c3dcc5e9e5a1dd68e247	not-for-merge	branch 'v1' of https://github.com/auth0/Auth0.swift
+aa01ec7951df639c77f09ed560f928dd00120b45	not-for-merge	branch 'v1@swift-2.3' of https://github.com/auth0/Auth0.swift
+45280e1226a66806cd0d5977fc28158b4d447599	not-for-merge	branch 'v2/codable-credentials' of https://github.com/auth0/Auth0.swift
+ea7f664ad62609181400c6d1f16ec170d9de0875	not-for-merge	branch 'v2/optional-credentials' of https://github.com/auth0/Auth0.swift
+623f9819c8153e7f997cbef56214cb04172e0e5d	not-for-merge	'refs/pull/1/head' of https://github.com/auth0/Auth0.swift
+534607381150f0407956e0c0c3a191461f7395bf	not-for-merge	'refs/pull/10/head' of https://github.com/auth0/Auth0.swift
+6972c7975bb9242ed6ca47dc53ac75ab98106f29	not-for-merge	'refs/pull/101/head' of https://github.com/auth0/Auth0.swift
+1e5f5d12bb6f2b8ef6b6a0fc3738eeb99cdd2df7	not-for-merge	'refs/pull/102/head' of https://github.com/auth0/Auth0.swift
+d275eaad562592c40fe06a50fe83e93f7f6f4bbc	not-for-merge	'refs/pull/103/head' of https://github.com/auth0/Auth0.swift
+9d5e599cd80e302b7374b0137157a19fd8726fc3	not-for-merge	'refs/pull/103/merge' of https://github.com/auth0/Auth0.swift
+c4a2ee2146e8152aa3b3b65a60c5886cd5cdb691	not-for-merge	'refs/pull/104/head' of https://github.com/auth0/Auth0.swift
+d2805c66de655501edee425ec52d1e084d436a9a	not-for-merge	'refs/pull/105/head' of https://github.com/auth0/Auth0.swift
+df4b23c3a006f2ec2f9fde2f3255808b0ecdf61a	not-for-merge	'refs/pull/107/head' of https://github.com/auth0/Auth0.swift
+7e27f7588dbe1b1bf155abe1973f7f60eea942ea	not-for-merge	'refs/pull/108/head' of https://github.com/auth0/Auth0.swift
+48c68a34fe89543d17cf6652f4de76a965ae55af	not-for-merge	'refs/pull/109/head' of https://github.com/auth0/Auth0.swift
+356f79d4119f1f0ab8ed0eccba1d10d3552634cb	not-for-merge	'refs/pull/11/head' of https://github.com/auth0/Auth0.swift
+7ccb5a78076dcf6af10a281a1b47a6b4b6764f3a	not-for-merge	'refs/pull/110/head' of https://github.com/auth0/Auth0.swift
+94329d9caf279e3bc30b251254110321f6534f3d	not-for-merge	'refs/pull/110/merge' of https://github.com/auth0/Auth0.swift
+0be3d7c1afced59513d10637a27a9304f4a78256	not-for-merge	'refs/pull/111/head' of https://github.com/auth0/Auth0.swift
+e75aea3bc2683a5f9a9ecb0b141f59a9d630ba14	not-for-merge	'refs/pull/112/head' of https://github.com/auth0/Auth0.swift
+f75efc0eb8001f199ea5b83eea40d20e3bf69eab	not-for-merge	'refs/pull/112/merge' of https://github.com/auth0/Auth0.swift
+5cceb8fc1850c32927a63064e024b141454fe448	not-for-merge	'refs/pull/113/head' of https://github.com/auth0/Auth0.swift
+930c8e3a7e5dc4d4fce11c96688779fae4c38060	not-for-merge	'refs/pull/115/head' of https://github.com/auth0/Auth0.swift
+c6450d5d11b06ba722b9399425317eb2fd49b0c9	not-for-merge	'refs/pull/116/head' of https://github.com/auth0/Auth0.swift
+b086fae9c9bb9a6541bc06b3c53a2ecfdd8f8507	not-for-merge	'refs/pull/117/head' of https://github.com/auth0/Auth0.swift
+12de5a3902e8df6216037a3c06db4bbda3760be3	not-for-merge	'refs/pull/118/head' of https://github.com/auth0/Auth0.swift
+c739932058c7fc0b32165ada108c0829e2885832	not-for-merge	'refs/pull/119/head' of https://github.com/auth0/Auth0.swift
+13b71d1b075a2f316cd36a87df0873ad82597f65	not-for-merge	'refs/pull/12/head' of https://github.com/auth0/Auth0.swift
+4db07bf10fe708fd6b8c64768f298035499d8d5f	not-for-merge	'refs/pull/120/head' of https://github.com/auth0/Auth0.swift
+42d12b351beba55fefa13b85af329e8d8cf6e4ca	not-for-merge	'refs/pull/122/head' of https://github.com/auth0/Auth0.swift
+952fd0ab4c6a566206a9b429a110b4d88a4d8962	not-for-merge	'refs/pull/125/head' of https://github.com/auth0/Auth0.swift
+33364003fdf15c565d3f365dc5ec53c1f0ae0cae	not-for-merge	'refs/pull/126/head' of https://github.com/auth0/Auth0.swift
+d451b0e062a88736307543eb2f3f20a5cb8da200	not-for-merge	'refs/pull/128/head' of https://github.com/auth0/Auth0.swift
+d49c35919a14b4a7bbb9c169a34e7ec34bcca230	not-for-merge	'refs/pull/13/head' of https://github.com/auth0/Auth0.swift
+22cea4b6d58147bd8f63a733d37747e5a8bdc73f	not-for-merge	'refs/pull/130/head' of https://github.com/auth0/Auth0.swift
+5a5ff459aa26e9ddc472730ba8733b593572c475	not-for-merge	'refs/pull/132/head' of https://github.com/auth0/Auth0.swift
+5c1aaaae2733090b372f79e23023c33dd3f47386	not-for-merge	'refs/pull/133/head' of https://github.com/auth0/Auth0.swift
+0858dc32d37fde45153f62a41b1e2d3f3fb414f1	not-for-merge	'refs/pull/134/head' of https://github.com/auth0/Auth0.swift
+0beb52dbaf04b73cbc2fee690e4ee5442ba3505a	not-for-merge	'refs/pull/135/head' of https://github.com/auth0/Auth0.swift
+372998d35688a8909fe3c016f231efbfe52b4d8e	not-for-merge	'refs/pull/136/head' of https://github.com/auth0/Auth0.swift
+ba692ea2806938d9f192d8fe5093d60adfe4a83d	not-for-merge	'refs/pull/136/merge' of https://github.com/auth0/Auth0.swift
+0f4407dc4df3af40f710930ec9f71a8f149508c7	not-for-merge	'refs/pull/138/head' of https://github.com/auth0/Auth0.swift
+b0d5fbd6defea19d1dd1af4f99cbaeca64f27c81	not-for-merge	'refs/pull/138/merge' of https://github.com/auth0/Auth0.swift
+ffb42947e634d88a620b3757e1bb8bfa684d200f	not-for-merge	'refs/pull/14/head' of https://github.com/auth0/Auth0.swift
+b44fdd18f56d9a82b2008a95e19ab308afc31fa7	not-for-merge	'refs/pull/140/head' of https://github.com/auth0/Auth0.swift
+fc5ce22e9814de8c2dc49f6193370243c05db86a	not-for-merge	'refs/pull/140/merge' of https://github.com/auth0/Auth0.swift
+f878349229c6960fa66dd314eda3985199ce4209	not-for-merge	'refs/pull/141/head' of https://github.com/auth0/Auth0.swift
+95d989024f59966c6e6f7f68b33211f2956c915d	not-for-merge	'refs/pull/141/merge' of https://github.com/auth0/Auth0.swift
+30b8a182bdf4c3c4d79cd07e6c4f58d5aaa12ebd	not-for-merge	'refs/pull/145/head' of https://github.com/auth0/Auth0.swift
+3f7019a730b4c4480955f310524d3382b4ce4c72	not-for-merge	'refs/pull/145/merge' of https://github.com/auth0/Auth0.swift
+0bc7f5393592e37d9746714a5917771fc9956edb	not-for-merge	'refs/pull/146/head' of https://github.com/auth0/Auth0.swift
+0a93bc0b97b27df9546960529aef4faf33b336e6	not-for-merge	'refs/pull/147/head' of https://github.com/auth0/Auth0.swift
+87291694108989250f685997928a95860a6b3fa7	not-for-merge	'refs/pull/148/head' of https://github.com/auth0/Auth0.swift
+cd4bc1651ba9ebbdf7d81158ba38808666462561	not-for-merge	'refs/pull/149/head' of https://github.com/auth0/Auth0.swift
+9a6b558c580c04b7563ca3838bb9c77d4f7d42ee	not-for-merge	'refs/pull/15/head' of https://github.com/auth0/Auth0.swift
+214ef78268466e6b8721a0c803909d1cc7fad18c	not-for-merge	'refs/pull/151/head' of https://github.com/auth0/Auth0.swift
+5a4926c4c6bc57d315894f625cc4fd270e18b435	not-for-merge	'refs/pull/152/head' of https://github.com/auth0/Auth0.swift
+61f18a94ca990c6c454ac1c5abe42f1e06760c2a	not-for-merge	'refs/pull/153/head' of https://github.com/auth0/Auth0.swift
+f7b1c35f73e2f86e28a5a22458041b789bc0b4df	not-for-merge	'refs/pull/154/head' of https://github.com/auth0/Auth0.swift
+1d8cca8dae55f182b8efd77c57ee8fcef6257c8d	not-for-merge	'refs/pull/156/head' of https://github.com/auth0/Auth0.swift
+5eb04b7314a3f53e3915fb7ab2d24b2f338e1483	not-for-merge	'refs/pull/158/head' of https://github.com/auth0/Auth0.swift
+6412698a7583dac938fba319ce17e408e116db47	not-for-merge	'refs/pull/159/head' of https://github.com/auth0/Auth0.swift
+b7c5f7605618acaf8d7a8dc271456cac2d57da1b	not-for-merge	'refs/pull/159/merge' of https://github.com/auth0/Auth0.swift
+2f1102c38d6cb4d623b8ceb977658dde172940cd	not-for-merge	'refs/pull/16/head' of https://github.com/auth0/Auth0.swift
+38914eb9f04d3af1645f8a2ce2f55259b1679098	not-for-merge	'refs/pull/160/head' of https://github.com/auth0/Auth0.swift
+5a7877a4d8b94c7eca91a9213c1eedbbba9dff71	not-for-merge	'refs/pull/162/head' of https://github.com/auth0/Auth0.swift
+82e68cb4ba07c64cea6408ca1ec7de613f0bdc1d	not-for-merge	'refs/pull/163/head' of https://github.com/auth0/Auth0.swift
+01ee4e2105623b375aa8d430c20adf17296a03ce	not-for-merge	'refs/pull/163/merge' of https://github.com/auth0/Auth0.swift
+000f98c38e45d3b0fd598011c06f3d1c65c29e37	not-for-merge	'refs/pull/164/head' of https://github.com/auth0/Auth0.swift
+509d69c6718327ad59de2225825e7f8913a7c755	not-for-merge	'refs/pull/165/head' of https://github.com/auth0/Auth0.swift
+5948dcc563db435772b3986cf8165f026cccb7fb	not-for-merge	'refs/pull/167/head' of https://github.com/auth0/Auth0.swift
+61ee7e84f4c5beb78b59f7ed7215cccaf03341b2	not-for-merge	'refs/pull/168/head' of https://github.com/auth0/Auth0.swift
+8d67043121e64f0f6103736a3b0cdd9bf20263b1	not-for-merge	'refs/pull/17/head' of https://github.com/auth0/Auth0.swift
+75c98a7866cf298325114d22f5e9c1d8d4b8032b	not-for-merge	'refs/pull/170/head' of https://github.com/auth0/Auth0.swift
+0793e95dcc5e3dba3ad01cab9de315e5d011ba95	not-for-merge	'refs/pull/170/merge' of https://github.com/auth0/Auth0.swift
+a1a8293a75ee6f68237c9624b6eb4ea606e161ca	not-for-merge	'refs/pull/171/head' of https://github.com/auth0/Auth0.swift
+5437d8e2179973cd542b6954f944c1edff1993f4	not-for-merge	'refs/pull/172/head' of https://github.com/auth0/Auth0.swift
+214a25da2f4ba5850509fe0ed8b88f5823154f68	not-for-merge	'refs/pull/174/head' of https://github.com/auth0/Auth0.swift
+b09d2126e704dc997abbb46ca20ff95579dc8d1c	not-for-merge	'refs/pull/174/merge' of https://github.com/auth0/Auth0.swift
+9edc8cf102c9bd236886e3784465c18980abd55e	not-for-merge	'refs/pull/18/head' of https://github.com/auth0/Auth0.swift
+7cc3d01658608e7169cff73631ba1e697b81778d	not-for-merge	'refs/pull/18/merge' of https://github.com/auth0/Auth0.swift
+6b3e77d31b4b45dcd87ab7e3799a4d10073beb64	not-for-merge	'refs/pull/180/head' of https://github.com/auth0/Auth0.swift
+84218f006d48bd24052969635256714ae7f04651	not-for-merge	'refs/pull/181/head' of https://github.com/auth0/Auth0.swift
+fe8a94eea5cf066163055bb2e141cdb4b6b5daff	not-for-merge	'refs/pull/188/head' of https://github.com/auth0/Auth0.swift
+725758d724f28be40bcf7db7912a44dc3a09aa3a	not-for-merge	'refs/pull/189/head' of https://github.com/auth0/Auth0.swift
+91dfcc62be5a279d952c9cd054dddd0e713caafa	not-for-merge	'refs/pull/19/head' of https://github.com/auth0/Auth0.swift
+9f402a1398493b2c87f62b202feb74b7342f6360	not-for-merge	'refs/pull/190/head' of https://github.com/auth0/Auth0.swift
+bfd27890b36367c4f1d1e786d638f7a89875bb48	not-for-merge	'refs/pull/191/head' of https://github.com/auth0/Auth0.swift
+b0a3c4eeed573eaf78941fd5f1474f1cb7742386	not-for-merge	'refs/pull/195/head' of https://github.com/auth0/Auth0.swift
+61b675543cadeca4adda002bd77be3bb54381e03	not-for-merge	'refs/pull/196/head' of https://github.com/auth0/Auth0.swift
+55d6b3df4704e259a27f4398dcf9d20a91ab3e3e	not-for-merge	'refs/pull/198/head' of https://github.com/auth0/Auth0.swift
+aa3795677014e9654212f348e4acfb6d3fe86b93	not-for-merge	'refs/pull/199/head' of https://github.com/auth0/Auth0.swift
+abb1af6e81cf6d09d05c3d1e248ff6f7643478cf	not-for-merge	'refs/pull/2/head' of https://github.com/auth0/Auth0.swift
+1c46e65008e2280a687579b87a7c80c0d89ade65	not-for-merge	'refs/pull/20/head' of https://github.com/auth0/Auth0.swift
+3e60844e8b88f1bf510915598b515033a9b549ac	not-for-merge	'refs/pull/201/head' of https://github.com/auth0/Auth0.swift
+df5645aa3a2b60927e22d252bbfd3917d851d575	not-for-merge	'refs/pull/201/merge' of https://github.com/auth0/Auth0.swift
+6501b7596e57de0b857237ea98f2a53cc02249d4	not-for-merge	'refs/pull/202/head' of https://github.com/auth0/Auth0.swift
+d8297b7e9e2336fb68998ed631881d1189c22e3b	not-for-merge	'refs/pull/203/head' of https://github.com/auth0/Auth0.swift
+b5a8f531722d7c4d0ea31ba98fbc8420fdd9aff6	not-for-merge	'refs/pull/203/merge' of https://github.com/auth0/Auth0.swift
+1b9f1bdef432d9a533f035158a54cc33daa029f1	not-for-merge	'refs/pull/206/head' of https://github.com/auth0/Auth0.swift
+d1fb9f44814fb9379bca81e881e565643e5a1647	not-for-merge	'refs/pull/207/head' of https://github.com/auth0/Auth0.swift
+2735db4bf4683ecf2f9137b75c41e718a3e56101	not-for-merge	'refs/pull/208/head' of https://github.com/auth0/Auth0.swift
+b36baa518f2b6246ab031d25a3b7ae292c07df02	not-for-merge	'refs/pull/209/head' of https://github.com/auth0/Auth0.swift
+066717acc222794d71a0f251834f01762524015a	not-for-merge	'refs/pull/21/head' of https://github.com/auth0/Auth0.swift
+a868f5e5b69e18ba3fe9494e3f71bb2a4c64f876	not-for-merge	'refs/pull/210/head' of https://github.com/auth0/Auth0.swift
+01d5f8de137fe41fd3b05528323a509cc5d1013e	not-for-merge	'refs/pull/211/head' of https://github.com/auth0/Auth0.swift
+c84770806a68ac5f02662655711bee3a16f8bda7	not-for-merge	'refs/pull/211/merge' of https://github.com/auth0/Auth0.swift
+8c602ed89d8dd2ed60bb35136226791eeef8cfa8	not-for-merge	'refs/pull/218/head' of https://github.com/auth0/Auth0.swift
+68249d8e39959be699e00dca61406b0cd9105462	not-for-merge	'refs/pull/219/head' of https://github.com/auth0/Auth0.swift
+9a2eebeb17a438e406e26888773726cedba5d7bb	not-for-merge	'refs/pull/219/merge' of https://github.com/auth0/Auth0.swift
+3736143d64802c6d1743fca7f0e0a540f48082cf	not-for-merge	'refs/pull/22/head' of https://github.com/auth0/Auth0.swift
+d23a46e53a4aea2bf26f597e93d92fbedc9d88e2	not-for-merge	'refs/pull/221/head' of https://github.com/auth0/Auth0.swift
+3f07905931ec41da0e38f12c90c8f3eaa57033d3	not-for-merge	'refs/pull/222/head' of https://github.com/auth0/Auth0.swift
+9a1934e84e9c0f54cdebe467b715276b5e989abc	not-for-merge	'refs/pull/223/head' of https://github.com/auth0/Auth0.swift
+5a8ff177d9f67619d743cc42a4295b5299b4064a	not-for-merge	'refs/pull/225/head' of https://github.com/auth0/Auth0.swift
+318ccd1ee72d1de1665e9f49a14d8aa19b830a9b	not-for-merge	'refs/pull/226/head' of https://github.com/auth0/Auth0.swift
+d138fb5b26751defd0c1404c066d07d7f57336c3	not-for-merge	'refs/pull/227/head' of https://github.com/auth0/Auth0.swift
+54a9743eca81b92ad40ad35aa36bfb5b841c7fce	not-for-merge	'refs/pull/23/head' of https://github.com/auth0/Auth0.swift
+388bb4ac06c463cb3c6d18284239109f108be615	not-for-merge	'refs/pull/232/head' of https://github.com/auth0/Auth0.swift
+88f05eebf4376ceba378a0e53b42537f3b9cd85e	not-for-merge	'refs/pull/233/head' of https://github.com/auth0/Auth0.swift
+3c41464d7865210e68049d5712972eef7561fde3	not-for-merge	'refs/pull/234/head' of https://github.com/auth0/Auth0.swift
+0a1c87aab33fe080cf48544b82cc41943e45d277	not-for-merge	'refs/pull/235/head' of https://github.com/auth0/Auth0.swift
+4696b588ffcbb05ea0f7dd7eb5a38ca185e61e6c	not-for-merge	'refs/pull/236/head' of https://github.com/auth0/Auth0.swift
+cba9b4dde219ea0e8e8741b14e55433f2d09e4ff	not-for-merge	'refs/pull/237/head' of https://github.com/auth0/Auth0.swift
+53eedcdcd23a1b8e34f17dc16a6d43c44d940868	not-for-merge	'refs/pull/239/head' of https://github.com/auth0/Auth0.swift
+914fc273ed90c627c50c56553b3c22eccce98058	not-for-merge	'refs/pull/24/head' of https://github.com/auth0/Auth0.swift
+5763adc23929b46e5578e2d46f4fd249e78cdb5f	not-for-merge	'refs/pull/240/head' of https://github.com/auth0/Auth0.swift
+224c64a59601d4062d58861c274a05ff0191dd70	not-for-merge	'refs/pull/242/head' of https://github.com/auth0/Auth0.swift
+27fb16c652ebf1bfd9bf93b7f0d2d380ad35d268	not-for-merge	'refs/pull/243/head' of https://github.com/auth0/Auth0.swift
+50c9e7620fbbade496e6531654d0d1a2fdf929fe	not-for-merge	'refs/pull/244/head' of https://github.com/auth0/Auth0.swift
+b6ce085db406925db41e476a753ebecdf2d5fcf8	not-for-merge	'refs/pull/245/head' of https://github.com/auth0/Auth0.swift
+fb78d44c85298bf3e20395a3f49543bd2a79ebff	not-for-merge	'refs/pull/246/head' of https://github.com/auth0/Auth0.swift
+0f4407dc4df3af40f710930ec9f71a8f149508c7	not-for-merge	'refs/pull/247/head' of https://github.com/auth0/Auth0.swift
+fb78d44c85298bf3e20395a3f49543bd2a79ebff	not-for-merge	'refs/pull/248/head' of https://github.com/auth0/Auth0.swift
+aa01ec7951df639c77f09ed560f928dd00120b45	not-for-merge	'refs/pull/249/head' of https://github.com/auth0/Auth0.swift
+0b891054da0e4ff019ed1928f1c5691c5056e1c7	not-for-merge	'refs/pull/25/head' of https://github.com/auth0/Auth0.swift
+91be39f34efa9409155243251b214f2e285d97cd	not-for-merge	'refs/pull/25/merge' of https://github.com/auth0/Auth0.swift
+41a19e09a40f49b45981410935deb4452f88e97b	not-for-merge	'refs/pull/253/head' of https://github.com/auth0/Auth0.swift
+d8425e648bf28c1a707e69fd83fd79c1d4772855	not-for-merge	'refs/pull/254/head' of https://github.com/auth0/Auth0.swift
+0ad44a5a309b1e09d98cf12a274b571b1aeb2ab1	not-for-merge	'refs/pull/255/head' of https://github.com/auth0/Auth0.swift
+a82af90427c21a0db6224012ea4e80a6d2d3cca1	not-for-merge	'refs/pull/256/head' of https://github.com/auth0/Auth0.swift
+258cd347ddbe73bf7a691c9e5f91c8856763a446	not-for-merge	'refs/pull/259/head' of https://github.com/auth0/Auth0.swift
+a1f1ce2856cfafe4500a638fe325ec04d2ae6220	not-for-merge	'refs/pull/26/head' of https://github.com/auth0/Auth0.swift
+4d695f90c19b0acf90acfbdd03b6730d3a7eb2b0	not-for-merge	'refs/pull/260/head' of https://github.com/auth0/Auth0.swift
+96a224dc52bc6e38e7d595ff53f9f83459288df7	not-for-merge	'refs/pull/264/head' of https://github.com/auth0/Auth0.swift
+df74b67e59d68e7d98b2c668393151924ae3fa04	not-for-merge	'refs/pull/265/head' of https://github.com/auth0/Auth0.swift
+cd800e175394d2afd5bcf701a8bef237d89f2d1f	not-for-merge	'refs/pull/267/head' of https://github.com/auth0/Auth0.swift
+13ee4985bf68aac95527ab6c0cb3a9bdf26aef50	not-for-merge	'refs/pull/27/head' of https://github.com/auth0/Auth0.swift
+6e99bfd12213d911405c93d943e2c6186435a5a3	not-for-merge	'refs/pull/271/head' of https://github.com/auth0/Auth0.swift
+9ee4813372199e2e508c825d367bf984aa95192f	not-for-merge	'refs/pull/272/head' of https://github.com/auth0/Auth0.swift
+ee248eae3f733d9e0fc4091fc610f69667c15593	not-for-merge	'refs/pull/273/head' of https://github.com/auth0/Auth0.swift
+7b5d846fc5006a15e14c5ff4dd8ebdd2f138d7a7	not-for-merge	'refs/pull/275/head' of https://github.com/auth0/Auth0.swift
+41719b447b3189e361dbb070fe4989df62e7f766	not-for-merge	'refs/pull/276/head' of https://github.com/auth0/Auth0.swift
+f7571ae8828fdbbb8a3e642cd89c2e71a8fcbe0b	not-for-merge	'refs/pull/277/head' of https://github.com/auth0/Auth0.swift
+7aa130194498258be3a352b0b5c475a40508fa81	not-for-merge	'refs/pull/279/head' of https://github.com/auth0/Auth0.swift
+ab39f19082e56de2fe9b07121bf9c9a16b6f533a	not-for-merge	'refs/pull/28/head' of https://github.com/auth0/Auth0.swift
+371a29392d56ce969646659123f8bb479d81448c	not-for-merge	'refs/pull/280/head' of https://github.com/auth0/Auth0.swift
+d1cbd9c5df5de877548fa712445b26678718ce68	not-for-merge	'refs/pull/281/head' of https://github.com/auth0/Auth0.swift
+753df4e1f3896414022530ed8ab689b6e976443b	not-for-merge	'refs/pull/286/head' of https://github.com/auth0/Auth0.swift
+2d260847e284d5802bfcc23f1b7df8da7fca7312	not-for-merge	'refs/pull/287/head' of https://github.com/auth0/Auth0.swift
+ca43149287352c392ea0792880bc7028a6e3340e	not-for-merge	'refs/pull/288/head' of https://github.com/auth0/Auth0.swift
+52f48bf2a8f1fa2b5de935a86693a91cfe62dc80	not-for-merge	'refs/pull/289/head' of https://github.com/auth0/Auth0.swift
+19a37356fb51a3e0012263d20ab6c58985c8671c	not-for-merge	'refs/pull/29/head' of https://github.com/auth0/Auth0.swift
+8269d51821833a63cdd4e92de11c61bf955f769e	not-for-merge	'refs/pull/291/head' of https://github.com/auth0/Auth0.swift
+4d999409e77e9ed2335ff9da6e063b1b065c55e3	not-for-merge	'refs/pull/292/head' of https://github.com/auth0/Auth0.swift
+0b0e2acdc002d8e221b88c8bce9057e628fa0377	not-for-merge	'refs/pull/296/head' of https://github.com/auth0/Auth0.swift
+baac5b1815accd52c9cd749e6075f5171b693655	not-for-merge	'refs/pull/297/head' of https://github.com/auth0/Auth0.swift
+dff3a5c9e93161b41796ac6b0f468a40764857ca	not-for-merge	'refs/pull/298/head' of https://github.com/auth0/Auth0.swift
+af36fc5a18dd0c4816a0b2f74eb0838d1a1a6b8a	not-for-merge	'refs/pull/30/head' of https://github.com/auth0/Auth0.swift
+241b049600db4c7ec637893961ec7db1babec464	not-for-merge	'refs/pull/300/head' of https://github.com/auth0/Auth0.swift
+0aa86b27225cdc130d44e61c056d4105ca47228e	not-for-merge	'refs/pull/301/head' of https://github.com/auth0/Auth0.swift
+e46ed9886da18f8ddfd4279ed84508466a16c9da	not-for-merge	'refs/pull/303/head' of https://github.com/auth0/Auth0.swift
+d16a3e9b6fc0c88d992888203a3bc99774260004	not-for-merge	'refs/pull/304/head' of https://github.com/auth0/Auth0.swift
+82fb44c769ce96a879cc3a71d660f116a96428f4	not-for-merge	'refs/pull/305/head' of https://github.com/auth0/Auth0.swift
+318d3c2a2e531b919f9f8dc19751ba2a6d62052f	not-for-merge	'refs/pull/307/head' of https://github.com/auth0/Auth0.swift
+2ebcf54d352dab062e924158e7e13479db73b674	not-for-merge	'refs/pull/31/head' of https://github.com/auth0/Auth0.swift
+83ff01115592949297bd1504cc4ec544af68d614	not-for-merge	'refs/pull/310/head' of https://github.com/auth0/Auth0.swift
+516d13ae2664e0285a7d5f04564ba8cf76322454	not-for-merge	'refs/pull/311/head' of https://github.com/auth0/Auth0.swift
+6538abfd349b6ae7976520ddbc01f6fbf564382a	not-for-merge	'refs/pull/312/head' of https://github.com/auth0/Auth0.swift
+cf0fec550304424897213dc5610cffae7f432b6d	not-for-merge	'refs/pull/315/head' of https://github.com/auth0/Auth0.swift
+63c2c8bcb49b50c8eb3661fb4debc362520d6471	not-for-merge	'refs/pull/316/head' of https://github.com/auth0/Auth0.swift
+180b5852fcda7ecc8f3e417999b386fdd7507110	not-for-merge	'refs/pull/318/head' of https://github.com/auth0/Auth0.swift
+441490c836999604b35540c902ef25ac605a596e	not-for-merge	'refs/pull/319/head' of https://github.com/auth0/Auth0.swift
+f5a4dbd26956a99f151bfcecf9dc227f5cc48f7c	not-for-merge	'refs/pull/32/head' of https://github.com/auth0/Auth0.swift
+5c3e6792a4eb92a626681f41eb5a688eeda9cf48	not-for-merge	'refs/pull/320/head' of https://github.com/auth0/Auth0.swift
+3335c5742639785a9e2b0d0b4687228f60d6a560	not-for-merge	'refs/pull/321/head' of https://github.com/auth0/Auth0.swift
+5da6d4cf42905df84c6058f0164fbefc8b1fe149	not-for-merge	'refs/pull/322/head' of https://github.com/auth0/Auth0.swift
+b58fa04e2408184a7644f791663c4cd00d840a79	not-for-merge	'refs/pull/323/head' of https://github.com/auth0/Auth0.swift
+6ce24d2b75738785b7de950db3982c4e37634312	not-for-merge	'refs/pull/324/head' of https://github.com/auth0/Auth0.swift
+e15ec4701c0c4602424ee4a916f89c049196a69e	not-for-merge	'refs/pull/325/head' of https://github.com/auth0/Auth0.swift
+f5a86bf2c0296a3fd8894b8aadadc987d77eec91	not-for-merge	'refs/pull/326/head' of https://github.com/auth0/Auth0.swift
+0b71582de3efb6c17d1436375a0144df365835b6	not-for-merge	'refs/pull/327/head' of https://github.com/auth0/Auth0.swift
+ab756e57eb3a0f5d13a0b68aa906a1d718bae51f	not-for-merge	'refs/pull/328/head' of https://github.com/auth0/Auth0.swift
+df05293df46b5982ce043c0572345fd192ba38a4	not-for-merge	'refs/pull/33/head' of https://github.com/auth0/Auth0.swift
+b718c8441f66d8259087aec2166fbac980cef0ce	not-for-merge	'refs/pull/330/head' of https://github.com/auth0/Auth0.swift
+9b7df415099832a1253a48513b57b68b82803202	not-for-merge	'refs/pull/331/head' of https://github.com/auth0/Auth0.swift
+08751ad7e9ab9750b609bcf5a21d6098ce232130	not-for-merge	'refs/pull/333/head' of https://github.com/auth0/Auth0.swift
+c150bbcfce607c86e021495dd60fb541d4d30065	not-for-merge	'refs/pull/336/head' of https://github.com/auth0/Auth0.swift
+35efe2b29173512ca16a57589228dafffe4d305b	not-for-merge	'refs/pull/337/head' of https://github.com/auth0/Auth0.swift
+de91c063cb0587467f208686fc2807a2aff13a17	not-for-merge	'refs/pull/338/head' of https://github.com/auth0/Auth0.swift
+453f092e6e25fa28a949f1b5c77cc0821b16acb5	not-for-merge	'refs/pull/34/head' of https://github.com/auth0/Auth0.swift
+bcd7921520b15ec58686f630915c25cc849b67ce	not-for-merge	'refs/pull/340/head' of https://github.com/auth0/Auth0.swift
+dc2146d637af2b7a15e4c276e4f1fc1935f3e6cf	not-for-merge	'refs/pull/342/head' of https://github.com/auth0/Auth0.swift
+721afba4d18a9453de055348a5e580602d885fb3	not-for-merge	'refs/pull/344/head' of https://github.com/auth0/Auth0.swift
+870ebbc31ba9b381dd0851971b700bffa3fcccdf	not-for-merge	'refs/pull/345/head' of https://github.com/auth0/Auth0.swift
+242fe16ba5a6cb2859fc606e692fb4565d7a802e	not-for-merge	'refs/pull/346/head' of https://github.com/auth0/Auth0.swift
+1adba137b5e511b3a3cb8004cce4b04c424a501f	not-for-merge	'refs/pull/347/head' of https://github.com/auth0/Auth0.swift
+e74cfdf95a677bcefaa11dc425cae242ffa2fc4a	not-for-merge	'refs/pull/348/head' of https://github.com/auth0/Auth0.swift
+363f8f4151cb554a5988e6c7b585bd1962947f91	not-for-merge	'refs/pull/349/head' of https://github.com/auth0/Auth0.swift
+3aa7297dc9a1fb8f64b486eb4082b8eb1e34c963	not-for-merge	'refs/pull/35/head' of https://github.com/auth0/Auth0.swift
+e8a3fa18c77a595e2ddfd2ffa237113d54798780	not-for-merge	'refs/pull/350/head' of https://github.com/auth0/Auth0.swift
+7dfa469277b7589a87f98527dac4aa5f4ea064c7	not-for-merge	'refs/pull/351/head' of https://github.com/auth0/Auth0.swift
+6315f95eb74e87e94a479634c6705ec1516ead50	not-for-merge	'refs/pull/352/head' of https://github.com/auth0/Auth0.swift
+05a4ecae08c626360e53f6f0f2971a3a4c888a54	not-for-merge	'refs/pull/353/head' of https://github.com/auth0/Auth0.swift
+5f5749ab2e2a1ce5e7fa19cc99a9cab63fa58eeb	not-for-merge	'refs/pull/354/head' of https://github.com/auth0/Auth0.swift
+857447cccf9c067d7cabca9ca558f83a8935f31b	not-for-merge	'refs/pull/355/head' of https://github.com/auth0/Auth0.swift
+e4daea10d2d68912639ccae1b02336ff80acee0a	not-for-merge	'refs/pull/357/head' of https://github.com/auth0/Auth0.swift
+6b55e362b326618a2d53d56fd7befba1eedfbc98	not-for-merge	'refs/pull/358/head' of https://github.com/auth0/Auth0.swift
+b2698dc88c6e658426ded407628f41c72accd355	not-for-merge	'refs/pull/36/head' of https://github.com/auth0/Auth0.swift
+e34d96c92123da09a35189752a8533c586a05f8c	not-for-merge	'refs/pull/360/head' of https://github.com/auth0/Auth0.swift
+d7270c552449a91932af60ac3ac78ab1acaa9a69	not-for-merge	'refs/pull/361/head' of https://github.com/auth0/Auth0.swift
+1a47aa70ca0e9f1246dd2f153c1972855eca7166	not-for-merge	'refs/pull/364/head' of https://github.com/auth0/Auth0.swift
+e6d75a2eb860f7f40e8d11cef662e0dc86def83f	not-for-merge	'refs/pull/365/head' of https://github.com/auth0/Auth0.swift
+f45ed6074aea13045bfff17795c603f37cd12ca9	not-for-merge	'refs/pull/366/head' of https://github.com/auth0/Auth0.swift
+c9bca43513991de44dafc02ef9b64db7ee8d6cc5	not-for-merge	'refs/pull/367/head' of https://github.com/auth0/Auth0.swift
+778c38e32c3852043040747dc44e33f15ef98a6c	not-for-merge	'refs/pull/369/head' of https://github.com/auth0/Auth0.swift
+90522205e8dd23c8b0583b248962395ad20fc1a2	not-for-merge	'refs/pull/37/head' of https://github.com/auth0/Auth0.swift
+d66079687ef52fe6c59f18a4274015ec1c604a9f	not-for-merge	'refs/pull/370/head' of https://github.com/auth0/Auth0.swift
+5ed08eb76689ab26dcf43a2c1e4c31dbd6d093d3	not-for-merge	'refs/pull/371/head' of https://github.com/auth0/Auth0.swift
+607c1d280bba303f1870c5f8dd49806ce556453f	not-for-merge	'refs/pull/372/head' of https://github.com/auth0/Auth0.swift
+34d8667590e7ca61d39d1f1b8ec0d3dab8d28e2f	not-for-merge	'refs/pull/373/head' of https://github.com/auth0/Auth0.swift
+150599281d1d7b3058b4a833524f81b6df6215ff	not-for-merge	'refs/pull/376/head' of https://github.com/auth0/Auth0.swift
+a9da0457b6fa6afe88b413b6f27f171e989418bd	not-for-merge	'refs/pull/377/head' of https://github.com/auth0/Auth0.swift
+a12cfa9be698377092643ad176c98362b15937c3	not-for-merge	'refs/pull/378/head' of https://github.com/auth0/Auth0.swift
+4811cb5414ac20814386405c253a7477b28d6a49	not-for-merge	'refs/pull/379/head' of https://github.com/auth0/Auth0.swift
+a59dd9cc3482e38468d078b02d6a0a7c3928824e	not-for-merge	'refs/pull/38/head' of https://github.com/auth0/Auth0.swift
+d8dfd72f54b062be726dc78ae5bb0b45ffaf852c	not-for-merge	'refs/pull/381/head' of https://github.com/auth0/Auth0.swift
+2e879cc28e3a116800e3343f1e0455d00292520b	not-for-merge	'refs/pull/382/head' of https://github.com/auth0/Auth0.swift
+129b6eddf6a83ba93d2e8b89a4b41fd5519c53d8	not-for-merge	'refs/pull/384/head' of https://github.com/auth0/Auth0.swift
+30565d4b57960fbd9d362c7ea89691c50ac3d6ea	not-for-merge	'refs/pull/385/head' of https://github.com/auth0/Auth0.swift
+de86b2d6afb61576470c4f8c33548bd95acabc19	not-for-merge	'refs/pull/386/head' of https://github.com/auth0/Auth0.swift
+9a230714dfe300deae7c027ca7b6347e144e5864	not-for-merge	'refs/pull/388/head' of https://github.com/auth0/Auth0.swift
+fdf41797916deb38057157b1f37140ce0b4d48d0	not-for-merge	'refs/pull/389/head' of https://github.com/auth0/Auth0.swift
+d655a7ac9159343ca59b379113f114ff652ee660	not-for-merge	'refs/pull/39/head' of https://github.com/auth0/Auth0.swift
+c29655598203d737b94e0850e85887d8731ba998	not-for-merge	'refs/pull/390/head' of https://github.com/auth0/Auth0.swift
+c5ec578379190e4695640c276a8a8d1f673ff149	not-for-merge	'refs/pull/391/head' of https://github.com/auth0/Auth0.swift
+4dc1ccf00d11f66c5775dc00fd1e3812af9d3f4c	not-for-merge	'refs/pull/392/head' of https://github.com/auth0/Auth0.swift
+7bb75d003119b65c39fe5e94d054bdc9d9fff4d8	not-for-merge	'refs/pull/394/head' of https://github.com/auth0/Auth0.swift
+37a2dfc722739b0891137f61487ae1bd67f8dd1d	not-for-merge	'refs/pull/395/head' of https://github.com/auth0/Auth0.swift
+ea7838dad1f78bf67fa8e8e50058744aa1bc84a9	not-for-merge	'refs/pull/398/head' of https://github.com/auth0/Auth0.swift
+faf6f149354f42ecce5755af321f6b04c1c7c931	not-for-merge	'refs/pull/399/head' of https://github.com/auth0/Auth0.swift
+bf3a5f5a9fe6f89390f512672e79280d255da489	not-for-merge	'refs/pull/4/head' of https://github.com/auth0/Auth0.swift
+697a2df901db80ab5acedc71e16552b047cee4a2	not-for-merge	'refs/pull/40/head' of https://github.com/auth0/Auth0.swift
+7775f77b464dbae923e11581822b57ef8f05c725	not-for-merge	'refs/pull/401/head' of https://github.com/auth0/Auth0.swift
+0575c3bb9196a47b78d7a7ee8b690445287b8ffd	not-for-merge	'refs/pull/407/head' of https://github.com/auth0/Auth0.swift
+5bf45b9d2f5ef9bdbb2e43e2424168556cc4bd87	not-for-merge	'refs/pull/408/head' of https://github.com/auth0/Auth0.swift
+b03d7291ed4291ef58a82da7c9d8c253345b681b	not-for-merge	'refs/pull/409/head' of https://github.com/auth0/Auth0.swift
+ee4e7a2562e4432ecc2e85aa445654441ebc0c79	not-for-merge	'refs/pull/41/head' of https://github.com/auth0/Auth0.swift
+412b4c0be58cd22dd2d2ccf4a14c331ac1e7db8b	not-for-merge	'refs/pull/410/head' of https://github.com/auth0/Auth0.swift
+dc4858391852b491474466a0811a252e733409cb	not-for-merge	'refs/pull/411/head' of https://github.com/auth0/Auth0.swift
+bedb0989ec59562e05ad7e68d9d8dbbd9e6ce7c3	not-for-merge	'refs/pull/412/head' of https://github.com/auth0/Auth0.swift
+3f4ec2d984e584bbb730c6098606fbfbbdd7ae57	not-for-merge	'refs/pull/414/head' of https://github.com/auth0/Auth0.swift
+7f6622d246311ed6656f74fb4958ffb068d056d6	not-for-merge	'refs/pull/416/head' of https://github.com/auth0/Auth0.swift
+96e6ba0e37cc889979934f8e4da7b6db23e4e3d5	not-for-merge	'refs/pull/42/head' of https://github.com/auth0/Auth0.swift
+29bc3c5350f7870685e704928e4a51d23e5d757d	not-for-merge	'refs/pull/420/head' of https://github.com/auth0/Auth0.swift
+3e207089a85c519780b185db51e73a7a9050e67a	not-for-merge	'refs/pull/421/head' of https://github.com/auth0/Auth0.swift
+82fe0fb01ccc7f3db8ba16d88491fbd56114ae1c	not-for-merge	'refs/pull/423/head' of https://github.com/auth0/Auth0.swift
+7275c04c9b2c3d6f2cb2945bfe76fd2d3dcfa981	not-for-merge	'refs/pull/424/head' of https://github.com/auth0/Auth0.swift
+c5f27a27bbf5de495b0b845ad45e637c91625d93	not-for-merge	'refs/pull/425/head' of https://github.com/auth0/Auth0.swift
+e202556cbb3a33f9b438084d93b3215e99f22e09	not-for-merge	'refs/pull/426/head' of https://github.com/auth0/Auth0.swift
+678464c3aeaea8c459a633c1f485c3e3754306a9	not-for-merge	'refs/pull/427/head' of https://github.com/auth0/Auth0.swift
+c2da015856920e9b4481d25823556e5fe9a15019	not-for-merge	'refs/pull/428/head' of https://github.com/auth0/Auth0.swift
+235207d5ef0c4b1097600b1b4949fb31bb684242	not-for-merge	'refs/pull/43/head' of https://github.com/auth0/Auth0.swift
+15fe601616ac3d993c26e570a4ff71da00bb8d03	not-for-merge	'refs/pull/430/head' of https://github.com/auth0/Auth0.swift
+a4ebdb4b591d9d15c16dfadf2dc4aa52285fe04b	not-for-merge	'refs/pull/431/head' of https://github.com/auth0/Auth0.swift
+d9a696b4b19f952c3d3889d18d9fae09036aa1d7	not-for-merge	'refs/pull/432/head' of https://github.com/auth0/Auth0.swift
+047c017623410fffe651b2107a22cbc1ded14136	not-for-merge	'refs/pull/433/head' of https://github.com/auth0/Auth0.swift
+015dc2fa7e66bc465d5c31eaa2ecc96ac649ae02	not-for-merge	'refs/pull/434/head' of https://github.com/auth0/Auth0.swift
+bf7041a1f5821186cb8824deffda90613095190a	not-for-merge	'refs/pull/436/head' of https://github.com/auth0/Auth0.swift
+679a175483d0b9741f2725f56f334d3c860b12c3	not-for-merge	'refs/pull/440/head' of https://github.com/auth0/Auth0.swift
+202aeb8d67791752c33c93cfc586052d4ceceff8	not-for-merge	'refs/pull/442/head' of https://github.com/auth0/Auth0.swift
+f00191105f7526c156d31ee7bbda7e5297cfeea3	not-for-merge	'refs/pull/449/head' of https://github.com/auth0/Auth0.swift
+72255dbe98149e2812d8743d34adb30d6ac265bd	not-for-merge	'refs/pull/451/head' of https://github.com/auth0/Auth0.swift
+4242f3af44c649ddd11d9d2fa7224a7455bda84e	not-for-merge	'refs/pull/452/head' of https://github.com/auth0/Auth0.swift
+b77f9ecac6803bef9a9c5718e256cbba68189af8	not-for-merge	'refs/pull/453/head' of https://github.com/auth0/Auth0.swift
+72e76661f0abca658a95fc89fdeb3176964ef4f7	not-for-merge	'refs/pull/455/head' of https://github.com/auth0/Auth0.swift
+eae2f95e286d0f94b314ae24b6218c31f2b65f38	not-for-merge	'refs/pull/458/head' of https://github.com/auth0/Auth0.swift
+f8e51234bd144cb921f7d91610b41c664005af79	not-for-merge	'refs/pull/459/head' of https://github.com/auth0/Auth0.swift
+f6fdd132a4f3499805e508a465a5fa241ffbb4e4	not-for-merge	'refs/pull/46/head' of https://github.com/auth0/Auth0.swift
+377f086be0c430bc80c2b1c308bb7d551dd416d3	not-for-merge	'refs/pull/460/head' of https://github.com/auth0/Auth0.swift
+ea85bf22b96b1b1175c39eb72492af57cce3a6d8	not-for-merge	'refs/pull/463/head' of https://github.com/auth0/Auth0.swift
+0f36de625ece2a86e63e4ec941113e93ab4b61af	not-for-merge	'refs/pull/465/head' of https://github.com/auth0/Auth0.swift
+0b89de73234fdda418ad3308c109c66ac92f57bf	not-for-merge	'refs/pull/466/head' of https://github.com/auth0/Auth0.swift
+142012f309ed77d69ce533bfcbc1d73b7edb4654	not-for-merge	'refs/pull/467/head' of https://github.com/auth0/Auth0.swift
+5ed22c8830932781b392234eb6241707471969c3	not-for-merge	'refs/pull/468/head' of https://github.com/auth0/Auth0.swift
+3c43f33071eb043bc7d0ecf8a2f20e04245acf98	not-for-merge	'refs/pull/47/head' of https://github.com/auth0/Auth0.swift
+3aa2966eacf568ff6296c15c3860390f12526038	not-for-merge	'refs/pull/474/head' of https://github.com/auth0/Auth0.swift
+a70ad843390ba0d08201610e1d2281f1d85b0e2e	not-for-merge	'refs/pull/476/head' of https://github.com/auth0/Auth0.swift
+654753a6e1e0737aa905a6df07528c6bf969d661	not-for-merge	'refs/pull/478/head' of https://github.com/auth0/Auth0.swift
+c3c1434c72b7d354f1f5e054e817c3d27b7b151f	not-for-merge	'refs/pull/48/head' of https://github.com/auth0/Auth0.swift
+9152126c471ac123039718df8e22e8a93b15612a	not-for-merge	'refs/pull/481/head' of https://github.com/auth0/Auth0.swift
+4daf7ee31d3e14b70a5c55d7a919e3bf94abb495	not-for-merge	'refs/pull/482/head' of https://github.com/auth0/Auth0.swift
+1103368b7bb081f068d17e1055ac814d295b4d34	not-for-merge	'refs/pull/483/head' of https://github.com/auth0/Auth0.swift
+177bc130f985d352c3bf5b1fc127285a46662d6f	not-for-merge	'refs/pull/484/head' of https://github.com/auth0/Auth0.swift
+af5458e3cbcc1ce81f4fd54371d321165b73c4d1	not-for-merge	'refs/pull/486/head' of https://github.com/auth0/Auth0.swift
+8bc15053675b00025de5f162f40b9241f8ed82c6	not-for-merge	'refs/pull/487/head' of https://github.com/auth0/Auth0.swift
+4bc421a9cc59d1976cff00cb604e24c6af8e9916	not-for-merge	'refs/pull/489/head' of https://github.com/auth0/Auth0.swift
+47d3af6480b78d3828d6188631723139cb6e7cd3	not-for-merge	'refs/pull/49/head' of https://github.com/auth0/Auth0.swift
+337e10858b8ba53ce58855a988734e15cf2f287a	not-for-merge	'refs/pull/494/head' of https://github.com/auth0/Auth0.swift
+72be0d51662947a4b666665adaf63892f84acf86	not-for-merge	'refs/pull/495/head' of https://github.com/auth0/Auth0.swift
+4b525eaff6c76914679415ac3d4722f38fc05fd1	not-for-merge	'refs/pull/496/head' of https://github.com/auth0/Auth0.swift
+40fee0a48ce56700528e305a16c9aad5cc5f699a	not-for-merge	'refs/pull/497/head' of https://github.com/auth0/Auth0.swift
+92133f5caccb26924dc75aefd1483f3dd5f8f1e3	not-for-merge	'refs/pull/498/head' of https://github.com/auth0/Auth0.swift
+5d5c28b03c6e1111b07dcc848cb0688d2ef9ff93	not-for-merge	'refs/pull/499/head' of https://github.com/auth0/Auth0.swift
+a6dd220bf6d38badefa59358a65e7f3f25f35dcf	not-for-merge	'refs/pull/500/head' of https://github.com/auth0/Auth0.swift
+440f2e13eccdd6e1f42353b5ea4937d702d70315	not-for-merge	'refs/pull/501/head' of https://github.com/auth0/Auth0.swift
+225493db0b9f703d71855c2fe6ee9fea098890a6	not-for-merge	'refs/pull/502/head' of https://github.com/auth0/Auth0.swift
+51681cf85cec530e38d21a43e44240a3510c448e	not-for-merge	'refs/pull/503/head' of https://github.com/auth0/Auth0.swift
+6a2132b54a1a5e86e852ba329b5b71e126a6913d	not-for-merge	'refs/pull/505/head' of https://github.com/auth0/Auth0.swift
+40ab65657941dc9b459d273264ec1c1c2cb2f9f7	not-for-merge	'refs/pull/507/head' of https://github.com/auth0/Auth0.swift
+a119e547ccff8c686c7bc4fe5f6fc3552c9544c5	not-for-merge	'refs/pull/508/head' of https://github.com/auth0/Auth0.swift
+d8df0ae15a745f4860193eb97dd9f9fbe057b5b2	not-for-merge	'refs/pull/509/head' of https://github.com/auth0/Auth0.swift
+e2966421d3173cfd048cbc0ad14252c08159db99	not-for-merge	'refs/pull/510/head' of https://github.com/auth0/Auth0.swift
+850b731aaad1ad7c0affd47c0044d4250fa875c3	not-for-merge	'refs/pull/511/head' of https://github.com/auth0/Auth0.swift
+bc655cb11afd053778f978afd0190627fe861af5	not-for-merge	'refs/pull/512/head' of https://github.com/auth0/Auth0.swift
+f873436887d2dda537e7ac4c008f3c3814f51180	not-for-merge	'refs/pull/513/head' of https://github.com/auth0/Auth0.swift
+2d942c239e49810e0767f76cddf2ecf928ef17e3	not-for-merge	'refs/pull/514/head' of https://github.com/auth0/Auth0.swift
+b804dbedf6c05629819a27b21cb2ed22d19839f2	not-for-merge	'refs/pull/515/head' of https://github.com/auth0/Auth0.swift
+7bc1524182531092f33c199d6d176a6512d0e93d	not-for-merge	'refs/pull/518/head' of https://github.com/auth0/Auth0.swift
+97b3af6c3823d33e5842d71a12ea8e96d62854cb	not-for-merge	'refs/pull/52/head' of https://github.com/auth0/Auth0.swift
+15dc993e173572c0d55e577261ec9a41f3c45ad8	not-for-merge	'refs/pull/52/merge' of https://github.com/auth0/Auth0.swift
+590a4ed02452fccd01305d093f533332ef5292f0	not-for-merge	'refs/pull/520/head' of https://github.com/auth0/Auth0.swift
+de60bb400be2e7684779c74931650ac60044a953	not-for-merge	'refs/pull/520/merge' of https://github.com/auth0/Auth0.swift
+51d0d8c62a891db22f11e1ad7fe97cc3c0d7950e	not-for-merge	'refs/pull/521/head' of https://github.com/auth0/Auth0.swift
+a57e7c40a88dd030ff2f21df254645700d84e08b	not-for-merge	'refs/pull/522/head' of https://github.com/auth0/Auth0.swift
+357c9388ab296abb9d97010bc76f32cce6e804e0	not-for-merge	'refs/pull/523/head' of https://github.com/auth0/Auth0.swift
+49f125c242b53ab23bf9147eb128f41088e858cd	not-for-merge	'refs/pull/525/head' of https://github.com/auth0/Auth0.swift
+f692bf4b64118a3624c4f060eb3630c14aca87ed	not-for-merge	'refs/pull/526/head' of https://github.com/auth0/Auth0.swift
+b7de3efa0c58b1d52a6fa1058a62ddc88f25bd1e	not-for-merge	'refs/pull/527/head' of https://github.com/auth0/Auth0.swift
+293e3569d291b94eef4fa16fff15ae261839ee94	not-for-merge	'refs/pull/528/head' of https://github.com/auth0/Auth0.swift
+03594025456340c917e16b5be6d9a123dd9dad7e	not-for-merge	'refs/pull/529/head' of https://github.com/auth0/Auth0.swift
+4880175c143589c3866b8137d6bdfbef1dbdfaab	not-for-merge	'refs/pull/53/head' of https://github.com/auth0/Auth0.swift
+c5be84a70bd268967fd1ca4f753ae7407c4a13cd	not-for-merge	'refs/pull/530/head' of https://github.com/auth0/Auth0.swift
+2057c809e43989f3e7bd42a13ffa208d1df98eca	not-for-merge	'refs/pull/531/head' of https://github.com/auth0/Auth0.swift
+8ed42d56491b3e5bff59d92efba2fa3340d95adc	not-for-merge	'refs/pull/532/head' of https://github.com/auth0/Auth0.swift
+ea7f664ad62609181400c6d1f16ec170d9de0875	not-for-merge	'refs/pull/533/head' of https://github.com/auth0/Auth0.swift
+023e4bf91f8c034fee8fcdc52801e65ffa119ab8	not-for-merge	'refs/pull/534/head' of https://github.com/auth0/Auth0.swift
+b33bc6f1967b4efa74eca9026d08df06ffd7773c	not-for-merge	'refs/pull/535/head' of https://github.com/auth0/Auth0.swift
+1916b7a29910d3b25e0bada1cdef10378aca0f88	not-for-merge	'refs/pull/536/head' of https://github.com/auth0/Auth0.swift
+8302206887526199ed34ab4bdff6efdac8909c6c	not-for-merge	'refs/pull/537/head' of https://github.com/auth0/Auth0.swift
+96d49270f6b70aebe20e338247c108f675c0edbb	not-for-merge	'refs/pull/538/head' of https://github.com/auth0/Auth0.swift
+c11f87ec27810818f5c520833d752de12e250c50	not-for-merge	'refs/pull/539/head' of https://github.com/auth0/Auth0.swift
+0769b66f64c4222aa152c5ab89d0795cae656030	not-for-merge	'refs/pull/540/head' of https://github.com/auth0/Auth0.swift
+1d9017eb82302d48eaef7cd40a5f01467b507129	not-for-merge	'refs/pull/542/head' of https://github.com/auth0/Auth0.swift
+07062a857b6fb041cf017123acd8dc4abedabfd8	not-for-merge	'refs/pull/543/head' of https://github.com/auth0/Auth0.swift
+dcb87155e45f59d909d775933efe2914d2b8696a	not-for-merge	'refs/pull/544/head' of https://github.com/auth0/Auth0.swift
+2bbe831effac143b9d091f40fefbb202e10b412c	not-for-merge	'refs/pull/547/head' of https://github.com/auth0/Auth0.swift
+0868f6ca6da3bdad99e0251a017094b462d32e24	not-for-merge	'refs/pull/548/head' of https://github.com/auth0/Auth0.swift
+5d76d0fcf7addbd009317c1547c3bdd94d796bc5	not-for-merge	'refs/pull/549/head' of https://github.com/auth0/Auth0.swift
+34c5a8b96827f97b62c8ad53dffb3ed5de3edc74	not-for-merge	'refs/pull/551/head' of https://github.com/auth0/Auth0.swift
+f6fe671dd2e84e074c19ca66425b61b499fe1c4b	not-for-merge	'refs/pull/552/head' of https://github.com/auth0/Auth0.swift
+be5a6502ef60e02acc4fd9fb986aa1811aa1eb04	not-for-merge	'refs/pull/553/head' of https://github.com/auth0/Auth0.swift
+4bdc09a730c28dbf84923d988318499cad5231bd	not-for-merge	'refs/pull/554/head' of https://github.com/auth0/Auth0.swift
+54b7c973d98a14c2910bed6f72cb2b602913c5ac	not-for-merge	'refs/pull/555/head' of https://github.com/auth0/Auth0.swift
+c54417dafd30bf6e4e96fb64e3d73ffe793e7311	not-for-merge	'refs/pull/556/head' of https://github.com/auth0/Auth0.swift
+68be1ea56fb24dc4f01c7b8219dd5bccc941a568	not-for-merge	'refs/pull/557/head' of https://github.com/auth0/Auth0.swift
+b10e67dce0dfd334fafc4c3be2fa13d53f7208a9	not-for-merge	'refs/pull/558/head' of https://github.com/auth0/Auth0.swift
+4622fd99e3debde87e6b5e5048cd54532efafa64	not-for-merge	'refs/pull/559/head' of https://github.com/auth0/Auth0.swift
+1b32ceb68175f14e7dd657f442ac80cf27ad9de1	not-for-merge	'refs/pull/56/head' of https://github.com/auth0/Auth0.swift
+458419afa2ed9b0a01d1a2b3c4f94c92f7c6f3ac	not-for-merge	'refs/pull/560/head' of https://github.com/auth0/Auth0.swift
+c29355854e11c21e4b3357f78f0d1f68c3f1d250	not-for-merge	'refs/pull/562/head' of https://github.com/auth0/Auth0.swift
+59713a82f84a19194d8d17bd185bc9690c2fdd31	not-for-merge	'refs/pull/563/head' of https://github.com/auth0/Auth0.swift
+e96c5dd4d5447b2c68d395029d4592fcc09ee5c4	not-for-merge	'refs/pull/564/head' of https://github.com/auth0/Auth0.swift
+c41895caf1cfd62ae28a977fc571ff816f3be34f	not-for-merge	'refs/pull/565/head' of https://github.com/auth0/Auth0.swift
+4721f3139e564490040368863510cfa4526c4d23	not-for-merge	'refs/pull/566/head' of https://github.com/auth0/Auth0.swift
+3101535d3eccef4e6ff9d3da29af2e8663e184b8	not-for-merge	'refs/pull/567/head' of https://github.com/auth0/Auth0.swift
+3c8609911eafeb27a3e8449877f8c766f3509c2a	not-for-merge	'refs/pull/568/head' of https://github.com/auth0/Auth0.swift
+e4c71a8801f340d13e4c60de529147cd02ba3b95	not-for-merge	'refs/pull/569/head' of https://github.com/auth0/Auth0.swift
+72b6ff23069f62049295b91f8c276db6a0913086	not-for-merge	'refs/pull/570/head' of https://github.com/auth0/Auth0.swift
+3f95b870ec109ba01ecd72a2a38ad6da3ed0b155	not-for-merge	'refs/pull/571/head' of https://github.com/auth0/Auth0.swift
+2f66bae0a83530bea6e5589c76a507a5afcbe637	not-for-merge	'refs/pull/572/head' of https://github.com/auth0/Auth0.swift
+98572387e56d4a434c6afc64d4a7785dbfaa71cc	not-for-merge	'refs/pull/573/head' of https://github.com/auth0/Auth0.swift
+877dd63d65d0713734847b5807f796a82da717c6	not-for-merge	'refs/pull/574/head' of https://github.com/auth0/Auth0.swift
+9027d49c8b7be791dbc3ddd26667ae2f5d3ad633	not-for-merge	'refs/pull/575/head' of https://github.com/auth0/Auth0.swift
+166f009d5f9f457af5cc61073283df128d718e1b	not-for-merge	'refs/pull/576/head' of https://github.com/auth0/Auth0.swift
+b78d1444c67a18038f0da9b3de14d831b4321a52	not-for-merge	'refs/pull/577/head' of https://github.com/auth0/Auth0.swift
+87d06d710ee78637040ee39b86e26f13f44071a6	not-for-merge	'refs/pull/578/head' of https://github.com/auth0/Auth0.swift
+d85cce68d7ddfd2b205aaedcb20b0c42b5af531a	not-for-merge	'refs/pull/579/head' of https://github.com/auth0/Auth0.swift
+e2c4a9ed46a9909047972d02548fd1131c5bc5be	not-for-merge	'refs/pull/58/head' of https://github.com/auth0/Auth0.swift
+db01d02ce3b43778590b07f665f4d56760bfc3ab	not-for-merge	'refs/pull/580/head' of https://github.com/auth0/Auth0.swift
+3eeeb65faea5bcf7140a9fb6a4031d6c87a67fcd	not-for-merge	'refs/pull/581/head' of https://github.com/auth0/Auth0.swift
+6b0c726aa3bd60f7b4210d5045cfd64b9b64baf0	not-for-merge	'refs/pull/582/head' of https://github.com/auth0/Auth0.swift
+d20e0e4db6eec477b75a9cdebede4feab09733d9	not-for-merge	'refs/pull/583/head' of https://github.com/auth0/Auth0.swift
+7aa3b100e81d778fa97d2f40d5843accc50f4b5b	not-for-merge	'refs/pull/584/head' of https://github.com/auth0/Auth0.swift
+20a31ea6ec33b26571788462587474bb9b182c6e	not-for-merge	'refs/pull/585/head' of https://github.com/auth0/Auth0.swift
+0dc010bdd23faf869a12dd89e1e1f2a413de0305	not-for-merge	'refs/pull/586/head' of https://github.com/auth0/Auth0.swift
+1e8f5ca03a0d2cca99f60dc0a42df135b31821da	not-for-merge	'refs/pull/587/head' of https://github.com/auth0/Auth0.swift
+fe2477e958c676fc1d1f1bcaa022d61a8ed57ce3	not-for-merge	'refs/pull/588/head' of https://github.com/auth0/Auth0.swift
+2f28edb8480dc87081380c3d72cb10119956d05d	not-for-merge	'refs/pull/589/head' of https://github.com/auth0/Auth0.swift
+e16d02f5f5f7e11759b6a5247f451b03e1d5a64d	not-for-merge	'refs/pull/590/head' of https://github.com/auth0/Auth0.swift
+059c78ce76d8241c33fa4b29f65fab8d10077a05	not-for-merge	'refs/pull/591/head' of https://github.com/auth0/Auth0.swift
+e5e0f3667a004dfdaddd9c986170e1b83ed977d2	not-for-merge	'refs/pull/592/head' of https://github.com/auth0/Auth0.swift
+ea00bf29c392762c489b2e084e6b85d6e52fc486	not-for-merge	'refs/pull/594/head' of https://github.com/auth0/Auth0.swift
+234fadb31c6bdf1b4d7f4f910d17f274de0d8b83	not-for-merge	'refs/pull/595/head' of https://github.com/auth0/Auth0.swift
+51875093b7285e9b7eead92b9cc439d4294a1ccf	not-for-merge	'refs/pull/596/head' of https://github.com/auth0/Auth0.swift
+0e81d0ec44682b69ac5078869855758e171f5842	not-for-merge	'refs/pull/597/head' of https://github.com/auth0/Auth0.swift
+37c6346a2b0884f7690fdd307725232f3ab03ed4	not-for-merge	'refs/pull/598/head' of https://github.com/auth0/Auth0.swift
+b4807a98415e9e3f7c4c1db017b9f03fbd030fc6	not-for-merge	'refs/pull/599/head' of https://github.com/auth0/Auth0.swift
+e2191e09350750ddc04edd6dc97fdc66753c4c13	not-for-merge	'refs/pull/6/head' of https://github.com/auth0/Auth0.swift
+9084c406451b87b6644f6b531a7b07d2368b4422	not-for-merge	'refs/pull/60/head' of https://github.com/auth0/Auth0.swift
+b22b740ae3af2a05cee183b8ac60d5d97acf0e94	not-for-merge	'refs/pull/600/head' of https://github.com/auth0/Auth0.swift
+40dfd3bd09c19862102b2f9efaba10a2430cb6ce	not-for-merge	'refs/pull/601/head' of https://github.com/auth0/Auth0.swift
+6ddaca28b1bdb9fd17e59f2020169a5c9e59e1bb	not-for-merge	'refs/pull/602/head' of https://github.com/auth0/Auth0.swift
+72b963fc77724cb23bd2f1a4549d9f8a62bfe1bc	not-for-merge	'refs/pull/603/head' of https://github.com/auth0/Auth0.swift
+94e46f472756ffda8d1b197cf4941c00ed150fb7	not-for-merge	'refs/pull/604/head' of https://github.com/auth0/Auth0.swift
+b2822c4c17d38cd6fa703a54bc6fc645e6616097	not-for-merge	'refs/pull/605/head' of https://github.com/auth0/Auth0.swift
+fe2a08a3b03a0f128873d75478a57d8aa562f785	not-for-merge	'refs/pull/606/head' of https://github.com/auth0/Auth0.swift
+d5e05b4c1f5d50ea5e393cce631d57065d5925d0	not-for-merge	'refs/pull/607/head' of https://github.com/auth0/Auth0.swift
+4bfbb266a3ee14f8a0b39c38d895809722f35bee	not-for-merge	'refs/pull/608/head' of https://github.com/auth0/Auth0.swift
+f5f6426e7c5668421b15f3900c7d1c29d8722253	not-for-merge	'refs/pull/610/head' of https://github.com/auth0/Auth0.swift
+24bf57fd153d8341705ad45769b992a5895f3953	not-for-merge	'refs/pull/611/head' of https://github.com/auth0/Auth0.swift
+051346e7afbf479539e818bb9c90dc280301e502	not-for-merge	'refs/pull/612/head' of https://github.com/auth0/Auth0.swift
+abeff111646de5b1eeec4b46b2621ea175225e06	not-for-merge	'refs/pull/613/head' of https://github.com/auth0/Auth0.swift
+a544aa8f905c31c16a47cf58f15693a939f12b8e	not-for-merge	'refs/pull/614/head' of https://github.com/auth0/Auth0.swift
+dc944543f387b2f558a04bcfeaa7792c560c7183	not-for-merge	'refs/pull/615/head' of https://github.com/auth0/Auth0.swift
+4019b74177080f20a22a48725a1c49699cddbdf9	not-for-merge	'refs/pull/616/head' of https://github.com/auth0/Auth0.swift
+3b0dc9611d4c098a1264d24ba9233bdd8a6fadda	not-for-merge	'refs/pull/617/head' of https://github.com/auth0/Auth0.swift
+44fe84b9368ed8d2f6b8a917a70386126fd0e47c	not-for-merge	'refs/pull/618/head' of https://github.com/auth0/Auth0.swift
+4035d4df38c8a2a0b1c257d6d90752e6c5d74f80	not-for-merge	'refs/pull/619/head' of https://github.com/auth0/Auth0.swift
+fb430360a9d329b23930b5cbf3a8c1e3a6438a5c	not-for-merge	'refs/pull/62/head' of https://github.com/auth0/Auth0.swift
+45eeff557f4992bab595655e203baa6611dfb691	not-for-merge	'refs/pull/620/head' of https://github.com/auth0/Auth0.swift
+4b1d85d6e3bf8c73ed8a9e90e73b919c94c4140d	not-for-merge	'refs/pull/622/head' of https://github.com/auth0/Auth0.swift
+110adb2dc9d1b0c7778b02dfe4fb945fb04f8c3d	not-for-merge	'refs/pull/623/head' of https://github.com/auth0/Auth0.swift
+4bec62a4df58d5031156429ebadbe7da83802a07	not-for-merge	'refs/pull/624/head' of https://github.com/auth0/Auth0.swift
+c45d9c33f05544508c9d42ee8b91d1c61d462bcd	not-for-merge	'refs/pull/625/head' of https://github.com/auth0/Auth0.swift
+d44b59ac1c7aedca29f00347a2a37ac178762861	not-for-merge	'refs/pull/626/head' of https://github.com/auth0/Auth0.swift
+3a000e6061911c9408ca066d6865c5c690ad9d43	not-for-merge	'refs/pull/627/head' of https://github.com/auth0/Auth0.swift
+c7f8f28751a1cf5e4f7b631f685e3c3bc1aa84ec	not-for-merge	'refs/pull/628/head' of https://github.com/auth0/Auth0.swift
+1ca5a71363c00fabf89670e9275f5f7968b69966	not-for-merge	'refs/pull/629/head' of https://github.com/auth0/Auth0.swift
+a1deee4ef467c4b0a372d1f75e570a6523b8e4d0	not-for-merge	'refs/pull/630/head' of https://github.com/auth0/Auth0.swift
+e5b2921614b809558a9c2f00e809e5659be7b986	not-for-merge	'refs/pull/631/head' of https://github.com/auth0/Auth0.swift
+04afa58b1a14396e40b22fb53cd482ff38dd5f90	not-for-merge	'refs/pull/632/head' of https://github.com/auth0/Auth0.swift
+653d4aa2bc54dd6255ef8bc448635d37fb1d932d	not-for-merge	'refs/pull/633/head' of https://github.com/auth0/Auth0.swift
+faef47ce742db67932434a82e0ad45dd3dd124be	not-for-merge	'refs/pull/634/head' of https://github.com/auth0/Auth0.swift
+65a7c393da8080a1a49dbfeab13a1d31a95b58f9	not-for-merge	'refs/pull/635/head' of https://github.com/auth0/Auth0.swift
+dd8ec50a8219cbe0c6fd7eebd6018d085fe484f5	not-for-merge	'refs/pull/636/head' of https://github.com/auth0/Auth0.swift
+926d61932806513a7b46461b71e24c22785a2c47	not-for-merge	'refs/pull/638/head' of https://github.com/auth0/Auth0.swift
+c884a1999f99433f979d38479f8e03674ef20b16	not-for-merge	'refs/pull/641/head' of https://github.com/auth0/Auth0.swift
+dedbe681d18a3709404d07f961568dc409099620	not-for-merge	'refs/pull/642/head' of https://github.com/auth0/Auth0.swift
+fb58db254a6f24213083ece6f63013af34463aa0	not-for-merge	'refs/pull/643/head' of https://github.com/auth0/Auth0.swift
+58c65ea082d85968fb2decddbe3a485884a03987	not-for-merge	'refs/pull/644/head' of https://github.com/auth0/Auth0.swift
+ef1f7b4ba99c51f611e7b05f926315d0800f8123	not-for-merge	'refs/pull/645/head' of https://github.com/auth0/Auth0.swift
+f1b436317d96d6ade8446887507b74b731e73e1d	not-for-merge	'refs/pull/646/head' of https://github.com/auth0/Auth0.swift
+5600bdd8a6d3ffbb6b3a802832a80bf7ee3d2d27	not-for-merge	'refs/pull/647/head' of https://github.com/auth0/Auth0.swift
+7d01867ae6df60fae72791ed2b1fdda96374e488	not-for-merge	'refs/pull/648/head' of https://github.com/auth0/Auth0.swift
+c00f07bbadcbd637865cd6e3cb590ab337410170	not-for-merge	'refs/pull/649/head' of https://github.com/auth0/Auth0.swift
+cd47a596cde443231d52072b31931e71c2d66ec5	not-for-merge	'refs/pull/65/head' of https://github.com/auth0/Auth0.swift
+e75ecbd37303b3c41634a4a0ddff8ad59220c80f	not-for-merge	'refs/pull/651/head' of https://github.com/auth0/Auth0.swift
+96f1fe77ed79a955ea6c4c6f466cc7c37047fda3	not-for-merge	'refs/pull/652/head' of https://github.com/auth0/Auth0.swift
+661f5b31bbb799aba68f1be79671eac346aa3cd4	not-for-merge	'refs/pull/653/head' of https://github.com/auth0/Auth0.swift
+2d3ede62f8e3c17f0b57e0033b376ed90b42c90d	not-for-merge	'refs/pull/654/head' of https://github.com/auth0/Auth0.swift
+c26c043d0d89245aede066b70e1e99692f484eb4	not-for-merge	'refs/pull/655/head' of https://github.com/auth0/Auth0.swift
+576ec59cf752ea2c53efc4963bafef8834a69c74	not-for-merge	'refs/pull/656/head' of https://github.com/auth0/Auth0.swift
+f96f59a8a78f7ac8f09480ab010f20af4ae24a2a	not-for-merge	'refs/pull/657/head' of https://github.com/auth0/Auth0.swift
+479c3b1c75c5374a0331061e059f9592e4e70621	not-for-merge	'refs/pull/659/head' of https://github.com/auth0/Auth0.swift
+7d826c386d6fb85427966eedbad0d0edd7d11e48	not-for-merge	'refs/pull/66/head' of https://github.com/auth0/Auth0.swift
+f882ec18c2fa601f7b1a25eb2124feb1b62b6d1d	not-for-merge	'refs/pull/660/head' of https://github.com/auth0/Auth0.swift
+0181105d814a81bf887f9ffd4fe2bcf89e558b91	not-for-merge	'refs/pull/661/head' of https://github.com/auth0/Auth0.swift
+0612d6329dbc77856d2b2574cecc6ba6d56e7464	not-for-merge	'refs/pull/662/head' of https://github.com/auth0/Auth0.swift
+562de1a458c25c5864426ba789d884f57b186faa	not-for-merge	'refs/pull/663/head' of https://github.com/auth0/Auth0.swift
+5f42e743e3c790c49c03820a24ddb98613b3dc38	not-for-merge	'refs/pull/664/head' of https://github.com/auth0/Auth0.swift
+caed1f370a9896762e02b804a87a789cd0e61752	not-for-merge	'refs/pull/665/head' of https://github.com/auth0/Auth0.swift
+4cfa5349f97bc82a89a428bc43ddbfdf933ca2dd	not-for-merge	'refs/pull/666/head' of https://github.com/auth0/Auth0.swift
+9f0c8175d7723282996ea566470c8507e755fc46	not-for-merge	'refs/pull/667/head' of https://github.com/auth0/Auth0.swift
+a11576699ecd9837e3f26f4fe601809c7e3e9bff	not-for-merge	'refs/pull/668/head' of https://github.com/auth0/Auth0.swift
+e596cc4435b907e1242b8fc329726210f96a3106	not-for-merge	'refs/pull/669/head' of https://github.com/auth0/Auth0.swift
+cc648b37d0f6ffd244615d2580041dd03f0006dc	not-for-merge	'refs/pull/67/head' of https://github.com/auth0/Auth0.swift
+a2d75e7b3ec99e567b30041546c6650d9e8dfd45	not-for-merge	'refs/pull/670/head' of https://github.com/auth0/Auth0.swift
+d148fd488f647ce6f1bd3409f022a95f1a295983	not-for-merge	'refs/pull/671/head' of https://github.com/auth0/Auth0.swift
+423b30031ca013ffed1b1ea60e38a3825065a85c	not-for-merge	'refs/pull/672/head' of https://github.com/auth0/Auth0.swift
+58618a49abd77dac8416b9f0409a601d544163ce	not-for-merge	'refs/pull/673/head' of https://github.com/auth0/Auth0.swift
+29b22391fc33e55eb07b9a327e704bcdfe3de54b	not-for-merge	'refs/pull/675/head' of https://github.com/auth0/Auth0.swift
+f442ee1646c455ffcd50da4ce4e4796cef4d6a34	not-for-merge	'refs/pull/677/head' of https://github.com/auth0/Auth0.swift
+3f2d7094b154eea95f3684d316de67b5bd0e5358	not-for-merge	'refs/pull/678/head' of https://github.com/auth0/Auth0.swift
+fbb24e5721c495b278f9eff44070294fbe0dbcd1	not-for-merge	'refs/pull/679/head' of https://github.com/auth0/Auth0.swift
+8c4b7072827a777f4bebc37a0dabd0a4f7b9fefa	not-for-merge	'refs/pull/68/head' of https://github.com/auth0/Auth0.swift
+9afa6a012b095a5d6b1350ea57d293662407368e	not-for-merge	'refs/pull/68/merge' of https://github.com/auth0/Auth0.swift
+bb78c74f308507a94d35ecde964f3f38536c318a	not-for-merge	'refs/pull/680/head' of https://github.com/auth0/Auth0.swift
+ec6d8c83aee2dde5849cba4c6f118653964060ee	not-for-merge	'refs/pull/682/head' of https://github.com/auth0/Auth0.swift
+da6bbb002765c24902572f04da8e13e7b34b92b7	not-for-merge	'refs/pull/683/head' of https://github.com/auth0/Auth0.swift
+11e67a069c07d479a989e3247c370b4f436648c0	not-for-merge	'refs/pull/685/head' of https://github.com/auth0/Auth0.swift
+3141674ffe6f390ca97db90cd7748c452f3af451	not-for-merge	'refs/pull/686/head' of https://github.com/auth0/Auth0.swift
+e6357d0c817a3f1d6e10b5ecb93fdd47876d5c14	not-for-merge	'refs/pull/687/head' of https://github.com/auth0/Auth0.swift
+640f0b3b37e50237c3e4b3ef85cd3eca9a91c73c	not-for-merge	'refs/pull/688/head' of https://github.com/auth0/Auth0.swift
+12d1807b054cb2ba2f2c824c5c9a5f8d3c9f89f6	not-for-merge	'refs/pull/689/head' of https://github.com/auth0/Auth0.swift
+fb9abe85e11eeecee535c64351839244caded9b1	not-for-merge	'refs/pull/69/head' of https://github.com/auth0/Auth0.swift
+dabe4a3b6d662d96720042021f23f9065d23ecf3	not-for-merge	'refs/pull/690/head' of https://github.com/auth0/Auth0.swift
+b63d3c8f8af658e989812a86ca4adf2ba16b3333	not-for-merge	'refs/pull/691/head' of https://github.com/auth0/Auth0.swift
+e7c2265e38edee5005d52558eb1687455f3b0bb6	not-for-merge	'refs/pull/692/head' of https://github.com/auth0/Auth0.swift
+566920377135ce279158d08ee92d0d50899c37c5	not-for-merge	'refs/pull/693/head' of https://github.com/auth0/Auth0.swift
+2b6feeff8c58cf6eb08daeaefb2644bbb2006098	not-for-merge	'refs/pull/694/head' of https://github.com/auth0/Auth0.swift
+9316d51684e280720602c141612fab51872815c8	not-for-merge	'refs/pull/695/head' of https://github.com/auth0/Auth0.swift
+08ad5646f7167a4cb6fa60d46f0c213fdb71aa2d	not-for-merge	'refs/pull/697/head' of https://github.com/auth0/Auth0.swift
+1eb1ae582883a3326edb45555c1a7072e8f6907a	not-for-merge	'refs/pull/698/head' of https://github.com/auth0/Auth0.swift
+cc5a4330a4899e38a30f67c9158f3c4ba96f257c	not-for-merge	'refs/pull/699/head' of https://github.com/auth0/Auth0.swift
+13511f60af84715b21dc6556ef16ad0d049ccce8	not-for-merge	'refs/pull/7/head' of https://github.com/auth0/Auth0.swift
+59b71a513f7e148a3c05210362fdfcba6cbb3c5c	not-for-merge	'refs/pull/70/head' of https://github.com/auth0/Auth0.swift
+0907674d8f5fb19b8fa2e5d35b0c51b4001dafb8	not-for-merge	'refs/pull/700/head' of https://github.com/auth0/Auth0.swift
+915f464d2003193dc97c1c10d2cd0e6b64dd364f	not-for-merge	'refs/pull/701/head' of https://github.com/auth0/Auth0.swift
+96178f51545e1cfcd90a9258c20ee776ed2d7c94	not-for-merge	'refs/pull/702/head' of https://github.com/auth0/Auth0.swift
+960db40cec1f1af9957ed6189dcf30db15b8b464	not-for-merge	'refs/pull/703/head' of https://github.com/auth0/Auth0.swift
+6d28c6853d0ba7c940716d4263e0ef07ad376403	not-for-merge	'refs/pull/704/head' of https://github.com/auth0/Auth0.swift
+050b016b4ac051c3a5d83562b5f4b58b31d3ec3e	not-for-merge	'refs/pull/705/head' of https://github.com/auth0/Auth0.swift
+c6a52fbe85563e6798c717b6fab129542c313e72	not-for-merge	'refs/pull/706/head' of https://github.com/auth0/Auth0.swift
+eacd5dc68be4f35652112e33b3ddc67b012eec07	not-for-merge	'refs/pull/707/head' of https://github.com/auth0/Auth0.swift
+be633ca9e914cd4da2c10ec3139a41b3ccf29758	not-for-merge	'refs/pull/708/head' of https://github.com/auth0/Auth0.swift
+835f58dbcb02eb15eb16251ddd3de0981f690cc1	not-for-merge	'refs/pull/71/head' of https://github.com/auth0/Auth0.swift
+08ead4fd06d64c3004628314fd10f9e8818117ab	not-for-merge	'refs/pull/711/head' of https://github.com/auth0/Auth0.swift
+5085aa69a6deda0fe4430f5ac04d7ffa5cc14423	not-for-merge	'refs/pull/712/head' of https://github.com/auth0/Auth0.swift
+6b2088cfa03517f59d52a27cc546c6ac94debb39	not-for-merge	'refs/pull/713/head' of https://github.com/auth0/Auth0.swift
+88cd5b5e3e95418bef8f7435bd7a9e20527fa3d9	not-for-merge	'refs/pull/714/head' of https://github.com/auth0/Auth0.swift
+58b20b405991afd88ff0c7bbd222fe6662a9c0ba	not-for-merge	'refs/pull/715/head' of https://github.com/auth0/Auth0.swift
+d88218385888244ecfa630bdd72b72bc13dca1d2	not-for-merge	'refs/pull/716/head' of https://github.com/auth0/Auth0.swift
+78dfecb4989891d9e12941e9dd320331a08b2f25	not-for-merge	'refs/pull/717/head' of https://github.com/auth0/Auth0.swift
+26fc995204c3b82361e25544070e12880038c785	not-for-merge	'refs/pull/718/head' of https://github.com/auth0/Auth0.swift
+0ba64df2e8ad4ae3f41dd22783580e78d7fcd359	not-for-merge	'refs/pull/719/head' of https://github.com/auth0/Auth0.swift
+dc570e982a959aec3e88e5c3845031baf276b64a	not-for-merge	'refs/pull/72/head' of https://github.com/auth0/Auth0.swift
+25104aad591cc4ac88c386c6a2abd36666e0718d	not-for-merge	'refs/pull/720/head' of https://github.com/auth0/Auth0.swift
+ab64c9d4b4b2cc9a123cba9eea444858d0a1b40a	not-for-merge	'refs/pull/722/head' of https://github.com/auth0/Auth0.swift
+90113553eae405054a64d27835ba3c9687171559	not-for-merge	'refs/pull/723/head' of https://github.com/auth0/Auth0.swift
+6d8801550e5dbb9662459df8628988cc905ea6c0	not-for-merge	'refs/pull/724/head' of https://github.com/auth0/Auth0.swift
+079b42d70b429b45efaf36a2abddd06811f20a4d	not-for-merge	'refs/pull/725/head' of https://github.com/auth0/Auth0.swift
+eeaaedc5394ef0dd59d376db870fd2139ac20e12	not-for-merge	'refs/pull/726/head' of https://github.com/auth0/Auth0.swift
+1248f4b49fc142b1af0bb00b09e26eae16c0edae	not-for-merge	'refs/pull/727/head' of https://github.com/auth0/Auth0.swift
+7c571aa8fbddbaef59d784731868587630cd51f2	not-for-merge	'refs/pull/73/head' of https://github.com/auth0/Auth0.swift
+cd5de7a057278d69661d760591abc1214f593230	not-for-merge	'refs/pull/730/head' of https://github.com/auth0/Auth0.swift
+db2688f124d07b4bb642f5321a194d1cb794d45f	not-for-merge	'refs/pull/731/head' of https://github.com/auth0/Auth0.swift
+35c0eb2cae61776831c11dc078c17476d6a8f02e	not-for-merge	'refs/pull/732/head' of https://github.com/auth0/Auth0.swift
+77b756d4e5b4ef599d9abcd0959302590ccf2c06	not-for-merge	'refs/pull/733/head' of https://github.com/auth0/Auth0.swift
+5e13df6bf482a1c0da645901284ccd897576fd82	not-for-merge	'refs/pull/735/head' of https://github.com/auth0/Auth0.swift
+6918bd9b673c4344f4b10b1f9577c68b0c4ec43c	not-for-merge	'refs/pull/736/head' of https://github.com/auth0/Auth0.swift
+b56545e4701f2ebecf7a7bbc633a947b78130569	not-for-merge	'refs/pull/742/head' of https://github.com/auth0/Auth0.swift
+ca7325fd654c63a00ecaafb8e1bbef0e30607946	not-for-merge	'refs/pull/743/head' of https://github.com/auth0/Auth0.swift
+a867d2ff333e74e73f497f5a3dc4b9a01d5ef944	not-for-merge	'refs/pull/744/head' of https://github.com/auth0/Auth0.swift
+1dd9061b59299b9c427a9e8a356993a2acbb1a4b	not-for-merge	'refs/pull/745/head' of https://github.com/auth0/Auth0.swift
+ddff1a1f3bd2abcad878c525fc0f55d13285980e	not-for-merge	'refs/pull/746/head' of https://github.com/auth0/Auth0.swift
+25897a2d86a137fbfc70e1b85affcf8bb1690be1	not-for-merge	'refs/pull/747/head' of https://github.com/auth0/Auth0.swift
+26bc76bbf8b094f69a62c62e8075ad14405d1267	not-for-merge	'refs/pull/748/head' of https://github.com/auth0/Auth0.swift
+637e4eb1c5dfd2637166761ad763c25fd378f90b	not-for-merge	'refs/pull/748/merge' of https://github.com/auth0/Auth0.swift
+d489e269366cc3d109ac337a561bf7a6adeae083	not-for-merge	'refs/pull/75/head' of https://github.com/auth0/Auth0.swift
+52f704601ff7c75c553cc6bc6796e6a3604c56ca	not-for-merge	'refs/pull/750/head' of https://github.com/auth0/Auth0.swift
+403fc8d5c22bd51e1fc35ae3340c0af5f1544328	not-for-merge	'refs/pull/752/head' of https://github.com/auth0/Auth0.swift
+dfad5f8ca860dd8ea7d9b3228bca1ca6aaa53c08	not-for-merge	'refs/pull/753/head' of https://github.com/auth0/Auth0.swift
+cf5c6429eb0602608023339319acc243a21aa7e9	not-for-merge	'refs/pull/754/head' of https://github.com/auth0/Auth0.swift
+5f92bfb4af9e18e7c1a62fe22baaba23a769d459	not-for-merge	'refs/pull/755/head' of https://github.com/auth0/Auth0.swift
+a14c374491487eae456ae4bf80b6785c136b2314	not-for-merge	'refs/pull/758/head' of https://github.com/auth0/Auth0.swift
+0c575690d421f0eec88b65963b840c0090d6dedb	not-for-merge	'refs/pull/759/head' of https://github.com/auth0/Auth0.swift
+7c85510b489354db99d613d39a9fd07a5dad12a2	not-for-merge	'refs/pull/760/head' of https://github.com/auth0/Auth0.swift
+05f980763fb63de2548a74cc7bb018b5f408b35d	not-for-merge	'refs/pull/761/head' of https://github.com/auth0/Auth0.swift
+eadbda59d66ae49432df1bb75c3cc056efb2856f	not-for-merge	'refs/pull/762/head' of https://github.com/auth0/Auth0.swift
+590718639548782ca40fcaaf74683b80175253e6	not-for-merge	'refs/pull/764/head' of https://github.com/auth0/Auth0.swift
+1ab2282304f112f6edcf0b0615cf80d841639f71	not-for-merge	'refs/pull/765/head' of https://github.com/auth0/Auth0.swift
+d6ddcfbad6e3fb1194bde8d1218d64685a6f2631	not-for-merge	'refs/pull/767/head' of https://github.com/auth0/Auth0.swift
+eab75363e6ba2dc938b97672996f7ab3d34e32b7	not-for-merge	'refs/pull/77/head' of https://github.com/auth0/Auth0.swift
+a7942530ec6d1058d761daa1ee2b7d68b6f4653d	not-for-merge	'refs/pull/772/head' of https://github.com/auth0/Auth0.swift
+0750a8ef56b174416addba2cf8887e67f8e57a41	not-for-merge	'refs/pull/773/head' of https://github.com/auth0/Auth0.swift
+f97bdac4fb75c974910c822ab0085179e3c3c135	not-for-merge	'refs/pull/774/head' of https://github.com/auth0/Auth0.swift
+6f4fffddf427757cfda81e05733fc57d61a39a2d	not-for-merge	'refs/pull/775/head' of https://github.com/auth0/Auth0.swift
+fa1aebd1d77c5cb5811289e0871547406c0736e2	not-for-merge	'refs/pull/777/head' of https://github.com/auth0/Auth0.swift
+b3f1730d0133e92df5a774518d53420b702a1743	not-for-merge	'refs/pull/778/head' of https://github.com/auth0/Auth0.swift
+91b53606e582633628ac8e321d2dfa331e2e887a	not-for-merge	'refs/pull/779/head' of https://github.com/auth0/Auth0.swift
+e340bef42d9ef8b58782e8b38e44c4d2b03262fb	not-for-merge	'refs/pull/78/head' of https://github.com/auth0/Auth0.swift
+d758f24b4a3a4f8bbb64c7055948c998a0f81ded	not-for-merge	'refs/pull/781/head' of https://github.com/auth0/Auth0.swift
+94f12a4b297c126c1c9e2ad61e1ec5b92f445b13	not-for-merge	'refs/pull/782/head' of https://github.com/auth0/Auth0.swift
+953d967ab0a9f7cf92b2dc391be71260b5988495	not-for-merge	'refs/pull/783/head' of https://github.com/auth0/Auth0.swift
+160d438dd879ea5cc53e871ac0b7a655beaab592	not-for-merge	'refs/pull/784/head' of https://github.com/auth0/Auth0.swift
+78ae68d71b0345b69f5a4ae911c41ddf88e6ac7f	not-for-merge	'refs/pull/786/head' of https://github.com/auth0/Auth0.swift
+fe58d57dd04bfc66f105d6f9cb301d043221aea7	not-for-merge	'refs/pull/789/head' of https://github.com/auth0/Auth0.swift
+4bdef186f8eec752d52ddd71fb145dd4c3aeb98c	not-for-merge	'refs/pull/790/head' of https://github.com/auth0/Auth0.swift
+7d3431de2669e83e1ca446e580ee53f4056c871a	not-for-merge	'refs/pull/791/head' of https://github.com/auth0/Auth0.swift
+800458309da5f4bae46c865ecb6cf5879017ce22	not-for-merge	'refs/pull/792/head' of https://github.com/auth0/Auth0.swift
+81603d699a0338b447acc173c5367743cf7b4b40	not-for-merge	'refs/pull/793/head' of https://github.com/auth0/Auth0.swift
+1490daf1bdae5eefa0fb132d2ea18c1680ba4643	not-for-merge	'refs/pull/794/head' of https://github.com/auth0/Auth0.swift
+bd64332e75f2a5ff3cbb25665d3d86abaf7a0dd5	not-for-merge	'refs/pull/795/head' of https://github.com/auth0/Auth0.swift
+6a8d7da5c63c48c16dc90a4101dc77267c3e0101	not-for-merge	'refs/pull/797/head' of https://github.com/auth0/Auth0.swift
+4786b3d9dd82248091918f7fd6e191e915192cfe	not-for-merge	'refs/pull/798/head' of https://github.com/auth0/Auth0.swift
+8bd5cd13da085cd654499d83e48ba5f9c509743b	not-for-merge	'refs/pull/799/head' of https://github.com/auth0/Auth0.swift
+e3bce26f6d4325feaecfb8545b37a89799dbc718	not-for-merge	'refs/pull/8/head' of https://github.com/auth0/Auth0.swift
+6553b07a6eee8227b87af171e99c19f6114e32b9	not-for-merge	'refs/pull/801/head' of https://github.com/auth0/Auth0.swift
+1cf4a1b721256afa0b3c966a24641aea8266ae94	not-for-merge	'refs/pull/802/head' of https://github.com/auth0/Auth0.swift
+03e9c0555614e4139a7880751fb8e6ef2510d7cc	not-for-merge	'refs/pull/803/head' of https://github.com/auth0/Auth0.swift
+f5598ebdfa55fd84c882c9a3c1c5a4dff6ea4c8c	not-for-merge	'refs/pull/804/head' of https://github.com/auth0/Auth0.swift
+e77d71e80c42aafdbcef357acdc843324143e90d	not-for-merge	'refs/pull/808/head' of https://github.com/auth0/Auth0.swift
+6b91bd12c57207d55bbd8ca794f5a9ff0f8e67b9	not-for-merge	'refs/pull/809/head' of https://github.com/auth0/Auth0.swift
+7fceb65497a2bfdb248202a94c2e19182feb4639	not-for-merge	'refs/pull/81/head' of https://github.com/auth0/Auth0.swift
+453cf1f78a90848f646abe770bd76f4a054910fa	not-for-merge	'refs/pull/81/merge' of https://github.com/auth0/Auth0.swift
+324cef7bcbd495bb815e8b069fab22abfe1b0188	not-for-merge	'refs/pull/83/head' of https://github.com/auth0/Auth0.swift
+268f606be83049371df38b90986af19516fc76d4	not-for-merge	'refs/pull/84/head' of https://github.com/auth0/Auth0.swift
+1c7d306ca6027c08dc4cae6587c8cfa22ad96d09	not-for-merge	'refs/pull/86/head' of https://github.com/auth0/Auth0.swift
+7d8efeff4a9d50c95c4cb3f6c67e8db8614cef4a	not-for-merge	'refs/pull/87/head' of https://github.com/auth0/Auth0.swift
+1e5a39fcd14a8d8b433bded9e87c809e4ce6deda	not-for-merge	'refs/pull/87/merge' of https://github.com/auth0/Auth0.swift
+154d3b3dd5f2de63cbe7d5b4903257ea74363668	not-for-merge	'refs/pull/88/head' of https://github.com/auth0/Auth0.swift
+6dd1413594310a725b6068006cd7e8c16c89010b	not-for-merge	'refs/pull/88/merge' of https://github.com/auth0/Auth0.swift
+9be2f092addb92a47bcb8b4feb4a0000a538cc4b	not-for-merge	'refs/pull/89/head' of https://github.com/auth0/Auth0.swift
+e93b2bec0c97ea8702a3e3b9aa470ef205c62523	not-for-merge	'refs/pull/9/head' of https://github.com/auth0/Auth0.swift
+0f7a9ee585245ff7340382de71e552d361895fa1	not-for-merge	'refs/pull/90/head' of https://github.com/auth0/Auth0.swift
+419513e407e6aa679037f8e6f109d0c1667174cf	not-for-merge	'refs/pull/90/merge' of https://github.com/auth0/Auth0.swift
+3c8df36000d305af93aa019c807675a735eda00d	not-for-merge	'refs/pull/92/head' of https://github.com/auth0/Auth0.swift
+527402b895f6e124937dbe8e1f3d90ff71a9fb57	not-for-merge	'refs/pull/92/merge' of https://github.com/auth0/Auth0.swift
+5560798977db94ae086e4ba3f546db364798da8d	not-for-merge	'refs/pull/93/head' of https://github.com/auth0/Auth0.swift
+494aae11b28e0c1f59b78f0f935fd77302f9b897	not-for-merge	'refs/pull/95/head' of https://github.com/auth0/Auth0.swift
+4957c04b2a75dc6b3346ba447b022855d6e61eed	not-for-merge	'refs/pull/96/head' of https://github.com/auth0/Auth0.swift
+5b4862e9c7af48b06ef9f6774eeb0cd6d1b28e89	not-for-merge	'refs/pull/97/head' of https://github.com/auth0/Auth0.swift
+4fb1f12fe202e2921d31c3c4ce95b25e1bb774da	not-for-merge	'refs/pull/98/head' of https://github.com/auth0/Auth0.swift
+2d3f84da3dfe629230d0ea102480f94609184618	not-for-merge	tag '0.1.0' of https://github.com/auth0/Auth0.swift
+bf5e7e0c56be90e4d68d1b461adbe65a135d9f23	not-for-merge	tag '0.1.1' of https://github.com/auth0/Auth0.swift
+988b2c8c7734a4ec7e28ef26e152843fdf4bca04	not-for-merge	tag '0.1.2' of https://github.com/auth0/Auth0.swift
+b0d49cb5e186c3f739d99e15ea53333a54bfa484	not-for-merge	tag '0.2.0' of https://github.com/auth0/Auth0.swift
+59d4d6028d66d2524c2d72b9ee06f2ddc4dcb8e5	not-for-merge	tag '0.3.0' of https://github.com/auth0/Auth0.swift
+a0b608894a52498ae13acff7c07a9f86caaf32eb	not-for-merge	tag '1.0.0' of https://github.com/auth0/Auth0.swift
+f1f722f47de574016e36362b7d736a25d7aa608a	not-for-merge	tag '1.0.0-beta.1' of https://github.com/auth0/Auth0.swift
+d17fb18f32d95b542903ee27fbff7a4c99fe6612	not-for-merge	tag '1.0.0-beta.2' of https://github.com/auth0/Auth0.swift
+6b18f5dd6fb1f53242db55617cd9644d42675ff9	not-for-merge	tag '1.0.0-beta.3' of https://github.com/auth0/Auth0.swift
+47c387c910f689c6eecd5778b8e3ad932ac4a438	not-for-merge	tag '1.0.0-beta.4' of https://github.com/auth0/Auth0.swift
+4d120bebe09409691e1a777b198bd3685ccd663f	not-for-merge	tag '1.0.0-beta.5' of https://github.com/auth0/Auth0.swift
+3a6fc2fdfaea7b228c5b9163aa2cc2cc0bc3eb0e	not-for-merge	tag '1.0.0-beta.6' of https://github.com/auth0/Auth0.swift
+bd5927f281b1741b6a6a1a3de72289db4e31aacd	not-for-merge	tag '1.0.0-beta.7' of https://github.com/auth0/Auth0.swift
+0627746d07ffd403a25d3307005a5a28b70ec965	not-for-merge	tag '1.0.0-rc.1' of https://github.com/auth0/Auth0.swift
+8ae8eb1d0dde46153757de87f611a5d6044418ac	not-for-merge	tag '1.0.0-rc.2' of https://github.com/auth0/Auth0.swift
+4041523e07cc89e6804cb5dd754f47b1501a3804	not-for-merge	tag '1.0.0-rc.3' of https://github.com/auth0/Auth0.swift
+4c996b92fb71021c646226d83105ee90a7236157	not-for-merge	tag '1.0.0-rc.4' of https://github.com/auth0/Auth0.swift
+4f89bd4099219ec96da39596d693b641c64016eb	not-for-merge	tag '1.0.0-rc.4@swift-2.3' of https://github.com/auth0/Auth0.swift
+03347ab131f833a30974163455396673558a72ca	not-for-merge	tag '1.0.1' of https://github.com/auth0/Auth0.swift
+af5ec3319143e9792061fd9df32616e47386af77	not-for-merge	tag '1.1.0' of https://github.com/auth0/Auth0.swift
+58290f6290c72224c5647bb91882bcf3ae50f912	not-for-merge	tag '1.1.1' of https://github.com/auth0/Auth0.swift
+f09efe9a52732fdececaa87deb26403068671ca4	not-for-merge	tag '1.10.0' of https://github.com/auth0/Auth0.swift
+78466554ebcb97eee62335aa21300a359ea2b477	not-for-merge	tag '1.10.1' of https://github.com/auth0/Auth0.swift
+55d6b3df4704e259a27f4398dcf9d20a91ab3e3e	not-for-merge	tag '1.11.0' of https://github.com/auth0/Auth0.swift
+6501b7596e57de0b857237ea98f2a53cc02249d4	not-for-merge	tag '1.11.1' of https://github.com/auth0/Auth0.swift
+a868f5e5b69e18ba3fe9494e3f71bb2a4c64f876	not-for-merge	tag '1.12.0' of https://github.com/auth0/Auth0.swift
+0408c2d1306f59022bbeaecab11d8aa96107d09b	not-for-merge	tag '1.13.0' of https://github.com/auth0/Auth0.swift
+b5c27fd2d6d62a8d212fb1ab9aa9dda9111c545f	not-for-merge	tag '1.14.0' of https://github.com/auth0/Auth0.swift
+17aaf44b69365305104280606207d0762f617d57	not-for-merge	tag '1.14.1' of https://github.com/auth0/Auth0.swift
+0a075f211b96413ff834d8a6f75b1cbc5b341bdf	not-for-merge	tag '1.14.2' of https://github.com/auth0/Auth0.swift
+ee248eae3f733d9e0fc4091fc610f69667c15593	not-for-merge	tag '1.15.0' of https://github.com/auth0/Auth0.swift
+bac1dbcce253382f55745d6b9ed4525a97277624	not-for-merge	tag '1.16.0' of https://github.com/auth0/Auth0.swift
+5cb8d828bc40679e8da73d88f5626e314a70cfbe	not-for-merge	tag '1.16.1' of https://github.com/auth0/Auth0.swift
+819b447d2adeaffa71f57c19f5ab01b1e89c6023	not-for-merge	tag '1.17.0' of https://github.com/auth0/Auth0.swift
+b0673b40cb6d5fce1adc274034bfa5027aef35bb	not-for-merge	tag '1.17.1' of https://github.com/auth0/Auth0.swift
+e991f44921a1436b1fd0fb7c4ed7fb8b2372d0db	not-for-merge	tag '1.18.0' of https://github.com/auth0/Auth0.swift
+e3fa13e3b98766580dc2b9dfcc8b4ab730c7b157	not-for-merge	tag '1.19.0' of https://github.com/auth0/Auth0.swift
+a07fdffa990e676385c5222b74880073ed5713d3	not-for-merge	tag '1.19.1' of https://github.com/auth0/Auth0.swift
+18a6578f1d0292949bace61cfaa77118ead5fc8b	not-for-merge	tag '1.19.2' of https://github.com/auth0/Auth0.swift
+3a75edec30ee256778e7fb45ba4cf859b41a122e	not-for-merge	tag '1.19.3' of https://github.com/auth0/Auth0.swift
+5c08a89878af24af6974bcdf40b3489e9c0da289	not-for-merge	tag '1.2.0' of https://github.com/auth0/Auth0.swift
+fe1c15bf0816281c041ad3cb93483c8f0d3102c1	not-for-merge	tag '1.20.0' of https://github.com/auth0/Auth0.swift
+78bde87a1e610c3b0bda29fb79cb9c2d394e1517	not-for-merge	tag '1.21.0' of https://github.com/auth0/Auth0.swift
+1bdb25b3ffd107d8bedf0c05060ece1056524b07	not-for-merge	tag '1.22.0' of https://github.com/auth0/Auth0.swift
+5eff28a3df5c785834d3295b30a5c667535b393f	not-for-merge	tag '1.22.1' of https://github.com/auth0/Auth0.swift
+dd44af119a25000a0ccae2dda86ab670924238be	not-for-merge	tag '1.23.0' of https://github.com/auth0/Auth0.swift
+542adf77632e745e6cd2419d893276ec7d807c75	not-for-merge	tag '1.24.0' of https://github.com/auth0/Auth0.swift
+d9fdc6895a05201da79ddff682b48047e3a169b4	not-for-merge	tag '1.24.1' of https://github.com/auth0/Auth0.swift
+19e505c77670540d01ed51445a0691ef26fb5aaa	not-for-merge	tag '1.25.0' of https://github.com/auth0/Auth0.swift
+76b6844addecef7008118ba7a6bdc412653c377e	not-for-merge	tag '1.26.0' of https://github.com/auth0/Auth0.swift
+8cbc3e248f8406a363c42cd0f1b5e81f6d94b8a7	not-for-merge	tag '1.27.0' of https://github.com/auth0/Auth0.swift
+cbdd82eadcf156da5c7a1bb590b6b7458b464169	not-for-merge	tag '1.28.0' of https://github.com/auth0/Auth0.swift
+8c7fc2abc90038f96efdaa7ca48db61489a2fc04	not-for-merge	tag '1.29.0' of https://github.com/auth0/Auth0.swift
+fc07bf624c0cc915852c78ecda90dce471293c10	not-for-merge	tag '1.3.0' of https://github.com/auth0/Auth0.swift
+327d0595c15b047838feaffabd53872fb9252ec1	not-for-merge	tag '1.30.0' of https://github.com/auth0/Auth0.swift
+ae8643ee6f203773518d8c133c8ad5939839cd56	not-for-merge	tag '1.30.1' of https://github.com/auth0/Auth0.swift
+5773a1d44128ea8876df89cdcd116d97530f5ecf	not-for-merge	tag '1.31.0' of https://github.com/auth0/Auth0.swift
+8611154e0cbf22cb7e3405c800eacfaa9e73d9f6	not-for-merge	tag '1.31.1' of https://github.com/auth0/Auth0.swift
+4a2bf077367ee38447978edc4fd393bef2db59bf	not-for-merge	tag '1.32.0' of https://github.com/auth0/Auth0.swift
+368995c569cd15fd5b74bc4892c2826d3bd37f71	not-for-merge	tag '1.33.0' of https://github.com/auth0/Auth0.swift
+1710896df04525936f341777f2d36151d8c0186d	not-for-merge	tag '1.33.1' of https://github.com/auth0/Auth0.swift
+c7afecc70c6a52f98484c4153fa4f6fd54f3a1c8	not-for-merge	tag '1.34.0' of https://github.com/auth0/Auth0.swift
+9265aa7db2077c5585adf989c953a36f15777f2f	not-for-merge	tag '1.35.0' of https://github.com/auth0/Auth0.swift
+b27100c9d89238d3f428a2ea6b0899de36452be9	not-for-merge	tag '1.36.0' of https://github.com/auth0/Auth0.swift
+8b24d054d6c1c7fd6410d2c9b8a342b969a50909	not-for-merge	tag '1.37.0' of https://github.com/auth0/Auth0.swift
+bb735cdcee4c223cf47b993b84fccc812b6d2034	not-for-merge	tag '1.37.1' of https://github.com/auth0/Auth0.swift
+08e86c89afcdbdac457b5fe2571c30346f39c10f	not-for-merge	tag '1.38.0' of https://github.com/auth0/Auth0.swift
+443a88e0a48693e2e3ee158bee7c86d196f05eb0	not-for-merge	tag '1.38.1' of https://github.com/auth0/Auth0.swift
+2d38a3756ebcac1f4fcbbc93d4b0f2f5ec57f123	not-for-merge	tag '1.39.0' of https://github.com/auth0/Auth0.swift
+08897cbfb87b9a47ff35e0701bfd8b1bbd403815	not-for-merge	tag '1.39.1' of https://github.com/auth0/Auth0.swift
+8e61599308b7ca0306bc5efc6fa69cf51a638f31	not-for-merge	tag '1.4.0' of https://github.com/auth0/Auth0.swift
+e2ef7f9cc21dbfe113109ea1d96201608b54c0a8	not-for-merge	tag '1.5.0' of https://github.com/auth0/Auth0.swift
+f59aa799eca1a7ed05f0964a3eb2d4cbad25afb1	not-for-merge	tag '1.6.0' of https://github.com/auth0/Auth0.swift
+507667d412717c3ba3812f6a5851c376f43730b8	not-for-merge	tag '1.7.0' of https://github.com/auth0/Auth0.swift
+109eda4d520c7177bd760341046e57ceaf7fc2c5	not-for-merge	tag '1.7.1' of https://github.com/auth0/Auth0.swift
+87291694108989250f685997928a95860a6b3fa7	not-for-merge	tag '1.7.2' of https://github.com/auth0/Auth0.swift
+b8c4ae040cf45d90195a00a78db9189d8972eca0	not-for-merge	tag '1.8.0' of https://github.com/auth0/Auth0.swift
+05f0eadab380d12b921350e1b0d9c8b95352ade5	not-for-merge	tag '1.9.0' of https://github.com/auth0/Auth0.swift
+e1cb02764886405d9a59e853eb7c44efa0449832	not-for-merge	tag '1.9.1' of https://github.com/auth0/Auth0.swift
+0c2744f63917842ed96e5e78fe79a43673fd01a9	not-for-merge	tag '1.9.2' of https://github.com/auth0/Auth0.swift
+572541eba64950ffd1d26b34b4af58b03433479d	not-for-merge	tag '2.0.0' of https://github.com/auth0/Auth0.swift
+620c27712c3cef5c1a6064fc0c7ee62ac3dddb49	not-for-merge	tag '2.0.0-beta.0' of https://github.com/auth0/Auth0.swift
+517a39f6c59d76bc00bfeeb403075250f23fa871	not-for-merge	tag '2.0.0-beta.1' of https://github.com/auth0/Auth0.swift
+254b87a20b7ac088878f1fe3ff6ff45c07d835a0	not-for-merge	tag '2.0.1' of https://github.com/auth0/Auth0.swift
+dd1556579fa26404e16ff43ce8f0b042b36e15d3	not-for-merge	tag '2.1.0' of https://github.com/auth0/Auth0.swift
+1d5321310059ce692854903bf2b132a4e7ee6134	not-for-merge	tag '2.2.0' of https://github.com/auth0/Auth0.swift
+2e6e161a24553dbac0b230734639683c9aa64e22	not-for-merge	tag '2.3.0' of https://github.com/auth0/Auth0.swift
+1171d32726ccd5f18512b54e2b554d1e65feeee0	not-for-merge	tag '2.3.1' of https://github.com/auth0/Auth0.swift
+e61f635999fa3a0b91639db301c9729c6941bc06	not-for-merge	tag '2.3.2' of https://github.com/auth0/Auth0.swift
+dce68588ab77c31a92a764728ad0f653f2388816	not-for-merge	tag '2.4.0' of https://github.com/auth0/Auth0.swift
+8f25c8d02d6dfc3ae033a340624eaca1c1320a14	not-for-merge	tag '2.5.0' of https://github.com/auth0/Auth0.swift

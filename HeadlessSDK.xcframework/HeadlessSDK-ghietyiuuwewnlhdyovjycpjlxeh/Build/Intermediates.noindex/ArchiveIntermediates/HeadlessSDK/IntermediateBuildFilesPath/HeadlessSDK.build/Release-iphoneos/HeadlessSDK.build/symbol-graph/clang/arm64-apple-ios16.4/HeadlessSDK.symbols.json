@@ -1,0 +1,443 @@
+{
+  "metadata": {
+    "formatVersion": {
+      "major": 0,
+      "minor": 5,
+      "patch": 3
+    },
+    "generator": "Apple clang version 14.0.3 (clang-1403.0.22.14.1)"
+  },
+  "module": {
+    "name": "HeadlessSDK",
+    "platform": {
+      "architecture": "arm64",
+      "operatingSystem": {
+        "name": "ios"
+      },
+      "vendor": "apple"
+    }
+  },
+  "relationships": [],
+  "symbols": [
+    {
+      "accessLevel": "public",
+      "declarationFragments": [
+        {
+          "kind": "keyword",
+          "spelling": "extern"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "c:d",
+          "spelling": "double"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "identifier",
+          "spelling": "HeadlessSDKVersionNumber"
+        }
+      ],
+      "docComment": {
+        "lines": [
+          {
+            "range": {
+              "end": {
+                "character": 44,
+                "line": 10
+              },
+              "start": {
+                "character": 5,
+                "line": 10
+              }
+            },
+            "text": "Project version number for HeadlessSDK."
+          }
+        ]
+      },
+      "identifier": {
+        "interfaceLanguage": "objective-c",
+        "precise": "c:@HeadlessSDKVersionNumber"
+      },
+      "kind": {
+        "displayName": "Global Variable",
+        "identifier": "objective-c.var"
+      },
+      "location": {
+        "position": {
+          "character": 26,
+          "line": 11
+        },
+        "uri": "file:///Users/koleok/privy/ios-headless-sdk/HeadlessSDK/HeadlessSDK.h"
+      },
+      "names": {
+        "navigator": [
+          {
+            "kind": "identifier",
+            "spelling": "HeadlessSDKVersionNumber"
+          }
+        ],
+        "subHeading": [
+          {
+            "kind": "identifier",
+            "spelling": "HeadlessSDKVersionNumber"
+          }
+        ],
+        "title": "HeadlessSDKVersionNumber"
+      },
+      "pathComponents": [
+        "HeadlessSDKVersionNumber"
+      ]
+    },
+    {
+      "accessLevel": "public",
+      "declarationFragments": [
+        {
+          "kind": "keyword",
+          "spelling": "extern"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "keyword",
+          "spelling": "const"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "c:c",
+          "spelling": "unsigned char"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "identifier",
+          "spelling": "HeadlessSDKVersionString"
+        },
+        {
+          "kind": "text",
+          "spelling": "[]"
+        }
+      ],
+      "docComment": {
+        "lines": [
+          {
+            "range": {
+              "end": {
+                "character": 44,
+                "line": 13
+              },
+              "start": {
+                "character": 5,
+                "line": 13
+              }
+            },
+            "text": "Project version string for HeadlessSDK."
+          }
+        ]
+      },
+      "identifier": {
+        "interfaceLanguage": "objective-c",
+        "precise": "c:@HeadlessSDKVersionString"
+      },
+      "kind": {
+        "displayName": "Global Variable",
+        "identifier": "objective-c.var"
+      },
+      "location": {
+        "position": {
+          "character": 39,
+          "line": 14
+        },
+        "uri": "file:///Users/koleok/privy/ios-headless-sdk/HeadlessSDK/HeadlessSDK.h"
+      },
+      "names": {
+        "navigator": [
+          {
+            "kind": "identifier",
+            "spelling": "HeadlessSDKVersionString"
+          }
+        ],
+        "subHeading": [
+          {
+            "kind": "identifier",
+            "spelling": "HeadlessSDKVersionString"
+          }
+        ],
+        "title": "HeadlessSDKVersionString"
+      },
+      "pathComponents": [
+        "HeadlessSDKVersionString"
+      ]
+    },
+    {
+      "accessLevel": "public",
+      "declarationFragments": [
+        {
+          "kind": "keyword",
+          "spelling": "#define"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "identifier",
+          "spelling": "HEADLESSSDK_SWIFT_H"
+        }
+      ],
+      "identifier": {
+        "interfaceLanguage": "objective-c",
+        "precise": "c:HeadlessSDK-Swift.h@169@macro@HEADLESSSDK_SWIFT_H"
+      },
+      "kind": {
+        "displayName": "Macro",
+        "identifier": "objective-c.macro"
+      },
+      "location": {
+        "position": {
+          "character": 9,
+          "line": 5
+        },
+        "uri": "file:///Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/Release-iphoneos/HeadlessSDK.framework/Headers/HeadlessSDK-Swift.h"
+      },
+      "names": {
+        "navigator": [
+          {
+            "kind": "identifier",
+            "spelling": "HEADLESSSDK_SWIFT_H"
+          }
+        ],
+        "subHeading": [
+          {
+            "kind": "identifier",
+            "spelling": "HEADLESSSDK_SWIFT_H"
+          }
+        ],
+        "title": "HEADLESSSDK_SWIFT_H"
+      },
+      "pathComponents": [
+        "HEADLESSSDK_SWIFT_H"
+      ]
+    },
+    {
+      "accessLevel": "public",
+      "declarationFragments": [
+        {
+          "kind": "keyword",
+          "spelling": "#define"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "identifier",
+          "spelling": "SWIFT_ENUM_NAMED"
+        },
+        {
+          "kind": "text",
+          "spelling": "("
+        },
+        {
+          "kind": "internalParam",
+          "spelling": "_type"
+        },
+        {
+          "kind": "text",
+          "spelling": ", "
+        },
+        {
+          "kind": "internalParam",
+          "spelling": "_name"
+        },
+        {
+          "kind": "text",
+          "spelling": ", "
+        },
+        {
+          "kind": "internalParam",
+          "spelling": "SWIFT_NAME"
+        },
+        {
+          "kind": "text",
+          "spelling": ", "
+        },
+        {
+          "kind": "internalParam",
+          "spelling": "_extensibility"
+        },
+        {
+          "kind": "text",
+          "spelling": ")"
+        }
+      ],
+      "identifier": {
+        "interfaceLanguage": "objective-c",
+        "precise": "c:HeadlessSDK-Swift.h@6136@macro@SWIFT_ENUM_NAMED"
+      },
+      "kind": {
+        "displayName": "Macro",
+        "identifier": "objective-c.macro"
+      },
+      "location": {
+        "position": {
+          "character": 11,
+          "line": 190
+        },
+        "uri": "file:///Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/Release-iphoneos/HeadlessSDK.framework/Headers/HeadlessSDK-Swift.h"
+      },
+      "names": {
+        "navigator": [
+          {
+            "kind": "identifier",
+            "spelling": "SWIFT_ENUM_NAMED"
+          }
+        ],
+        "subHeading": [
+          {
+            "kind": "identifier",
+            "spelling": "SWIFT_ENUM_NAMED"
+          }
+        ],
+        "title": "SWIFT_ENUM_NAMED"
+      },
+      "pathComponents": [
+        "SWIFT_ENUM_NAMED"
+      ]
+    },
+    {
+      "accessLevel": "public",
+      "declarationFragments": [
+        {
+          "kind": "keyword",
+          "spelling": "typedef"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "c:@T@uint_least16_t",
+          "spelling": "uint_least16_t"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "identifier",
+          "spelling": "char16_t"
+        }
+      ],
+      "identifier": {
+        "interfaceLanguage": "objective-c",
+        "precise": "c:HeadlessSDK-Swift.h@T@char16_t"
+      },
+      "kind": {
+        "displayName": "Type Alias",
+        "identifier": "objective-c.typealias"
+      },
+      "location": {
+        "position": {
+          "character": 24,
+          "line": 59
+        },
+        "uri": "file:///Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/Release-iphoneos/HeadlessSDK.framework/Headers/HeadlessSDK-Swift.h"
+      },
+      "names": {
+        "navigator": [
+          {
+            "kind": "identifier",
+            "spelling": "char16_t"
+          }
+        ],
+        "subHeading": [
+          {
+            "kind": "identifier",
+            "spelling": "char16_t"
+          }
+        ],
+        "title": "char16_t"
+      },
+      "pathComponents": [
+        "char16_t"
+      ],
+      "type": "c:@T@uint_least16_t"
+    },
+    {
+      "accessLevel": "public",
+      "declarationFragments": [
+        {
+          "kind": "keyword",
+          "spelling": "typedef"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "typeIdentifier",
+          "preciseIdentifier": "c:@T@uint_least32_t",
+          "spelling": "uint_least32_t"
+        },
+        {
+          "kind": "text",
+          "spelling": " "
+        },
+        {
+          "kind": "identifier",
+          "spelling": "char32_t"
+        }
+      ],
+      "identifier": {
+        "interfaceLanguage": "objective-c",
+        "precise": "c:HeadlessSDK-Swift.h@T@char32_t"
+      },
+      "kind": {
+        "displayName": "Type Alias",
+        "identifier": "objective-c.typealias"
+      },
+      "location": {
+        "position": {
+          "character": 24,
+          "line": 60
+        },
+        "uri": "file:///Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/Release-iphoneos/HeadlessSDK.framework/Headers/HeadlessSDK-Swift.h"
+      },
+      "names": {
+        "navigator": [
+          {
+            "kind": "identifier",
+            "spelling": "char32_t"
+          }
+        ],
+        "subHeading": [
+          {
+            "kind": "identifier",
+            "spelling": "char32_t"
+          }
+        ],
+        "title": "char32_t"
+      },
+      "pathComponents": [
+        "char32_t"
+      ],
+      "type": "c:@T@uint_least32_t"
+    }
+  ]
+}

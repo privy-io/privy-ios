@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/Release-iphoneos/HeadlessSDK.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/IntermediateBuildFilesPath/HeadlessSDK.build/Release-iphoneos/HeadlessSDK.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/HeadlessSDK.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "HeadlessSDK-Swift.h",
+      'external-contents': "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/IntermediateBuildFilesPath/HeadlessSDK.build/Release-iphoneos/HeadlessSDK.build/unextended-interface-header.h",
+    }]
+    }]
+}

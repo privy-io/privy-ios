@@ -1,0 +1,61 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "auth0.swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/auth0/Auth0.swift",
+          "name" : "Auth0"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "9d970f3f5a694a146724e055c7932808a274d96e",
+            "version" : "2.5.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "Auth0.swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "jwtdecode.swift",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/auth0/JWTDecode.swift.git",
+          "name" : "JWTDecode"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "58af7278797871e460d79496621b3e5366b865b2",
+            "version" : "3.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "JWTDecode.swift"
+      },
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "simplekeychain",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/auth0/SimpleKeychain.git",
+          "name" : "SimpleKeychain"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "f082494aab8056139a4fe234c920a9f92f681aff",
+            "version" : "1.1.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "SimpleKeychain"
+      }
+    ]
+  },
+  "version" : 6
+}

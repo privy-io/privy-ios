@@ -1,0 +1,84 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bef56c17d90e1037ca96cb983419e9a58949a7d75778466038c13de483ae4326"
+    }
+  ],
+  "containerPath" : "/Users/koleok/privy/ios-headless-sdk/HeadlessSDK.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "install",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos16.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Products",
+      "derivedDataPath" : "/Users/koleok/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "install",
+          "ASSET_PACK_FOLDER_PATH" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/InstallationBuildProductsLocation/OnDemandResources",
+          "ASSETCATALOG_COMPILER_FLATTENED_APP_ICON_PATH" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/ProductIcon.png",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "DEPLOYMENT_LOCATION" : "YES",
+          "DEPLOYMENT_POSTPROCESSING" : "YES",
+          "diagnostic_message_length" : "178",
+          "DSTROOT" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/InstallationBuildProductsLocation",
+          "EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE" : "NO",
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ENABLE_DATA_STORE" : "NO",
+          "MESSAGES_APPLICATION_EXTENSION_SUPPORT_FOLDER_PATH" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/MessagesApplicationExtensionSupport",
+          "MESSAGES_APPLICATION_SUPPORT_FOLDER_PATH" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/MessagesApplicationSupport",
+          "OBJROOT" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/IntermediateBuildFilesPath",
+          "SHARED_PRECOMPS_DIR" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/PrecompiledHeaders",
+          "SWIFT_STDLIB_TOOL_UNSIGNED_DESTINATION_DIR" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/SwiftSupport",
+          "SYMROOT" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath",
+          "WATCHKIT_2_SUPPORT_FOLDER_PATH" : "/Users/koleok/Library/Developer/Xcode/DerivedData/HeadlessSDK-ghietyiuuwewnlhdyovjycpjlxeh/Build/Intermediates.noindex/ArchiveIntermediates/HeadlessSDK/BuildProductsPath/WatchKitSupport2"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "archive",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

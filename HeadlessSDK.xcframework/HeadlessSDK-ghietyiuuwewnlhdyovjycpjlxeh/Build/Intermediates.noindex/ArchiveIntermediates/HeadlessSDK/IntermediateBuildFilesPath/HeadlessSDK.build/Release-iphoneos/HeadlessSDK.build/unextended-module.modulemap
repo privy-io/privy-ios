@@ -1,0 +1,10 @@
+framework module HeadlessSDK {
+  umbrella header "HeadlessSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module HeadlessSDK.__Swift {
+  exclude header "HeadlessSDK-Swift.h"
+}
