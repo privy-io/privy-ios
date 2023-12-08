@@ -10070,8 +10070,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO7mainnetyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO7mainnetyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 0
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10108,8 +10107,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO6goerliyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO6goerliyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 1
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10146,8 +10144,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO8optimismyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO8optimismyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 2
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10184,8 +10181,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO5maticyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO5maticyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 3
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10222,8 +10218,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO15filecoinMainnetyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO15filecoinMainnetyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 4
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10260,8 +10255,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO14optimismGoerliyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO14optimismGoerliyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 5
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10298,8 +10292,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO4baseyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO4baseyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 6
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10336,8 +10329,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO8arbitrumyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO8arbitrumyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 7
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10374,8 +10366,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO4celoyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO4celoyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 8
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10412,8 +10403,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO13celoAlfajoresyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO13celoAlfajoresyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 9
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10450,8 +10440,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO13avalancheFujiyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO13avalancheFujiyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 10
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10488,8 +10477,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO9avalancheyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO9avalancheyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 11
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10526,8 +10514,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO12lineaTestnetyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO12lineaTestnetyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 12
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10564,8 +10551,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO12lineaMainnetyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO12lineaMainnetyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 13
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10602,8 +10588,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO13polygonMumbaiyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO13polygonMumbaiyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 14
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10640,8 +10625,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO10baseGoerliyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO10baseGoerliyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 15
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10678,8 +10662,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO19filecoinCalibrationyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO19filecoinCalibrationyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 16
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10716,8 +10699,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO14arbitrumGoerliyA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO14arbitrumGoerliyA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 17
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Var",
@@ -10754,8 +10736,7 @@
             "declKind": "EnumElement",
             "usr": "s:11HeadlessSDK14SupportedChainO7sepoliayA2CmF",
             "mangledName": "$s11HeadlessSDK14SupportedChainO7sepoliayA2CmF",
-            "moduleName": "HeadlessSDK",
-            "fixedbinaryorder": 18
+            "moduleName": "HeadlessSDK"
           },
           {
             "kind": "Constructor",
@@ -11219,8 +11200,10 @@
         "usr": "s:11HeadlessSDK14SupportedChainO",
         "mangledName": "$s11HeadlessSDK14SupportedChainO",
         "moduleName": "HeadlessSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
         "enumRawTypeName": "Int",
-        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -11309,13 +11292,6 @@
             ],
             "usr": "s:s12CaseIterableP",
             "mangledName": "$ss12CaseIterableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -23041,399 +23017,399 @@
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 180,
+      "offset": 187,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 229,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
+      "offset": 249,
       "length": 3,
       "value": "137"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 280,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 303,
+      "offset": 310,
       "length": 3,
       "value": "420"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 323,
+      "offset": 330,
       "length": 4,
       "value": "8453"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 348,
+      "offset": 355,
       "length": 5,
       "value": "42161"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 370,
+      "offset": 377,
       "length": 5,
       "value": "42220"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 401,
+      "offset": 408,
       "length": 5,
       "value": "44787"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 432,
+      "offset": 439,
       "length": 5,
       "value": "43113"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 459,
+      "offset": 466,
       "length": 5,
       "value": "43114"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 496,
       "length": 5,
       "value": "59140"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 526,
       "length": 5,
       "value": "59144"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 557,
       "length": 5,
       "value": "80001"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 578,
+      "offset": 585,
       "length": 5,
       "value": "84531"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 615,
+      "offset": 622,
       "length": 6,
       "value": "314159"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 655,
       "length": 6,
       "value": "421613"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 674,
+      "offset": 681,
       "length": 8,
       "value": "11155111"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 180,
+      "offset": 187,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 229,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
+      "offset": 249,
       "length": 3,
       "value": "137"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 280,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 303,
+      "offset": 310,
       "length": 3,
       "value": "420"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 323,
+      "offset": 330,
       "length": 4,
       "value": "8453"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 348,
+      "offset": 355,
       "length": 5,
       "value": "42161"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 370,
+      "offset": 377,
       "length": 5,
       "value": "42220"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 401,
+      "offset": 408,
       "length": 5,
       "value": "44787"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 432,
+      "offset": 439,
       "length": 5,
       "value": "43113"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 459,
+      "offset": 466,
       "length": 5,
       "value": "43114"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 496,
       "length": 5,
       "value": "59140"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 526,
       "length": 5,
       "value": "59144"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 557,
       "length": 5,
       "value": "80001"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 578,
+      "offset": 585,
       "length": 5,
       "value": "84531"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 615,
+      "offset": 622,
       "length": 6,
       "value": "314159"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 655,
       "length": 6,
       "value": "421613"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 674,
+      "offset": 681,
       "length": 8,
       "value": "11155111"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 180,
+      "offset": 187,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 200,
+      "offset": 207,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 229,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 242,
+      "offset": 249,
       "length": 3,
       "value": "137"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 273,
+      "offset": 280,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 303,
+      "offset": 310,
       "length": 3,
       "value": "420"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 323,
+      "offset": 330,
       "length": 4,
       "value": "8453"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 348,
+      "offset": 355,
       "length": 5,
       "value": "42161"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 370,
+      "offset": 377,
       "length": 5,
       "value": "42220"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 401,
+      "offset": 408,
       "length": 5,
       "value": "44787"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 432,
+      "offset": 439,
       "length": 5,
       "value": "43113"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 459,
+      "offset": 466,
       "length": 5,
       "value": "43114"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 496,
       "length": 5,
       "value": "59140"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 519,
+      "offset": 526,
       "length": 5,
       "value": "59144"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 550,
+      "offset": 557,
       "length": 5,
       "value": "80001"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 578,
+      "offset": 585,
       "length": 5,
       "value": "84531"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 615,
+      "offset": 622,
       "length": 6,
       "value": "314159"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 655,
       "length": 6,
       "value": "421613"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 674,
+      "offset": 681,
       "length": 8,
       "value": "11155111"
     },
@@ -23573,7 +23549,7 @@
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9199,
+      "offset": 9179,
       "length": 5,
       "value": "false"
     }

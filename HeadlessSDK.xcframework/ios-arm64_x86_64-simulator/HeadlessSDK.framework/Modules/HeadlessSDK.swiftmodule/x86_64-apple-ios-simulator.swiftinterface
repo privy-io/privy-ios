@@ -167,6 +167,63 @@ public struct PrivyConfig {
   public var baseUrl: Swift.String
   public init(appId: Swift.String)
 }
+public enum SupportedChain : Swift.Int, Swift.Identifiable, Swift.CaseIterable {
+  case mainnet
+  case goerli
+  case optimism
+  case matic
+  case filecoinMainnet
+  case optimismGoerli
+  case base
+  case arbitrum
+  case celo
+  case celoAlfajores
+  case avalancheFuji
+  case avalanche
+  case lineaTestnet
+  case lineaMainnet
+  case polygonMumbai
+  case baseGoerli
+  case filecoinCalibration
+  case arbitrumGoerli
+  case sepolia
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [HeadlessSDK.SupportedChain]
+  public typealias ID = Swift.Int
+  public typealias RawValue = Swift.Int
+  public static var allCases: [HeadlessSDK.SupportedChain] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension HeadlessSDK.SupportedChain {
+  public var id: Swift.Int {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var network: Swift.String {
+    get
+  }
+  public var nativeCurrency: HeadlessSDK.NativeCurrency {
+    get
+  }
+  public var rpcUrls: HeadlessSDK.RpcUrls {
+    get
+  }
+  public var blockExplorers: HeadlessSDK.BlockExplorers {
+    get
+  }
+  public var contracts: HeadlessSDK.Contracts? {
+    get
+  }
+  public var testnet: Swift.Bool {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class WalletRecoverer {
   @objc deinit
 }
@@ -315,6 +372,9 @@ public struct WalletRecoverRequest {
 }
 extension HeadlessSDK.PrivyEmbeddedWalletError : Swift.Equatable {}
 extension HeadlessSDK.PrivyEmbeddedWalletError : Swift.Hashable {}
+extension HeadlessSDK.SupportedChain : Swift.Equatable {}
+extension HeadlessSDK.SupportedChain : Swift.Hashable {}
+extension HeadlessSDK.SupportedChain : Swift.RawRepresentable {}
 extension HeadlessSDK.PrivyError : Swift.Equatable {}
 extension HeadlessSDK.PrivyError : Swift.Hashable {}
 extension HeadlessSDK.WalletRecoverRequest : Swift.Encodable {}
