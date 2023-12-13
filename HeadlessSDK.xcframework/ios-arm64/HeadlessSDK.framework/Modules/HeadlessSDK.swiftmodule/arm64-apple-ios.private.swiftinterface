@@ -167,7 +167,7 @@ public struct PrivyConfig {
   public var baseUrl: Swift.String
   public init(appId: Swift.String)
 }
-public enum SupportedChain : Swift.Int, Swift.Identifiable, Swift.CaseIterable {
+public enum SupportedChain : Swift.Int, Swift.Identifiable, Swift.CaseIterable, HeadlessSDK.Chainable {
   case mainnet
   case goerli
   case optimism
