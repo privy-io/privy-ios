@@ -8512,80 +8512,6 @@
           },
           {
             "kind": "Var",
-            "name": "invalidChainID",
-            "printedName": "invalidChainID",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(HeadlessSDK.PrivyEmbeddedWalletError.Type) -> HeadlessSDK.PrivyEmbeddedWalletError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PrivyEmbeddedWalletError",
-                    "printedName": "HeadlessSDK.PrivyEmbeddedWalletError",
-                    "usr": "s:11HeadlessSDK24PrivyEmbeddedWalletErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "HeadlessSDK.PrivyEmbeddedWalletError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PrivyEmbeddedWalletError",
-                        "printedName": "HeadlessSDK.PrivyEmbeddedWalletError",
-                        "usr": "s:11HeadlessSDK24PrivyEmbeddedWalletErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11HeadlessSDK24PrivyEmbeddedWalletErrorO14invalidChainIDyA2CmF",
-            "mangledName": "$s11HeadlessSDK24PrivyEmbeddedWalletErrorO14invalidChainIDyA2CmF",
-            "moduleName": "HeadlessSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "rpcUrlNotFound",
-            "printedName": "rpcUrlNotFound",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(HeadlessSDK.PrivyEmbeddedWalletError.Type) -> HeadlessSDK.PrivyEmbeddedWalletError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PrivyEmbeddedWalletError",
-                    "printedName": "HeadlessSDK.PrivyEmbeddedWalletError",
-                    "usr": "s:11HeadlessSDK24PrivyEmbeddedWalletErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "HeadlessSDK.PrivyEmbeddedWalletError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PrivyEmbeddedWalletError",
-                        "printedName": "HeadlessSDK.PrivyEmbeddedWalletError",
-                        "usr": "s:11HeadlessSDK24PrivyEmbeddedWalletErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11HeadlessSDK24PrivyEmbeddedWalletErrorO14rpcUrlNotFoundyA2CmF",
-            "mangledName": "$s11HeadlessSDK24PrivyEmbeddedWalletErrorO14rpcUrlNotFoundyA2CmF",
-            "moduleName": "HeadlessSDK"
-          },
-          {
-            "kind": "Var",
             "name": "rpcError",
             "printedName": "rpcError",
             "children": [
@@ -8810,98 +8736,9 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "chainId",
-            "printedName": "chainId",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivp",
-            "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivp",
-            "moduleName": "HeadlessSDK",
-            "isOpen": true,
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivg",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivg",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivs",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivs",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivM",
-                "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC7chainIdSivM",
-                "moduleName": "HeadlessSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(privy:address:chainId:rpcURL:)",
+            "printedName": "init(privy:address:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8920,41 +8757,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC5privy7address7chainId6rpcURLAcA5PrivyC_SSSiSgSSSgtKcfc",
-            "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC5privy7address7chainId6rpcURLAcA5PrivyC_SSSiSgSSSgtKcfc",
+            "usr": "s:11HeadlessSDK22EmbeddedWalletProviderC5privy7addressAcA5PrivyC_SStKcfc",
+            "mangledName": "$s11HeadlessSDK22EmbeddedWalletProviderC5privy7addressAcA5PrivyC_SStKcfc",
             "moduleName": "HeadlessSDK",
             "declAttributes": [
               "AccessControl"
@@ -9059,6 +8866,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "web3swift",
+        "printedName": "web3swift",
+        "declKind": "Import",
+        "moduleName": "HeadlessSDK"
       },
       {
         "kind": "TypeDecl",
@@ -20931,12 +20745,10 @@
             "isInternal": true,
             "declAttributes": [
               "HasInitialValue",
-              "Final",
               "HasStorage",
               "AccessControl"
             ],
             "fixedbinaryorder": 5,
-            "isLet": true,
             "hasStorage": true
           },
           {
@@ -21995,6 +21807,20 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "APIRequestParameterType",
+            "printedName": "APIRequestParameterType",
+            "usr": "s:8Web3Core23APIRequestParameterTypeP",
+            "mangledName": "$s8Web3Core23APIRequestParameterTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "APIResultType",
+            "printedName": "APIResultType",
+            "usr": "s:8Web3Core13APIResultTypeP",
+            "mangledName": "$s8Web3Core13APIResultTypeP"
           }
         ]
       }
@@ -23573,14 +23399,14 @@
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3296,
+      "offset": 3344,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/dalu\/Developer\/ios-headless-sdk\/HeadlessSDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9179,
+      "offset": 9226,
       "length": 5,
       "value": "false"
     }

@@ -9,6 +9,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import web3swift
 @_hasMissingDesignatedInitializers public class WalletCreator {
   @objc deinit
 }
@@ -117,8 +118,6 @@ public func toHexString(_ value: Any) -> Swift.String?
 public func hexStringToInt(_ hexString: Swift.String) -> Swift.Int?
 public enum PrivyEmbeddedWalletError : Swift.Error {
   case invalidParams
-  case invalidChainID
-  case rpcUrlNotFound
   case rpcError
   public static func == (a: HeadlessSDK.PrivyEmbeddedWalletError, b: HeadlessSDK.PrivyEmbeddedWalletError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -128,7 +127,6 @@ public enum PrivyEmbeddedWalletError : Swift.Error {
 }
 @_hasMissingDesignatedInitializers public class EmbeddedWalletProvider {
   final public let address: Swift.String
-  public var chainId: Swift.Int
   @objc deinit
 }
 extension HeadlessSDK.EmbeddedWalletProvider : Swift.Equatable {
