@@ -12,11 +12,11 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Privy",
-            targets: ["HeadlessSDK"]),
+            targets: ["PrivySDK"]),
     ],
     targets: [
         .binaryTarget(
-            name: "HeadlessSDK",
-            path: "HeadlessSDK.xcframework"),
+            name: "PrivySDK",
+            path: "PrivySDK.xcframework"),
     ]
 )
