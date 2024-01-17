@@ -1,0 +1,390 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PrivySDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PrivySDK
+import Swift
+import WebKit
+import _Concurrency
+import _StringProcessing
+public struct WalletConnectResponseData {
+  public let address: Swift.String
+}
+extension PrivySDK.WalletConnectResponseData : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol Chainable {
+  var id: Swift.Int { get }
+  var name: Swift.String { get }
+  var network: Swift.String { get }
+  var nativeCurrency: PrivySDK.NativeCurrency { get }
+  var rpcUrls: PrivySDK.RpcUrls { get }
+  var blockExplorers: PrivySDK.BlockExplorers { get }
+  var contracts: PrivySDK.Contracts? { get }
+  var testnet: Swift.Bool { get }
+}
+public struct NativeCurrency {
+  public let name: Swift.String
+  public let symbol: Swift.String
+  public let decimals: Swift.Int
+}
+public struct RpcUrl {
+  public let http: [Swift.String]
+  public let webSocket: [Swift.String]?
+}
+public struct RpcUrls {
+  public let `default`: PrivySDK.RpcUrl
+  public let `public`: PrivySDK.RpcUrl
+  public let blast: PrivySDK.RpcUrl?
+  public let alchemy: PrivySDK.RpcUrl?
+  public let infura: PrivySDK.RpcUrl?
+  public init(default: PrivySDK.RpcUrl, public: PrivySDK.RpcUrl, alchemy: PrivySDK.RpcUrl? = nil, infura: PrivySDK.RpcUrl? = nil, blast: PrivySDK.RpcUrl? = nil)
+}
+public struct BlockExplorer {
+  public let name: Swift.String
+  public let url: Swift.String
+}
+public struct BlockExplorers {
+  public let etherscan: PrivySDK.BlockExplorer
+  public let `default`: PrivySDK.BlockExplorer?
+  public let filscan: PrivySDK.BlockExplorer?
+  public init(etherscan: PrivySDK.BlockExplorer, default: PrivySDK.BlockExplorer? = nil, filscan: PrivySDK.BlockExplorer? = nil)
+}
+public struct Contracts {
+  public let multicall3: PrivySDK.Multicall3
+}
+public struct Multicall3 {
+  public let address: Swift.String
+  public let blockCreated: Swift.Int
+}
+public struct WalletRpcResponseData {
+  public let address: Swift.String
+  public let response: PrivySDK.WalletRpcResponseData.Response
+}
+extension PrivySDK.WalletRpcResponseData : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension PrivySDK.WalletRpcResponseData {
+  public struct Response {
+    public let method: Swift.String
+    public let data: Swift.String
+  }
+}
+extension PrivySDK.WalletRpcResponseData.Response : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct User {
+  public let id: Swift.String
+  public let createdAt: Swift.Int
+  public let linkedAccounts: [PrivySDK.LinkedAccount]
+}
+extension PrivySDK.User : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension PrivySDK.User : Swift.Equatable {
+  public static func == (lhs: PrivySDK.User, rhs: PrivySDK.User) -> Swift.Bool
+}
+public enum EmbeddedWalletState {
+  case connecting
+  case creating
+  case recovering
+  case disconnected
+  case notCreated
+  case needsRecovery
+  case connected(PrivySDK.EmbeddedWalletProvider, [PrivySDK.Wallet])
+  case error
+}
+extension PrivySDK.EmbeddedWalletState {
+  public var toString: Swift.String {
+    get
+  }
+}
+extension PrivySDK.EmbeddedWalletState : Swift.Equatable {
+  public static func == (lhs: PrivySDK.EmbeddedWalletState, rhs: PrivySDK.EmbeddedWalletState) -> Swift.Bool
+}
+public struct Utils {
+  public static func toHexString(_ value: Any) -> Swift.String?
+}
+public enum PrivyEmbeddedWalletError : Swift.Error {
+  case invalidParams
+  case rpcUrlNotFound
+  case rpcError
+  case unsupportedChain
+  case noRpcUrlFound
+  public static func == (a: PrivySDK.PrivyEmbeddedWalletError, b: PrivySDK.PrivyEmbeddedWalletError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class EmbeddedWalletProvider {
+  public var chainId: Swift.Int
+  @objc deinit
+}
+extension PrivySDK.EmbeddedWalletProvider : Swift.Equatable {
+  public static func == (lhs: PrivySDK.EmbeddedWalletProvider, rhs: PrivySDK.EmbeddedWalletProvider) -> Swift.Bool
+}
+extension PrivySDK.EmbeddedWalletProvider {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func request(_ request: PrivySDK.RpcRequest, _ address: Swift.String? = nil) async throws -> PrivySDK.WalletRpcResponseData
+  #endif
+  public func configure(chainId: Swift.Int, rpcUrl: Swift.String? = nil)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func createAdditionalWallet() async throws -> PrivySDK.WalletCreateResponseData
+  #endif
+}
+final public class Privy {
+  #if compiler(>=5.3) && $AsyncAwait
+  public typealias TokenProvider = () async throws -> Swift.String?
+  #endif
+  public typealias AuthStateChangeCallback = (PrivySDK.AuthState) -> Swift.Void
+  public typealias EmbeddedWalletStateChangeCallback = (PrivySDK.EmbeddedWalletState) -> Swift.Void
+  final public var tokenProvider: PrivySDK.Privy.TokenProvider?
+  final public var authState: PrivySDK.AuthState {
+    get
+  }
+  final public var embeddedWalletState: PrivySDK.EmbeddedWalletState {
+    get
+  }
+  final public let config: PrivySDK.PrivyConfig
+  final public var onAuthStateChange: PrivySDK.Privy.AuthStateChangeCallback?
+  final public var onEmbeddedWalletStateChange: PrivySDK.Privy.EmbeddedWalletStateChangeCallback?
+  public init(config: PrivySDK.PrivyConfig)
+  @objc deinit
+}
+extension PrivySDK.Privy {
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func loginWithCustomAccessToken() async throws -> PrivySDK.AuthState
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func refreshSession() async throws -> PrivySDK.AuthResponse
+  #endif
+  final public func logout()
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func createWallet(allowAdditional: Swift.Bool? = false) async throws -> PrivySDK.WalletCreateResponseData
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func connectWallet(retry: Swift.Bool = true) async throws -> PrivySDK.WalletConnectResponseData
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func recover() async throws -> PrivySDK.WalletRecoverResponseData
+  #endif
+  final public func getWallets() -> [PrivySDK.Wallet]
+}
+public struct PrivyConfig {
+  public let appId: Swift.String
+  public var baseUrl: Swift.String
+  public init(appId: Swift.String)
+}
+public enum SupportedChain : Swift.Int, Swift.Identifiable, Swift.CaseIterable, PrivySDK.Chainable {
+  case mainnet
+  case sepolia
+  case goerli
+  case base
+  case baseGoerli
+  case optimism
+  case matic
+  case filecoinMainnet
+  case optimismGoerli
+  case arbitrum
+  case celo
+  case celoAlfajores
+  case avalancheFuji
+  case avalanche
+  case lineaTestnet
+  case lineaMainnet
+  case polygonMumbai
+  case filecoinCalibration
+  case arbitrumGoerli
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [PrivySDK.SupportedChain]
+  public typealias ID = Swift.Int
+  public typealias RawValue = Swift.Int
+  public static var allCases: [PrivySDK.SupportedChain] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension PrivySDK.SupportedChain {
+  public var id: Swift.Int {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var network: Swift.String {
+    get
+  }
+  public var nativeCurrency: PrivySDK.NativeCurrency {
+    get
+  }
+  public var rpcUrls: PrivySDK.RpcUrls {
+    get
+  }
+  public var blockExplorers: PrivySDK.BlockExplorers {
+    get
+  }
+  public var contracts: PrivySDK.Contracts? {
+    get
+  }
+  public var testnet: Swift.Bool {
+    get
+  }
+}
+public enum PrivyWalletError {
+  case notConnected
+  case creationFailed(Swift.String)
+  case connectionFailed(Swift.String)
+  case recoveryFailed(Swift.String)
+  case noWalletAvailable
+  case maxNumberOfAdditionalWallet
+}
+extension PrivySDK.PrivyWalletError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct WalletCreateResponseData : Swift.Codable {
+  public let address: Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct AuthResponse : Swift.Equatable {
+  public let user: PrivySDK.User
+  public let token: Swift.String
+  public let refreshToken: Swift.String
+  public static func == (a: PrivySDK.AuthResponse, b: PrivySDK.AuthResponse) -> Swift.Bool
+}
+extension PrivySDK.AuthResponse : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Chain : PrivySDK.Chainable {
+  public let id: Swift.Int
+  public let name: Swift.String
+  public let network: Swift.String
+  public let nativeCurrency: PrivySDK.NativeCurrency
+  public let rpcUrls: PrivySDK.RpcUrls
+  public let blockExplorers: PrivySDK.BlockExplorers
+  public let contracts: PrivySDK.Contracts?
+  public let testnet: Swift.Bool
+  public init(id: Swift.Int, name: Swift.String, network: Swift.String, nativeCurrency: PrivySDK.NativeCurrency, rpcUrls: PrivySDK.RpcUrls, blockExplorers: PrivySDK.BlockExplorers, contracts: PrivySDK.Contracts? = nil, testnet: Swift.Bool = false)
+}
+public struct WalletSetPasswordResponseData {
+  public let address: Swift.String
+}
+extension PrivySDK.WalletSetPasswordResponseData : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum LinkedAccount {
+  case customAuth(PrivySDK.CustomAuth)
+  case wallet(PrivySDK.Wallet)
+}
+extension PrivySDK.LinkedAccount : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension PrivySDK.LinkedAccount : Swift.Hashable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public static func == (lhs: PrivySDK.LinkedAccount, rhs: PrivySDK.LinkedAccount) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct CustomAuth : Swift.Codable, Swift.Hashable {
+  public let customUserId: Swift.String
+  public let verifiedAt: Foundation.TimeInterval
+  public let type: Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: PrivySDK.CustomAuth, b: PrivySDK.CustomAuth) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Wallet : Swift.Codable, Swift.Hashable, Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public let type: Swift.String
+  public let address: Swift.String
+  public let chainId: Swift.String
+  public let walletClientType: Swift.String
+  public let connectorType: Swift.String?
+  public let recoveryMethod: Swift.String
+  public let verifiedAt: Foundation.TimeInterval
+  public let hdWalletIndex: Swift.Int
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: PrivySDK.Wallet, b: PrivySDK.Wallet) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum AuthState {
+  case notReady
+  case unauthenticated
+  case authenticated(PrivySDK.AuthResponse)
+  case error(Swift.Error)
+}
+extension PrivySDK.AuthState {
+  public var toString: Swift.String {
+    get
+  }
+}
+extension PrivySDK.AuthState : Swift.Equatable {
+  public static func == (lhs: PrivySDK.AuthState, rhs: PrivySDK.AuthState) -> Swift.Bool
+}
+public enum PrivyError {
+  case notReady
+  case notLoggedIn
+  case tokenError
+  case timeout
+  case dataParse
+  case secureContextFailed(Swift.Error)
+}
+extension PrivySDK.PrivyError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public struct JWT {
+}
+public struct RpcRequest {
+  public let method: Swift.String
+  public let params: [Swift.String]
+  public init(method: Swift.String, params: [Swift.String])
+}
+public struct WalletRecoverResponseData {
+  public let address: Swift.String
+}
+extension PrivySDK.WalletRecoverResponseData : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct WalletRecoverRequest {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension PrivySDK.PrivyEmbeddedWalletError : Swift.Equatable {}
+extension PrivySDK.PrivyEmbeddedWalletError : Swift.Hashable {}
+extension PrivySDK.SupportedChain : Swift.Equatable {}
+extension PrivySDK.SupportedChain : Swift.Hashable {}
+extension PrivySDK.SupportedChain : Swift.RawRepresentable {}
+extension PrivySDK.WalletRecoverRequest : Swift.Encodable {}
+extension PrivySDK.WalletRecoverRequest : Swift.Decodable {}
