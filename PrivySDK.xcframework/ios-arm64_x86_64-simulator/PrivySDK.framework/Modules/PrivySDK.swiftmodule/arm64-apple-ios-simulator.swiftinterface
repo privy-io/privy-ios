@@ -241,6 +241,7 @@ extension PrivySDK.SupportedChain {
 public enum PrivyWalletError {
   case notConnected
   case creationFailed(Swift.String)
+  case additionalWalletsBlocked
   case connectionFailed(Swift.String)
   case recoveryFailed(Swift.String)
   case noWalletAvailable
