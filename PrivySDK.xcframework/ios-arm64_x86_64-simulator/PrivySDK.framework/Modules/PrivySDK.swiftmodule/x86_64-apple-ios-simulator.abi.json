@@ -5940,6 +5940,43 @@
           },
           {
             "kind": "Var",
+            "name": "additionalWalletsBlocked",
+            "printedName": "additionalWalletsBlocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.PrivyWalletError.Type) -> PrivySDK.PrivyWalletError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyWalletError",
+                    "printedName": "PrivySDK.PrivyWalletError",
+                    "usr": "s:8PrivySDK0A11WalletErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.PrivyWalletError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrivyWalletError",
+                        "printedName": "PrivySDK.PrivyWalletError",
+                        "usr": "s:8PrivySDK0A11WalletErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK0A11WalletErrorO24additionalWalletsBlockedyA2CmF",
+            "mangledName": "$s8PrivySDK0A11WalletErrorO24additionalWalletsBlockedyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
             "name": "connectionFailed",
             "printedName": "connectionFailed",
             "children": [
@@ -10782,7 +10819,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "BooleanLiteral",
-      "offset": 5958,
+      "offset": 6438,
       "length": 4,
       "value": "true"
     },
