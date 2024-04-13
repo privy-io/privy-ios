@@ -1,7 +1,7 @@
 framework module PrivySDK {
   umbrella header "PrivySDK.h"
-
   export *
+
   module * { export * }
 }
 

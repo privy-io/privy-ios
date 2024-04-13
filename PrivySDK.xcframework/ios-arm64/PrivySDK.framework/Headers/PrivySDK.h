@@ -2,7 +2,6 @@
 //  PrivySDK.h
 //  PrivySDK
 //
-//  Created by Brielle Harrison on 7/9/23.
 //
 
 #import <Foundation/Foundation.h>
