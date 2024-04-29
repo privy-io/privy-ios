@@ -753,6 +753,361 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SiweFlowState",
+        "printedName": "SiweFlowState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initial",
+            "printedName": "initial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState.Type) -> PrivySDK.SiweFlowState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SiweFlowState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiweFlowState",
+                        "printedName": "PrivySDK.SiweFlowState",
+                        "usr": "s:8PrivySDK13SiweFlowStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13SiweFlowStateO7initialyA2CmF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO7initialyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "generatingMessage",
+            "printedName": "generatingMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState.Type) -> PrivySDK.SiweFlowState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SiweFlowState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiweFlowState",
+                        "printedName": "PrivySDK.SiweFlowState",
+                        "usr": "s:8PrivySDK13SiweFlowStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13SiweFlowStateO17generatingMessageyA2CmF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO17generatingMessageyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "awaitingSignature",
+            "printedName": "awaitingSignature",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState.Type) -> PrivySDK.SiweFlowState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SiweFlowState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiweFlowState",
+                        "printedName": "PrivySDK.SiweFlowState",
+                        "usr": "s:8PrivySDK13SiweFlowStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13SiweFlowStateO17awaitingSignatureyA2CmF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO17awaitingSignatureyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "submittingSignature",
+            "printedName": "submittingSignature",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState.Type) -> PrivySDK.SiweFlowState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SiweFlowState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiweFlowState",
+                        "printedName": "PrivySDK.SiweFlowState",
+                        "usr": "s:8PrivySDK13SiweFlowStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13SiweFlowStateO19submittingSignatureyA2CmF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO19submittingSignatureyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "done",
+            "printedName": "done",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState.Type) -> PrivySDK.SiweFlowState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SiweFlowState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiweFlowState",
+                        "printedName": "PrivySDK.SiweFlowState",
+                        "usr": "s:8PrivySDK13SiweFlowStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13SiweFlowStateO4doneyA2CmF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO4doneyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState.Type) -> PrivySDK.SiweFlowState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SiweFlowState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SiweFlowState",
+                        "printedName": "PrivySDK.SiweFlowState",
+                        "usr": "s:8PrivySDK13SiweFlowStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13SiweFlowStateO5erroryA2CmF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO5erroryA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweFlowState",
+                "printedName": "PrivySDK.SiweFlowState",
+                "usr": "s:8PrivySDK13SiweFlowStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweFlowState",
+                "printedName": "PrivySDK.SiweFlowState",
+                "usr": "s:8PrivySDK13SiweFlowStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13SiweFlowStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13SiweFlowStateO9hashValueSivp",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13SiweFlowStateO9hashValueSivg",
+                "mangledName": "$s8PrivySDK13SiweFlowStateO9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13SiweFlowStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK13SiweFlowStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK13SiweFlowStateO",
+        "mangledName": "$s8PrivySDK13SiweFlowStateO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "Chainable",
         "printedName": "Chainable",
         "children": [
@@ -2289,6 +2644,65 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "SiweMessageParams",
+        "printedName": "SiweMessageParams",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appDomain:appUri:chainId:walletAddress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK17SiweMessageParamsV9appDomain0F3Uri7chainId13walletAddressACSS_S3Stcfc",
+            "mangledName": "$s8PrivySDK17SiweMessageParamsV9appDomain0F3Uri7chainId13walletAddressACSS_S3Stcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK17SiweMessageParamsV",
+        "mangledName": "$s8PrivySDK17SiweMessageParamsV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2296,201 +2710,11 @@
         "moduleName": "PrivySDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "LoginType",
-        "printedName": "LoginType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "customAccessToken",
-            "printedName": "customAccessToken",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PrivySDK.LoginType.Type) -> (Swift.String) -> PrivySDK.LoginType",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> PrivySDK.LoginType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LoginType",
-                        "printedName": "PrivySDK.LoginType",
-                        "usr": "s:8PrivySDK9LoginTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(token: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PrivySDK.LoginType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LoginType",
-                        "printedName": "PrivySDK.LoginType",
-                        "usr": "s:8PrivySDK9LoginTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8PrivySDK9LoginTypeO17customAccessTokenyACSS_tcACmF",
-            "mangledName": "$s8PrivySDK9LoginTypeO17customAccessTokenyACSS_tcACmF",
-            "moduleName": "PrivySDK"
-          },
-          {
-            "kind": "Var",
-            "name": "email",
-            "printedName": "email",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PrivySDK.LoginType.Type) -> (Swift.String, Swift.String) -> PrivySDK.LoginType",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String) -> PrivySDK.LoginType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LoginType",
-                        "printedName": "PrivySDK.LoginType",
-                        "usr": "s:8PrivySDK9LoginTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String, code: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PrivySDK.LoginType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LoginType",
-                        "printedName": "PrivySDK.LoginType",
-                        "usr": "s:8PrivySDK9LoginTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8PrivySDK9LoginTypeO5emailyACSS_SStcACmF",
-            "mangledName": "$s8PrivySDK9LoginTypeO5emailyACSS_SStcACmF",
-            "moduleName": "PrivySDK"
-          },
-          {
-            "kind": "Var",
-            "name": "phone",
-            "printedName": "phone",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PrivySDK.LoginType.Type) -> (Swift.String, Swift.String) -> PrivySDK.LoginType",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String, Swift.String) -> PrivySDK.LoginType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LoginType",
-                        "printedName": "PrivySDK.LoginType",
-                        "usr": "s:8PrivySDK9LoginTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(Swift.String, code: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PrivySDK.LoginType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LoginType",
-                        "printedName": "PrivySDK.LoginType",
-                        "usr": "s:8PrivySDK9LoginTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8PrivySDK9LoginTypeO5phoneyACSS_SStcACmF",
-            "mangledName": "$s8PrivySDK9LoginTypeO5phoneyACSS_SStcACmF",
-            "moduleName": "PrivySDK"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8PrivySDK9LoginTypeO",
-        "mangledName": "$s8PrivySDK9LoginTypeO",
-        "moduleName": "PrivySDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -3207,6 +3431,2151 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalletLoginMetadata",
+        "printedName": "WalletLoginMetadata",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(walletClientType:connectorType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalletLoginMetadata",
+                "printedName": "PrivySDK.WalletLoginMetadata",
+                "usr": "s:8PrivySDK19WalletLoginMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletClientType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK19WalletLoginMetadataV16walletClientType09connectorH0AcA0cgH0OSg_SSSgtcfc",
+            "mangledName": "$s8PrivySDK19WalletLoginMetadataV16walletClientType09connectorH0AcA0cgH0OSg_SSSgtcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK19WalletLoginMetadataV",
+        "mangledName": "$s8PrivySDK19WalletLoginMetadataV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalletClientType",
+        "printedName": "WalletClientType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO5otheryA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO5otheryA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privy",
+            "printedName": "privy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO5privyyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO5privyyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coinbase_wallet",
+            "printedName": "coinbase_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO15coinbase_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO15coinbase_walletyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "metamask",
+            "printedName": "metamask",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO8metamaskyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO8metamaskyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trust",
+            "printedName": "trust",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO5trustyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO5trustyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "safe",
+            "printedName": "safe",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO4safeyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO4safeyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rainbow",
+            "printedName": "rainbow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7rainbowyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7rainbowyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "uniswap",
+            "printedName": "uniswap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7uniswapyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7uniswapyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "zerion",
+            "printedName": "zerion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6zerionyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6zerionyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "argent",
+            "printedName": "argent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6argentyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6argentyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "spot",
+            "printedName": "spot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO4spotyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO4spotyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "omni",
+            "printedName": "omni",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO4omniyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO4omniyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cryptocom",
+            "printedName": "cryptocom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO9cryptocomyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO9cryptocomyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "blockchain",
+            "printedName": "blockchain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO10blockchainyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO10blockchainyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "safepal",
+            "printedName": "safepal",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7safepalyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7safepalyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bitkeep",
+            "printedName": "bitkeep",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7bitkeepyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7bitkeepyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "zengo",
+            "printedName": "zengo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO5zengoyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO5zengoyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "oneInch",
+            "printedName": "oneInch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7oneInchyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7oneInchyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "binance",
+            "printedName": "binance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7binanceyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7binanceyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "exodus",
+            "printedName": "exodus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6exodusyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6exodusyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "mew_wallet",
+            "printedName": "mew_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO10mew_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO10mew_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "alphawallet",
+            "printedName": "alphawallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO11alphawalletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO11alphawalletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "keyring_pro",
+            "printedName": "keyring_pro",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO11keyring_proyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO11keyring_proyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "mathwallet",
+            "printedName": "mathwallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO10mathwalletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO10mathwalletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unstoppable",
+            "printedName": "unstoppable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO11unstoppableyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO11unstoppableyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "obvious",
+            "printedName": "obvious",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7obviousyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7obviousyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ambire",
+            "printedName": "ambire",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6ambireyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6ambireyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "internet_money_wallet",
+            "printedName": "internet_money_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO21internet_money_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO21internet_money_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "coin98",
+            "printedName": "coin98",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6coin98yA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6coin98yA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "abc_wallet",
+            "printedName": "abc_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO10abc_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO10abc_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "arculus_wallet",
+            "printedName": "arculus_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO14arculus_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO14arculus_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "haha",
+            "printedName": "haha",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO4hahayA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO4hahayA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cling_wallet",
+            "printedName": "cling_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO12cling_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO12cling_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "broearn",
+            "printedName": "broearn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7broearnyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7broearnyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "copiosa",
+            "printedName": "copiosa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7copiosayA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7copiosayA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "burrito_wallet",
+            "printedName": "burrito_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO14burrito_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO14burrito_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "enjin_wallet",
+            "printedName": "enjin_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO12enjin_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO12enjin_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "plasma_wallet",
+            "printedName": "plasma_wallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO13plasma_walletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO13plasma_walletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "avacus",
+            "printedName": "avacus",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6avacusyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6avacusyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bee",
+            "printedName": "bee",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO3beeyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO3beeyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "pitaka",
+            "printedName": "pitaka",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6pitakayA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6pitakayA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "pltwallet",
+            "printedName": "pltwallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO9pltwalletyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO9pltwalletyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "minerva",
+            "printedName": "minerva",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7minervayA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7minervayA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "kryptogo",
+            "printedName": "kryptogo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO8kryptogoyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO8kryptogoyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "prema",
+            "printedName": "prema",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO5premayA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO5premayA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "slingshot",
+            "printedName": "slingshot",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO9slingshotyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO9slingshotyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "kriptonio",
+            "printedName": "kriptonio",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO9kriptonioyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO9kriptonioyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "timeless",
+            "printedName": "timeless",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO8timelessyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO8timelessyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "secux",
+            "printedName": "secux",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO5secuxyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO5secuxyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "bitizen",
+            "printedName": "bitizen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO7bitizenyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO7bitizenyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "blocto",
+            "printedName": "blocto",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO6bloctoyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO6bloctoyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "safemoon",
+            "printedName": "safemoon",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.WalletClientType.Type) -> PrivySDK.WalletClientType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.WalletClientType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletClientType",
+                        "printedName": "PrivySDK.WalletClientType",
+                        "usr": "s:8PrivySDK16WalletClientTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16WalletClientTypeO8safemoonyA2CmF",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO8safemoonyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK16WalletClientTypeO8rawValueSSvp",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO8rawValueSSvp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK16WalletClientTypeO8rawValueSSvg",
+                "mangledName": "$s8PrivySDK16WalletClientTypeO8rawValueSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletClientType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletClientType",
+                    "printedName": "PrivySDK.WalletClientType",
+                    "usr": "s:8PrivySDK16WalletClientTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK16WalletClientTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8PrivySDK16WalletClientTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK16WalletClientTypeO",
+        "mangledName": "$s8PrivySDK16WalletClientTypeO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -5040,6 +7409,55 @@
                 "declKind": "Accessor",
                 "usr": "s:8PrivySDK0A0C3smsAA12LoginWithSms_pvg",
                 "mangledName": "$s8PrivySDK0A0C3smsAA12LoginWithSms_pvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "siwe",
+            "printedName": "siwe",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginWithSiwe",
+                "printedName": "PrivySDK.LoginWithSiwe",
+                "usr": "s:8PrivySDK13LoginWithSiweP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A0C4siweAA13LoginWithSiwe_pvp",
+            "mangledName": "$s8PrivySDK0A0C4siweAA13LoginWithSiwe_pvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithSiwe",
+                    "printedName": "PrivySDK.LoginWithSiwe",
+                    "usr": "s:8PrivySDK13LoginWithSiweP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A0C4siweAA13LoginWithSiwe_pvg",
+                "mangledName": "$s8PrivySDK0A0C4siweAA13LoginWithSiwe_pvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "declAttributes": [
@@ -8609,8 +11027,8 @@
           },
           {
             "kind": "Var",
-            "name": "wallet",
-            "printedName": "wallet",
+            "name": "embeddedWallet",
+            "printedName": "embeddedWallet",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -8653,8 +11071,58 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK13LinkedAccountO6walletyAcA6WalletVcACmF",
-            "mangledName": "$s8PrivySDK13LinkedAccountO6walletyAcA6WalletVcACmF",
+            "usr": "s:8PrivySDK13LinkedAccountO14embeddedWalletyAcA0F0VcACmF",
+            "mangledName": "$s8PrivySDK13LinkedAccountO14embeddedWalletyAcA0F0VcACmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "externalWallet",
+            "printedName": "externalWallet",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LinkedAccount.Type) -> (PrivySDK.Wallet) -> PrivySDK.LinkedAccount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.Wallet) -> PrivySDK.LinkedAccount",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Wallet",
+                        "printedName": "PrivySDK.Wallet",
+                        "usr": "s:8PrivySDK6WalletV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LinkedAccount.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13LinkedAccountO14externalWalletyAcA0F0VcACmF",
+            "mangledName": "$s8PrivySDK13LinkedAccountO14externalWalletyAcA0F0VcACmF",
             "moduleName": "PrivySDK"
           },
           {
@@ -9489,14 +11957,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK6WalletV7chainIdSSvp",
-            "mangledName": "$s8PrivySDK6WalletV7chainIdSSvp",
+            "usr": "s:8PrivySDK6WalletV7chainIdSSSgvp",
+            "mangledName": "$s8PrivySDK6WalletV7chainIdSSSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -9513,14 +11989,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK6WalletV7chainIdSSvg",
-                "mangledName": "$s8PrivySDK6WalletV7chainIdSSvg",
+                "usr": "s:8PrivySDK6WalletV7chainIdSSSgvg",
+                "mangledName": "$s8PrivySDK6WalletV7chainIdSSSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9534,14 +12018,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK6WalletV16walletClientTypeSSvp",
-            "mangledName": "$s8PrivySDK6WalletV16walletClientTypeSSvp",
+            "usr": "s:8PrivySDK6WalletV16walletClientTypeSSSgvp",
+            "mangledName": "$s8PrivySDK6WalletV16walletClientTypeSSSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -9558,14 +12050,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK6WalletV16walletClientTypeSSvg",
-                "mangledName": "$s8PrivySDK6WalletV16walletClientTypeSSvg",
+                "usr": "s:8PrivySDK6WalletV16walletClientTypeSSSgvg",
+                "mangledName": "$s8PrivySDK6WalletV16walletClientTypeSSSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9640,14 +12140,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK6WalletV14recoveryMethodSSvp",
-            "mangledName": "$s8PrivySDK6WalletV14recoveryMethodSSvp",
+            "usr": "s:8PrivySDK6WalletV14recoveryMethodSSSgvp",
+            "mangledName": "$s8PrivySDK6WalletV14recoveryMethodSSSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -9664,14 +12172,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK6WalletV14recoveryMethodSSvg",
-                "mangledName": "$s8PrivySDK6WalletV14recoveryMethodSSvg",
+                "usr": "s:8PrivySDK6WalletV14recoveryMethodSSSgvg",
+                "mangledName": "$s8PrivySDK6WalletV14recoveryMethodSSSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9730,14 +12246,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK6WalletV02hdC5IndexSivp",
-            "mangledName": "$s8PrivySDK6WalletV02hdC5IndexSivp",
+            "usr": "s:8PrivySDK6WalletV02hdC5IndexSiSgvp",
+            "mangledName": "$s8PrivySDK6WalletV02hdC5IndexSiSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -9754,14 +12278,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK6WalletV02hdC5IndexSivg",
-                "mangledName": "$s8PrivySDK6WalletV02hdC5IndexSivg",
+                "usr": "s:8PrivySDK6WalletV02hdC5IndexSiSgvg",
+                "mangledName": "$s8PrivySDK6WalletV02hdC5IndexSiSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11679,6 +14211,13 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "JWT",
         "printedName": "JWT",
@@ -11738,6 +14277,264 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginWithSiweError",
+        "printedName": "LoginWithSiweError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "generateMessageFailure",
+            "printedName": "generateMessageFailure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LoginWithSiweError.Type) -> PrivySDK.LoginWithSiweError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithSiweError",
+                    "printedName": "PrivySDK.LoginWithSiweError",
+                    "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LoginWithSiweError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginWithSiweError",
+                        "printedName": "PrivySDK.LoginWithSiweError",
+                        "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK18LoginWithSiweErrorO22generateMessageFailureyA2CmF",
+            "mangledName": "$s8PrivySDK18LoginWithSiweErrorO22generateMessageFailureyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "chainIdNotSpecified",
+            "printedName": "chainIdNotSpecified",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LoginWithSiweError.Type) -> PrivySDK.LoginWithSiweError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithSiweError",
+                    "printedName": "PrivySDK.LoginWithSiweError",
+                    "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LoginWithSiweError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginWithSiweError",
+                        "printedName": "PrivySDK.LoginWithSiweError",
+                        "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK18LoginWithSiweErrorO19chainIdNotSpecifiedyA2CmF",
+            "mangledName": "$s8PrivySDK18LoginWithSiweErrorO19chainIdNotSpecifiedyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "missingGeneratedMessage",
+            "printedName": "missingGeneratedMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LoginWithSiweError.Type) -> PrivySDK.LoginWithSiweError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithSiweError",
+                    "printedName": "PrivySDK.LoginWithSiweError",
+                    "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LoginWithSiweError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginWithSiweError",
+                        "printedName": "PrivySDK.LoginWithSiweError",
+                        "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK18LoginWithSiweErrorO23missingGeneratedMessageyA2CmF",
+            "mangledName": "$s8PrivySDK18LoginWithSiweErrorO23missingGeneratedMessageyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginWithSiweError",
+                "printedName": "PrivySDK.LoginWithSiweError",
+                "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginWithSiweError",
+                "printedName": "PrivySDK.LoginWithSiweError",
+                "usr": "s:8PrivySDK18LoginWithSiweErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18LoginWithSiweErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK18LoginWithSiweErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18LoginWithSiweErrorO9hashValueSivp",
+            "mangledName": "$s8PrivySDK18LoginWithSiweErrorO9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18LoginWithSiweErrorO9hashValueSivg",
+                "mangledName": "$s8PrivySDK18LoginWithSiweErrorO9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18LoginWithSiweErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK18LoginWithSiweErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK18LoginWithSiweErrorO",
+        "mangledName": "$s8PrivySDK18LoginWithSiweErrorO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -12375,6 +15172,275 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "LoginWithSiwe",
+        "printedName": "LoginWithSiwe",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "siweFlowSate",
+            "printedName": "siweFlowSate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SiweFlowState",
+                "printedName": "PrivySDK.SiweFlowState",
+                "usr": "s:8PrivySDK13SiweFlowStateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13LoginWithSiweP12siweFlowSateAA0eG5StateOvp",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP12siweFlowSateAA0eG5StateOvp",
+            "moduleName": "PrivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13LoginWithSiweP12siweFlowSateAA0eG5StateOvg",
+                "mangledName": "$s8PrivySDK13LoginWithSiweP12siweFlowSateAA0eG5StateOvg",
+                "moduleName": "PrivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+                "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setSiweFlowStateChangeCallback",
+            "printedName": "setSiweFlowStateChangeCallback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SiweFlowState) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SiweFlowState",
+                    "printedName": "PrivySDK.SiweFlowState",
+                    "usr": "s:8PrivySDK13SiweFlowStateO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP03setE23FlowStateChangeCallbackyyyAA0egH0OcF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP03setE23FlowStateChangeCallbackyyyAA0egH0OcF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateSiweMessage",
+            "printedName": "generateSiweMessage(params:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP08generateE7Message6params8metadataSSAA0eG6ParamsV_AA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP08generateE7Message6params8metadataSSAA0eG6ParamsV_AA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginWithSiwe",
+            "printedName": "loginWithSiwe(_:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP05logindE0_8metadataAA9AuthStateOSS_AA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP05logindE0_8metadataAA9AuthStateOSS_AA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateSiweMessage",
+            "printedName": "generateSiweMessage(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE08generateE7Message6paramsSSAA0eG6ParamsV_tYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE08generateE7Message6paramsSSAA0eG6ParamsV_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginWithSiwe",
+            "printedName": "loginWithSiwe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE05logindE0yAA9AuthStateOSSYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE05logindE0yAA9AuthStateOSSYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8PrivySDK13LoginWithSiweP",
+        "mangledName": "$s8PrivySDK13LoginWithSiweP",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
@@ -12430,28 +15496,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2258,
+      "offset": 2470,
       "length": 63,
       "value": "\"Successfully deleted auth in keychain: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2320,
+      "offset": 2532,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5284,
+      "offset": 5496,
       "length": 12,
       "value": "\"authTokens\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5338,
+      "offset": 5550,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -13459,210 +16525,280 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 1072,
+      "offset": 1048,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 1527,
+      "offset": 1522,
+      "length": 19,
+      "value": "\"\/api\/v1\/siwe\/init\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 9,
+      "value": "\"address\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "Array",
+      "offset": 1778,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2044,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 2471,
       "length": 43,
       "value": "\"\/api\/v1\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 1556,
+      "offset": 2500,
       "length": 1,
       "value": "\"\/authenticate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "Array",
-      "offset": 1756,
+      "offset": 2708,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 2021,
+      "offset": 2973,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2437,
+      "offset": 3397,
       "length": 18,
       "value": "\"\/api\/v1\/sessions\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2611,
+      "offset": 3571,
       "length": 15,
       "value": "\"refresh_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "Array",
-      "offset": 2652,
+      "offset": 3612,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 2918,
+      "offset": 3878,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3466,
+      "offset": 4434,
       "length": 44,
       "value": "\"=============REQUEST START==============\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3538,
+      "offset": 4506,
       "length": 36,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3558,
+      "offset": 4526,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3571,
+      "offset": 4539,
       "length": 1,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3603,
+      "offset": 4571,
       "length": 12,
       "value": "\"Headers:\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3644,
+      "offset": 4612,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3673,
+      "offset": 4641,
       "length": 1,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3705,
+      "offset": 4673,
       "length": 9,
       "value": "\"Body:\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3827,
+      "offset": 4795,
       "length": 44,
       "value": "\"\n=============REQUEST END==============\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4050,
+      "offset": 5018,
       "length": 20,
       "value": "\"custom_jwt_account\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4118,
+      "offset": 5086,
       "length": 14,
       "value": "\"passwordless\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4180,
+      "offset": 5148,
       "length": 18,
       "value": "\"passwordless_sms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 5210,
+      "length": 6,
+      "value": "\"siwe\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 5371,
       "length": 7,
       "value": "\"token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4432,
+      "offset": 5450,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4448,
+      "offset": 5466,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4531,
+      "offset": 5549,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4559,
+      "offset": 5577,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4726,
+      "offset": 5811,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 5843,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 5879,
+      "length": 9,
+      "value": "\"chainId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 5987,
+      "length": 18,
+      "value": "\"walletClientType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 6118,
+      "length": 15,
+      "value": "\"connectorType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 6333,
       "length": 14,
       "value": "\"passwordless\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4785,
+      "offset": 6392,
       "length": 18,
       "value": "\"passwordless_sms\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4946,
+      "offset": 6553,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5021,
+      "offset": 6628,
       "length": 13,
       "value": "\"phoneNumber\""
     },
@@ -13693,6 +16829,20 @@
       "offset": 323,
       "length": 17,
       "value": "\"linked_accounts\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/GenerateSiweMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/GenerateSiweMessageResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 12,
+      "value": "\"expires_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
@@ -14138,126 +17288,133 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 3819,
+      "offset": 3972,
       "length": 45,
       "value": "\"Error Loading Secure Privy Context \""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 3863,
+      "offset": 4016,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "BooleanLiteral",
-      "offset": 5164,
+      "offset": 5317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "BooleanLiteral",
-      "offset": 5602,
+      "offset": 5755,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 5828,
+      "offset": 5981,
       "length": 26,
       "value": "\"Wallet cannot be created\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 5972,
+      "offset": 6125,
       "length": 46,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 5985,
+      "offset": 6138,
       "length": 2,
       "value": "\" on this device without recovery\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 6091,
+      "offset": 6244,
       "length": 53,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 6104,
+      "offset": 6257,
       "length": 3,
       "value": "\" due to error setting up secure context\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 6246,
+      "offset": 6399,
       "length": 55,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 6259,
+      "offset": 6412,
       "length": 1,
       "value": "\", another wallet operation is in progress\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "BooleanLiteral",
-      "offset": 6557,
+      "offset": 6710,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "IntegerLiteral",
-      "offset": 6682,
+      "offset": 6835,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "BooleanLiteral",
-      "offset": 7626,
+      "offset": 7779,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "StringLiteral",
-      "offset": 8644,
+      "offset": 8797,
       "length": 22,
       "value": "\"wallet_not_on_device\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "BooleanLiteral",
-      "offset": 9074,
+      "offset": 9227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "Array",
-      "offset": 10610,
+      "offset": 10763,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/Privy.swift",
       "kind": "IntegerLiteral",
-      "offset": 11381,
+      "offset": 11849,
       "length": 1,
       "value": "0"
     },
@@ -16938,308 +20095,350 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 528,
+      "offset": 568,
       "length": 13,
       "value": "\"custom_auth\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 646,
+      "offset": 686,
       "length": 8,
       "value": "\"wallet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 921,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 1046,
       "length": 7,
       "value": "\"phone\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 1122,
+      "offset": 1292,
       "length": 20,
       "value": "\"Invalid enum value\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1544,
       "length": 13,
       "value": "\"custom_auth\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 1510,
+      "offset": 1688,
       "length": 8,
       "value": "\"wallet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 1648,
+      "offset": 1827,
+      "length": 8,
+      "value": "\"wallet\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 1965,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 1799,
+      "offset": 2116,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2381,
       "length": 39,
       "value": "\"customAuth-\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2102,
+      "offset": 2419,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2150,
+      "offset": 2475,
       "length": 26,
       "value": "\"wallet-\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2175,
+      "offset": 2500,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2556,
+      "length": 26,
+      "value": "\"wallet-\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 2581,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 2634,
       "length": 29,
       "value": "\"email-\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2662,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2315,
+      "offset": 2721,
       "length": 47,
       "value": "\"phoneNumber-\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2361,
+      "offset": 2767,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "BooleanLiteral",
-      "offset": 2703,
+      "offset": 3230,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 3398,
       "length": 12,
       "value": "\"customAuth\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 2985,
+      "offset": 3520,
       "length": 8,
       "value": "\"wallet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
+      "offset": 3634,
+      "length": 8,
+      "value": "\"wallet\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 3745,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3218,
+      "offset": 3867,
       "length": 13,
       "value": "\"phoneNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 4344,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3738,
+      "offset": 4387,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 4344,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 3738,
+      "offset": 4387,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 6397,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5785,
+      "offset": 6440,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5835,
+      "offset": 6490,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5878,
+      "offset": 6533,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 6577,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5969,
+      "offset": 6624,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 6397,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5785,
+      "offset": 6440,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5835,
+      "offset": 6490,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5878,
+      "offset": 6533,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5922,
+      "offset": 6577,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 5969,
+      "offset": 6624,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 6276,
+      "offset": 6746,
+      "length": 7,
+      "value": "\"privy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 6774,
+      "length": 10,
+      "value": "\"embedded\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
+      "kind": "StringLiteral",
+      "offset": 7077,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 6312,
+      "offset": 7113,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 6276,
+      "offset": 7077,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 6312,
+      "offset": 7113,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 6665,
+      "offset": 7466,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccount.swift",
       "kind": "StringLiteral",
-      "offset": 6665,
+      "offset": 7466,
       "length": 13,
       "value": "\"verified_at\""
     },
@@ -17669,6 +20868,69 @@
       "offset": 1719,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 120,
+      "value": "\"By signing, you are proving you own this wallet and logging in. This does not initiate a transaction or cost any fees.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3417,
+      "length": 389,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3448,
+      "length": 5,
+      "value": "\" wants you to sign in with your Ethereum account:\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3529,
+      "length": 1,
+      "value": "\"\n\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3580,
+      "length": 3,
+      "value": "\"\n\nURI: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3619,
+      "length": 7,
+      "value": "\"\nVersion: 1\nChain ID: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3674,
+      "length": 5,
+      "value": "\"\nNonce: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3707,
+      "length": 6,
+      "value": "\"\nIssued At: \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 3748,
+      "length": 9,
+      "value": "\"\nResources:\n- https:\/\/privy.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
