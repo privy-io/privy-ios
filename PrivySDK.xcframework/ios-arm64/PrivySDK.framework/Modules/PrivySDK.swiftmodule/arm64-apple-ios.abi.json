@@ -8082,6 +8082,43 @@
           },
           {
             "kind": "Var",
+            "name": "baseSepolia",
+            "printedName": "baseSepolia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.SupportedChain.Type) -> PrivySDK.SupportedChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SupportedChain",
+                    "printedName": "PrivySDK.SupportedChain",
+                    "usr": "s:8PrivySDK14SupportedChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.SupportedChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SupportedChain",
+                        "printedName": "PrivySDK.SupportedChain",
+                        "usr": "s:8PrivySDK14SupportedChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK14SupportedChainO11baseSepoliayA2CmF",
+            "mangledName": "$s8PrivySDK14SupportedChainO11baseSepoliayA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
             "name": "optimism",
             "printedName": "optimism",
             "children": [
@@ -17484,98 +17521,105 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 230,
+      "offset": 233,
+      "length": 5,
+      "value": "84532"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 250,
+      "offset": 279,
       "length": 3,
       "value": "137"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 281,
+      "offset": 310,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 340,
       "length": 3,
       "value": "420"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 364,
       "length": 5,
       "value": "42161"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 386,
       "length": 5,
       "value": "42220"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 388,
+      "offset": 417,
       "length": 5,
       "value": "44787"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 419,
+      "offset": 448,
       "length": 5,
       "value": "43113"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 446,
+      "offset": 475,
       "length": 5,
       "value": "43114"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 505,
       "length": 5,
       "value": "59140"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 506,
+      "offset": 535,
       "length": 5,
       "value": "59144"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 566,
       "length": 5,
       "value": "80001"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 574,
+      "offset": 603,
       "length": 6,
       "value": "314159"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 636,
       "length": 6,
       "value": "421613"
     },
@@ -17617,98 +17661,105 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 230,
+      "offset": 233,
+      "length": 5,
+      "value": "84532"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 250,
+      "offset": 279,
       "length": 3,
       "value": "137"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 281,
+      "offset": 310,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 340,
       "length": 3,
       "value": "420"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 364,
       "length": 5,
       "value": "42161"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 386,
       "length": 5,
       "value": "42220"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 388,
+      "offset": 417,
       "length": 5,
       "value": "44787"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 419,
+      "offset": 448,
       "length": 5,
       "value": "43113"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 446,
+      "offset": 475,
       "length": 5,
       "value": "43114"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 505,
       "length": 5,
       "value": "59140"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 506,
+      "offset": 535,
       "length": 5,
       "value": "59144"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 566,
       "length": 5,
       "value": "80001"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 574,
+      "offset": 603,
       "length": 6,
       "value": "314159"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 636,
       "length": 6,
       "value": "421613"
     },
@@ -17750,2254 +17801,2359 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 230,
+      "offset": 233,
+      "length": 5,
+      "value": "84532"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 250,
+      "offset": 279,
       "length": 3,
       "value": "137"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 281,
+      "offset": 310,
       "length": 3,
       "value": "314"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 311,
+      "offset": 340,
       "length": 3,
       "value": "420"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 335,
+      "offset": 364,
       "length": 5,
       "value": "42161"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 386,
       "length": 5,
       "value": "42220"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 388,
+      "offset": 417,
       "length": 5,
       "value": "44787"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 419,
+      "offset": 448,
       "length": 5,
       "value": "43113"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 446,
+      "offset": 475,
       "length": 5,
       "value": "43114"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 476,
+      "offset": 505,
       "length": 5,
       "value": "59140"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 506,
+      "offset": 535,
       "length": 5,
       "value": "59144"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 566,
       "length": 5,
       "value": "80001"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 574,
+      "offset": 603,
       "length": 6,
       "value": "314159"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 607,
+      "offset": 636,
       "length": 6,
       "value": "421613"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 787,
+      "offset": 816,
       "length": 10,
       "value": "\"Ethereum\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 868,
       "length": 8,
       "value": "\"Goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 891,
+      "offset": 920,
       "length": 12,
       "value": "\"OP Mainnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 973,
       "length": 9,
       "value": "\"Polygon\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1033,
       "length": 18,
       "value": "\"Filecoin Mainnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
+      "offset": 1101,
       "length": 17,
       "value": "\"Optimism Goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1129,
+      "offset": 1158,
       "length": 6,
       "value": "\"Base\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1211,
+      "length": 14,
+      "value": "\"Base Sepolia\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 1269,
       "length": 14,
       "value": "\"Arbitrum One\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1323,
       "length": 6,
       "value": "\"Celo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1288,
+      "offset": 1378,
       "length": 16,
       "value": "\"Avalanche Fuji\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1443,
       "length": 11,
       "value": "\"Avalanche\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1409,
+      "offset": 1499,
       "length": 11,
       "value": "\"Alfajores\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1468,
+      "offset": 1558,
       "length": 22,
       "value": "\"Linea Goerli Testnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1628,
       "length": 15,
       "value": "\"Linea Mainnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1602,
+      "offset": 1692,
       "length": 16,
       "value": "\"Polygon Mumbai\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1664,
+      "offset": 1754,
       "length": 13,
       "value": "\"Base Goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1732,
+      "offset": 1822,
       "length": 22,
       "value": "\"Filecoin Calibration\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1804,
+      "offset": 1894,
       "length": 17,
       "value": "\"Arbitrum Goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 1954,
       "length": 9,
       "value": "\"Sepolia\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 1988,
+      "offset": 2078,
       "length": 11,
       "value": "\"homestead\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2041,
+      "offset": 2131,
       "length": 8,
       "value": "\"goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2183,
       "length": 10,
       "value": "\"optimism\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2144,
+      "offset": 2234,
       "length": 7,
       "value": "\"matic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2202,
+      "offset": 2292,
       "length": 18,
       "value": "\"filecoin-mainnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2270,
+      "offset": 2360,
       "length": 17,
       "value": "\"optimism-goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2417,
       "length": 6,
       "value": "\"base\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2377,
+      "offset": 2470,
+      "length": 14,
+      "value": "\"base-sepolia\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 2528,
       "length": 10,
       "value": "\"arbitrum\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2427,
+      "offset": 2578,
       "length": 6,
       "value": "\"celo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2482,
+      "offset": 2633,
       "length": 16,
       "value": "\"celo-alfajores\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 2698,
       "length": 16,
       "value": "\"avalanche-fuji\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2759,
       "length": 11,
       "value": "\"avalanche\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2667,
+      "offset": 2818,
       "length": 15,
       "value": "\"linea-testnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 2881,
       "length": 15,
       "value": "\"linea-mainnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2794,
+      "offset": 2945,
       "length": 10,
       "value": "\"maticmum\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2850,
+      "offset": 3001,
       "length": 13,
       "value": "\"base-goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 3069,
       "length": 22,
       "value": "\"filecoin-calibration\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 2990,
+      "offset": 3141,
       "length": 17,
       "value": "\"arbitrum-goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3050,
+      "offset": 3201,
       "length": 9,
       "value": "\"sepolia\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3218,
+      "offset": 3369,
       "length": 7,
       "value": "\"Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3251,
+      "offset": 3402,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 3284,
+      "offset": 3435,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3522,
       "length": 14,
       "value": "\"Goerli Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3411,
+      "offset": 3562,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 3444,
+      "offset": 3595,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3533,
+      "offset": 3684,
       "length": 7,
       "value": "\"Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3566,
+      "offset": 3717,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 3599,
+      "offset": 3750,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3685,
+      "offset": 3836,
       "length": 7,
       "value": "\"MATIC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3718,
+      "offset": 3869,
       "length": 7,
       "value": "\"MATIC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 3753,
+      "offset": 3904,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3849,
+      "offset": 4000,
       "length": 10,
       "value": "\"filecoin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 3885,
+      "offset": 4036,
       "length": 5,
       "value": "\"FIL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 3918,
+      "offset": 4069,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4013,
+      "offset": 4164,
       "length": 14,
       "value": "\"Goerli Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4053,
+      "offset": 4204,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 4086,
+      "offset": 4237,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4171,
-      "length": 6,
-      "value": "\"Base\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "StringLiteral",
-      "offset": 4203,
-      "length": 5,
-      "value": "\"ETH\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4236,
-      "length": 2,
-      "value": "18"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "StringLiteral",
-      "offset": 4325,
+      "offset": 4322,
       "length": 7,
       "value": "\"Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4358,
+      "offset": 4355,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 4391,
+      "offset": 4388,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 4480,
+      "length": 7,
+      "value": "\"Ether\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 4513,
+      "length": 5,
+      "value": "\"ETH\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4546,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 4635,
+      "length": 7,
+      "value": "\"Ether\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 4668,
+      "length": 5,
+      "value": "\"ETH\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4701,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 4786,
       "length": 6,
       "value": "\"CELO\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4508,
+      "offset": 4818,
       "length": 6,
       "value": "\"CELO\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 4542,
+      "offset": 4852,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4636,
+      "offset": 4946,
       "length": 6,
       "value": "\"CELO\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4668,
+      "offset": 4978,
       "length": 8,
       "value": "\"A-CELO\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 4704,
+      "offset": 5014,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4798,
+      "offset": 5108,
       "length": 16,
       "value": "\"Avalanche Fuji\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4840,
+      "offset": 5150,
       "length": 6,
       "value": "\"AVAX\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 4874,
+      "offset": 5184,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 4964,
+      "offset": 5274,
       "length": 11,
       "value": "\"Avalanche\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 5311,
       "length": 6,
       "value": "\"AVAX\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 5035,
+      "offset": 5345,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5128,
+      "offset": 5438,
       "length": 13,
       "value": "\"Linea Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5167,
+      "offset": 5477,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 5200,
+      "offset": 5510,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5293,
+      "offset": 5603,
       "length": 13,
       "value": "\"Linea Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5332,
+      "offset": 5642,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 5365,
+      "offset": 5675,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5459,
+      "offset": 5769,
       "length": 7,
       "value": "\"MATIC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5492,
+      "offset": 5802,
       "length": 7,
       "value": "\"MATIC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 5527,
+      "offset": 5837,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5618,
+      "offset": 5928,
       "length": 13,
       "value": "\"Base Goerli\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5657,
+      "offset": 5967,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 5690,
+      "offset": 6000,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5790,
+      "offset": 6100,
       "length": 18,
       "value": "\"testnet filecoin\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5834,
+      "offset": 6144,
       "length": 6,
       "value": "\"tFIL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 5868,
+      "offset": 6178,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 5963,
+      "offset": 6273,
       "length": 23,
       "value": "\"Arbitrum Goerli Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 6012,
+      "offset": 6322,
       "length": 5,
       "value": "\"ETH\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 6045,
+      "offset": 6355,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 6133,
+      "offset": 6443,
       "length": 15,
       "value": "\"Sepolia Ether\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 6174,
+      "offset": 6484,
       "length": 5,
       "value": "\"SEP\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 6207,
+      "offset": 6517,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6383,
+      "offset": 6693,
       "length": 30,
       "value": "[\"https:\/\/cloudflare-eth.com\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6452,
+      "offset": 6762,
       "length": 30,
       "value": "[\"https:\/\/cloudflare-eth.com\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6543,
+      "offset": 6853,
       "length": 40,
       "value": "[\"https:\/\/eth-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6616,
+      "offset": 6926,
       "length": 38,
       "value": "[\"wss:\/\/eth-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6731,
+      "offset": 7041,
       "length": 32,
       "value": "[\"https:\/\/mainnet.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6796,
+      "offset": 7106,
       "length": 33,
       "value": "[\"wss:\/\/mainnet.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 6947,
+      "offset": 7257,
       "length": 35,
       "value": "[\"https:\/\/rpc.ankr.com\/eth_goerli\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7021,
+      "offset": 7331,
       "length": 35,
       "value": "[\"https:\/\/rpc.ankr.com\/eth_goerli\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7117,
+      "offset": 7427,
       "length": 39,
       "value": "[\"https:\/\/eth-goerli.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7189,
+      "offset": 7499,
       "length": 37,
       "value": "[\"wss:\/\/eth-goerli.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7303,
+      "offset": 7613,
       "length": 31,
       "value": "[\"https:\/\/goerli.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7367,
+      "offset": 7677,
       "length": 32,
       "value": "[\"wss:\/\/goerli.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7519,
+      "offset": 7829,
       "length": 31,
       "value": "[\"https:\/\/mainnet.optimism.io\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7589,
+      "offset": 7899,
       "length": 31,
       "value": "[\"https:\/\/mainnet.optimism.io\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7681,
+      "offset": 7991,
       "length": 40,
       "value": "[\"https:\/\/opt-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7754,
+      "offset": 8064,
       "length": 38,
       "value": "[\"wss:\/\/opt-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7869,
+      "offset": 8179,
       "length": 41,
       "value": "[\"https:\/\/optimism-mainnet.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 7943,
+      "offset": 8253,
       "length": 42,
       "value": "[\"wss:\/\/optimism-mainnet.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8102,
+      "offset": 8412,
       "length": 27,
       "value": "[\"https:\/\/polygon-rpc.com\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8168,
+      "offset": 8478,
       "length": 27,
       "value": "[\"https:\/\/polygon-rpc.com\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8256,
+      "offset": 8566,
       "length": 44,
       "value": "[\"https:\/\/polygon-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8333,
+      "offset": 8643,
       "length": 42,
       "value": "[\"wss:\/\/polygon-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8452,
+      "offset": 8762,
       "length": 40,
       "value": "[\"https:\/\/polygon-mainnet.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8525,
+      "offset": 8835,
       "length": 41,
       "value": "[\"wss:\/\/polygon-mainnet.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8693,
+      "offset": 9003,
       "length": 35,
       "value": "[\"https:\/\/api.node.glif.io\/rpc\/v1\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8767,
+      "offset": 9077,
       "length": 35,
       "value": "[\"https:\/\/api.node.glif.io\/rpc\/v1\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8911,
+      "offset": 9221,
       "length": 30,
       "value": "[\"https:\/\/goerli.optimism.io\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 8980,
+      "offset": 9290,
       "length": 30,
       "value": "[\"https:\/\/goerli.optimism.io\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9071,
+      "offset": 9381,
       "length": 39,
       "value": "[\"https:\/\/opt-goerli.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9143,
+      "offset": 9453,
       "length": 37,
       "value": "[\"wss:\/\/opt-goerli.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9257,
+      "offset": 9567,
       "length": 40,
       "value": "[\"https:\/\/optimism-goerli.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9330,
+      "offset": 9640,
       "length": 41,
       "value": "[\"wss:\/\/optimism-goerli.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9487,
+      "offset": 9797,
       "length": 28,
       "value": "[\"https:\/\/mainnet.base.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9554,
+      "offset": 9864,
       "length": 28,
       "value": "[\"https:\/\/mainnet.base.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9685,
+      "offset": 9998,
+      "length": 28,
+      "value": "[\"https:\/\/sepolia.base.org\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "Array",
+      "offset": 10065,
+      "length": 28,
+      "value": "[\"https:\/\/sepolia.base.org\"]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "Array",
+      "offset": 10196,
       "length": 32,
       "value": "[\"https:\/\/arb1.arbitrum.io\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9756,
+      "offset": 10267,
       "length": 32,
       "value": "[\"https:\/\/arb1.arbitrum.io\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9849,
+      "offset": 10360,
       "length": 40,
       "value": "[\"https:\/\/arb-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 9922,
+      "offset": 10433,
       "length": 38,
       "value": "[\"wss:\/\/arb-mainnet.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10037,
+      "offset": 10548,
       "length": 41,
       "value": "[\"https:\/\/arbitrum-mainnet.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10111,
+      "offset": 10622,
       "length": 42,
       "value": "[\"wss:\/\/arbitrum-mainnet.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10269,
+      "offset": 10780,
       "length": 26,
       "value": "[\"https:\/\/forno.celo.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10334,
+      "offset": 10845,
       "length": 26,
       "value": "[\"https:\/\/forno.celo.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10399,
+      "offset": 10910,
       "length": 37,
       "value": "[\"https:\/\/celo-mainnet.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10544,
+      "offset": 11055,
       "length": 44,
       "value": "[\"https:\/\/alfajores-forno.celo-testnet.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10627,
+      "offset": 11138,
       "length": 44,
       "value": "[\"https:\/\/alfajores-forno.celo-testnet.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10710,
+      "offset": 11221,
       "length": 39,
       "value": "[\"https:\/\/celo-alfajores.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10857,
+      "offset": 11368,
       "length": 46,
       "value": "[\"https:\/\/api.avax-test.network\/ext\/bc\/C\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 10942,
+      "offset": 11453,
       "length": 46,
       "value": "[\"https:\/\/api.avax-test.network\/ext\/bc\/C\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11092,
+      "offset": 11603,
       "length": 41,
       "value": "[\"https:\/\/api.avax.network\/ext\/bc\/C\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11172,
+      "offset": 11683,
       "length": 41,
       "value": "[\"https:\/\/api.avax.network\/ext\/bc\/C\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11341,
+      "offset": 11852,
       "length": 34,
       "value": "[\"https:\/\/rpc.goerli.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11408,
+      "offset": 11919,
       "length": 32,
       "value": "[\"wss:\/\/rpc.goerli.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11517,
+      "offset": 12028,
       "length": 34,
       "value": "[\"https:\/\/rpc.goerli.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11585,
+      "offset": 12096,
       "length": 32,
       "value": "[\"wss:\/\/rpc.goerli.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11694,
+      "offset": 12205,
       "length": 37,
       "value": "[\"https:\/\/linea-goerli.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11765,
+      "offset": 12276,
       "length": 38,
       "value": "[\"wss:\/\/linea-goerli.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 11948,
+      "offset": 12459,
       "length": 27,
       "value": "[\"https:\/\/rpc.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12008,
+      "offset": 12519,
       "length": 25,
       "value": "[\"wss:\/\/rpc.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12110,
+      "offset": 12621,
       "length": 27,
       "value": "[\"https:\/\/rpc.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12170,
+      "offset": 12681,
       "length": 25,
       "value": "[\"wss:\/\/rpc.linea.build\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12272,
+      "offset": 12783,
       "length": 38,
       "value": "[\"https:\/\/linea-mainnet.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12343,
+      "offset": 12854,
       "length": 39,
       "value": "[\"wss:\/\/linea-mainnet.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12507,
+      "offset": 13018,
       "length": 43,
       "value": "[\"https:\/\/matic-mumbai.chainstacklabs.com\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12589,
+      "offset": 13100,
       "length": 43,
       "value": "[\"https:\/\/matic-mumbai.chainstacklabs.com\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12693,
+      "offset": 13204,
       "length": 43,
       "value": "[\"https:\/\/polygon-mumbai.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12769,
+      "offset": 13280,
       "length": 41,
       "value": "[\"wss:\/\/polygon-mumbai.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12887,
+      "offset": 13398,
       "length": 39,
       "value": "[\"https:\/\/polygon-mumbai.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 12959,
+      "offset": 13470,
       "length": 40,
       "value": "[\"wss:\/\/polygon-mumbai.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13121,
+      "offset": 13632,
       "length": 27,
       "value": "[\"https:\/\/goerli.base.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13187,
+      "offset": 13698,
       "length": 27,
       "value": "[\"https:\/\/goerli.base.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13328,
+      "offset": 13839,
       "length": 47,
       "value": "[\"https:\/\/api.calibration.node.glif.io\/rpc\/v1\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13414,
+      "offset": 13925,
       "length": 47,
       "value": "[\"https:\/\/api.calibration.node.glif.io\/rpc\/v1\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13570,
+      "offset": 14081,
       "length": 41,
       "value": "[\"https:\/\/goerli-rollup.arbitrum.io\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13650,
+      "offset": 14161,
       "length": 41,
       "value": "[\"https:\/\/goerli-rollup.arbitrum.io\/rpc\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13752,
+      "offset": 14263,
       "length": 39,
       "value": "[\"https:\/\/arb-goerli.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13824,
+      "offset": 14335,
       "length": 37,
       "value": "[\"wss:\/\/arb-goerli.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 13938,
+      "offset": 14449,
       "length": 40,
       "value": "[\"https:\/\/arbitrum-goerli.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14011,
+      "offset": 14522,
       "length": 41,
       "value": "[\"wss:\/\/arbitrum-goerli.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14171,
+      "offset": 14682,
       "length": 27,
       "value": "[\"https:\/\/rpc.sepolia.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14237,
+      "offset": 14748,
       "length": 27,
       "value": "[\"https:\/\/rpc.sepolia.org\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14325,
+      "offset": 14836,
       "length": 40,
       "value": "[\"https:\/\/eth-sepolia.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14398,
+      "offset": 14909,
       "length": 38,
       "value": "[\"wss:\/\/eth-sepolia.g.alchemy.com\/v2\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14513,
+      "offset": 15024,
       "length": 32,
       "value": "[\"https:\/\/sepolia.infura.io\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "Array",
-      "offset": 14578,
+      "offset": 15089,
       "length": 33,
       "value": "[\"wss:\/\/sepolia.infura.io\/ws\/v3\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 14840,
+      "offset": 15351,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 14878,
+      "offset": 15389,
       "length": 22,
       "value": "\"https:\/\/etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 14978,
+      "offset": 15489,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15016,
+      "offset": 15527,
       "length": 22,
       "value": "\"https:\/\/etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15179,
+      "offset": 15690,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15217,
+      "offset": 15728,
       "length": 29,
       "value": "\"https:\/\/goerli.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15324,
+      "offset": 15835,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15362,
+      "offset": 15873,
       "length": 29,
       "value": "\"https:\/\/goerli.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15534,
+      "offset": 16045,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15573,
+      "offset": 16084,
       "length": 33,
       "value": "\"https:\/\/optimistic.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15684,
+      "offset": 16195,
       "length": 19,
       "value": "\"Optimism Explorer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15731,
+      "offset": 16242,
       "length": 30,
       "value": "\"https:\/\/explorer.optimism.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15901,
+      "offset": 16412,
       "length": 13,
       "value": "\"PolygonScan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 15941,
+      "offset": 16452,
       "length": 25,
       "value": "\"https:\/\/polygonscan.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16044,
+      "offset": 16555,
       "length": 13,
       "value": "\"PolygonScan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16084,
+      "offset": 16595,
       "length": 25,
       "value": "\"https:\/\/polygonscan.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16259,
+      "offset": 16770,
       "length": 8,
       "value": "\"Filfox\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16294,
+      "offset": 16805,
       "length": 24,
       "value": "\"https:\/\/filfox.info\/en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16467,
+      "offset": 16978,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16505,
+      "offset": 17016,
       "length": 38,
       "value": "\"https:\/\/goerli-optimism.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16621,
+      "offset": 17132,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16659,
+      "offset": 17170,
       "length": 38,
       "value": "\"https:\/\/goerli-optimism.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16836,
+      "offset": 17347,
       "length": 11,
       "value": "\"Basescout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 16874,
+      "offset": 17385,
       "length": 29,
       "value": "\"https:\/\/base.blockscout.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17046,
+      "offset": 17560,
+      "length": 10,
+      "value": "\"BaseScan\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 17597,
+      "length": 31,
+      "value": "\"https:\/\/sepolia.basescan.org\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 17706,
+      "length": 12,
+      "value": "\"Blockscout\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 17745,
+      "length": 37,
+      "value": "\"https:\/\/base-sepolia.blockscout.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 17925,
       "length": 10,
       "value": "\"Arbiscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17084,
+      "offset": 17963,
       "length": 21,
       "value": "\"https:\/\/arbiscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17183,
+      "offset": 18062,
       "length": 10,
       "value": "\"Arbiscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17220,
+      "offset": 18099,
       "length": 21,
       "value": "\"https:\/\/arbiscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17380,
+      "offset": 18259,
       "length": 10,
       "value": "\"CeloScan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17417,
+      "offset": 18296,
       "length": 21,
       "value": "\"https:\/\/celoscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17516,
+      "offset": 18395,
       "length": 15,
       "value": "\"Celo Explorer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17558,
+      "offset": 18437,
       "length": 35,
       "value": "\"https:\/\/explorer.celo.org\/mainnet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17741,
+      "offset": 18620,
       "length": 10,
       "value": "\"CeloScan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17778,
+      "offset": 18657,
       "length": 32,
       "value": "\"https:\/\/alfajores.celoscan.io\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17888,
+      "offset": 18767,
       "length": 15,
       "value": "\"Celo Explorer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 17930,
+      "offset": 18809,
       "length": 37,
       "value": "\"https:\/\/explorer.celo.org\/alfajores\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18115,
+      "offset": 18994,
       "length": 11,
       "value": "\"SnowTrace\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18153,
+      "offset": 19032,
       "length": 30,
       "value": "\"https:\/\/testnet.snowtrace.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18261,
+      "offset": 19140,
       "length": 11,
       "value": "\"SnowTrace\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18299,
+      "offset": 19178,
       "length": 30,
       "value": "\"https:\/\/testnet.snowtrace.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18473,
+      "offset": 19352,
       "length": 11,
       "value": "\"SnowTrace\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18511,
+      "offset": 19390,
       "length": 22,
       "value": "\"https:\/\/snowtrace.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18611,
+      "offset": 19490,
       "length": 11,
       "value": "\"SnowTrace\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18649,
+      "offset": 19528,
       "length": 22,
       "value": "\"https:\/\/snowtrace.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18818,
+      "offset": 19697,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18856,
+      "offset": 19735,
       "length": 32,
       "value": "\"https:\/\/goerli.lineascan.build\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 18966,
+      "offset": 19845,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19004,
+      "offset": 19883,
       "length": 32,
       "value": "\"https:\/\/goerli.lineascan.build\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19114,
+      "offset": 19993,
       "length": 12,
       "value": "\"Blockscout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19153,
+      "offset": 20032,
       "length": 37,
       "value": "\"https:\/\/explorer.goerli.linea.build\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19337,
+      "offset": 20216,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19375,
+      "offset": 20254,
       "length": 25,
       "value": "\"https:\/\/lineascan.build\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19478,
+      "offset": 20357,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19516,
+      "offset": 20395,
       "length": 25,
       "value": "\"https:\/\/lineascan.build\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19619,
+      "offset": 20498,
       "length": 12,
       "value": "\"Blockscout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19658,
+      "offset": 20537,
       "length": 30,
       "value": "\"https:\/\/explorer.linea.build\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19836,
+      "offset": 20715,
       "length": 13,
       "value": "\"PolygonScan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19876,
+      "offset": 20755,
       "length": 32,
       "value": "\"https:\/\/mumbai.polygonscan.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 19986,
+      "offset": 20865,
       "length": 13,
       "value": "\"PolygonScan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20026,
+      "offset": 20905,
       "length": 32,
       "value": "\"https:\/\/mumbai.polygonscan.com\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20203,
+      "offset": 21082,
       "length": 10,
       "value": "\"Basescan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20240,
+      "offset": 21119,
       "length": 29,
       "value": "\"https:\/\/goerli.basescan.org\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20347,
+      "offset": 21226,
       "length": 10,
       "value": "\"Basescan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20384,
+      "offset": 21263,
       "length": 29,
       "value": "\"https:\/\/goerli.basescan.org\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20567,
+      "offset": 21446,
       "length": 9,
       "value": "\"Filscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20604,
+      "offset": 21483,
       "length": 32,
       "value": "\"https:\/\/calibration.filscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20714,
+      "offset": 21593,
       "length": 9,
       "value": "\"Filscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20750,
+      "offset": 21629,
       "length": 32,
       "value": "\"https:\/\/calibration.filscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20931,
+      "offset": 21810,
       "length": 10,
       "value": "\"Arbiscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 20968,
+      "offset": 21847,
       "length": 29,
       "value": "\"https:\/\/goerli.arbiscan.io\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21075,
+      "offset": 21954,
       "length": 10,
       "value": "\"Arbiscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21112,
+      "offset": 21991,
       "length": 29,
       "value": "\"https:\/\/goerli.arbiscan.io\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21283,
+      "offset": 22162,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21321,
+      "offset": 22200,
       "length": 30,
       "value": "\"https:\/\/sepolia.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21429,
+      "offset": 22308,
       "length": 11,
       "value": "\"Etherscan\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21467,
+      "offset": 22346,
       "length": 30,
       "value": "\"https:\/\/sepolia.etherscan.io\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21721,
+      "offset": 22600,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 21801,
+      "offset": 22680,
       "length": 8,
       "value": "14353601"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 21954,
+      "offset": 22833,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 22034,
+      "offset": 22913,
       "length": 7,
       "value": "6507670"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 22188,
+      "offset": 23067,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 22268,
+      "offset": 23147,
       "length": 7,
       "value": "4286263"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 22419,
+      "offset": 23298,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 22499,
+      "offset": 23378,
       "length": 8,
       "value": "25770160"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 22714,
+      "offset": 23593,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 22794,
+      "offset": 23673,
       "length": 5,
       "value": "49461"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 22942,
+      "offset": 23821,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 23022,
+      "offset": 23901,
       "length": 4,
       "value": "5022"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 23173,
+      "offset": 24055,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 23253,
+      "offset": 24135,
+      "length": 7,
+      "value": "1059647"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "StringLiteral",
+      "offset": 24289,
+      "length": 44,
+      "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24369,
       "length": 7,
       "value": "7654707"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 23403,
+      "offset": 24519,
       "length": 44,
       "value": "\"0xcA11bde05977b3631167028862bE2a173976CA11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 23483,
+      "offset": 24599,
       "length": 8,
       "value": "13112599"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 23643,
+      "offset": 24759,
       "length": 44,
       "value": "\"0xcA11bde05977b3631167028862bE2a173976CA11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 23723,
+      "offset": 24839,
       "length": 8,
       "value": "14569001"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 23883,
+      "offset": 24999,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 23963,
+      "offset": 25079,
       "length": 7,
       "value": "7096959"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 24097,
+      "offset": 25213,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 24157,
+      "offset": 25273,
       "length": 8,
       "value": "11907934"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 24299,
+      "offset": 25415,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 24379,
+      "offset": 25495,
       "length": 6,
       "value": "498623"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 24536,
+      "offset": 25652,
       "length": 44,
       "value": "\"0xcA11bde05977b3631167028862bE2a173976CA11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 24616,
+      "offset": 25732,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 24770,
+      "offset": 25886,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 24850,
+      "offset": 25966,
       "length": 8,
       "value": "25770160"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 25007,
+      "offset": 26123,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 25087,
+      "offset": 26203,
       "length": 7,
       "value": "1376988"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 25305,
+      "offset": 26421,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 25385,
+      "offset": 26501,
       "length": 5,
       "value": "88114"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "StringLiteral",
-      "offset": 25536,
+      "offset": 26652,
       "length": 44,
       "value": "\"0xca11bde05977b3631167028862be2a173976ca11\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "IntegerLiteral",
-      "offset": 25616,
+      "offset": 26732,
       "length": 7,
       "value": "6507670"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 25768,
+      "offset": 26884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 25815,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25864,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25910,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 25966,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26021,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26066,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26115,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26160,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26214,
+      "offset": 26931,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 26267,
+      "offset": 26979,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 26317,
+      "offset": 27025,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 26370,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26422,
+      "offset": 27081,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 26476,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26526,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26585,
+      "offset": 27136,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 26640,
+      "offset": 27181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
       "kind": "BooleanLiteral",
-      "offset": 26687,
+      "offset": 27282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27327,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27484,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27537,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27643,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27693,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27752,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27807,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/Chains.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27854,
       "length": 4,
       "value": "true"
     },
