@@ -299,6 +299,7 @@ public enum SupportedChain : Swift.Int, Swift.Identifiable, Swift.CaseIterable, 
   case goerli
   case base
   case baseGoerli
+  case baseSepolia
   case optimism
   case matic
   case filecoinMainnet
