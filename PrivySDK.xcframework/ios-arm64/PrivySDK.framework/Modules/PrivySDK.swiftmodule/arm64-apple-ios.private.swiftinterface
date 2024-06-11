@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios16.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PrivySDK
 import Combine
+import CryptoKit
 import Foundation
 @_exported import PrivySDK
 import Swift
@@ -44,6 +45,14 @@ public enum OtpFlowState {
 }
 extension PrivySDK.OtpFlowState {
   public var displayName: Swift.String {
+    get
+  }
+}
+public enum OAuthProvider {
+  case google
+  public static func == (a: PrivySDK.OAuthProvider, b: PrivySDK.OAuthProvider) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -265,6 +274,7 @@ public protocol Privy {
   var siwe: any PrivySDK.LoginWithSiwe { get }
   var customJwt: any PrivySDK.LoginWithCustomAccessToken { get }
   var embeddedWallet: any PrivySDK.EmbeddedWalletManager { get }
+  var oAuth: any PrivySDK.LoginWithOAuth { get }
   func setAuthStateChangeCallback(_ onAuthStateChange: PrivySDK.AuthStateChangeCallback?)
   #if compiler(>=5.3) && $AsyncAwait
   func refreshSession() async throws -> PrivySDK.AuthSession
@@ -540,6 +550,9 @@ public struct WalletRecoverRequest {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public protocol LoginWithOAuth {
+  func login(with provider: PrivySDK.OAuthProvider, redirectUri: Swift.String)
+}
 public protocol LoginWithSiwe {
   var siweFlowSate: PrivySDK.SiweFlowState { get }
   func setSiweFlowStateChangeCallback(_ siweFlowStateCallback: @escaping (PrivySDK.SiweFlowState) -> Swift.Void)
@@ -558,6 +571,8 @@ extension PrivySDK.LoginWithSiwe {
   public func loginWithSiwe(_ signature: Swift.String) async throws -> PrivySDK.AuthState
   #endif
 }
+extension PrivySDK.OAuthProvider : Swift.Equatable {}
+extension PrivySDK.OAuthProvider : Swift.Hashable {}
 extension PrivySDK.WalletRpcResponse : Swift.Encodable {}
 extension PrivySDK.WalletRpcResponse : Swift.Decodable {}
 extension PrivySDK.WalletClientType : Swift.Equatable {}

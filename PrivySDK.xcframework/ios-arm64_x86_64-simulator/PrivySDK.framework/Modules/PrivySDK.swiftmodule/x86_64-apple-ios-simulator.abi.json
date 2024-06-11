@@ -909,6 +909,176 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "OAuthProvider",
+        "printedName": "OAuthProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "google",
+            "printedName": "google",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.OAuthProvider.Type) -> PrivySDK.OAuthProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthProvider",
+                    "printedName": "PrivySDK.OAuthProvider",
+                    "usr": "s:8PrivySDK13OAuthProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.OAuthProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthProvider",
+                        "printedName": "PrivySDK.OAuthProvider",
+                        "usr": "s:8PrivySDK13OAuthProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13OAuthProviderO6googleyA2CmF",
+            "mangledName": "$s8PrivySDK13OAuthProviderO6googleyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthProvider",
+                "printedName": "PrivySDK.OAuthProvider",
+                "usr": "s:8PrivySDK13OAuthProviderO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthProvider",
+                "printedName": "PrivySDK.OAuthProvider",
+                "usr": "s:8PrivySDK13OAuthProviderO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13OAuthProviderO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK13OAuthProviderO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13OAuthProviderO9hashValueSivp",
+            "mangledName": "$s8PrivySDK13OAuthProviderO9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13OAuthProviderO9hashValueSivg",
+                "mangledName": "$s8PrivySDK13OAuthProviderO9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13OAuthProviderO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK13OAuthProviderO4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK13OAuthProviderO",
+        "mangledName": "$s8PrivySDK13OAuthProviderO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WalletConnectResponseData",
         "printedName": "WalletConnectResponseData",
         "children": [
@@ -1916,6 +2086,13 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "WalletRpcResponseData",
         "printedName": "WalletRpcResponseData",
@@ -2673,6 +2850,13 @@
             "mangledName": "$sSE"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -5902,6 +6086,20 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PrivyEmbeddedWalletError",
         "printedName": "PrivyEmbeddedWalletError",
@@ -7309,6 +7507,51 @@
                 "declKind": "Accessor",
                 "usr": "s:8PrivySDK0A0P14embeddedWalletAA08EmbeddedD7Manager_pvg",
                 "mangledName": "$s8PrivySDK0A0P14embeddedWalletAA08EmbeddedD7Manager_pvg",
+                "moduleName": "PrivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+                "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "oAuth",
+            "printedName": "oAuth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginWithOAuth",
+                "printedName": "any PrivySDK.LoginWithOAuth",
+                "usr": "s:8PrivySDK14LoginWithOAuthP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvp",
+            "mangledName": "$s8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvp",
+            "moduleName": "PrivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithOAuth",
+                    "printedName": "any PrivySDK.LoginWithOAuth",
+                    "usr": "s:8PrivySDK14LoginWithOAuthP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvg",
+                "mangledName": "$s8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvg",
                 "moduleName": "PrivySDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
                 "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
@@ -14527,6 +14770,60 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "LoginWithOAuth",
+        "printedName": "LoginWithOAuth",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(with:redirectUri:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthProvider",
+                "printedName": "PrivySDK.OAuthProvider",
+                "usr": "s:8PrivySDK13OAuthProviderO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithOAuthP5login4with11redirectUriyAA0E8ProviderO_SStF",
+            "mangledName": "$s8PrivySDK14LoginWithOAuthP5login4with11redirectUriyAA0E8ProviderO_SStF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithOAuth>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithOAuth>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8PrivySDK14LoginWithOAuthP",
+        "mangledName": "$s8PrivySDK14LoginWithOAuthP",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -15892,6 +16189,13 @@
       "value": "\"privy:wallet:set-recovery-password\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/PKCEHelperImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 2,
+      "value": "32"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/PrivyConfig.swift",
       "kind": "StringLiteral",
       "offset": 357,
@@ -16160,14 +16464,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3375,
+      "offset": 3275,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6421,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9603,
+      "offset": 10611,
       "length": 5,
       "value": "false"
     }
