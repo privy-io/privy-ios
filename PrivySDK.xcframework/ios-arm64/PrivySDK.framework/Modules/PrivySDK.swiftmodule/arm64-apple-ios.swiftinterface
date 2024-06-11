@@ -274,7 +274,6 @@ public protocol Privy {
   var siwe: any PrivySDK.LoginWithSiwe { get }
   var customJwt: any PrivySDK.LoginWithCustomAccessToken { get }
   var embeddedWallet: any PrivySDK.EmbeddedWalletManager { get }
-  var oAuth: any PrivySDK.LoginWithOAuth { get }
   func setAuthStateChangeCallback(_ onAuthStateChange: PrivySDK.AuthStateChangeCallback?)
   #if compiler(>=5.3) && $AsyncAwait
   func refreshSession() async throws -> PrivySDK.AuthSession
