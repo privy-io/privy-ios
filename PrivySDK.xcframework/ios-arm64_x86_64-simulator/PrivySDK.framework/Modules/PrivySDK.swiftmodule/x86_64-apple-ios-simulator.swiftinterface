@@ -1,11 +1,13 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target x86_64-apple-ios16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PrivySDK
+import AuthenticationServices
 import Combine
 import CryptoKit
 import Foundation
 @_exported import PrivySDK
 import Swift
+import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -185,6 +187,21 @@ public enum WalletClientType : Swift.String {
   public var rawValue: Swift.String {
     get
   }
+}
+public struct GoogleAccount : Swift.Codable, Swift.Hashable {
+  public let type: Swift.String
+  public let subject: Swift.String
+  public let email: Swift.String
+  public let name: Swift.String?
+  public let firstVerifiedAt: Foundation.TimeInterval
+  public let latestVerifiedAt: Foundation.TimeInterval
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: PrivySDK.GoogleAccount, b: PrivySDK.GoogleAccount) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct EmbeddedWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable {
   public var id: Swift.String {
@@ -472,6 +489,7 @@ public enum LoginMethod : Swift.Codable {
   case email
   case phone
   case siwe
+  case oauth
   public static func == (a: PrivySDK.LoginMethod, b: PrivySDK.LoginMethod) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
@@ -520,6 +538,7 @@ public enum LinkedAccount : Swift.Codable {
   case externalWallet(PrivySDK.ExternalWallet)
   case email(PrivySDK.EmailAccount)
   case phone(PrivySDK.PhoneNumberAccount)
+  case google(PrivySDK.GoogleAccount)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -550,7 +569,9 @@ public struct WalletRecoverRequest {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol LoginWithOAuth {
-  func login(with provider: PrivySDK.OAuthProvider, redirectUri: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  func login(with provider: PrivySDK.OAuthProvider, redirectUri: Swift.String) async throws -> PrivySDK.AuthState
+  #endif
 }
 public protocol LoginWithSiwe {
   var siweFlowSate: PrivySDK.SiweFlowState { get }
