@@ -8010,6 +8010,51 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "oAuth",
+            "printedName": "oAuth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginWithOAuth",
+                "printedName": "any PrivySDK.LoginWithOAuth",
+                "usr": "s:8PrivySDK14LoginWithOAuthP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvp",
+            "mangledName": "$s8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvp",
+            "moduleName": "PrivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithOAuth",
+                    "printedName": "any PrivySDK.LoginWithOAuth",
+                    "usr": "s:8PrivySDK14LoginWithOAuthP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvg",
+                "mangledName": "$s8PrivySDK0A0P5oAuthAA14LoginWithOAuth_pvg",
+                "moduleName": "PrivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+                "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "setAuthStateChangeCallback",
             "printedName": "setAuthStateChangeCallback(_:)",
@@ -15678,14 +15723,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8327,
+      "offset": 9980,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8383,
+      "offset": 10036,
       "length": 10,
       "value": "\"io.privy\""
     },
