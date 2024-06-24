@@ -15385,13 +15385,13 @@
           {
             "kind": "Function",
             "name": "login",
-            "printedName": "login(with:redirectUri:)",
+            "printedName": "login(with:appUrlScheme:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AuthState",
-                "printedName": "PrivySDK.AuthState",
-                "usr": "s:8PrivySDK9AuthStateO"
+                "name": "AuthSession",
+                "printedName": "PrivySDK.AuthSession",
+                "usr": "s:8PrivySDK11AuthSessionV"
               },
               {
                 "kind": "TypeNominal",
@@ -15401,20 +15401,62 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK14LoginWithOAuthP5login4with11redirectUriAA9AuthStateOAA0E8ProviderO_SStYaKF",
-            "mangledName": "$s8PrivySDK14LoginWithOAuthP5login4with11redirectUriAA9AuthStateOAA0E8ProviderO_SStYaKF",
+            "usr": "s:8PrivySDK14LoginWithOAuthP5login4with12appUrlSchemeAA11AuthSessionVAA0E8ProviderO_SSSgtYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithOAuthP5login4with12appUrlSchemeAA11AuthSessionVAA0E8ProviderO_SSSgtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithOAuth>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithOAuth>",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthSession",
+                "printedName": "PrivySDK.AuthSession",
+                "usr": "s:8PrivySDK11AuthSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthProvider",
+                "printedName": "PrivySDK.OAuthProvider",
+                "usr": "s:8PrivySDK13OAuthProviderO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithOAuthPAAE5login4withAA11AuthSessionVAA0E8ProviderO_tYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithOAuthPAAE5login4withAA11AuthSessionVAA0E8ProviderO_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithOAuth>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithOAuth>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -16801,14 +16843,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5938,
+      "offset": 7612,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6002,
+      "offset": 7676,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },

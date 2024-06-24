@@ -571,7 +571,12 @@ public struct WalletRecoverRequest {
 }
 public protocol LoginWithOAuth {
   #if compiler(>=5.3) && $AsyncAwait
-  func login(with provider: PrivySDK.OAuthProvider, redirectUri: Swift.String) async throws -> PrivySDK.AuthState
+  func login(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> PrivySDK.AuthSession
+  #endif
+}
+extension PrivySDK.LoginWithOAuth {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func login(with provider: PrivySDK.OAuthProvider) async throws -> PrivySDK.AuthSession
   #endif
 }
 public protocol LoginWithSiwe {
