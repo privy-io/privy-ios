@@ -8223,6 +8223,67 @@
           },
           {
             "kind": "Var",
+            "name": "appClientId",
+            "printedName": "appClientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A6ConfigV11appClientIdSSSgvp",
+            "mangledName": "$s8PrivySDK0A6ConfigV11appClientIdSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A6ConfigV11appClientIdSSSgvg",
+                "mangledName": "$s8PrivySDK0A6ConfigV11appClientIdSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "baseUrl",
             "printedName": "baseUrl",
             "children": [
@@ -8329,6 +8390,41 @@
             "declKind": "Constructor",
             "usr": "s:8PrivySDK0A6ConfigV5appIdACSS_tcfc",
             "mangledName": "$s8PrivySDK0A6ConfigV5appIdACSS_tcfc",
+            "moduleName": "PrivySDK",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appId:appClientId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyConfig",
+                "printedName": "PrivySDK.PrivyConfig",
+                "usr": "s:8PrivySDK0A6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK0A6ConfigV5appId0d6ClientE0ACSS_SStcfc",
+            "mangledName": "$s8PrivySDK0A6ConfigV5appId0d6ClientE0ACSS_SStcfc",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "AccessControl"
@@ -16864,7 +16960,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/PrivyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 357,
+      "offset": 560,
       "length": 23,
       "value": "\"https:\/\/auth.privy.io\""
     },
