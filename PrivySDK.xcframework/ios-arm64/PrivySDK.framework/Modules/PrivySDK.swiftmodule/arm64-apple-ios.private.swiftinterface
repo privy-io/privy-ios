@@ -76,14 +76,16 @@ public enum SiweFlowState {
 public struct SiweMessageParams {
   public init(appDomain: Swift.String, appUri: Swift.String, chainId: Swift.String, walletAddress: Swift.String)
 }
-public struct PrivyUser : Swift.Codable {
+public struct PrivyUser : Swift.Codable, Swift.Equatable {
   public let id: Swift.String
   public let createdAt: Swift.Int
   public let linkedAccounts: [PrivySDK.LinkedAccount]
+  public func toString() -> Swift.String
+  public static func == (a: PrivySDK.PrivyUser, b: PrivySDK.PrivyUser) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct EmailAccount : Swift.Codable, Swift.Hashable {
+public struct EmailAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public let email: Swift.String
   public let verifiedAt: Foundation.TimeInterval
   public func hash(into hasher: inout Swift.Hasher)
@@ -123,9 +125,10 @@ public struct WalletLoginMetadata {
   public static func initialize(config: PrivySDK.PrivyConfig) -> any PrivySDK.Privy
   @objc deinit
 }
-public struct CustomAuth : Swift.Codable {
+public struct CustomAuth : Swift.Codable, Swift.Equatable {
   public let userId: Swift.String
   public let verifiedAt: Foundation.TimeInterval
+  public static func == (a: PrivySDK.CustomAuth, b: PrivySDK.CustomAuth) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -188,7 +191,7 @@ public enum WalletClientType : Swift.String {
     get
   }
 }
-public struct GoogleAccount : Swift.Codable, Swift.Hashable {
+public struct GoogleAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public let type: Swift.String
   public let subject: Swift.String
   public let email: Swift.String
@@ -203,7 +206,7 @@ public struct GoogleAccount : Swift.Codable, Swift.Hashable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct EmbeddedWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable {
+public struct EmbeddedWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable, Swift.Equatable {
   public var id: Swift.String {
     get
   }
@@ -266,7 +269,7 @@ public protocol EmbeddedWalletProvider {
   #endif
   func configure(chainId: Swift.Int, rpcUrl: Swift.String?)
 }
-public struct ExternalWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable {
+public struct ExternalWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable, Swift.Equatable {
   public var id: Swift.String {
     get
   }
@@ -417,7 +420,7 @@ public struct Multicall3 {
   public let address: Swift.String
   public let blockCreated: Swift.Int
 }
-public struct PhoneNumberAccount : Swift.Codable, Swift.Hashable {
+public struct PhoneNumberAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public let phoneNumber: Swift.String
   public let verifiedAt: Foundation.TimeInterval
   public func hash(into hasher: inout Swift.Hasher)
@@ -458,19 +461,17 @@ public enum LoginWithSmsError : Swift.Error {
   case incorrectCode
   case loginError(any Swift.Error)
 }
-public enum AuthState {
+public enum AuthState : Swift.Equatable {
   case notReady
   case unauthenticated
   case authenticated(PrivySDK.AuthSession)
   case error(any Swift.Error)
+  public static func == (lhs: PrivySDK.AuthState, rhs: PrivySDK.AuthState) -> Swift.Bool
 }
 extension PrivySDK.AuthState {
   public var toString: Swift.String {
     get
   }
-}
-extension PrivySDK.AuthState : Swift.Equatable {
-  public static func == (lhs: PrivySDK.AuthState, rhs: PrivySDK.AuthState) -> Swift.Bool
 }
 public enum PrivyError {
   case notReady
@@ -488,14 +489,14 @@ extension PrivySDK.PrivyError : Foundation.LocalizedError {
 public struct JWT {
 }
 public typealias OtpFlowStateChangeCallback = (PrivySDK.OtpFlowState) -> Swift.Void
-public enum LoginMethod : Swift.Codable {
+public enum LoginMethod : Swift.Codable, Swift.Equatable {
   case customAccessToken
   case email
   case phone
   case siwe
   case oauth
-  public static func == (a: PrivySDK.LoginMethod, b: PrivySDK.LoginMethod) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: PrivySDK.LoginMethod, b: PrivySDK.LoginMethod) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
@@ -513,11 +514,12 @@ public protocol LoginWithCustomAccessToken {
   func loginWithCustomAccessToken() async throws -> PrivySDK.AuthState
   #endif
 }
-public struct AuthSession : Swift.Codable {
+public struct AuthSession : Swift.Codable, Swift.Equatable {
   public let user: PrivySDK.PrivyUser
   public let authToken: Swift.String
   public let refreshToken: Swift.String
   public let loginMethod: PrivySDK.LoginMethod
+  public static func == (a: PrivySDK.AuthSession, b: PrivySDK.AuthSession) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -536,13 +538,14 @@ public struct RpcRequest {
   public let params: [Swift.String]
   public init(method: Swift.String, params: [Swift.String])
 }
-public enum LinkedAccount : Swift.Codable {
+public enum LinkedAccount : Swift.Codable, Swift.Equatable {
   case customAuth(PrivySDK.CustomAuth)
   case embeddedWallet(PrivySDK.EmbeddedWallet)
   case externalWallet(PrivySDK.ExternalWallet)
   case email(PrivySDK.EmailAccount)
   case phone(PrivySDK.PhoneNumberAccount)
   case google(PrivySDK.GoogleAccount)
+  public static func == (a: PrivySDK.LinkedAccount, b: PrivySDK.LinkedAccount) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -555,10 +558,16 @@ public protocol LoginWithEmail {
   #if compiler(>=5.3) && $AsyncAwait
   func loginWithCode(_ code: Swift.String, sentTo email: Swift.String?) async throws -> PrivySDK.AuthState
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func linkWithCode(_ code: Swift.String, sentTo email: Swift.String?) async throws -> PrivySDK.AuthState
+  #endif
 }
 extension PrivySDK.LoginWithEmail {
   #if compiler(>=5.3) && $AsyncAwait
   public func loginWithCode(_ code: Swift.String) async throws -> PrivySDK.AuthState
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func linkWithCode(_ code: Swift.String) async throws -> PrivySDK.AuthState
   #endif
 }
 public struct WalletRecoverResponseData {
@@ -591,6 +600,9 @@ public protocol LoginWithSiwe {
   #if compiler(>=5.3) && $AsyncAwait
   func loginWithSiwe(_ signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws -> PrivySDK.AuthState
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func linkWithSiwe(_ signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws -> PrivySDK.AuthState
+  #endif
 }
 extension PrivySDK.LoginWithSiwe {
   #if compiler(>=5.3) && $AsyncAwait
@@ -598,6 +610,9 @@ extension PrivySDK.LoginWithSiwe {
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   public func loginWithSiwe(_ signature: Swift.String) async throws -> PrivySDK.AuthState
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func linkWithSiwe(_ signature: Swift.String) async throws -> PrivySDK.AuthState
   #endif
 }
 extension PrivySDK.OAuthProvider : Swift.Equatable {}
@@ -614,7 +629,6 @@ extension PrivySDK.SupportedChain : Swift.Hashable {}
 extension PrivySDK.SessionUpdateAction : Swift.Equatable {}
 extension PrivySDK.SessionUpdateAction : Swift.Hashable {}
 extension PrivySDK.SessionUpdateAction : Swift.RawRepresentable {}
-extension PrivySDK.LoginMethod : Swift.Equatable {}
 extension PrivySDK.LoginMethod : Swift.Hashable {}
 extension PrivySDK.LoginWithSiweError : Swift.Equatable {}
 extension PrivySDK.LoginWithSiweError : Swift.Hashable {}

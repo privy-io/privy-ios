@@ -1702,6 +1702,27 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserV8toStringSSyF",
+            "mangledName": "$s8PrivySDK0A4UserV8toStringSSyF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -1751,6 +1772,38 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK0A4UserV2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -1774,6 +1827,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -2824,6 +2884,38 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomAuth",
+                "printedName": "PrivySDK.CustomAuth",
+                "usr": "s:8PrivySDK10CustomAuthV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CustomAuth",
+                "printedName": "PrivySDK.CustomAuth",
+                "usr": "s:8PrivySDK10CustomAuthV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK10CustomAuthV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK10CustomAuthV2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -2848,6 +2940,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -12877,6 +12976,40 @@
             "moduleName": "PrivySDK"
           },
           {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK9AuthStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK9AuthStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "toString",
             "printedName": "toString",
@@ -12917,41 +13050,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AuthState",
-                "printedName": "PrivySDK.AuthState",
-                "usr": "s:8PrivySDK9AuthStateO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AuthState",
-                "printedName": "PrivySDK.AuthState",
-                "usr": "s:8PrivySDK9AuthStateO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PrivySDK9AuthStateO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8PrivySDK9AuthStateO2eeoiySbAC_ACtFZ",
-            "moduleName": "PrivySDK",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -13567,38 +13665,6 @@
             "moduleName": "PrivySDK"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LoginMethod",
-                "printedName": "PrivySDK.LoginMethod",
-                "usr": "s:8PrivySDK11LoginMethodO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LoginMethod",
-                "printedName": "PrivySDK.LoginMethod",
-                "usr": "s:8PrivySDK11LoginMethodO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PrivySDK11LoginMethodO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8PrivySDK11LoginMethodO2eeoiySbAC_ACtFZ",
-            "moduleName": "PrivySDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
@@ -13712,6 +13778,38 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginMethod",
+                "printedName": "PrivySDK.LoginMethod",
+                "usr": "s:8PrivySDK11LoginMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoginMethod",
+                "printedName": "PrivySDK.LoginMethod",
+                "usr": "s:8PrivySDK11LoginMethodO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK11LoginMethodO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK11LoginMethodO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -13723,13 +13821,6 @@
           "RawDocComment"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -13750,6 +13841,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -14103,6 +14201,38 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthSession",
+                "printedName": "PrivySDK.AuthSession",
+                "usr": "s:8PrivySDK11AuthSessionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthSession",
+                "printedName": "PrivySDK.AuthSession",
+                "usr": "s:8PrivySDK11AuthSessionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK11AuthSessionV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK11AuthSessionV2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -14126,6 +14256,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -14967,6 +15104,38 @@
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedAccount",
+                "printedName": "PrivySDK.LinkedAccount",
+                "usr": "s:8PrivySDK13LinkedAccountO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedAccount",
+                "printedName": "PrivySDK.LinkedAccount",
+                "usr": "s:8PrivySDK13LinkedAccountO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LinkedAccountO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK13LinkedAccountO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -14990,6 +15159,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -15178,6 +15354,52 @@
           },
           {
             "kind": "Function",
+            "name": "linkWithCode",
+            "printedName": "linkWithCode(_:sentTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithEmailP04linkD4Code_6sentToAA9AuthStateOSS_SSSgtYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithEmailP04linkD4Code_6sentToAA9AuthStateOSS_SSSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loginWithCode",
             "printedName": "loginWithCode(_:)",
             "children": [
@@ -15197,6 +15419,37 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK14LoginWithEmailPAAE05loginD4CodeyAA9AuthStateOSSYaKF",
             "mangledName": "$s8PrivySDK14LoginWithEmailPAAE05loginD4CodeyAA9AuthStateOSSYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "linkWithCode",
+            "printedName": "linkWithCode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithEmailPAAE04linkD4CodeyAA9AuthStateOSSYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithEmailPAAE04linkD4CodeyAA9AuthStateOSSYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
@@ -15764,6 +16017,52 @@
           },
           {
             "kind": "Function",
+            "name": "linkWithSiwe",
+            "printedName": "linkWithSiwe(_:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP04linkdE0_8metadataAA9AuthStateOSS_AA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP04linkdE0_8metadataAA9AuthStateOSS_AA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "generateSiweMessage",
             "printedName": "generateSiweMessage(params:)",
             "children": [
@@ -15823,6 +16122,37 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "linkWithSiwe",
+            "printedName": "linkWithSiwe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE04linkdE0yAA9AuthStateOSSYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE04linkdE0yAA9AuthStateOSSYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -15861,14 +16191,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 9980,
+      "offset": 11155,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10036,
+      "offset": 11211,
       "length": 10,
       "value": "\"io.privy\""
     },
