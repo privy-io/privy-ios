@@ -950,6 +950,43 @@
             "moduleName": "PrivySDK"
           },
           {
+            "kind": "Var",
+            "name": "apple",
+            "printedName": "apple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.OAuthProvider.Type) -> PrivySDK.OAuthProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthProvider",
+                    "printedName": "PrivySDK.OAuthProvider",
+                    "usr": "s:8PrivySDK13OAuthProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.OAuthProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthProvider",
+                        "printedName": "PrivySDK.OAuthProvider",
+                        "usr": "s:8PrivySDK13OAuthProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13OAuthProviderO5appleyA2CmF",
+            "mangledName": "$s8PrivySDK13OAuthProviderO5appleyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -2949,6 +2986,20 @@
             "mangledName": "$sSQ"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -11371,9 +11422,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "privy",
+            "printedName": "privy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.RpcUrl?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RpcUrl",
+                    "printedName": "PrivySDK.RpcUrl",
+                    "usr": "s:8PrivySDK6RpcUrlV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK7RpcUrlsV5privyAA0C3UrlVSgvp",
+            "mangledName": "$s8PrivySDK7RpcUrlsV5privyAA0C3UrlVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.RpcUrl?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RpcUrl",
+                        "printedName": "PrivySDK.RpcUrl",
+                        "usr": "s:8PrivySDK6RpcUrlV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK7RpcUrlsV5privyAA0C3UrlVSgvg",
+                "mangledName": "$s8PrivySDK7RpcUrlsV5privyAA0C3UrlVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(default:public:alchemy:infura:blast:)",
+            "printedName": "init(default:public:alchemy:infura:blast:privy:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11437,11 +11548,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.RpcUrl?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RpcUrl",
+                    "printedName": "PrivySDK.RpcUrl",
+                    "usr": "s:8PrivySDK6RpcUrlV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK7RpcUrlsV7default6public7alchemy6infura5blastAcA0C3UrlV_A2JSgA2Ktcfc",
-            "mangledName": "$s8PrivySDK7RpcUrlsV7default6public7alchemy6infura5blastAcA0C3UrlV_A2JSgA2Ktcfc",
+            "usr": "s:8PrivySDK7RpcUrlsV7default6public7alchemy6infura5blast5privyAcA0C3UrlV_A2KSgA3Ltcfc",
+            "mangledName": "$s8PrivySDK7RpcUrlsV7default6public7alchemy6infura5blast5privyAcA0C3UrlV_A2KSgA3Ltcfc",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "AccessControl"
@@ -12626,6 +12752,425 @@
         "moduleName": "PrivySDK",
         "declAttributes": [
           "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AppleAccount",
+        "printedName": "AppleAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12AppleAccountV4typeSSvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV4typeSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12AppleAccountV4typeSSvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV4typeSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subject",
+            "printedName": "subject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12AppleAccountV7subjectSSvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV7subjectSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12AppleAccountV7subjectSSvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV7subjectSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12AppleAccountV5emailSSvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV5emailSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12AppleAccountV5emailSSvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV5emailSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVerifiedAt",
+            "printedName": "firstVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12AppleAccountV15firstVerifiedAtSdvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV15firstVerifiedAtSdvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12AppleAccountV15firstVerifiedAtSdvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV15firstVerifiedAtSdvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latestVerifiedAt",
+            "printedName": "latestVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12AppleAccountV16latestVerifiedAtSdvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV16latestVerifiedAtSdvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12AppleAccountV16latestVerifiedAtSdvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV16latestVerifiedAtSdvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AppleAccount",
+                "printedName": "PrivySDK.AppleAccount",
+                "usr": "s:8PrivySDK12AppleAccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK12AppleAccountV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8PrivySDK12AppleAccountV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK12AppleAccountV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8PrivySDK12AppleAccountV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12AppleAccountV9hashValueSivp",
+            "mangledName": "$s8PrivySDK12AppleAccountV9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12AppleAccountV9hashValueSivg",
+                "mangledName": "$s8PrivySDK12AppleAccountV9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK12AppleAccountV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK12AppleAccountV4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppleAccount",
+                "printedName": "PrivySDK.AppleAccount",
+                "usr": "s:8PrivySDK12AppleAccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppleAccount",
+                "printedName": "PrivySDK.AppleAccount",
+                "usr": "s:8PrivySDK12AppleAccountV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK12AppleAccountV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK12AppleAccountV2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK12AppleAccountV",
+        "mangledName": "$s8PrivySDK12AppleAccountV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
@@ -15055,6 +15600,56 @@
             "moduleName": "PrivySDK"
           },
           {
+            "kind": "Var",
+            "name": "apple",
+            "printedName": "apple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LinkedAccount.Type) -> (PrivySDK.AppleAccount) -> PrivySDK.LinkedAccount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.AppleAccount) -> PrivySDK.LinkedAccount",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AppleAccount",
+                        "printedName": "PrivySDK.AppleAccount",
+                        "usr": "s:8PrivySDK12AppleAccountV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LinkedAccount.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13LinkedAccountO5appleyAcA05AppleD0VcACmF",
+            "mangledName": "$s8PrivySDK13LinkedAccountO5appleyAcA05AppleD0VcACmF",
+            "moduleName": "PrivySDK"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -15628,6 +16223,23 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -17269,14 +17881,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7612,
+      "offset": 8695,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7676,
+      "offset": 8759,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },
@@ -17374,196 +17986,224 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 2014,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 2057,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 2014,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 2057,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3791,
+      "offset": 4003,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3834,
+      "offset": 4046,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 4096,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3927,
+      "offset": 4139,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 4183,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4230,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3791,
+      "offset": 4003,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3834,
+      "offset": 4046,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 4096,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3927,
+      "offset": 4139,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 4183,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4230,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4467,
+      "offset": 4679,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4715,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4467,
+      "offset": 4679,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4503,
+      "offset": 4715,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4837,
+      "offset": 5049,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4837,
+      "offset": 5049,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5297,
+      "offset": 5509,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5349,
+      "offset": 5561,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5297,
+      "offset": 5509,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5349,
+      "offset": 5561,
+      "length": 20,
+      "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5985,
+      "length": 19,
+      "value": "\"first_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6037,
+      "length": 20,
+      "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 5985,
+      "length": 19,
+      "value": "\"first_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6037,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 881,
       "length": 34,
       "value": "\"4df5e2316331463a9130964bd6078dfa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 895,
+      "offset": 952,
       "length": 38,
       "value": "\"fe9c30fc-3bc5-4064-91e2-6ab5887f8f4d\""
     },

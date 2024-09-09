@@ -52,6 +52,7 @@ extension PrivySDK.OtpFlowState {
 }
 public enum OAuthProvider {
   case google
+  case apple
   public static func == (a: PrivySDK.OAuthProvider, b: PrivySDK.OAuthProvider) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -401,7 +402,8 @@ public struct RpcUrls {
   public let blast: PrivySDK.RpcUrl?
   public let alchemy: PrivySDK.RpcUrl?
   public let infura: PrivySDK.RpcUrl?
-  public init(default: PrivySDK.RpcUrl, public: PrivySDK.RpcUrl, alchemy: PrivySDK.RpcUrl? = nil, infura: PrivySDK.RpcUrl? = nil, blast: PrivySDK.RpcUrl? = nil)
+  public let privy: PrivySDK.RpcUrl?
+  public init(default: PrivySDK.RpcUrl, public: PrivySDK.RpcUrl, alchemy: PrivySDK.RpcUrl? = nil, infura: PrivySDK.RpcUrl? = nil, blast: PrivySDK.RpcUrl? = nil, privy: PrivySDK.RpcUrl? = nil)
 }
 public struct BlockExplorer {
   public let name: Swift.String
@@ -455,6 +457,20 @@ extension PrivySDK.LoginWithSms {
   #if compiler(>=5.3) && $AsyncAwait
   public func loginWithCode(_ code: Swift.String) async throws -> PrivySDK.AuthState
   #endif
+}
+public struct AppleAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
+  public let type: Swift.String
+  public let subject: Swift.String
+  public let email: Swift.String
+  public let firstVerifiedAt: Foundation.TimeInterval
+  public let latestVerifiedAt: Foundation.TimeInterval
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: PrivySDK.AppleAccount, b: PrivySDK.AppleAccount) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum LoginWithSmsError : Swift.Error {
   case phoneNumberNotSpecified
@@ -545,6 +561,7 @@ public enum LinkedAccount : Swift.Codable, Swift.Equatable {
   case email(PrivySDK.EmailAccount)
   case phone(PrivySDK.PhoneNumberAccount)
   case google(PrivySDK.GoogleAccount)
+  case apple(PrivySDK.AppleAccount)
   public static func == (a: PrivySDK.LinkedAccount, b: PrivySDK.LinkedAccount) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
