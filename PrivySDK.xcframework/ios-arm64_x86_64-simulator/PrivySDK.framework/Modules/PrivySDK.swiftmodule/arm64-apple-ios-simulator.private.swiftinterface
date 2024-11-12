@@ -17,17 +17,31 @@ public protocol EmbeddedWalletManager {
   var embeddedWalletState: PrivySDK.EmbeddedWalletState { get }
   func setEmbeddedWalletStateChangeCallback(_ callback: PrivySDK.EmbeddedWalletStateChangeCallback?)
   #if compiler(>=5.3) && $AsyncAwait
+  @available(*, deprecated, message: "This method is deprecated. Use createWallet(allowAdditional:chainType:) instead.")
   func createWallet(allowAdditional: Swift.Bool) async throws -> PrivySDK.WalletCreateResponseData
   #endif
   #if compiler(>=5.3) && $AsyncAwait
+  func createWallet(chainType: PrivySDK.ChainType, allowAdditional: Swift.Bool) async throws -> PrivySDK.EmbeddedWallet
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(*, deprecated, message: "This method is deprecated. Use connectWallet() instead.")
   func connectWallet(retryOnFailure: Swift.Bool) async throws -> PrivySDK.WalletConnectResponseData
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func connectWallet() async throws
   #endif
   func getProvider(for walletAddress: Swift.String) throws -> any PrivySDK.EmbeddedWalletProvider
   #if compiler(>=5.3) && $AsyncAwait
+  @available(*, deprecated, message: "This method is deprecated and will be removed with the 2.0 release of this SDK.")
   func recover() async throws -> PrivySDK.WalletRecoverResponseData
   #endif
   func logout()
   func attemptConnectWalletOnAuthentication()
+}
+extension PrivySDK.EmbeddedWalletManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func createWallet(chainType: PrivySDK.ChainType) async throws -> PrivySDK.EmbeddedWallet
+  #endif
 }
 public enum LoginWithEmailError : Swift.Error {
   case emailNotSpecified
@@ -59,10 +73,8 @@ public enum OAuthProvider {
     get
   }
 }
-public struct WalletConnectResponseData {
+public struct WalletConnectResponseData : Swift.Codable {
   public let address: Swift.String
-}
-extension PrivySDK.WalletConnectResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -212,12 +224,14 @@ public struct EmbeddedWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable
     get
   }
   public let address: Swift.String
+  public var chainType: PrivySDK.ChainType
   public let chainId: Swift.String?
   public let walletClientType: Swift.String?
   public let connectorType: Swift.String?
   public let recoveryMethod: Swift.String?
   public let verifiedAt: Foundation.TimeInterval
   public let hdWalletIndex: Swift.Int?
+  public init(address: Swift.String, chainType: PrivySDK.ChainType, chainId: Swift.String?, walletClientType: Swift.String?, connectorType: Swift.String?, recoveryMethod: Swift.String?, verifiedAt: Foundation.TimeInterval, hdWalletIndex: Swift.Int?)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: PrivySDK.EmbeddedWallet, b: PrivySDK.EmbeddedWallet) -> Swift.Bool
   public typealias ID = Swift.String
@@ -225,6 +239,8 @@ public struct EmbeddedWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable
   public var hashValue: Swift.Int {
     get
   }
+}
+extension PrivySDK.EmbeddedWallet {
   public init(from decoder: any Swift.Decoder) throws
 }
 public enum EmbeddedWalletState {
@@ -355,16 +371,12 @@ public enum PrivyWalletError {
   case recoveryFailed(Swift.String)
   case noWalletAvailable
   case maxNumberOfAdditionalWallet
+  case unsupportedMethod
 }
 extension PrivySDK.PrivyWalletError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get
   }
-}
-public struct WalletCreateResponseData : Swift.Codable {
-  public let address: Swift.String
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
 }
 public enum SessionUpdateAction : Swift.String, Swift.Decodable {
   case set
@@ -438,6 +450,17 @@ public struct WalletSetPasswordResponseData {
 }
 extension PrivySDK.WalletSetPasswordResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ChainType : Swift.Codable {
+  case ethereum
+  case solana
+  public static func == (a: PrivySDK.ChainType, b: PrivySDK.ChainType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
   public init(from decoder: any Swift.Decoder) throws
 }
 extension PrivySDK.EmbeddedWalletProvider {
@@ -587,14 +610,13 @@ extension PrivySDK.LoginWithEmail {
   public func linkWithCode(_ code: Swift.String) async throws -> PrivySDK.AuthState
   #endif
 }
-public struct WalletRecoverResponseData {
+public struct WalletCreateResponseData : Swift.Codable {
   public let address: Swift.String
-}
-extension PrivySDK.WalletRecoverResponseData : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct WalletRecoverRequest {
+public struct WalletRecoverResponseData : Swift.Codable {
+  public let address: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -646,8 +668,8 @@ extension PrivySDK.SupportedChain : Swift.Hashable {}
 extension PrivySDK.SessionUpdateAction : Swift.Equatable {}
 extension PrivySDK.SessionUpdateAction : Swift.Hashable {}
 extension PrivySDK.SessionUpdateAction : Swift.RawRepresentable {}
+extension PrivySDK.ChainType : Swift.Equatable {}
+extension PrivySDK.ChainType : Swift.Hashable {}
 extension PrivySDK.LoginMethod : Swift.Hashable {}
 extension PrivySDK.LoginWithSiweError : Swift.Equatable {}
 extension PrivySDK.LoginWithSiweError : Swift.Hashable {}
-extension PrivySDK.WalletRecoverRequest : Swift.Encodable {}
-extension PrivySDK.WalletRecoverRequest : Swift.Decodable {}
