@@ -266,6 +266,40 @@
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWalletManager>",
             "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWalletManager>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getEthereumProvider",
+            "printedName": "getEthereumProvider(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumEmbeddedWalletProvider",
+                "printedName": "any PrivySDK.EthereumEmbeddedWalletProvider",
+                "usr": "s:8PrivySDK30EthereumEmbeddedWalletProviderP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK21EmbeddedWalletManagerP19getEthereumProvider3forAA0gcdH0_pSS_tKF",
+            "mangledName": "$s8PrivySDK21EmbeddedWalletManagerP19getEthereumProvider3forAA0gcdH0_pSS_tKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWalletManager>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWalletManager>",
             "protocolReq": true,
             "declAttributes": [
               "RawDocComment"
@@ -1090,6 +1124,43 @@
             "moduleName": "PrivySDK"
           },
           {
+            "kind": "Var",
+            "name": "twitter",
+            "printedName": "twitter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.OAuthProvider.Type) -> PrivySDK.OAuthProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthProvider",
+                    "printedName": "PrivySDK.OAuthProvider",
+                    "usr": "s:8PrivySDK13OAuthProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.OAuthProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthProvider",
+                        "printedName": "PrivySDK.OAuthProvider",
+                        "usr": "s:8PrivySDK13OAuthProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13OAuthProviderO7twitteryA2CmF",
+            "mangledName": "$s8PrivySDK13OAuthProviderO7twitteryA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -1209,6 +1280,13 @@
             "mangledName": "$sSH"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -1606,6 +1684,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -2293,14 +2378,19 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "WalletRpcResponseData",
-        "printedName": "WalletRpcResponseData",
+        "name": "SolanaEmbeddedWalletProvider",
+        "printedName": "SolanaEmbeddedWalletProvider",
         "children": [
           {
-            "kind": "Var",
-            "name": "address",
-            "printedName": "address",
+            "kind": "Function",
+            "name": "signMessage",
+            "printedName": "signMessage(message:)",
             "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "String",
@@ -2308,411 +2398,26 @@
                 "usr": "s:SS"
               }
             ],
-            "declKind": "Var",
-            "usr": "s:8PrivySDK21WalletRpcResponseDataV7addressSSvp",
-            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV7addressSSvp",
-            "moduleName": "PrivySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV7addressSSvg",
-                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV7addressSSvg",
-                "moduleName": "PrivySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "response",
-            "printedName": "response",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Response",
-                "printedName": "PrivySDK.WalletRpcResponseData.Response",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvp",
-            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvp",
-            "moduleName": "PrivySDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Response",
-                    "printedName": "PrivySDK.WalletRpcResponseData.Response",
-                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvg",
-                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvg",
-                "moduleName": "PrivySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WalletRpcResponseData",
-                "printedName": "PrivySDK.WalletRpcResponseData",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8PrivySDK21WalletRpcResponseDataV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "PrivySDK",
-            "implicit": true,
-            "isFromExtension": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK21WalletRpcResponseDataV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV6encode2toys7Encoder_p_tKF",
+            "usr": "s:8PrivySDK28SolanaEmbeddedWalletProviderP11signMessage7messageySS_tF",
+            "mangledName": "$s8PrivySDK28SolanaEmbeddedWalletProviderP11signMessage7messageySS_tF",
             "moduleName": "PrivySDK",
-            "implicit": true,
-            "isFromExtension": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Response",
-            "printedName": "Response",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "method",
-                "printedName": "method",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvp",
-                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvp",
-                "moduleName": "PrivySDK",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvg",
-                    "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvg",
-                    "moduleName": "PrivySDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "data",
-                "printedName": "data",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvp",
-                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvp",
-                "moduleName": "PrivySDK",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvg",
-                    "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvg",
-                    "moduleName": "PrivySDK",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(from:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Response",
-                    "printedName": "PrivySDK.WalletRpcResponseData.Response",
-                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Decoder",
-                    "printedName": "any Swift.Decoder",
-                    "usr": "s:s7DecoderP"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V4fromAEs7Decoder_p_tKcfc",
-                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V4fromAEs7Decoder_p_tKcfc",
-                "moduleName": "PrivySDK",
-                "implicit": true,
-                "isFromExtension": true,
-                "throwing": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Function",
-                "name": "encode",
-                "printedName": "encode(to:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Encoder",
-                    "printedName": "any Swift.Encoder",
-                    "usr": "s:s7EncoderP"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V6encode2toys7Encoder_p_tKF",
-                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V6encode2toys7Encoder_p_tKF",
-                "moduleName": "PrivySDK",
-                "implicit": true,
-                "isFromExtension": true,
-                "throwing": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V",
-            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V",
-            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.SolanaEmbeddedWalletProvider>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.SolanaEmbeddedWalletProvider>",
+            "protocolReq": true,
             "declAttributes": [
-              "AccessControl"
+              "RawDocComment"
             ],
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Decodable",
-                "printedName": "Decodable",
-                "usr": "s:Se",
-                "mangledName": "$sSe"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Encodable",
-                "printedName": "Encodable",
-                "usr": "s:SE",
-                "mangledName": "$sSE"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:8PrivySDK21WalletRpcResponseDataV",
-        "mangledName": "$s8PrivySDK21WalletRpcResponseDataV",
-        "moduleName": "PrivySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "WalletRpcResponse",
-        "printedName": "WalletRpcResponse",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WalletRpcResponse",
-                "printedName": "PrivySDK.WalletRpcResponse",
-                "usr": "s:8PrivySDK17WalletRpcResponseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8PrivySDK17WalletRpcResponseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s8PrivySDK17WalletRpcResponseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "PrivySDK",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PrivySDK17WalletRpcResponseV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s8PrivySDK17WalletRpcResponseV6encode2toys7Encoder_p_tKF",
-            "moduleName": "PrivySDK",
-            "implicit": true,
-            "throwing": true,
+            "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:8PrivySDK17WalletRpcResponseV",
-        "mangledName": "$s8PrivySDK17WalletRpcResponseV",
+        "declKind": "Protocol",
+        "usr": "s:8PrivySDK28SolanaEmbeddedWalletProviderP",
+        "mangledName": "$s8PrivySDK28SolanaEmbeddedWalletProviderP",
         "moduleName": "PrivySDK",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
         ]
       },
       {
@@ -7344,6 +7049,43 @@
             "moduleName": "PrivySDK"
           },
           {
+            "kind": "Var",
+            "name": "unsupportedProviderForChain",
+            "printedName": "unsupportedProviderForChain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.PrivyEmbeddedWalletError.Type) -> PrivySDK.PrivyEmbeddedWalletError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyEmbeddedWalletError",
+                    "printedName": "PrivySDK.PrivyEmbeddedWalletError",
+                    "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.PrivyEmbeddedWalletError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrivyEmbeddedWalletError",
+                        "printedName": "PrivySDK.PrivyEmbeddedWalletError",
+                        "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO27unsupportedProviderForChainyA2CmF",
+            "mangledName": "$s8PrivySDK0A19EmbeddedWalletErrorO27unsupportedProviderForChainyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -7475,6 +7217,30 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EthereumEmbeddedWalletProvider",
+        "printedName": "EthereumEmbeddedWalletProvider",
+        "declKind": "Protocol",
+        "usr": "s:8PrivySDK30EthereumEmbeddedWalletProviderP",
+        "mangledName": "$s8PrivySDK30EthereumEmbeddedWalletProviderP",
+        "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : PrivySDK.EmbeddedWalletProvider>",
+        "sugared_genericSig": "<Self : PrivySDK.EmbeddedWalletProvider>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "EmbeddedWalletProvider",
+            "printedName": "EmbeddedWalletProvider",
+            "usr": "s:8PrivySDK22EmbeddedWalletProviderP",
+            "mangledName": "$s8PrivySDK22EmbeddedWalletProviderP"
           }
         ]
       },
@@ -10345,6 +10111,561 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "TwitterAccount",
+        "printedName": "TwitterAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV4typeSSvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV4typeSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV4typeSSvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV4typeSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subject",
+            "printedName": "subject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV7subjectSSvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV7subjectSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV7subjectSSvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV7subjectSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV8usernameSSSgvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV8usernameSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV8usernameSSSgvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV8usernameSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV4nameSSSgvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV4nameSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV4nameSSSgvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV4nameSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "profilePictureUrl",
+            "printedName": "profilePictureUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV17profilePictureUrlSSSgvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV17profilePictureUrlSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV17profilePictureUrlSSSgvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV17profilePictureUrlSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVerifiedAt",
+            "printedName": "firstVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV15firstVerifiedAtSdvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV15firstVerifiedAtSdvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV15firstVerifiedAtSdvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV15firstVerifiedAtSdvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latestVerifiedAt",
+            "printedName": "latestVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV16latestVerifiedAtSdvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV16latestVerifiedAtSdvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV16latestVerifiedAtSdvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV16latestVerifiedAtSdvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TwitterAccount",
+                "printedName": "PrivySDK.TwitterAccount",
+                "usr": "s:8PrivySDK14TwitterAccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK14TwitterAccountV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8PrivySDK14TwitterAccountV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14TwitterAccountV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8PrivySDK14TwitterAccountV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TwitterAccountV9hashValueSivp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TwitterAccountV9hashValueSivg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14TwitterAccountV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK14TwitterAccountV4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TwitterAccount",
+                "printedName": "PrivySDK.TwitterAccount",
+                "usr": "s:8PrivySDK14TwitterAccountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TwitterAccount",
+                "printedName": "PrivySDK.TwitterAccount",
+                "usr": "s:8PrivySDK14TwitterAccountV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14TwitterAccountV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK14TwitterAccountV2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK14TwitterAccountV",
+        "mangledName": "$s8PrivySDK14TwitterAccountV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -13014,6 +13335,345 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalletRpcResponseData",
+        "printedName": "WalletRpcResponseData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21WalletRpcResponseDataV7addressSSvp",
+            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV7addressSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV7addressSSvg",
+                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV7addressSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "response",
+            "printedName": "response",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "PrivySDK.WalletRpcResponseData.Response",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvp",
+            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "PrivySDK.WalletRpcResponseData.Response",
+                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvg",
+                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV8responseAC0E0Vvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Response",
+            "printedName": "Response",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "method",
+                "printedName": "method",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvp",
+                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvp",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvg",
+                    "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V6methodSSvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvp",
+                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvp",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvg",
+                    "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V4dataSSvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "PrivySDK.WalletRpcResponseData.Response",
+                    "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V6encode2toys7Encoder_p_tKF",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:8PrivySDK21WalletRpcResponseDataV0E0V",
+            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV0E0V",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WalletRpcResponseData",
+                "printedName": "PrivySDK.WalletRpcResponseData",
+                "usr": "s:8PrivySDK21WalletRpcResponseDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK21WalletRpcResponseDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK21WalletRpcResponseDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8PrivySDK21WalletRpcResponseDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK21WalletRpcResponseDataV",
+        "mangledName": "$s8PrivySDK21WalletRpcResponseDataV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -16078,6 +16738,56 @@
           },
           {
             "kind": "Var",
+            "name": "twitter",
+            "printedName": "twitter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LinkedAccount.Type) -> (PrivySDK.TwitterAccount) -> PrivySDK.LinkedAccount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.TwitterAccount) -> PrivySDK.LinkedAccount",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TwitterAccount",
+                        "printedName": "PrivySDK.TwitterAccount",
+                        "usr": "s:8PrivySDK14TwitterAccountV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LinkedAccount.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13LinkedAccountO7twitteryAcA07TwitterD0VcACmF",
+            "mangledName": "$s8PrivySDK13LinkedAccountO7twitteryAcA07TwitterD0VcACmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
             "name": "apple",
             "printedName": "apple",
             "children": [
@@ -18347,15 +19057,22 @@
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
       "offset": 371,
-      "length": 18,
-      "value": "\"privy:wallet:rpc\""
+      "length": 19,
+      "value": "\"privy:wallets:rpc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 414,
       "length": 36,
       "value": "\"privy:wallet:set-recovery-password\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 25,
+      "value": "\"privy:solana-wallet:rpc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
@@ -18403,15 +19120,22 @@
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
       "offset": 371,
-      "length": 18,
-      "value": "\"privy:wallet:rpc\""
+      "length": 19,
+      "value": "\"privy:wallets:rpc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 414,
       "length": 36,
       "value": "\"privy:wallet:set-recovery-password\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 25,
+      "value": "\"privy:solana-wallet:rpc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
@@ -18521,240 +19245,289 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2240,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 2283,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2240,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 2283,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4097,
+      "offset": 4323,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4133,
+      "offset": 4359,
       "length": 12,
       "value": "\"chain_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4178,
+      "offset": 4404,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4228,
+      "offset": 4454,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4271,
+      "offset": 4497,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4541,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4588,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4097,
+      "offset": 4323,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4133,
+      "offset": 4359,
       "length": 12,
       "value": "\"chain_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4178,
+      "offset": 4404,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4228,
+      "offset": 4454,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4271,
+      "offset": 4497,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4541,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4362,
+      "offset": 4588,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4811,
+      "offset": 5037,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4847,
+      "offset": 5073,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4811,
+      "offset": 5037,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4847,
+      "offset": 5073,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5181,
+      "offset": 5407,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5181,
+      "offset": 5407,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5641,
+      "offset": 5867,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5693,
+      "offset": 5919,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5641,
+      "offset": 5867,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5693,
+      "offset": 5919,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6117,
+      "offset": 6433,
+      "length": 21,
+      "value": "\"profile_picture_url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6486,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6169,
+      "offset": 6538,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6117,
+      "offset": 6433,
+      "length": 21,
+      "value": "\"profile_picture_url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6486,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6169,
+      "offset": 6538,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProviderImpl.swift",
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 881,
+      "offset": 6962,
+      "length": 19,
+      "value": "\"first_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 7014,
+      "length": 20,
+      "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 6962,
+      "length": 19,
+      "value": "\"first_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 7014,
+      "length": 20,
+      "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EmbeddedWalletProviderImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 941,
       "length": 34,
       "value": "\"4df5e2316331463a9130964bd6078dfa\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProviderImpl.swift",
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 952,
+      "offset": 1012,
       "length": 38,
       "value": "\"fe9c30fc-3bc5-4064-91e2-6ab5887f8f4d\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EmbeddedWalletProviderImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 34,
+      "value": "\"PrivySDK.EthereumEmbeddedWalletProviderImpl\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/JWT\/JWT.swift",
@@ -18808,14 +19581,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 14012,
+      "offset": 14112,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15899,
+      "offset": 15999,
       "length": 5,
       "value": "false"
     }
