@@ -33,6 +33,7 @@ public protocol EmbeddedWalletManager {
   @available(*, deprecated, message: "This method is deprecated and will be removed with the 2.0 release of this SDK. Use getEthereumProvider(walletAddress:) instead")
   func getProvider(for walletAddress: Swift.String) throws -> any PrivySDK.EmbeddedWalletProvider
   func getEthereumProvider(for walletAddress: Swift.String) throws -> any PrivySDK.EthereumEmbeddedWalletProvider
+  func getSolanaProvider(for walletAddress: Swift.String) throws -> any PrivySDK.SolanaEmbeddedWalletProvider
   #if compiler(>=5.3) && $AsyncAwait
   @available(*, deprecated, message: "This method is deprecated and will be removed with the 2.0 release of this SDK.")
   func recover() async throws -> PrivySDK.WalletRecoverResponseData
@@ -113,7 +114,9 @@ public struct EmailAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol SolanaEmbeddedWalletProvider {
-  func signMessage(message: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  func signMessage(message: Swift.String) async throws -> Swift.String
+  #endif
 }
 public struct WalletLoginMetadata {
   public init(walletClientType: PrivySDK.WalletClientType?, connectorType: Swift.String?)
@@ -208,7 +211,7 @@ public struct EmbeddedWallet : Swift.Codable, Swift.Hashable, Swift.Identifiable
     get
   }
   public let address: Swift.String
-  public var chainType: PrivySDK.ChainType
+  public let chainType: PrivySDK.ChainType
   public let chainId: Swift.String?
   public let walletClientType: Swift.String?
   public let connectorType: Swift.String?
@@ -264,12 +267,10 @@ public enum PrivyEmbeddedWalletError : Swift.Error {
     get
   }
 }
-public protocol EthereumEmbeddedWalletProvider : PrivySDK.EmbeddedWalletProvider {
-}
-public protocol EmbeddedWalletProvider {
+public protocol EthereumEmbeddedWalletProvider {
   var chainId: Swift.Int { get }
   #if compiler(>=5.3) && $AsyncAwait
-  func request(_ request: PrivySDK.RpcRequest) async throws -> PrivySDK.WalletRpcResponseData
+  func request(_ request: PrivySDK.RpcRequest) async throws -> Swift.String
   #endif
   func configure(chainId: Swift.Int, rpcUrl: Swift.String?)
 }
@@ -466,21 +467,6 @@ public enum ChainType : Swift.Codable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-extension PrivySDK.EmbeddedWalletProvider {
-  public func isEqualTo(provider2: any PrivySDK.EmbeddedWalletProvider) -> Swift.Bool
-}
-public struct WalletRpcResponseData : Swift.Codable {
-  public let address: Swift.String
-  public let response: PrivySDK.WalletRpcResponseData.Response
-  public struct Response : Swift.Codable {
-    public let method: Swift.String
-    public let data: Swift.String
-    public func encode(to encoder: any Swift.Encoder) throws
-    public init(from decoder: any Swift.Decoder) throws
-  }
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
-}
 public protocol LoginWithSms {
   var otpState: PrivySDK.OtpFlowState { get }
   func setOtpFlowStateChangeCallback(_ otpFlowStateCallback: @escaping PrivySDK.OtpFlowStateChangeCallback)
@@ -592,6 +578,15 @@ public struct RpcRequest {
   public let params: [Swift.String]
   public init(method: Swift.String, params: [Swift.String])
 }
+@available(*, deprecated, message: "This type is deprecated and will be removed in SDK 2.0. Use EthereumEmbeddedWalletProvider instead.")
+public protocol EmbeddedWalletProvider {
+  var chainId: Swift.Int { get }
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(*, deprecated, message: "This method is deprecated. Use EthereumEmbeddedWalletProvider.request(_ request: RpcRequest) -> String instead.")
+  func request(_ request: PrivySDK.RpcRequest) async throws -> PrivySDK.WalletRpcResponseData
+  #endif
+  func configure(chainId: Swift.Int, rpcUrl: Swift.String?)
+}
 public enum LinkedAccount : Swift.Codable, Swift.Equatable {
   case customAuth(PrivySDK.CustomAuth)
   case embeddedWallet(PrivySDK.EmbeddedWallet)
@@ -625,6 +620,21 @@ extension PrivySDK.LoginWithEmail {
   #if compiler(>=5.3) && $AsyncAwait
   public func linkWithCode(_ code: Swift.String) async throws -> PrivySDK.AuthState
   #endif
+}
+public struct WalletRpcResponseData : Swift.Codable {
+  public let address: Swift.String
+  public let response: PrivySDK.WalletRpcResponseData.Response
+  public struct Response : Swift.Codable {
+    public let method: Swift.String
+    public let data: Swift.String
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension PrivySDK.EmbeddedWalletProvider {
+  public func isEqualTo(provider2: any PrivySDK.EmbeddedWalletProvider) -> Swift.Bool
 }
 public struct WalletCreateResponseData : Swift.Codable {
   public let address: Swift.String
