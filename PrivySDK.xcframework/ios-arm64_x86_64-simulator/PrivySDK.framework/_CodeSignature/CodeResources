@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SoRx8sddblVu7mh5OMuOyqaTgic=
+		yDxJ6Oktf0meeTctQ+QsqVMyY7I=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		d4I8ZLgzXSSYrfB6GM/V1kYxeA0=
+		ZMt36B+uQA7lWFdLjqRx50gcP2I=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ks5hvGgzWfkt0I9OqLWzx/5GVkE=
+		dDNtWXKH0isp0PL975UMZOSsj2Y=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		t6CfPFN+NIV3FhsuyfBcHG6b21s=
+		06Rl7d3gGRRivMq7UfHI6VCMFMs=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ks5hvGgzWfkt0I9OqLWzx/5GVkE=
+		dDNtWXKH0isp0PL975UMZOSsj2Y=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KYbGb7eCP0fzCwVlue4xSv7HSL8=
+		SPfJmoWRCy3ZYcoKLRzGrTFf01U=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		d4I8ZLgzXSSYrfB6GM/V1kYxeA0=
+		ZMt36B+uQA7lWFdLjqRx50gcP2I=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zuF5RdbgxyFso30+SIC2GPoVYIQ=
+		UtHOgaRYWxBrNUJq0NV2ryvGZi0=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		k2NvYANVSVQpY9Qg/+pS1+GyGwk=
+		Iymu3ra/InwAZ8sgnPv2vwPTHw4=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zuF5RdbgxyFso30+SIC2GPoVYIQ=
+		UtHOgaRYWxBrNUJq0NV2ryvGZi0=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i0imWnbp9AQV7EMtWytcie5Hdxk=
+		ppnQ17Qg/tagObBw///hI7WKCVg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N5m6q62SKD6B1DnUuMDBXdoNMWjlCXpHVqytpXLZuhY=
+			6NSXGblPllZaTOL/4O9M009ex6dKDYOE9M8zwpc03p0=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSsGIVnDxvYTzsBFMwXy7oMIB4n77r5cyKtOXmFywXw=
+			F4Jlt/j/x/H5U0JmyTR6pKHLSIpTKeJYnSM5Vvbway0=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ACc61jBFs2y+7utGE26e+hCrQ+6v/8jNiER6jyjF84=
+			K5MQdV/AN014shv1qptfKWzihXfyJQAmGXrHZ9dP+hw=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GSsGIVnDxvYTzsBFMwXy7oMIB4n77r5cyKtOXmFywXw=
+			F4Jlt/j/x/H5U0JmyTR6pKHLSIpTKeJYnSM5Vvbway0=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6/3EUVKDetCidjApcn24NTVAzpzR7PsmC4KOLQ1sFkM=
+			wseVlghUeQL6jHSEIV4Nf9W/d5CHbb5H+pc1SPL7Xu8=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N5m6q62SKD6B1DnUuMDBXdoNMWjlCXpHVqytpXLZuhY=
+			6NSXGblPllZaTOL/4O9M009ex6dKDYOE9M8zwpc03p0=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUg1aFD2N7KFfWyVUSJpo9kxdSlM6pVU+Wm+8950hIo=
+			ZxQifcGeAViJarrhOF+zjj7tdEm2j+x+Fix8JnOJh94=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+TkGTUzw4IGYOzCMf5xMJALS50TFRat6s/bmVZhiXVo=
+			EOysOSj5DJci5fyb40i1xvOd30Een687wDLU2x+RjSI=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RUg1aFD2N7KFfWyVUSJpo9kxdSlM6pVU+Wm+8950hIo=
+			ZxQifcGeAViJarrhOF+zjj7tdEm2j+x+Fix8JnOJh94=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJrZbOw5WqkqwRUoaWIwxcx0hqwzlJmnNWc6ivP8G0k=
+			Wn6u5XK6tytX+SfeSbZ0Kdn4HZSSRjd96IHpZyFxBgU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
