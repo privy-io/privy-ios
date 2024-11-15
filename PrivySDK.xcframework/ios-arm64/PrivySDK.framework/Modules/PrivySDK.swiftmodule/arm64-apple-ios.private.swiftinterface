@@ -7,7 +7,6 @@ import CryptoKit
 import Foundation
 @_exported import PrivySDK
 import Swift
-import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
