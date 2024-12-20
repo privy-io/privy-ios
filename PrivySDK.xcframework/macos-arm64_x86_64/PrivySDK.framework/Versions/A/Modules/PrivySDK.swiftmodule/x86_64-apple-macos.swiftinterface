@@ -304,6 +304,9 @@ public protocol Privy {
   func refreshSession() async throws -> PrivySDK.AuthSession
   #endif
   func logout()
+  #if compiler(>=5.3) && $AsyncAwait
+  func awaitReady() async
+  #endif
 }
 public typealias AuthStateChangeCallback = (PrivySDK.AuthState) -> Swift.Void
 public struct PrivyConfig {
