@@ -6650,6 +6650,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -8289,6 +8296,30 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK0A0P6logoutyyF",
             "mangledName": "$s8PrivySDK0A0P6logoutyyF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "awaitReady",
+            "printedName": "awaitReady()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A0P10awaitReadyyyYaF",
+            "mangledName": "$s8PrivySDK0A0P10awaitReadyyyYaF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
             "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
@@ -18144,14 +18175,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11122,
+      "offset": 11151,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11178,
+      "offset": 11207,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -19080,6 +19111,13 @@
       "value": "\"shh_getMessages\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Analytics\/ClientAnalyticsIdRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 24,
+      "value": "\"privyAnalyticsClientId\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
       "offset": 277,
@@ -19246,6 +19284,13 @@
       "offset": 8848,
       "length": 18,
       "value": "\"privy_oauth_code\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyImpl.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1136,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/PKCEHelperImpl.swift",
@@ -19677,14 +19722,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 14068,
+      "offset": 14107,
       "length": 4,
-      "value": "15.0"
+      "value": "30.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 15955,
+      "offset": 15994,
       "length": 5,
       "value": "false"
     }
