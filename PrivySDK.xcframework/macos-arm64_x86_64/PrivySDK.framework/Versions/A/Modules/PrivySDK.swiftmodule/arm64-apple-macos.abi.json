@@ -19694,42 +19694,42 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3458,
+      "offset": 3829,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 6827,
+      "offset": 7198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9862,
+      "offset": 10233,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "Array",
-      "offset": 11678,
-      "length": 29,
-      "value": "[\"clpijy3tw0001kz0g6ixs9z15\"]"
+      "offset": 12141,
+      "length": 58,
+      "value": "[\"clpijy3tw0001kz0g6ixs9z15\", \"clv6fw8s306zb9ubei8siuud9\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 14132,
+      "offset": 14624,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16019,
+      "offset": 16511,
       "length": 5,
       "value": "false"
     }
