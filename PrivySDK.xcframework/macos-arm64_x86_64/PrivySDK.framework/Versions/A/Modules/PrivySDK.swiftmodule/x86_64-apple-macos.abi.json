@@ -2539,6 +2539,13 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PrivySdk",
         "printedName": "PrivySdk",
@@ -8460,6 +8467,51 @@
           },
           {
             "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "usr": "s:8PrivySDK8LogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovp",
+            "mangledName": "$s8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovg",
+                "mangledName": "$s8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "baseUrl",
             "printedName": "baseUrl",
             "children": [
@@ -8548,7 +8600,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(appId:)",
+            "printedName": "init(appId:logLevel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8561,11 +8613,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:8PrivySDK8LogLevelO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK0A6ConfigV5appIdACSS_tcfc",
-            "mangledName": "$s8PrivySDK0A6ConfigV5appIdACSS_tcfc",
+            "usr": "s:8PrivySDK0A6ConfigV5appId8logLevelACSS_AA03LogG0Otcfc",
+            "mangledName": "$s8PrivySDK0A6ConfigV5appId8logLevelACSS_AA03LogG0Otcfc",
             "moduleName": "PrivySDK",
             "deprecated": true,
             "declAttributes": [
@@ -8577,7 +8636,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(appId:appClientId:)",
+            "printedName": "init(appId:appClientId:logLevel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8596,11 +8655,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:8PrivySDK8LogLevelO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK0A6ConfigV5appId0d6ClientE0ACSS_SStcfc",
-            "mangledName": "$s8PrivySDK0A6ConfigV5appId0d6ClientE0ACSS_SStcfc",
+            "usr": "s:8PrivySDK0A6ConfigV5appId0d6ClientE08logLevelACSS_SSAA03LogH0Otcfc",
+            "mangledName": "$s8PrivySDK0A6ConfigV5appId0d6ClientE08logLevelACSS_SSAA03LogH0Otcfc",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "AccessControl"
@@ -13939,6 +14005,422 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "PrivySDK.LogLevel",
+                        "usr": "s:8PrivySDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK8LogLevelO4noneyA2CmF",
+            "mangledName": "$s8PrivySDK8LogLevelO4noneyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "PrivySDK.LogLevel",
+                        "usr": "s:8PrivySDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK8LogLevelO5erroryA2CmF",
+            "mangledName": "$s8PrivySDK8LogLevelO5erroryA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "PrivySDK.LogLevel",
+                        "usr": "s:8PrivySDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK8LogLevelO7warningyA2CmF",
+            "mangledName": "$s8PrivySDK8LogLevelO7warningyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "PrivySDK.LogLevel",
+                        "usr": "s:8PrivySDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK8LogLevelO4infoyA2CmF",
+            "mangledName": "$s8PrivySDK8LogLevelO4infoyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "PrivySDK.LogLevel",
+                        "usr": "s:8PrivySDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK8LogLevelO5debugyA2CmF",
+            "mangledName": "$s8PrivySDK8LogLevelO5debugyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "PrivySDK.LogLevel",
+                    "usr": "s:8PrivySDK8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "PrivySDK.LogLevel",
+                        "usr": "s:8PrivySDK8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK8LogLevelO7verboseyA2CmF",
+            "mangledName": "$s8PrivySDK8LogLevelO7verboseyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "usr": "s:8PrivySDK8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "usr": "s:8PrivySDK8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK8LogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK8LogLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK8LogLevelO9hashValueSivp",
+            "mangledName": "$s8PrivySDK8LogLevelO9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK8LogLevelO9hashValueSivg",
+                "mangledName": "$s8PrivySDK8LogLevelO9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK8LogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK8LogLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "usr": "s:8PrivySDK8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "PrivySDK.LogLevel",
+                "usr": "s:8PrivySDK8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK8LogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK8LogLevelO",
+        "mangledName": "$s8PrivySDK8LogLevelO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LoginWithSmsError",
         "printedName": "LoginWithSmsError",
@@ -18175,14 +18657,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11151,
+      "offset": 11164,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11207,
+      "offset": 11220,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -19302,7 +19784,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/PrivyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 560,
+      "offset": 653,
       "length": 23,
       "value": "\"https:\/\/auth.privy.io\""
     },
@@ -19694,42 +20176,42 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3829,
+      "offset": 3865,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7198,
+      "offset": 7567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 10233,
+      "offset": 11499,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "Array",
-      "offset": 12141,
-      "length": 58,
-      "value": "[\"clpijy3tw0001kz0g6ixs9z15\", \"clv6fw8s306zb9ubei8siuud9\"]"
+      "offset": 13354,
+      "length": 159,
+      "value": "[\"clpijy3tw0001kz0g6ixs9z15\", \"cm3yrt9s504jt1210xvu4tlvz\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 14624,
+      "offset": 15926,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 16511,
+      "offset": 18106,
       "length": 5,
       "value": "false"
     }
