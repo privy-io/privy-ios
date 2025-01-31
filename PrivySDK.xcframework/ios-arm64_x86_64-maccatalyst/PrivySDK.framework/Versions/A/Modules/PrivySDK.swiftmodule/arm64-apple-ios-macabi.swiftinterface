@@ -312,10 +312,11 @@ public typealias AuthStateChangeCallback = (PrivySDK.AuthState) -> Swift.Void
 public struct PrivyConfig {
   public let appId: Swift.String
   public let appClientId: Swift.String?
+  public let logLevel: PrivySDK.LogLevel
   public var baseUrl: Swift.String
   @available(*, deprecated, message: "This initializer is deprecated. Use init(appId:appClientId) instead.")
-  public init(appId: Swift.String)
-  public init(appId: Swift.String, appClientId: Swift.String)
+  public init(appId: Swift.String, logLevel: PrivySDK.LogLevel = LogLevel.none)
+  public init(appId: Swift.String, appClientId: Swift.String, logLevel: PrivySDK.LogLevel = LogLevel.none)
 }
 public enum SupportedChain : Swift.CaseIterable {
   case mainnet
@@ -497,6 +498,20 @@ public struct AppleAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum LogLevel : Swift.Comparable {
+  case none
+  case error
+  case warning
+  case info
+  case debug
+  case verbose
+  public static func == (a: PrivySDK.LogLevel, b: PrivySDK.LogLevel) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func < (a: PrivySDK.LogLevel, b: PrivySDK.LogLevel) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public enum LoginWithSmsError : Swift.Error {
   case phoneNumberNotSpecified
@@ -696,6 +711,7 @@ extension PrivySDK.SessionUpdateAction : Swift.Hashable {}
 extension PrivySDK.SessionUpdateAction : Swift.RawRepresentable {}
 extension PrivySDK.ChainType : Swift.Equatable {}
 extension PrivySDK.ChainType : Swift.Hashable {}
+extension PrivySDK.LogLevel : Swift.Hashable {}
 extension PrivySDK.LoginMethod : Swift.Hashable {}
 extension PrivySDK.LoginWithSiweError : Swift.Equatable {}
 extension PrivySDK.LoginWithSiweError : Swift.Hashable {}
