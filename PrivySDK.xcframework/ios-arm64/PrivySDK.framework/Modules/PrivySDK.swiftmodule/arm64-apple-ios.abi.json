@@ -2612,6 +2612,265 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "AuthSessionTokens",
+        "printedName": "AuthSessionTokens",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "authToken",
+            "printedName": "authToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17AuthSessionTokensV9authTokenSSvp",
+            "mangledName": "$s8PrivySDK17AuthSessionTokensV9authTokenSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17AuthSessionTokensV9authTokenSSvg",
+                "mangledName": "$s8PrivySDK17AuthSessionTokensV9authTokenSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17AuthSessionTokensV12refreshTokenSSvp",
+            "mangledName": "$s8PrivySDK17AuthSessionTokensV12refreshTokenSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17AuthSessionTokensV12refreshTokenSSvg",
+                "mangledName": "$s8PrivySDK17AuthSessionTokensV12refreshTokenSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loginMethod",
+            "printedName": "loginMethod",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginMethod",
+                "printedName": "PrivySDK.LoginMethod",
+                "usr": "s:8PrivySDK11LoginMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17AuthSessionTokensV11loginMethodAA05LoginG0Ovp",
+            "mangledName": "$s8PrivySDK17AuthSessionTokensV11loginMethodAA05LoginG0Ovp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginMethod",
+                    "printedName": "PrivySDK.LoginMethod",
+                    "usr": "s:8PrivySDK11LoginMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17AuthSessionTokensV11loginMethodAA05LoginG0Ovg",
+                "mangledName": "$s8PrivySDK17AuthSessionTokensV11loginMethodAA05LoginG0Ovg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthSessionTokens",
+                "printedName": "PrivySDK.AuthSessionTokens",
+                "usr": "s:8PrivySDK17AuthSessionTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK17AuthSessionTokensV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8PrivySDK17AuthSessionTokensV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK17AuthSessionTokensV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8PrivySDK17AuthSessionTokensV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthSessionTokens",
+                "printedName": "PrivySDK.AuthSessionTokens",
+                "usr": "s:8PrivySDK17AuthSessionTokensV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AuthSessionTokens",
+                "printedName": "PrivySDK.AuthSessionTokens",
+                "usr": "s:8PrivySDK17AuthSessionTokensV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK17AuthSessionTokensV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK17AuthSessionTokensV2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK17AuthSessionTokensV",
+        "mangledName": "$s8PrivySDK17AuthSessionTokensV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -8467,19 +8726,27 @@
           },
           {
             "kind": "Var",
-            "name": "logLevel",
-            "printedName": "logLevel",
+            "name": "loggingConfig",
+            "printedName": "loggingConfig",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
-                "usr": "s:8PrivySDK8LogLevelO"
+                "name": "Optional",
+                "printedName": "PrivySDK.PrivyLoggingConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyLoggingConfig",
+                    "printedName": "PrivySDK.PrivyLoggingConfig",
+                    "usr": "s:8PrivySDK0A13LoggingConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovp",
-            "mangledName": "$s8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovp",
+            "usr": "s:8PrivySDK0A6ConfigV07loggingC0AA0a7LoggingC0VSgvp",
+            "mangledName": "$s8PrivySDK0A6ConfigV07loggingC0AA0a7LoggingC0VSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -8496,14 +8763,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "Optional",
+                    "printedName": "PrivySDK.PrivyLoggingConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrivyLoggingConfig",
+                        "printedName": "PrivySDK.PrivyLoggingConfig",
+                        "usr": "s:8PrivySDK0A13LoggingConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovg",
-                "mangledName": "$s8PrivySDK0A6ConfigV8logLevelAA03LogE0Ovg",
+                "usr": "s:8PrivySDK0A6ConfigV07loggingC0AA0a7LoggingC0VSgvg",
+                "mangledName": "$s8PrivySDK0A6ConfigV07loggingC0AA0a7LoggingC0VSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8600,7 +8875,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(appId:logLevel:)",
+            "printedName": "init(appId:loggingConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8616,15 +8891,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
+                "name": "Optional",
+                "printedName": "PrivySDK.PrivyLoggingConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyLoggingConfig",
+                    "printedName": "PrivySDK.PrivyLoggingConfig",
+                    "usr": "s:8PrivySDK0A13LoggingConfigV"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:8PrivySDK8LogLevelO"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK0A6ConfigV5appId8logLevelACSS_AA03LogG0Otcfc",
-            "mangledName": "$s8PrivySDK0A6ConfigV5appId8logLevelACSS_AA03LogG0Otcfc",
+            "usr": "s:8PrivySDK0A6ConfigV5appId07loggingC0ACSS_AA0a7LoggingC0VSgtcfc",
+            "mangledName": "$s8PrivySDK0A6ConfigV5appId07loggingC0ACSS_AA0a7LoggingC0VSgtcfc",
             "moduleName": "PrivySDK",
             "deprecated": true,
             "declAttributes": [
@@ -8636,7 +8919,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(appId:appClientId:logLevel:)",
+            "printedName": "init(appId:appClientId:loggingConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8658,15 +8941,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
+                "name": "Optional",
+                "printedName": "PrivySDK.PrivyLoggingConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyLoggingConfig",
+                    "printedName": "PrivySDK.PrivyLoggingConfig",
+                    "usr": "s:8PrivySDK0A13LoggingConfigV"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:8PrivySDK8LogLevelO"
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK0A6ConfigV5appId0d6ClientE08logLevelACSS_SSAA03LogH0Otcfc",
-            "mangledName": "$s8PrivySDK0A6ConfigV5appId0d6ClientE08logLevelACSS_SSAA03LogH0Otcfc",
+            "usr": "s:8PrivySDK0A6ConfigV5appId0d6ClientE007loggingC0ACSS_SSAA0a7LoggingC0VSgtcfc",
+            "mangledName": "$s8PrivySDK0A6ConfigV5appId0d6ClientE007loggingC0ACSS_SSAA0a7LoggingC0VSgtcfc",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "AccessControl"
@@ -8681,6 +8972,243 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrivyLoggingConfig",
+        "printedName": "PrivyLoggingConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logLevel",
+            "printedName": "logLevel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyLogLevel",
+                "printedName": "PrivySDK.PrivyLogLevel",
+                "usr": "s:8PrivySDK0A8LogLevelO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A13LoggingConfigV8logLevelAA0a3LogF0Ovp",
+            "mangledName": "$s8PrivySDK0A13LoggingConfigV8logLevelAA0a3LogF0Ovp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A13LoggingConfigV8logLevelAA0a3LogF0Ovg",
+                "mangledName": "$s8PrivySDK0A13LoggingConfigV8logLevelAA0a3LogF0Ovg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logMessage",
+            "printedName": "logMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PrivySDK.PrivyLogLevel, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyLogLevel, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(PrivySDK.PrivyLogLevel, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrivyLogLevel",
+                            "printedName": "PrivySDK.PrivyLogLevel",
+                            "usr": "s:8PrivySDK0A8LogLevelO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvp",
+            "mangledName": "$s8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((PrivySDK.PrivyLogLevel, Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PrivySDK.PrivyLogLevel, Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(PrivySDK.PrivyLogLevel, Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "PrivyLogLevel",
+                                "printedName": "PrivySDK.PrivyLogLevel",
+                                "usr": "s:8PrivySDK0A8LogLevelO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvg",
+                "mangledName": "$s8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logLevel:logMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyLoggingConfig",
+                "printedName": "PrivySDK.PrivyLoggingConfig",
+                "usr": "s:8PrivySDK0A13LoggingConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyLogLevel",
+                "printedName": "PrivySDK.PrivyLogLevel",
+                "usr": "s:8PrivySDK0A8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((PrivySDK.PrivyLogLevel, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyLogLevel, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(PrivySDK.PrivyLogLevel, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "PrivyLogLevel",
+                            "printedName": "PrivySDK.PrivyLogLevel",
+                            "usr": "s:8PrivySDK0A8LogLevelO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK0A13LoggingConfigV8logLevel0E7MessageAcA0a3LogF0O_yAG_SStcSgtcfc",
+            "mangledName": "$s8PrivySDK0A13LoggingConfigV8logLevel0E7MessageAcA0a3LogF0O_yAG_SStcSgtcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK0A13LoggingConfigV",
+        "mangledName": "$s8PrivySDK0A13LoggingConfigV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -14013,8 +14541,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "LogLevel",
-        "printedName": "LogLevel",
+        "name": "PrivyLogLevel",
+        "printedName": "PrivyLogLevel",
         "children": [
           {
             "kind": "Var",
@@ -14024,24 +14552,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "printedName": "(PrivySDK.PrivyLogLevel.Type) -> PrivySDK.PrivyLogLevel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PrivySDK.LogLevel.Type",
+                    "printedName": "PrivySDK.PrivyLogLevel.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "PrivySDK.LogLevel",
-                        "usr": "s:8PrivySDK8LogLevelO"
+                        "name": "PrivyLogLevel",
+                        "printedName": "PrivySDK.PrivyLogLevel",
+                        "usr": "s:8PrivySDK0A8LogLevelO"
                       }
                     ]
                   }
@@ -14049,8 +14577,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK8LogLevelO4noneyA2CmF",
-            "mangledName": "$s8PrivySDK8LogLevelO4noneyA2CmF",
+            "usr": "s:8PrivySDK0A8LogLevelO4noneyA2CmF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO4noneyA2CmF",
             "moduleName": "PrivySDK"
           },
           {
@@ -14061,24 +14589,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "printedName": "(PrivySDK.PrivyLogLevel.Type) -> PrivySDK.PrivyLogLevel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PrivySDK.LogLevel.Type",
+                    "printedName": "PrivySDK.PrivyLogLevel.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "PrivySDK.LogLevel",
-                        "usr": "s:8PrivySDK8LogLevelO"
+                        "name": "PrivyLogLevel",
+                        "printedName": "PrivySDK.PrivyLogLevel",
+                        "usr": "s:8PrivySDK0A8LogLevelO"
                       }
                     ]
                   }
@@ -14086,8 +14614,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK8LogLevelO5erroryA2CmF",
-            "mangledName": "$s8PrivySDK8LogLevelO5erroryA2CmF",
+            "usr": "s:8PrivySDK0A8LogLevelO5erroryA2CmF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO5erroryA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -14101,24 +14629,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "printedName": "(PrivySDK.PrivyLogLevel.Type) -> PrivySDK.PrivyLogLevel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PrivySDK.LogLevel.Type",
+                    "printedName": "PrivySDK.PrivyLogLevel.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "PrivySDK.LogLevel",
-                        "usr": "s:8PrivySDK8LogLevelO"
+                        "name": "PrivyLogLevel",
+                        "printedName": "PrivySDK.PrivyLogLevel",
+                        "usr": "s:8PrivySDK0A8LogLevelO"
                       }
                     ]
                   }
@@ -14126,8 +14654,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK8LogLevelO7warningyA2CmF",
-            "mangledName": "$s8PrivySDK8LogLevelO7warningyA2CmF",
+            "usr": "s:8PrivySDK0A8LogLevelO7warningyA2CmF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO7warningyA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -14141,24 +14669,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "printedName": "(PrivySDK.PrivyLogLevel.Type) -> PrivySDK.PrivyLogLevel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PrivySDK.LogLevel.Type",
+                    "printedName": "PrivySDK.PrivyLogLevel.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "PrivySDK.LogLevel",
-                        "usr": "s:8PrivySDK8LogLevelO"
+                        "name": "PrivyLogLevel",
+                        "printedName": "PrivySDK.PrivyLogLevel",
+                        "usr": "s:8PrivySDK0A8LogLevelO"
                       }
                     ]
                   }
@@ -14166,8 +14694,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK8LogLevelO4infoyA2CmF",
-            "mangledName": "$s8PrivySDK8LogLevelO4infoyA2CmF",
+            "usr": "s:8PrivySDK0A8LogLevelO4infoyA2CmF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO4infoyA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -14181,24 +14709,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "printedName": "(PrivySDK.PrivyLogLevel.Type) -> PrivySDK.PrivyLogLevel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PrivySDK.LogLevel.Type",
+                    "printedName": "PrivySDK.PrivyLogLevel.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "PrivySDK.LogLevel",
-                        "usr": "s:8PrivySDK8LogLevelO"
+                        "name": "PrivyLogLevel",
+                        "printedName": "PrivySDK.PrivyLogLevel",
+                        "usr": "s:8PrivySDK0A8LogLevelO"
                       }
                     ]
                   }
@@ -14206,8 +14734,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK8LogLevelO5debugyA2CmF",
-            "mangledName": "$s8PrivySDK8LogLevelO5debugyA2CmF",
+            "usr": "s:8PrivySDK0A8LogLevelO5debugyA2CmF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO5debugyA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -14221,24 +14749,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PrivySDK.LogLevel.Type) -> PrivySDK.LogLevel",
+                "printedName": "(PrivySDK.PrivyLogLevel.Type) -> PrivySDK.PrivyLogLevel",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "LogLevel",
-                    "printedName": "PrivySDK.LogLevel",
-                    "usr": "s:8PrivySDK8LogLevelO"
+                    "name": "PrivyLogLevel",
+                    "printedName": "PrivySDK.PrivyLogLevel",
+                    "usr": "s:8PrivySDK0A8LogLevelO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "PrivySDK.LogLevel.Type",
+                    "printedName": "PrivySDK.PrivyLogLevel.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "LogLevel",
-                        "printedName": "PrivySDK.LogLevel",
-                        "usr": "s:8PrivySDK8LogLevelO"
+                        "name": "PrivyLogLevel",
+                        "printedName": "PrivySDK.PrivyLogLevel",
+                        "usr": "s:8PrivySDK0A8LogLevelO"
                       }
                     ]
                   }
@@ -14246,8 +14774,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:8PrivySDK8LogLevelO7verboseyA2CmF",
-            "mangledName": "$s8PrivySDK8LogLevelO7verboseyA2CmF",
+            "usr": "s:8PrivySDK0A8LogLevelO7verboseyA2CmF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO7verboseyA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -14266,20 +14794,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
-                "usr": "s:8PrivySDK8LogLevelO"
+                "name": "PrivyLogLevel",
+                "printedName": "PrivySDK.PrivyLogLevel",
+                "usr": "s:8PrivySDK0A8LogLevelO"
               },
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
-                "usr": "s:8PrivySDK8LogLevelO"
+                "name": "PrivyLogLevel",
+                "printedName": "PrivySDK.PrivyLogLevel",
+                "usr": "s:8PrivySDK0A8LogLevelO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK8LogLevelO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8PrivySDK8LogLevelO2eeoiySbAC_ACtFZ",
+            "usr": "s:8PrivySDK0A8LogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK0A8LogLevelO2eeoiySbAC_ACtFZ",
             "moduleName": "PrivySDK",
             "static": true,
             "implicit": true,
@@ -14298,8 +14826,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK8LogLevelO9hashValueSivp",
-            "mangledName": "$s8PrivySDK8LogLevelO9hashValueSivp",
+            "usr": "s:8PrivySDK0A8LogLevelO9hashValueSivp",
+            "mangledName": "$s8PrivySDK0A8LogLevelO9hashValueSivp",
             "moduleName": "PrivySDK",
             "implicit": true,
             "accessors": [
@@ -14316,8 +14844,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK8LogLevelO9hashValueSivg",
-                "mangledName": "$s8PrivySDK8LogLevelO9hashValueSivg",
+                "usr": "s:8PrivySDK0A8LogLevelO9hashValueSivg",
+                "mangledName": "$s8PrivySDK0A8LogLevelO9hashValueSivg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -14343,8 +14871,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK8LogLevelO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s8PrivySDK8LogLevelO4hash4intoys6HasherVz_tF",
+            "usr": "s:8PrivySDK0A8LogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK0A8LogLevelO4hash4intoys6HasherVz_tF",
             "moduleName": "PrivySDK",
             "implicit": true,
             "funcSelfKind": "NonMutating"
@@ -14362,20 +14890,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
-                "usr": "s:8PrivySDK8LogLevelO"
+                "name": "PrivyLogLevel",
+                "printedName": "PrivySDK.PrivyLogLevel",
+                "usr": "s:8PrivySDK0A8LogLevelO"
               },
               {
                 "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "PrivySDK.LogLevel",
-                "usr": "s:8PrivySDK8LogLevelO"
+                "name": "PrivyLogLevel",
+                "printedName": "PrivySDK.PrivyLogLevel",
+                "usr": "s:8PrivySDK0A8LogLevelO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK8LogLevelO1loiySbAC_ACtFZ",
-            "mangledName": "$s8PrivySDK8LogLevelO1loiySbAC_ACtFZ",
+            "usr": "s:8PrivySDK0A8LogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK0A8LogLevelO1loiySbAC_ACtFZ",
             "moduleName": "PrivySDK",
             "static": true,
             "implicit": true,
@@ -14383,8 +14911,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:8PrivySDK8LogLevelO",
-        "mangledName": "$s8PrivySDK8LogLevelO",
+        "usr": "s:8PrivySDK0A8LogLevelO",
+        "mangledName": "$s8PrivySDK0A8LogLevelO",
         "moduleName": "PrivySDK",
         "declAttributes": [
           "AccessControl"
@@ -18657,938 +19185,952 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11908,
+      "offset": 11721,
+      "length": 10,
+      "value": "\"io.privy\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11775,
+      "length": 14,
+      "value": "\"authTokensV3\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11899,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11964,
+      "offset": 11957,
       "length": 10,
       "value": "\"io.privy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 612,
       "length": 10,
       "value": "\"eth_sign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 661,
       "length": 32,
       "value": "\"eth_populateTransactionRequest\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 721,
       "length": 21,
       "value": "\"eth_signTransaction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 767,
       "length": 15,
       "value": "\"personal_sign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 838,
       "length": 17,
       "value": "\"eth_blockNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 886,
       "length": 24,
       "value": "\"eth_sendRawTransaction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 964,
       "length": 16,
       "value": "\"eth_getBalance\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 984,
+      "offset": 1005,
       "length": 18,
       "value": "\"eth_getStorageAt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1055,
       "length": 25,
       "value": "\"eth_getTransactionCount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1100,
       "length": 13,
       "value": "\"eth_getCode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1130,
       "length": 10,
       "value": "\"eth_call\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1135,
+      "offset": 1164,
       "length": 17,
       "value": "\"eth_estimateGas\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1257,
       "length": 36,
       "value": "\"eth_getBlockTransactionCountByHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1338,
       "length": 38,
       "value": "\"eth_getBlockTransactionCountByNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1377,
+      "offset": 1413,
       "length": 30,
       "value": "\"eth_getUncleCountByBlockHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1444,
+      "offset": 1482,
       "length": 32,
       "value": "\"eth_getUncleCountByBlockNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1501,
+      "offset": 1541,
       "length": 20,
       "value": "\"eth_getBlockByHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1548,
+      "offset": 1590,
       "length": 22,
       "value": "\"eth_getBlockByNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1645,
       "length": 26,
       "value": "\"eth_getTransactionByHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1671,
+      "offset": 1717,
       "length": 39,
       "value": "\"eth_getTransactionByBlockHashAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1756,
+      "offset": 1804,
       "length": 41,
       "value": "\"eth_getTransactionByBlockNumberAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1829,
+      "offset": 1879,
       "length": 27,
       "value": "\"eth_getTransactionReceipt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1894,
+      "offset": 1946,
       "length": 33,
       "value": "\"eth_getUncleByBlockHashAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 2021,
       "length": 35,
       "value": "\"eth_getUncleByBlockNumberAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2047,
+      "offset": 2104,
       "length": 20,
       "value": "\"web3_clientVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2141,
       "length": 11,
       "value": "\"web3_sha3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2129,
+      "offset": 2193,
       "length": 13,
       "value": "\"net_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2162,
+      "offset": 2228,
       "length": 15,
       "value": "\"net_listening\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2197,
+      "offset": 2265,
       "length": 15,
       "value": "\"net_peerCount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2350,
       "length": 21,
       "value": "\"eth_protocolVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2391,
       "length": 13,
       "value": "\"eth_syncing\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2425,
       "length": 14,
       "value": "\"eth_coinbase\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2382,
+      "offset": 2459,
       "length": 13,
       "value": "\"eth_chainId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2491,
       "length": 12,
       "value": "\"eth_mining\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2524,
       "length": 14,
       "value": "\"eth_hashrate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2476,
+      "offset": 2559,
       "length": 14,
       "value": "\"eth_gasPrice\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2509,
+      "offset": 2594,
       "length": 14,
       "value": "\"eth_accounts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2636,
       "length": 21,
       "value": "\"eth_sendTransaction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2593,
+      "offset": 2682,
       "length": 18,
       "value": "\"eth_getCompilers\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2637,
+      "offset": 2728,
       "length": 21,
       "value": "\"eth_compileSolidity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 2772,
       "length": 16,
       "value": "\"eth_compileLLL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2720,
+      "offset": 2815,
       "length": 20,
       "value": "\"eth_compileSerpent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2857,
       "length": 15,
       "value": "\"eth_newFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2899,
       "length": 20,
       "value": "\"eth_newBlockFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2858,
+      "offset": 2959,
       "length": 33,
       "value": "\"eth_newPendingTransactionFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
+      "offset": 3020,
       "length": 21,
       "value": "\"eth_uninstallFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 3070,
       "length": 22,
       "value": "\"eth_getFilterChanges\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3118,
       "length": 19,
       "value": "\"eth_getFilterLogs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3157,
       "length": 13,
       "value": "\"eth_getLogs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3190,
       "length": 13,
       "value": "\"eth_getWork\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3226,
       "length": 16,
       "value": "\"eth_submitWork\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3154,
+      "offset": 3269,
       "length": 20,
       "value": "\"eth_submitHashrate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3228,
+      "offset": 3346,
       "length": 14,
       "value": "\"db_putString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3264,
+      "offset": 3384,
       "length": 14,
       "value": "\"db_getString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3419,
       "length": 11,
       "value": "\"db_putHex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3327,
+      "offset": 3451,
       "length": 11,
       "value": "\"db_getHex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3519,
       "length": 13,
       "value": "\"shh_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3423,
+      "offset": 3552,
       "length": 10,
       "value": "\"shh_post\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3458,
+      "offset": 3589,
       "length": 17,
       "value": "\"shh_newIdentity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3500,
+      "offset": 3633,
       "length": 17,
       "value": "\"shh_hasIdentity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 3674,
       "length": 14,
       "value": "\"shh_newGroup\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3714,
       "length": 16,
       "value": "\"shh_addToGroup\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3616,
+      "offset": 3755,
       "length": 15,
       "value": "\"shh_newFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3801,
       "length": 21,
       "value": "\"shh_uninstallFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3711,
+      "offset": 3854,
       "length": 22,
       "value": "\"shh_getFilterChanges\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3758,
+      "offset": 3903,
       "length": 17,
       "value": "\"shh_getMessages\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 612,
       "length": 10,
       "value": "\"eth_sign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 661,
       "length": 32,
       "value": "\"eth_populateTransactionRequest\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 712,
+      "offset": 721,
       "length": 21,
       "value": "\"eth_signTransaction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 767,
       "length": 15,
       "value": "\"personal_sign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 838,
       "length": 17,
       "value": "\"eth_blockNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 870,
+      "offset": 886,
       "length": 24,
       "value": "\"eth_sendRawTransaction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 945,
+      "offset": 964,
       "length": 16,
       "value": "\"eth_getBalance\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 984,
+      "offset": 1005,
       "length": 18,
       "value": "\"eth_getStorageAt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1055,
       "length": 25,
       "value": "\"eth_getTransactionCount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1075,
+      "offset": 1100,
       "length": 13,
       "value": "\"eth_getCode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1103,
+      "offset": 1130,
       "length": 10,
       "value": "\"eth_call\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1135,
+      "offset": 1164,
       "length": 17,
       "value": "\"eth_estimateGas\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
+      "offset": 1257,
       "length": 36,
       "value": "\"eth_getBlockTransactionCountByHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 1338,
       "length": 38,
       "value": "\"eth_getBlockTransactionCountByNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1377,
+      "offset": 1413,
       "length": 30,
       "value": "\"eth_getUncleCountByBlockHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1444,
+      "offset": 1482,
       "length": 32,
       "value": "\"eth_getUncleCountByBlockNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1501,
+      "offset": 1541,
       "length": 20,
       "value": "\"eth_getBlockByHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1548,
+      "offset": 1590,
       "length": 22,
       "value": "\"eth_getBlockByNumber\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1645,
       "length": 26,
       "value": "\"eth_getTransactionByHash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1671,
+      "offset": 1717,
       "length": 39,
       "value": "\"eth_getTransactionByBlockHashAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1756,
+      "offset": 1804,
       "length": 41,
       "value": "\"eth_getTransactionByBlockNumberAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1829,
+      "offset": 1879,
       "length": 27,
       "value": "\"eth_getTransactionReceipt\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1894,
+      "offset": 1946,
       "length": 33,
       "value": "\"eth_getUncleByBlockHashAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 2021,
       "length": 35,
       "value": "\"eth_getUncleByBlockNumberAndIndex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2047,
+      "offset": 2104,
       "length": 20,
       "value": "\"web3_clientVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2141,
       "length": 11,
       "value": "\"web3_sha3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2129,
+      "offset": 2193,
       "length": 13,
       "value": "\"net_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2162,
+      "offset": 2228,
       "length": 15,
       "value": "\"net_listening\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2197,
+      "offset": 2265,
       "length": 15,
       "value": "\"net_peerCount\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2350,
       "length": 21,
       "value": "\"eth_protocolVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2318,
+      "offset": 2391,
       "length": 13,
       "value": "\"eth_syncing\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2425,
       "length": 14,
       "value": "\"eth_coinbase\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2382,
+      "offset": 2459,
       "length": 13,
       "value": "\"eth_chainId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 2491,
       "length": 12,
       "value": "\"eth_mining\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2524,
       "length": 14,
       "value": "\"eth_hashrate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2476,
+      "offset": 2559,
       "length": 14,
       "value": "\"eth_gasPrice\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2509,
+      "offset": 2594,
       "length": 14,
       "value": "\"eth_accounts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2549,
+      "offset": 2636,
       "length": 21,
       "value": "\"eth_sendTransaction\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2593,
+      "offset": 2682,
       "length": 18,
       "value": "\"eth_getCompilers\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2637,
+      "offset": 2728,
       "length": 21,
       "value": "\"eth_compileSolidity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 2772,
       "length": 16,
       "value": "\"eth_compileLLL\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2720,
+      "offset": 2815,
       "length": 20,
       "value": "\"eth_compileSerpent\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2857,
       "length": 15,
       "value": "\"eth_newFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2899,
       "length": 20,
       "value": "\"eth_newBlockFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2858,
+      "offset": 2959,
       "length": 33,
       "value": "\"eth_newPendingTransactionFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2917,
+      "offset": 3020,
       "length": 21,
       "value": "\"eth_uninstallFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 2965,
+      "offset": 3070,
       "length": 22,
       "value": "\"eth_getFilterChanges\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3118,
       "length": 19,
       "value": "\"eth_getFilterLogs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3157,
       "length": 13,
       "value": "\"eth_getLogs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3190,
       "length": 13,
       "value": "\"eth_getWork\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3113,
+      "offset": 3226,
       "length": 16,
       "value": "\"eth_submitWork\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3154,
+      "offset": 3269,
       "length": 20,
       "value": "\"eth_submitHashrate\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3228,
+      "offset": 3346,
       "length": 14,
       "value": "\"db_putString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3264,
+      "offset": 3384,
       "length": 14,
       "value": "\"db_getString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3419,
       "length": 11,
       "value": "\"db_putHex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3327,
+      "offset": 3451,
       "length": 11,
       "value": "\"db_getHex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3519,
       "length": 13,
       "value": "\"shh_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3423,
+      "offset": 3552,
       "length": 10,
       "value": "\"shh_post\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3458,
+      "offset": 3589,
       "length": 17,
       "value": "\"shh_newIdentity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3500,
+      "offset": 3633,
       "length": 17,
       "value": "\"shh_hasIdentity\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 3674,
       "length": 14,
       "value": "\"shh_newGroup\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3577,
+      "offset": 3714,
       "length": 16,
       "value": "\"shh_addToGroup\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3616,
+      "offset": 3755,
       "length": 15,
       "value": "\"shh_newFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 3801,
       "length": 21,
       "value": "\"shh_uninstallFilter\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3711,
+      "offset": 3854,
       "length": 22,
       "value": "\"shh_getFilterChanges\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/RPC\/JSONRPCMethods.swift",
       "kind": "StringLiteral",
-      "offset": 3758,
+      "offset": 3903,
       "length": 17,
       "value": "\"shh_getMessages\""
     },
@@ -19602,42 +20144,42 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
-      "offset": 277,
+      "offset": 278,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 321,
       "length": 17,
       "value": "\"linked_accounts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
-      "offset": 277,
+      "offset": 278,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
-      "offset": 320,
+      "offset": 321,
       "length": 17,
       "value": "\"linked_accounts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/GenerateSiweMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 263,
       "length": 12,
       "value": "\"expires_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/GenerateSiweMessageResponse.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 263,
       "length": 12,
       "value": "\"expires_at\""
     },
@@ -19756,14 +20298,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8784,
+      "offset": 8792,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8848,
+      "offset": 8856,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },
@@ -19777,14 +20319,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/PKCEHelperImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 258,
+      "offset": 272,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/PrivyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 669,
       "length": 23,
       "value": "\"https:\/\/auth.privy.io\""
     },
@@ -19861,280 +20403,280 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/ChainInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 505,
+      "offset": 501,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2240,
+      "offset": 2242,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2283,
+      "offset": 2285,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2240,
+      "offset": 2242,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2283,
+      "offset": 2285,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4323,
+      "offset": 4345,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 4381,
       "length": 12,
       "value": "\"chain_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4404,
+      "offset": 4426,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4454,
+      "offset": 4476,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4497,
+      "offset": 4519,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4541,
+      "offset": 4563,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4588,
+      "offset": 4610,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4323,
+      "offset": 4345,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 4381,
       "length": 12,
       "value": "\"chain_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4404,
+      "offset": 4426,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4454,
+      "offset": 4476,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4497,
+      "offset": 4519,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4541,
+      "offset": 4563,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4588,
+      "offset": 4610,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5037,
+      "offset": 5058,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5073,
+      "offset": 5094,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5037,
+      "offset": 5058,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5073,
+      "offset": 5094,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5407,
+      "offset": 5429,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5407,
+      "offset": 5429,
       "length": 13,
       "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5867,
+      "offset": 5890,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5919,
+      "offset": 5942,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5867,
+      "offset": 5890,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5919,
+      "offset": 5942,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6457,
       "length": 21,
       "value": "\"profile_picture_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6486,
+      "offset": 6510,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6538,
+      "offset": 6562,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6433,
+      "offset": 6457,
       "length": 21,
       "value": "\"profile_picture_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6486,
+      "offset": 6510,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6538,
+      "offset": 6562,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6962,
+      "offset": 6987,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7014,
+      "offset": 7039,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6962,
+      "offset": 6987,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7014,
+      "offset": 7039,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/JWT\/JWT.swift",
       "kind": "IntegerLiteral",
-      "offset": 1719,
+      "offset": 1711,
       "length": 2,
       "value": "60"
     },
@@ -20176,29 +20718,29 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3793,
+      "offset": 3791,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7307,
+      "offset": 7305,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11101,
+      "offset": 11099,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "Array",
-      "offset": 12890,
-      "length": 155,
+      "offset": 12889,
+      "length": 156,
       "value": "[\"clpijy3tw0001kz0g6ixs9z15\", \"cm3yrt9s504jt1210xvu4tlvz\"]"
     },
     {
@@ -20211,7 +20753,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17590,
+      "offset": 17606,
       "length": 5,
       "value": "false"
     }
