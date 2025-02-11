@@ -124,6 +124,14 @@ public struct WalletLoginMetadata {
   public static func initialize(config: PrivySDK.PrivyConfig) -> any PrivySDK.Privy
   @objc deinit
 }
+public struct AuthSessionTokens : Swift.Codable, Swift.Equatable {
+  public let authToken: Swift.String
+  public let refreshToken: Swift.String
+  public let loginMethod: PrivySDK.LoginMethod
+  public static func == (a: PrivySDK.AuthSessionTokens, b: PrivySDK.AuthSessionTokens) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct CustomAuth : Swift.Codable, Swift.Equatable {
   public let userId: Swift.String
   public let verifiedAt: Foundation.TimeInterval
@@ -312,11 +320,16 @@ public typealias AuthStateChangeCallback = (PrivySDK.AuthState) -> Swift.Void
 public struct PrivyConfig {
   public let appId: Swift.String
   public let appClientId: Swift.String?
-  public let logLevel: PrivySDK.LogLevel
+  public let loggingConfig: PrivySDK.PrivyLoggingConfig?
   public var baseUrl: Swift.String
   @available(*, deprecated, message: "This initializer is deprecated. Use init(appId:appClientId) instead.")
-  public init(appId: Swift.String, logLevel: PrivySDK.LogLevel = LogLevel.none)
-  public init(appId: Swift.String, appClientId: Swift.String, logLevel: PrivySDK.LogLevel = LogLevel.none)
+  public init(appId: Swift.String, loggingConfig: PrivySDK.PrivyLoggingConfig? = nil)
+  public init(appId: Swift.String, appClientId: Swift.String, loggingConfig: PrivySDK.PrivyLoggingConfig? = nil)
+}
+public struct PrivyLoggingConfig {
+  public let logLevel: PrivySDK.PrivyLogLevel
+  public let logMessage: ((PrivySDK.PrivyLogLevel, Swift.String) -> Swift.Void)?
+  public init(logLevel: PrivySDK.PrivyLogLevel, logMessage: ((PrivySDK.PrivyLogLevel, Swift.String) -> Swift.Void)? = nil)
 }
 public enum SupportedChain : Swift.CaseIterable {
   case mainnet
@@ -499,16 +512,16 @@ public struct AppleAccount : Swift.Codable, Swift.Hashable, Swift.Equatable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum LogLevel : Swift.Comparable {
+public enum PrivyLogLevel : Swift.Comparable {
   case none
   case error
   case warning
   case info
   case debug
   case verbose
-  public static func == (a: PrivySDK.LogLevel, b: PrivySDK.LogLevel) -> Swift.Bool
+  public static func == (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  public static func < (a: PrivySDK.LogLevel, b: PrivySDK.LogLevel) -> Swift.Bool
+  public static func < (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -711,7 +724,7 @@ extension PrivySDK.SessionUpdateAction : Swift.Hashable {}
 extension PrivySDK.SessionUpdateAction : Swift.RawRepresentable {}
 extension PrivySDK.ChainType : Swift.Equatable {}
 extension PrivySDK.ChainType : Swift.Hashable {}
-extension PrivySDK.LogLevel : Swift.Hashable {}
+extension PrivySDK.PrivyLogLevel : Swift.Hashable {}
 extension PrivySDK.LoginMethod : Swift.Hashable {}
 extension PrivySDK.LoginWithSiweError : Swift.Equatable {}
 extension PrivySDK.LoginWithSiweError : Swift.Hashable {}
