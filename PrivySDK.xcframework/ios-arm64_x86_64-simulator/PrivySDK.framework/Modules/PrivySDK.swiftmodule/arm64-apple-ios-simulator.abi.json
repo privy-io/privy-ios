@@ -3096,6 +3096,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "AuthenticationServices",
         "printedName": "AuthenticationServices",
         "declKind": "Import",
@@ -7335,6 +7342,43 @@
             "declKind": "EnumElement",
             "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO27unsupportedProviderForChainyA2CmF",
             "mangledName": "$s8PrivySDK0A19EmbeddedWalletErrorO27unsupportedProviderForChainyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "secureContextError",
+            "printedName": "secureContextError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.PrivyEmbeddedWalletError.Type) -> PrivySDK.PrivyEmbeddedWalletError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyEmbeddedWalletError",
+                    "printedName": "PrivySDK.PrivyEmbeddedWalletError",
+                    "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.PrivyEmbeddedWalletError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PrivyEmbeddedWalletError",
+                        "printedName": "PrivySDK.PrivyEmbeddedWalletError",
+                        "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK0A19EmbeddedWalletErrorO013secureContextE0yA2CmF",
+            "mangledName": "$s8PrivySDK0A19EmbeddedWalletErrorO013secureContextE0yA2CmF",
             "moduleName": "PrivySDK"
           },
           {
@@ -16630,6 +16674,20 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19185,28 +19243,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11721,
+      "offset": 12049,
       "length": 10,
       "value": "\"io.privy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11775,
+      "offset": 12103,
       "length": 14,
       "value": "\"authTokensV3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11899,
+      "offset": 12227,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11957,
+      "offset": 12285,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -20312,7 +20370,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1096,
+      "offset": 1143,
       "length": 5,
       "value": "false"
     },
@@ -20710,6 +20768,13 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "StringLiteral",
       "offset": 39,
       "length": 14,
@@ -20718,42 +20783,63 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 3791,
+      "offset": 8287,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 7305,
+      "offset": 13047,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 11099,
+      "offset": 15387,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17090,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 17992,
+      "length": 5,
+      "value": "150.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18000,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "Array",
-      "offset": 12889,
+      "offset": 18911,
       "length": 156,
       "value": "[\"clpijy3tw0001kz0g6ixs9z15\", \"cm3yrt9s504jt1210xvu4tlvz\"]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 15450,
+      "offset": 21472,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 17606,
+      "offset": 22858,
       "length": 5,
       "value": "false"
     }
