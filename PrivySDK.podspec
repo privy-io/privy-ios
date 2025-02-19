@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PrivySDK'
-  s.version          = '1.8.2'
+  s.version          = '1.8.1'
   s.summary          = 'Privy Flutter SDK for authentication and wallet management.'
   s.description      = <<-DESC
 			The Privy SDK allows you to easily integrate authentication and wallet functionality into your iOS applications.
