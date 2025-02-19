@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Privy Team' => 'support@privy.io' }
 
   # Platform and Swift version
-  s.platform         = :ios, '14.0'
+  s.platform         = :ios, '16.0'
   s.swift_version    = '5.0'
 
   # Reference files within the framework
