@@ -20,7 +20,4 @@ Pod::Spec.new do |s|
 
   # Frameworks to link with the project
   s.frameworks = 'UIKit', 'Foundation'
-  s.xcconfig = {
-    'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Frameworks"'
-  }
 end
