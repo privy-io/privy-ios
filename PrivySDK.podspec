@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # Reference files within the framework
-  s.source_files = 'PrivySDK.xcframework/**/*.{h,m,swift}'
+  s.source_files = 'PrivySDK.xcframework/ios-arm64/PrivySDK.framework/**/*.{h,m,swift}', 'PrivySDK.xcframework/ios-arm64_x86_64-simulator/PrivySDK.framework/**/*.{h,m,swift}'
   s.preserve_paths = 'PrivySDK.xcframework'
   s.source           = { :git => 'https://github.com/privy-io/privy-ios.git', :tag => s.version.to_s }
 
