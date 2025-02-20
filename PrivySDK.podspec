@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 			The Privy SDK allows you to easily integrate authentication and wallet functionality into your iOS applications.
   		       DESC
   s.homepage         = 'https://github.com/privy-io/privy-ios'
-  s.license          = { :type => 'MIT', :file => './LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Privy Team' => 'support@privy.io' }
 
   # Platform and Swift version
