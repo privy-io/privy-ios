@@ -15,9 +15,7 @@ Pod::Spec.new do |s|
 
   # Reference files within the framework
   s.source_files = 'PrivySDK.xcframework/**/*.{h,m,swift}'
-  s.preserve_paths = 'PrivySDK.xcframework'
   s.source           = { :git => 'https://github.com/privy-io/privy-ios.git', :tag => s.version.to_s }
-  s.vendored_frameworks = 'PrivySDK.xcframework'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   # Frameworks to link with the project
 end
