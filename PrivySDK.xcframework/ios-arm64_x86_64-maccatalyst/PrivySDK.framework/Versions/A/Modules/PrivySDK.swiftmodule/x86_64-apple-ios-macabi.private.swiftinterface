@@ -127,6 +127,7 @@ public struct WalletLoginMetadata {
 public struct AuthSessionTokens : Swift.Codable, Swift.Equatable {
   public let authToken: Swift.String
   public let refreshToken: Swift.String
+  public let identityToken: Swift.String?
   public let loginMethod: PrivySDK.LoginMethod
   public static func == (a: PrivySDK.AuthSessionTokens, b: PrivySDK.AuthSessionTokens) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -589,6 +590,7 @@ public struct AuthSession : Swift.Codable, Swift.Equatable {
   public let user: PrivySDK.PrivyUser
   public let authToken: Swift.String
   public let refreshToken: Swift.String
+  public let identityToken: Swift.String?
   public let loginMethod: PrivySDK.LoginMethod
   public static func == (a: PrivySDK.AuthSession, b: PrivySDK.AuthSession) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
