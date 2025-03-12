@@ -15,6 +15,9 @@ let package = Package(
             name: "Privy",
             targets: ["PrivySDK"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/hmlongco/Factory.git", .upToNextMajor(from: "2.4.3"))
+    ],
     targets: [
         .binaryTarget(
             name: "PrivySDK",
