@@ -11,9 +11,7 @@ let package = Package(
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "Privy",
-            targets: ["PrivySDK"]),
+        .library(name: "Privy", targets: ["PrivySDK"])
     ],
     dependencies: [
         .package(url: "https://github.com/hmlongco/Factory.git", .upToNextMajor(from: "2.4.3"))
@@ -22,5 +20,10 @@ let package = Package(
         .binaryTarget(
             name: "PrivySDK",
             path: "PrivySDK.xcframework"),
+        .target(
+            name: "Privy",
+            dependencies: [],
+            path: "Sources"
+        )
     ]
 )
