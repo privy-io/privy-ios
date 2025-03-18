@@ -14357,28 +14357,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12006,
+      "offset": 12115,
       "length": 10,
       "value": "\"io.privy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12060,
+      "offset": 12169,
       "length": 14,
       "value": "\"authTokensV3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12184,
+      "offset": 12293,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12242,
+      "offset": 12351,
       "length": 10,
       "value": "\"io.privy\""
     },
