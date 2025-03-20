@@ -478,6 +478,10 @@ extension PrivySDK.LoginWithSiwe {
   public func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws
   #endif
 }
+@_hasMissingDesignatedInitializers public class PrivyInternal {
+  public static func setConfig(config: [Swift.String : Swift.String])
+  @objc deinit
+}
 extension PrivySDK.OAuthProvider : Swift.Equatable {}
 extension PrivySDK.OAuthProvider : Swift.Hashable {}
 extension PrivySDK.WalletClientType : Swift.Equatable {}

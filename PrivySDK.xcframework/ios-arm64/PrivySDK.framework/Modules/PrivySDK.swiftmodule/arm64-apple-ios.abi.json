@@ -14323,6 +14323,65 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "PrivyInternal",
+        "printedName": "PrivyInternal",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setConfig",
+            "printedName": "setConfig(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A8InternalC9setConfig6configySDyS2SG_tFZ",
+            "mangledName": "$s8PrivySDK0A8InternalC9setConfig6configySDyS2SG_tFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8PrivySDK0A8InternalC",
+        "mangledName": "$s8PrivySDK0A8InternalC",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -15970,6 +16029,34 @@
       "offset": 291,
       "length": 120,
       "value": "\"By signing, you are proving you own this wallet and logging in. This does not initiate a transaction or cost any fees.\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/PrivyInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 101,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/PrivyInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/PrivyInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 8,
+      "value": "\"secret\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/PrivyInternal.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 38,
+      "value": "\"caba52bb-499e-4034-aaa6-bb4fbcdee175\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
