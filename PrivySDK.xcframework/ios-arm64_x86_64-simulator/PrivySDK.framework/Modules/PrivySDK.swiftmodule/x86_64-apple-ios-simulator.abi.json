@@ -14451,7 +14451,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/InternalHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 395,
+      "offset": 425,
+      "length": 27,
+      "value": "\"clv6fw8s306zb9ubei8siuud9\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/InternalHelpers.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
       "length": 27,
       "value": "\"clpijy3tw0001kz0g6ixs9z15\""
     },
