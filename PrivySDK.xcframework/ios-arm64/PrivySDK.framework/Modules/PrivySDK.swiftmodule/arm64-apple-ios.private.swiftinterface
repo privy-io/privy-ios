@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PrivySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios16.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PrivySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AuthenticationServices
 import Combine
 import CryptoKit
@@ -226,11 +226,11 @@ public enum SupportedChain : Swift.CaseIterable {
   case filecoinCalibration
   case arbitrumGoerli
   public static func == (a: PrivySDK.SupportedChain, b: PrivySDK.SupportedChain) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [PrivySDK.SupportedChain]
   nonisolated public static var allCases: [PrivySDK.SupportedChain] {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -335,9 +335,9 @@ public enum PrivyLogLevel : Swift.Comparable {
   case info
   case debug
   case verbose
+  public static func < (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public static func == (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  public static func < (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
@@ -388,8 +388,8 @@ public enum LoginMethod : Swift.Codable, Swift.Sendable {
   case siwe
   case oauth
   public static func == (a: PrivySDK.LoginMethod, b: PrivySDK.LoginMethod) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
