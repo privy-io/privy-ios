@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PrivySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AuthenticationServices
 import Combine
 import CryptoKit
@@ -36,9 +37,7 @@ public enum AuthState {
   case authenticated(any PrivySDK.PrivyUser)
 }
 public protocol EmbeddedSolanaWalletProvider {
-  #if compiler(>=5.3) && $AsyncAwait
   func signMessage(message: Swift.String) async throws -> Swift.String
-  #endif
 }
 public struct WalletLoginMetadata {
   public init(walletClientType: PrivySDK.WalletClientType?, connectorType: Swift.String?)
@@ -59,18 +58,10 @@ public protocol PrivyUser {
   var linkedAccounts: [PrivySDK.LinkedAccount] { get }
   var embeddedEthereumWallets: [any PrivySDK.EmbeddedEthereumWallet] { get }
   var embeddedSolanaWallets: [any PrivySDK.EmbeddedSolanaWallet] { get }
-  #if compiler(>=5.3) && $AsyncAwait
   func getAccessToken() async throws -> Swift.String
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func createEthereumWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedEthereumWallet
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func createSolanaWallet() async throws -> any PrivySDK.EmbeddedSolanaWallet
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func refresh() async throws
-  #endif
   func logout()
 }
 public protocol EmbeddedSolanaWallet : PrivySDK.EmbeddedWallet {
@@ -174,9 +165,7 @@ extension PrivySDK.EmbeddedEthereumWallet {
 }
 public protocol EmbeddedEthereumWalletProvider {
   var chainId: Swift.Int { get }
-  #if compiler(>=5.3) && $AsyncAwait
   func request(_ request: PrivySDK.EthereumRpcRequest) async throws -> Swift.String
-  #endif
   func switchChain(chainId: Swift.Int, rpcUrl: Swift.String?)
 }
 public struct ExternalWallet {
@@ -189,9 +178,7 @@ public struct ExternalWallet {
   public let latestVerifiedAt: Foundation.Date
 }
 public protocol Privy {
-  #if compiler(>=5.3) && $AsyncAwait
   func awaitReady() async
-  #endif
   var user: (any PrivySDK.PrivyUser)? { get }
   var authState: PrivySDK.AuthState { get }
   var authStatePublisher: Combine.AnyPublisher<PrivySDK.AuthState, Swift.Never> { get }
@@ -215,9 +202,7 @@ public struct PrivyLoggingConfig {
 }
 public struct PrivyLoginWithCustomAuthConfig {
   public let tokenProvider: PrivySDK.TokenProvider
-  #if compiler(>=5.3) && $AsyncAwait
   public init(tokenProvider: @escaping PrivySDK.TokenProvider)
-  #endif
 }
 public enum SupportedChain : Swift.CaseIterable {
   case mainnet
@@ -243,7 +228,7 @@ public enum SupportedChain : Swift.CaseIterable {
   public static func == (a: PrivySDK.SupportedChain, b: PrivySDK.SupportedChain) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [PrivySDK.SupportedChain]
-  public static var allCases: [PrivySDK.SupportedChain] {
+  nonisolated public static var allCases: [PrivySDK.SupportedChain] {
     get
   }
   public var hashValue: Swift.Int {
@@ -334,12 +319,8 @@ public enum ChainType {
   }
 }
 public protocol LoginWithSms {
-  #if compiler(>=5.3) && $AsyncAwait
   func sendCode(to phoneNumber: Swift.String) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func loginWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws -> any PrivySDK.PrivyUser
-  #endif
 }
 public struct AppleAccount {
   public let subject: Swift.String
@@ -414,13 +395,9 @@ public enum LoginMethod : Swift.Codable, Swift.Sendable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-#if compiler(>=5.3) && $AsyncAwait
 public typealias TokenProvider = () async throws -> Swift.String?
-#endif
 public protocol LoginWithCustomAccessToken {
-  #if compiler(>=5.3) && $AsyncAwait
   func loginWithCustomAccessToken() async throws -> any PrivySDK.PrivyUser
-  #endif
 }
 public struct EthereumRpcRequest {
   public let method: Swift.String
@@ -439,44 +416,24 @@ public enum LinkedAccount {
   case apple(PrivySDK.AppleAccount)
 }
 public protocol LoginWithEmail {
-  #if compiler(>=5.3) && $AsyncAwait
   func sendCode(to email: Swift.String) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func loginWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws -> any PrivySDK.PrivyUser
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func linkWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws
-  #endif
 }
 public protocol LoginWithOAuth {
-  #if compiler(>=5.3) && $AsyncAwait
   func login(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> any PrivySDK.PrivyUser
-  #endif
 }
 extension PrivySDK.LoginWithOAuth {
-  #if compiler(>=5.3) && $AsyncAwait
   public func login(with provider: PrivySDK.OAuthProvider) async throws -> any PrivySDK.PrivyUser
-  #endif
 }
 public protocol LoginWithSiwe {
-  #if compiler(>=5.3) && $AsyncAwait
   func generateSiweMessage(params: PrivySDK.SiweMessageParams) async throws -> Swift.String
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func loginWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws
-  #endif
 }
 extension PrivySDK.LoginWithSiwe {
-  #if compiler(>=5.3) && $AsyncAwait
   public func loginWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws -> any PrivySDK.PrivyUser
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws
-  #endif
 }
 @_hasMissingDesignatedInitializers public class PrivyInternal {
   public static func setConfig(config: [Swift.String : Swift.String])
