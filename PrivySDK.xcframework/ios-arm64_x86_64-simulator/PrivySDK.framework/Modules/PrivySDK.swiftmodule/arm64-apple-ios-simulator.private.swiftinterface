@@ -5,7 +5,6 @@
 import AuthenticationServices
 import Combine
 import CryptoKit
-import Factory
 import Foundation
 @_exported import PrivySDK
 import Swift

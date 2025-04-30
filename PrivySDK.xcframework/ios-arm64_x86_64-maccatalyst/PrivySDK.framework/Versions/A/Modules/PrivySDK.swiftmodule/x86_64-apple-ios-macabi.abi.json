@@ -16,7 +16,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -37,7 +40,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -65,7 +71,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -347,7 +356,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -361,7 +373,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -466,7 +481,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -480,7 +498,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1822,7 +1843,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -1843,7 +1867,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -4941,7 +4968,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -5172,14 +5202,20 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -10628,7 +10664,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -11216,7 +11255,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13124,7 +13166,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13145,7 +13190,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13166,7 +13214,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13684,7 +13735,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13705,7 +13759,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13740,7 +13797,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -13754,7 +13814,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -14469,7 +14532,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -14627,7 +14693,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -14662,7 +14731,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -15092,7 +15164,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -15202,7 +15277,10 @@
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
-        "moduleName": "PrivySDK"
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       }
     ],
     "json_format_version": 8
@@ -15211,28 +15289,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12115,
+      "offset": 11802,
       "length": 10,
       "value": "\"io.privy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 11856,
       "length": 14,
       "value": "\"authTokensV3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12293,
+      "offset": 11980,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12351,
+      "offset": 12038,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -15722,7 +15800,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Analytics\/ClientAnalyticsIdRepository.swift",
       "kind": "StringLiteral",
-      "offset": 415,
+      "offset": 424,
       "length": 24,
       "value": "\"privyAnalyticsClientId\""
     },
@@ -15820,28 +15898,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8284,
+      "offset": 8293,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8348,
+      "offset": 8357,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 2125,
+      "offset": 2134,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/PKCEHelperImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 298,
+      "offset": 307,
       "length": 2,
       "value": "32"
     },
@@ -16065,21 +16143,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 445,
       "length": 34,
       "value": "\"4df5e2316331463a9130964bd6078dfa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 516,
       "length": 38,
       "value": "\"fe9c30fc-3bc5-4064-91e2-6ab5887f8f4d\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
       "kind": "StringLiteral",
-      "offset": 291,
+      "offset": 300,
       "length": 120,
       "value": "\"By signing, you are proving you own this wallet and logging in. This does not initiate a transaction or cost any fees.\""
     },
@@ -16114,63 +16192,63 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 672,
+      "offset": 681,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 8450,
+      "offset": 8459,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13238,
+      "offset": 13247,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 15535,
+      "offset": 15544,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 17238,
+      "offset": 17247,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 18140,
+      "offset": 18149,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 18148,
+      "offset": 18157,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 21294,
+      "offset": 21303,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 22680,
+      "offset": 22689,
       "length": 5,
       "value": "false"
     }
