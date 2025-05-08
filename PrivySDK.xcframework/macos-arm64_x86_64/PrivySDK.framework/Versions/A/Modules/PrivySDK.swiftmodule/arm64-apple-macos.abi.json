@@ -12,6 +12,340 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "DiscordAccount",
+        "printedName": "DiscordAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "subject",
+            "printedName": "subject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14DiscordAccountV7subjectSSvp",
+            "mangledName": "$s8PrivySDK14DiscordAccountV7subjectSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14DiscordAccountV7subjectSSvg",
+                "mangledName": "$s8PrivySDK14DiscordAccountV7subjectSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14DiscordAccountV8usernameSSSgvp",
+            "mangledName": "$s8PrivySDK14DiscordAccountV8usernameSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14DiscordAccountV8usernameSSSgvg",
+                "mangledName": "$s8PrivySDK14DiscordAccountV8usernameSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14DiscordAccountV5emailSSSgvp",
+            "mangledName": "$s8PrivySDK14DiscordAccountV5emailSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14DiscordAccountV5emailSSSgvg",
+                "mangledName": "$s8PrivySDK14DiscordAccountV5emailSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVerifiedAt",
+            "printedName": "firstVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14DiscordAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK14DiscordAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14DiscordAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK14DiscordAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latestVerifiedAt",
+            "printedName": "latestVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14DiscordAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK14DiscordAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14DiscordAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK14DiscordAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK14DiscordAccountV",
+        "mangledName": "$s8PrivySDK14DiscordAccountV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "Import",
         "name": "Factory",
         "printedName": "Factory",
@@ -56,13 +390,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -209,6 +536,46 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "discord",
+            "printedName": "discord",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.OAuthProvider.Type) -> PrivySDK.OAuthProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthProvider",
+                    "printedName": "PrivySDK.OAuthProvider",
+                    "usr": "s:8PrivySDK13OAuthProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.OAuthProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthProvider",
+                        "printedName": "PrivySDK.OAuthProvider",
+                        "usr": "s:8PrivySDK13OAuthProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13OAuthProviderO7discordyA2CmF",
+            "mangledName": "$s8PrivySDK13OAuthProviderO7discordyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -341,15 +708,15 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -363,8 +730,18 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -466,6 +843,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -502,6 +886,30 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -567,14 +975,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -591,14 +1007,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK12EmailAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -612,14 +1036,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -636,14 +1068,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK12EmailAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -673,6 +1113,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -851,6 +1298,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -903,6 +1357,8 @@
         "usr": "s:8PrivySDK28EmbeddedSolanaWalletProviderP",
         "mangledName": "$s8PrivySDK28EmbeddedSolanaWalletProviderP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -921,6 +1377,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1023,6 +1486,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1074,6 +1544,61 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A3SdkC15unownedExecutorScevp",
+            "mangledName": "$s8PrivySDK0A3SdkC15unownedExecutorScevp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A3SdkC15unownedExecutorScevg",
+                "mangledName": "$s8PrivySDK0A3SdkC15unownedExecutorScevg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -1099,8 +1624,36 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -1187,14 +1740,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -1211,14 +1772,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK10CustomAuthV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1232,14 +1801,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -1256,14 +1833,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK10CustomAuthV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1293,6 +1878,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1790,12 +2382,35 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserP6logoutyyYaF",
+            "mangledName": "$s8PrivySDK0A4UserP6logoutyyYaF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
         "usr": "s:8PrivySDK0A4UserP",
         "mangledName": "$s8PrivySDK0A4UserP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -1814,6 +2429,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1823,6 +2445,23 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -2005,6 +2644,13 @@
             "printedName": "EmbeddedWallet",
             "usr": "s:8PrivySDK14EmbeddedWalletP",
             "mangledName": "$s8PrivySDK14EmbeddedWalletP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4087,6 +4733,13 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4109,6 +4762,67 @@
         "name": "EmbeddedWallet",
         "printedName": "EmbeddedWallet",
         "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14EmbeddedWalletP2idSSSgvp",
+            "mangledName": "$s8PrivySDK14EmbeddedWalletP2idSSSgvp",
+            "moduleName": "PrivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14EmbeddedWalletP2idSSSgvg",
+                "mangledName": "$s8PrivySDK14EmbeddedWalletP2idSSSgvg",
+                "moduleName": "PrivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
+                "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "address",
@@ -4310,6 +5024,8 @@
         "usr": "s:8PrivySDK14EmbeddedWalletP",
         "mangledName": "$s8PrivySDK14EmbeddedWalletP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -4328,8 +5044,49 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -4508,14 +5265,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -4532,14 +5297,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK13GoogleAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4553,14 +5326,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -4577,14 +5358,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK13GoogleAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4614,7 +5403,38 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -4629,6 +5449,67 @@
         "name": "EmbeddedEthereumWalletAccount",
         "printedName": "EmbeddedEthereumWalletAccount",
         "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV2idSSSgvp",
+            "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV2idSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV2idSSSgvg",
+                "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV2idSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "address",
@@ -4788,14 +5669,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -4812,14 +5701,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4833,14 +5730,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -4857,14 +5762,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK29EmbeddedEthereumWalletAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4939,6 +5852,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4953,13 +5873,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -5180,6 +6093,13 @@
             "printedName": "EmbeddedWallet",
             "usr": "s:8PrivySDK14EmbeddedWalletP",
             "mangledName": "$s8PrivySDK14EmbeddedWalletP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5338,8 +6258,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK30EmbeddedEthereumWalletProviderP11switchChain7chainId6rpcUrlySi_SSSgtF",
-            "mangledName": "$s8PrivySDK30EmbeddedEthereumWalletProviderP11switchChain7chainId6rpcUrlySi_SSSgtF",
+            "usr": "s:8PrivySDK30EmbeddedEthereumWalletProviderP11switchChain7chainId6rpcUrlySi_SSSgtYaF",
+            "mangledName": "$s8PrivySDK30EmbeddedEthereumWalletProviderP11switchChain7chainId6rpcUrlySi_SSSgtYaF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedEthereumWalletProvider>",
             "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedEthereumWalletProvider>",
@@ -5355,6 +6275,8 @@
         "usr": "s:8PrivySDK30EmbeddedEthereumWalletProviderP",
         "mangledName": "$s8PrivySDK30EmbeddedEthereumWalletProviderP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -5373,6 +6295,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5668,14 +6597,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -5692,14 +6629,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK14ExternalWalletV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5713,14 +6658,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -5737,14 +6690,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK14ExternalWalletV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -5774,6 +6735,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -5781,13 +6749,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -5928,33 +6889,27 @@
           },
           {
             "kind": "Var",
-            "name": "authStatePublisher",
-            "printedName": "authStatePublisher",
+            "name": "authStateStream",
+            "printedName": "authStateStream",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "AnyPublisher",
-                "printedName": "Combine.AnyPublisher<PrivySDK.AuthState, Swift.Never>",
+                "name": "AsyncStream",
+                "printedName": "_Concurrency.AsyncStream<PrivySDK.AuthState>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AuthState",
                     "printedName": "PrivySDK.AuthState",
                     "usr": "s:8PrivySDK9AuthStateO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Never",
-                    "printedName": "Swift.Never",
-                    "usr": "s:s5NeverO"
                   }
                 ],
-                "usr": "s:7Combine12AnyPublisherV"
+                "usr": "s:ScS"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK0A0P18authStatePublisher7Combine03AnyE0VyAA04AuthD0Os5NeverOGvp",
-            "mangledName": "$s8PrivySDK0A0P18authStatePublisher7Combine03AnyE0VyAA04AuthD0Os5NeverOGvp",
+            "usr": "s:8PrivySDK0A0P15authStateStreamScSyAA04AuthD0OGvp",
+            "mangledName": "$s8PrivySDK0A0P15authStateStreamScSyAA04AuthD0OGvp",
             "moduleName": "PrivySDK",
             "protocolReq": true,
             "declAttributes": [
@@ -5968,28 +6923,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "AnyPublisher",
-                    "printedName": "Combine.AnyPublisher<PrivySDK.AuthState, Swift.Never>",
+                    "name": "AsyncStream",
+                    "printedName": "_Concurrency.AsyncStream<PrivySDK.AuthState>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AuthState",
                         "printedName": "PrivySDK.AuthState",
                         "usr": "s:8PrivySDK9AuthStateO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Never",
-                        "printedName": "Swift.Never",
-                        "usr": "s:s5NeverO"
                       }
                     ],
-                    "usr": "s:7Combine12AnyPublisherV"
+                    "usr": "s:ScS"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK0A0P18authStatePublisher7Combine03AnyE0VyAA04AuthD0Os5NeverOGvg",
-                "mangledName": "$s8PrivySDK0A0P18authStatePublisher7Combine03AnyE0VyAA04AuthD0Os5NeverOGvg",
+                "usr": "s:8PrivySDK0A0P15authStateStreamScSyAA04AuthD0OGvg",
+                "mangledName": "$s8PrivySDK0A0P15authStateStreamScSyAA04AuthD0OGvg",
                 "moduleName": "PrivySDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
                 "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
@@ -6229,6 +7178,8 @@
         "usr": "s:8PrivySDK0A0P",
         "mangledName": "$s8PrivySDK0A0P",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -6247,6 +7198,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -6577,6 +7535,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -6676,8 +7641,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvp",
-            "mangledName": "$s8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvp",
+            "usr": "s:8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStYbcSgvp",
+            "mangledName": "$s8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStYbcSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -6733,8 +7698,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvg",
-                "mangledName": "$s8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStcSgvg",
+                "usr": "s:8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStYbcSgvg",
+                "mangledName": "$s8PrivySDK0A13LoggingConfigV10logMessageyAA0A8LogLevelO_SStYbcSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6800,8 +7765,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK0A13LoggingConfigV8logLevel0E7MessageAcA0a3LogF0O_yAG_SStcSgtcfc",
-            "mangledName": "$s8PrivySDK0A13LoggingConfigV8logLevel0E7MessageAcA0a3LogF0O_yAG_SStcSgtcfc",
+            "usr": "s:8PrivySDK0A13LoggingConfigV8logLevel0E7MessageAcA0a3LogF0O_yAG_SStYbcSgtcfc",
+            "mangledName": "$s8PrivySDK0A13LoggingConfigV8logLevel0E7MessageAcA0a3LogF0O_yAG_SStYbcSgtcfc",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "AccessControl",
@@ -6832,6 +7797,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -6873,8 +7845,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaKcvp",
-            "mangledName": "$s8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaKcvp",
+            "usr": "s:8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaYbKcvp",
+            "mangledName": "$s8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaYbKcvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -6917,8 +7889,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaKcvg",
-                "mangledName": "$s8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaKcvg",
+                "usr": "s:8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaYbKcvg",
+                "mangledName": "$s8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderSSSgyYaYbKcvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6964,8 +7936,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderACSSSgyYaKc_tcfc",
-            "mangledName": "$s8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderACSSSgyYaKc_tcfc",
+            "usr": "s:8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderACSSSgyYaYbKc_tcfc",
+            "mangledName": "$s8PrivySDK0A25LoginWithCustomAuthConfigV13tokenProviderACSSSgyYaYbKc_tcfc",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "AccessControl",
@@ -6996,6 +7968,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -8036,6 +9015,13 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "TwitterAccount",
         "printedName": "TwitterAccount",
@@ -8275,14 +9261,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -8299,14 +9293,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8320,14 +9322,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -8344,14 +9354,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK14TwitterAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8381,6 +9399,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -8652,6 +9677,13 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10550,14 +11582,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -10574,14 +11614,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK18PhoneNumberAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10595,14 +11643,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -10619,14 +11675,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK18PhoneNumberAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10656,6 +11720,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10915,6 +11986,13 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -11004,6 +12082,8 @@
         "usr": "s:8PrivySDK12LoginWithSmsP",
         "mangledName": "$s8PrivySDK12LoginWithSmsP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -11022,6 +12102,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -11134,14 +12221,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -11158,14 +12253,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11179,14 +12282,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -11203,14 +12314,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK12AppleAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11240,6 +12359,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -11680,6 +12806,13 @@
             "printedName": "Comparable",
             "usr": "s:SL",
             "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12719,6 +13852,72 @@
               },
               {
                 "kind": "Var",
+                "name": "invalidRpcParams",
+                "printedName": "invalidRpcParams",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String, Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(method: Swift.String, desription: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO16invalidRpcParamsyAESS_SStcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO16invalidRpcParamsyAESS_SStcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "rpcError",
                 "printedName": "rpcError",
                 "children": [
@@ -12752,6 +13951,66 @@
                 "declKind": "EnumElement",
                 "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO03rpcC0yA2EmF",
                 "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO03rpcC0yA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unsupportedRPC",
+                "printedName": "unsupportedRPC",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(rpcMethod: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO14unsupportedRPCyAESS_tcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO14unsupportedRPCyAESS_tcAEmF",
                 "moduleName": "PrivySDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -12812,6 +14071,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -12834,6 +14100,67 @@
         "name": "EmbeddedSolanaWalletAccount",
         "printedName": "EmbeddedSolanaWalletAccount",
         "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV2idSSSgvp",
+            "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV2idSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV2idSSSgvg",
+                "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV2idSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Var",
             "name": "address",
@@ -12993,14 +14320,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -13017,14 +14352,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV15firstVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13038,14 +14381,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVvp",
-            "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVvp",
+            "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVSgvp",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "HasStorage",
@@ -13062,14 +14413,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVvg",
-                "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVvg",
+                "usr": "s:8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK27EmbeddedSolanaWalletAccountV16latestVerifiedAt10Foundation4DateVSgvg",
                 "moduleName": "PrivySDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -13144,6 +14503,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -13170,6 +14536,13 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -13667,6 +15040,8 @@
         "usr": "s:8PrivySDK26LoginWithCustomAccessTokenP",
         "mangledName": "$s8PrivySDK26LoginWithCustomAccessTokenP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -13685,6 +15060,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -13697,13 +15079,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13780,13 +15155,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13804,8 +15172,8 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -14002,6 +15370,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -14493,6 +15868,59 @@
             "declAttributes": [
               "RawDocComment"
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "discord",
+            "printedName": "discord",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LinkedAccount.Type) -> (PrivySDK.DiscordAccount) -> PrivySDK.LinkedAccount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.DiscordAccount) -> PrivySDK.LinkedAccount",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DiscordAccount",
+                        "printedName": "PrivySDK.DiscordAccount",
+                        "usr": "s:8PrivySDK14DiscordAccountV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LinkedAccount.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13LinkedAccountO7discordyAcA07DiscordD0VcACmF",
+            "mangledName": "$s8PrivySDK13LinkedAccountO7discordyAcA07DiscordD0VcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           }
         ],
         "declKind": "Enum",
@@ -14517,6 +15945,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -14660,6 +16095,8 @@
         "usr": "s:8PrivySDK14LoginWithEmailP",
         "mangledName": "$s8PrivySDK14LoginWithEmailP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -14678,6 +16115,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -14721,13 +16165,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
         "name": "Factory",
         "printedName": "Factory",
         "declKind": "Import",
@@ -14764,6 +16201,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
         "declKind": "Import",
         "moduleName": "PrivySDK"
       },
@@ -14854,6 +16305,8 @@
         "usr": "s:8PrivySDK14LoginWithOAuthP",
         "mangledName": "$s8PrivySDK14LoginWithOAuthP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -14872,6 +16325,13 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -15131,6 +16591,8 @@
         "usr": "s:8PrivySDK13LoginWithSiweP",
         "mangledName": "$s8PrivySDK13LoginWithSiweP",
         "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -15149,8 +16611,49 @@
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Factory",
+        "printedName": "Factory",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -15267,6 +16770,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -15289,28 +16806,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11802,
+      "offset": 12363,
       "length": 10,
       "value": "\"io.privy\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11856,
+      "offset": 12417,
       "length": 14,
       "value": "\"authTokensV3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11980,
+      "offset": 12541,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthManagerImpl.swift",
       "kind": "StringLiteral",
-      "offset": 12038,
+      "offset": 12599,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -15798,9 +17315,9 @@
       "value": "\"shh_getMessages\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Analytics\/ClientAnalyticsIdRepository.swift",
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Analytics\/ClientAnalyticsIdRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 460,
       "length": 24,
       "value": "\"privyAnalyticsClientId\""
     },
@@ -15835,58 +17352,65 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 84,
+      "offset": 94,
       "length": 20,
       "value": "\"privy:iframe:ready\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 137,
+      "offset": 147,
       "length": 21,
       "value": "\"privy:wallet:create\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 189,
+      "offset": 199,
       "length": 28,
       "value": "\"privy:solana-wallet:create\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 246,
+      "offset": 256,
       "length": 32,
       "value": "\"privy:wallet:create-additional\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 298,
+      "offset": 308,
       "length": 23,
       "value": "\"privy:wallets:connect\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 341,
+      "offset": 351,
       "length": 23,
       "value": "\"privy:wallets:recover\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 380,
+      "offset": 390,
       "length": 19,
       "value": "\"privy:wallets:rpc\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 433,
       "length": 36,
       "value": "\"privy:wallet:set-recovery-password\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/EmbeddedWalletProxy\/PrivyIframeEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 24,
+      "value": "\"privy:user-signer:sign\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/RefreshUserResponse.swift",
@@ -15898,70 +17422,70 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8293,
+      "offset": 7979,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8357,
+      "offset": 8043,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyImpl.swift",
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyReadyStateHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/PKCEHelperImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 307,
+      "offset": 313,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 462,
+      "offset": 472,
       "length": 15,
       "value": "\"refresh_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 517,
       "length": 16,
       "value": "\"identity_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 559,
+      "offset": 569,
       "length": 23,
       "value": "\"session_update_action\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 680,
       "length": 5,
       "value": "\"set\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 683,
+      "offset": 703,
       "length": 7,
       "value": "\"clear\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 709,
+      "offset": 729,
       "length": 8,
       "value": "\"ignore\""
     },
@@ -15975,163 +17499,191 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2512,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2332,
+      "offset": 2560,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2384,
+      "offset": 2612,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4463,
+      "offset": 4801,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4499,
+      "offset": 4837,
       "length": 12,
       "value": "\"chain_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4882,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4594,
+      "offset": 4932,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4642,
+      "offset": 4980,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4694,
+      "offset": 5032,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4746,
+      "offset": 5084,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 4793,
+      "offset": 5131,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 5623,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5324,
+      "offset": 5664,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5376,
+      "offset": 5716,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5765,
+      "offset": 6107,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5817,
+      "offset": 6159,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6301,
+      "offset": 6645,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6353,
+      "offset": 6697,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6893,
+      "offset": 7239,
       "length": 21,
       "value": "\"profile_picture_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6946,
+      "offset": 7292,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6998,
+      "offset": 7344,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7430,
+      "offset": 7842,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7482,
+      "offset": 7894,
       "length": 20,
       "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 8328,
+      "length": 19,
+      "value": "\"first_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 8380,
+      "length": 20,
+      "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletsApi\/WalletRpc\/WalletApiRpcRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 7,
+      "value": "\"utf-8\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletsApi\/WalletRpc\/WalletApiRpcRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 5,
+      "value": "\"hex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/JWT\/JWT.swift",
@@ -16143,21 +17695,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 423,
       "length": 34,
       "value": "\"4df5e2316331463a9130964bd6078dfa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 494,
       "length": 38,
       "value": "\"fe9c30fc-3bc5-4064-91e2-6ab5887f8f4d\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 855,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
       "kind": "StringLiteral",
-      "offset": 300,
+      "offset": 306,
       "length": 120,
       "value": "\"By signing, you are proving you own this wallet and logging in. This does not initiate a transaction or cost any fees.\""
     },
@@ -16190,65 +17749,79 @@
       "value": "\"caba52bb-499e-4034-aaa6-bb4fbcdee175\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletsApi\/WalletCreate\/WalletApiCreateResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 12,
+      "value": "\"chain_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletsApi\/WalletCreate\/WalletApiCreateRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 12,
+      "value": "\"chain_type\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 681,
+      "offset": 706,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 8459,
+      "offset": 8502,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13247,
+      "offset": 13250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 15544,
+      "offset": 15954,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 17247,
+      "offset": 17667,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 18149,
+      "offset": 18579,
       "length": 5,
       "value": "150.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 18157,
+      "offset": 18587,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "FloatLiteral",
-      "offset": 21303,
+      "offset": 21966,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 22689,
+      "offset": 23363,
       "length": 5,
       "value": "false"
     }
