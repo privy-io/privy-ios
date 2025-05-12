@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t9lgKZkZy/692sKA4dEG+YESXaU=
+		bemlG9z9DbtAyBDc2R8afM94CDw=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xXLhJE5TwRq+d5nMbTjC/QYmpV8=
+		7xyqm+GNMuF4CpCtLhO8SvQsj5o=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ja5pi9eDCd+UM21sMO4BznWNm7o=
+		vUFQv2q397mnU3ApBGtdHaWLchQ=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			innUWI4tPHiZUVial2aYJJrh80O+QOaousJ4PnFae0k=
+			lOQmHCdGRuZlU1upJtIFC4I+td8M6EsU8NAkAV5Q5zs=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
@@ -134,7 +134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaS+OvouxGwFQ2perhrU2i4u5gq3rQljpUkmN0b4qx4=
+			Pv2T1tIRz+kDg1/lZuPXKzibGqmMBTXP61iktbkHggY=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
