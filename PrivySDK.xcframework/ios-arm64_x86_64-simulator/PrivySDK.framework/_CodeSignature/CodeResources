@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YQrpOiTCsOhpGEqalNUe7JJ3D8A=
+		oPmVzmmybV6zMv75OsV05yaUBHg=
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		06qGelwbOADSK/f5l4qUac1DYGE=
+		1bR9uh/fwCy6Zr8SYKJUke0dhP0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,10 +69,6 @@
 	<dict>
 		<key>Headers/PrivySDK-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gxDoK5+VrwAfBLqVqaZwmotSjNI=
-			</data>
 			<key>hash2</key>
 			<data>
 			8t03b1vtTj1rJMOnXSPNFGolL+Eiqrj0j1JC/0ySYek=
@@ -80,10 +76,6 @@
 		</dict>
 		<key>Headers/PrivySDK.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rNxxRM/shd/sWHcFJCBx5P6vI9E=
-			</data>
 			<key>hash2</key>
 			<data>
 			3dTs6EjX+UfWeJl8v2JNl6PMfQZlr0ss7bE6hrwVHX8=
@@ -91,10 +83,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mO8t05AwH4IETS0YkfmHgsLNrg0=
-			</data>
 			<key>hash2</key>
 			<data>
 			CFQJFlMu32Cp5gBU6Hv1JhaDE4FhkyMM66Zf8msaOik=
@@ -102,10 +90,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qZXZ5J6rn2SjtYM8c7rqbUxdM2g=
-			</data>
 			<key>hash2</key>
 			<data>
 			01x19KlIqgdYvdbIrmlmKY7xAjUYvPBakY3CdmuCqPo=
@@ -113,10 +97,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uAWyJhRaGK+M3TYtHqP5mGuQQiQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			+pE2RrrTg4jh/1ZWcgkA+cbx7HGsqvDG/KKhmR2nIw4=
@@ -124,10 +104,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qZXZ5J6rn2SjtYM8c7rqbUxdM2g=
-			</data>
 			<key>hash2</key>
 			<data>
 			01x19KlIqgdYvdbIrmlmKY7xAjUYvPBakY3CdmuCqPo=
@@ -135,21 +111,13 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YQrpOiTCsOhpGEqalNUe7JJ3D8A=
-			</data>
 			<key>hash2</key>
 			<data>
-			DUPVtkXAffxldhRH6dpfkXl9Nb/QF1Hod4WsuZvgsKc=
+			IncYqOVp4VhOFncPMB9LxuRFuH0fTKMEOaYajH7xM+M=
 			</data>
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mO8t05AwH4IETS0YkfmHgsLNrg0=
-			</data>
 			<key>hash2</key>
 			<data>
 			CFQJFlMu32Cp5gBU6Hv1JhaDE4FhkyMM66Zf8msaOik=
@@ -157,10 +125,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1q/qf+pp1zzftzz+CwV19oHA7Io=
-			</data>
 			<key>hash2</key>
 			<data>
 			GjpM1cDVzLqRO1P8ZnpgO2m1ojD48wDumpHeGPo93ZU=
@@ -168,10 +132,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NcOGQl8O4qhpm96RuimiJRDT2CU=
-			</data>
 			<key>hash2</key>
 			<data>
 			L2SYcUHu7WB0bCnKUXorq10u4AV/eovOVDUfFPDTwHc=
@@ -179,10 +139,6 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1q/qf+pp1zzftzz+CwV19oHA7Io=
-			</data>
 			<key>hash2</key>
 			<data>
 			GjpM1cDVzLqRO1P8ZnpgO2m1ojD48wDumpHeGPo93ZU=
@@ -190,21 +146,13 @@
 		</dict>
 		<key>Modules/PrivySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			06qGelwbOADSK/f5l4qUac1DYGE=
-			</data>
 			<key>hash2</key>
 			<data>
-			fY6dV9rL0+FV6OTtvraRenN99fB4ObQIUPeW4jPXH8c=
+			WL7GDzOovOU7Q4leVt0kW7k3Ps92o2ONxQ0TtSz28gk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i0PBKQTHmQMcthq+srjKgmywGkw=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZZWrlHWHDk+0zhBClO3SJN/3N0FmBgSb8eUBN9X6SLU=
@@ -212,10 +160,6 @@
 		</dict>
 		<key>Privy.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xEVO0VRTypBinvFeGhNpHAfNgek=
-			</data>
 			<key>hash2</key>
 			<data>
 			rp3VNgE1sFcDJvjhsXtOO+A60ZFuNIPX5q0bkBN9tGI=
