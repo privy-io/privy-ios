@@ -1194,6 +1194,59 @@
           },
           {
             "kind": "Var",
+            "name": "authenticatedUnverified",
+            "printedName": "authenticatedUnverified",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.AuthState.Type) -> (PrivySDK.AuthState.AuthenticatedUnverifiedContext) -> PrivySDK.AuthState",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.AuthState.AuthenticatedUnverifiedContext) -> PrivySDK.AuthState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthState",
+                        "printedName": "PrivySDK.AuthState",
+                        "usr": "s:8PrivySDK9AuthStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticatedUnverifiedContext",
+                        "printedName": "PrivySDK.AuthState.AuthenticatedUnverifiedContext",
+                        "usr": "s:8PrivySDK9AuthStateO30AuthenticatedUnverifiedContextV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.AuthState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthState",
+                        "printedName": "PrivySDK.AuthState",
+                        "usr": "s:8PrivySDK9AuthStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK9AuthStateO23authenticatedUnverifiedyA2C013AuthenticatedF7ContextVcACmF",
+            "mangledName": "$s8PrivySDK9AuthStateO23authenticatedUnverifiedyA2C013AuthenticatedF7ContextVcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "unauthenticated",
             "printedName": "unauthenticated",
             "children": [
@@ -1283,6 +1336,41 @@
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "AuthenticatedUnverifiedContext",
+            "printedName": "AuthenticatedUnverifiedContext",
+            "declKind": "Struct",
+            "usr": "s:8PrivySDK9AuthStateO30AuthenticatedUnverifiedContextV",
+            "mangledName": "$s8PrivySDK9AuthStateO30AuthenticatedUnverifiedContextV",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
             ]
           }
         ],
@@ -14229,46 +14317,6 @@
               },
               {
                 "kind": "Var",
-                "name": "featureNotEnabledContactSupport",
-                "printedName": "featureNotEnabledContactSupport",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "EmbeddedWalletFailureReason",
-                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
-                        "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "EmbeddedWalletFailureReason",
-                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
-                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO31featureNotEnabledContactSupportyA2EmF",
-                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO31featureNotEnabledContactSupportyA2EmF",
-                "moduleName": "PrivySDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "unsupportedRPC",
                 "printedName": "unsupportedRPC",
                 "children": [
@@ -16428,6 +16476,13 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",

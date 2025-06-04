@@ -40,8 +40,11 @@ public struct EmailAccount : Swift.Sendable {
 }
 public enum AuthState : Swift.Sendable {
   case notReady
+  case authenticatedUnverified(PrivySDK.AuthState.AuthenticatedUnverifiedContext)
   case unauthenticated
   case authenticated(any PrivySDK.PrivyUser)
+  public struct AuthenticatedUnverifiedContext : Swift.Sendable {
+  }
 }
 public protocol EmbeddedSolanaWalletProvider : Swift.Sendable {
   func signMessage(message: Swift.String) async throws -> Swift.String
@@ -394,7 +397,6 @@ public enum PrivyErrorCode : Swift.Sendable {
     case secureContextFailed
     case invalidRpcParams(method: Swift.String, desription: Swift.String)
     case rpcError
-    case featureNotEnabledContactSupport
     case unsupportedRPC(rpcMethod: Swift.String)
   }
 }
