@@ -6,6 +6,7 @@ import AuthenticationServices
 import Combine
 import CryptoKit
 import Foundation
+import Network
 @_exported import PrivySDK
 import Swift
 import WebKit
@@ -212,6 +213,7 @@ public protocol Privy : Swift.Sendable {
   var siwe: any PrivySDK.LoginWithSiwe { get }
   var customJwt: any PrivySDK.LoginWithCustomAccessToken { get }
   var oAuth: any PrivySDK.LoginWithOAuth { get }
+  func onNetworkRestored() async
 }
 public struct PrivyConfig : Swift.Sendable {
   public let appId: Swift.String
