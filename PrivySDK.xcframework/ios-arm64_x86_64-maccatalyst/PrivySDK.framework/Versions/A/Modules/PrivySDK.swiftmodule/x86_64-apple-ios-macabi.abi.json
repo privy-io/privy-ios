@@ -1823,6 +1823,13 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CustomAuth",
         "printedName": "CustomAuth",
@@ -2026,6 +2033,13 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -15746,6 +15760,1589 @@
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "personalSign",
+            "printedName": "personalSign(message:address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumRpcRequest",
+                "printedName": "PrivySDK.EthereumRpcRequest",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV12personalSign7message7addressACSS_SStFZ",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV12personalSign7message7addressACSS_SStFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "secp256k1Sign",
+            "printedName": "secp256k1Sign(hash:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumRpcRequest",
+                "printedName": "PrivySDK.EthereumRpcRequest",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV13secp256k1Sign4hashACSS_tFZ",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV13secp256k1Sign4hashACSS_tFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ethSign",
+            "printedName": "ethSign(address:message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumRpcRequest",
+                "printedName": "PrivySDK.EthereumRpcRequest",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV7ethSign7address7messageACSS_SStFZ",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV7ethSign7address7messageACSS_SStFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ethSignTypedDataV4",
+            "printedName": "ethSignTypedDataV4(address:typedData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumRpcRequest",
+                "printedName": "PrivySDK.EthereumRpcRequest",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EIP712TypedData",
+                "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV18ethSignTypedDataV47address05typedI0ACSS_AC06EIP712hI0VtKFZ",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV18ethSignTypedDataV47address05typedI0ACSS_AC06EIP712hI0VtKFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ethSignTransaction",
+            "printedName": "ethSignTransaction(transaction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumRpcRequest",
+                "printedName": "PrivySDK.EthereumRpcRequest",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsignedEthTransaction",
+                "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV18ethSignTransaction11transactionA2C011UnsignedEthH0V_tKFZ",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV18ethSignTransaction11transactionA2C011UnsignedEthH0V_tKFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ethSendTransaction",
+            "printedName": "ethSendTransaction(transaction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EthereumRpcRequest",
+                "printedName": "PrivySDK.EthereumRpcRequest",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsignedEthTransaction",
+                "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV18ethSendTransaction11transactionA2C011UnsignedEthH0V_tKFZ",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV18ethSendTransaction11transactionA2C011UnsignedEthH0V_tKFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "UnsignedEthTransaction",
+            "printedName": "UnsignedEthTransaction",
+            "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "Quantity",
+                "printedName": "Quantity",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "int",
+                    "printedName": "int",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity.Type) -> (Swift.Int) -> PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Swift.Int) -> PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Quantity",
+                                "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Quantity",
+                                "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO3intyAGSicAGmF",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO3intyAGSicAGmF",
+                    "moduleName": "PrivySDK"
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "hexadecimalNumber",
+                    "printedName": "hexadecimalNumber",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity.Type) -> (Swift.String) -> PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Swift.String) -> PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Quantity",
+                                "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Quantity",
+                                "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO17hexadecimalNumberyAGSScAGmF",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO17hexadecimalNumberyAGSScAGmF",
+                    "moduleName": "PrivySDK"
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:to:nonce:gasLimit:gasPrice:data:value:chainId:type:maxFeePerGas:maxPriorityFeePerGas:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsignedEthTransaction",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Quantity",
+                        "printedName": "PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV8QuantityO"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV4from2to5nonce8gasLimit0L5Price4data5value7chainId4type12maxFeePerGas0t8PriorityuvW0AESSSg_AqE8QuantityOSgA2tq2TSiSgA2Ttcfc",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV4from2to5nonce8gasLimit0L5Price4data5value7chainId4type12maxFeePerGas0t8PriorityuvW0AESSSg_AqE8QuantityOSgA2tq2TSiSgA2Ttcfc",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV22UnsignedEthTransactionV",
+            "moduleName": "PrivySDK",
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "EIP712TypedData",
+            "printedName": "EIP712TypedData",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "domain",
+                "printedName": "domain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EIP712Domain",
+                    "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Domain",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6domainAE0F6DomainVvp",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6domainAE0F6DomainVvp",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EIP712Domain",
+                        "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Domain",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6domainAE0F6DomainVvg",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6domainAE0F6DomainVvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "primaryType",
+                "printedName": "primaryType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV11primaryTypeSSvp",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV11primaryTypeSSvp",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV11primaryTypeSSvg",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV11primaryTypeSSvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "types",
+                "printedName": "types",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EIP712Type",
+                            "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type",
+                            "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV5typesSDySSSayAE0F4TypeVGGvp",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV5typesSDySSSayAE0F4TypeVGGvp",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : [PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EIP712Type",
+                                "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type",
+                                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV5typesSDySSSayAE0F4TypeVGGvg",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV5typesSDySSSayAE0F4TypeVGGvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "message",
+                "printedName": "message",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "any Swift.Encodable & Swift.Sendable"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV7messageSE_s8Sendablepvp",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV7messageSE_s8Sendablepvp",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "any Swift.Encodable & Swift.Sendable"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV7messageSE_s8Sendablepvg",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV7messageSE_s8Sendablepvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(domain:primaryType:types:message:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EIP712TypedData",
+                    "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EIP712Domain",
+                    "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Domain",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : [PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EIP712Type",
+                            "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type",
+                            "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "any Swift.Encodable & Swift.Sendable"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6domain11primaryType5types7messageA2E0F6DomainV_SSSDySSSayAE0fK0VGGSE_s8Sendableptcfc",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6domain11primaryType5types7messageA2E0F6DomainV_SSSDySSSayAE0fK0VGGSE_s8Sendableptcfc",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "EIP712Type",
+                "printedName": "EIP712Type",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "name",
+                    "printedName": "name",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4nameSSvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4nameSSvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4nameSSvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4nameSSvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "type",
+                    "printedName": "type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4typeSSvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4typeSSvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4typeSSvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV4typeSSvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(_:type:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EIP712Type",
+                        "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV_4typeAGSS_SStcfc",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV_4typeAGSS_SStcfc",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "any Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV6encode2toys7Encoder_p_tKF",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F4TypeV",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "EIP712Domain",
+                "printedName": "EIP712Domain",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "name",
+                    "printedName": "name",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4nameSSSgvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4nameSSSgvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4nameSSSgvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4nameSSSgvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "version",
+                    "printedName": "version",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7versionSSSgvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7versionSSSgvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7versionSSSgvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7versionSSSgvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "chainId",
+                    "printedName": "chainId",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7chainIdSiSgvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7chainIdSiSgvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Int?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7chainIdSiSgvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV7chainIdSiSgvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "verifyingContract",
+                    "printedName": "verifyingContract",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV17verifyingContractSSSgvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV17verifyingContractSSSgvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV17verifyingContractSSSgvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV17verifyingContractSSSgvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "salt",
+                    "printedName": "salt",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Var",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4salt10Foundation0H0VSgvp",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4salt10Foundation0H0VSgvp",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "HasStorage",
+                      "AccessControl"
+                    ],
+                    "isLet": true,
+                    "hasStorage": true,
+                    "accessors": [
+                      {
+                        "kind": "Accessor",
+                        "name": "Get",
+                        "printedName": "Get()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.Data?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Data",
+                                "printedName": "Foundation.Data",
+                                "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "declKind": "Accessor",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4salt10Foundation0H0VSgvg",
+                        "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4salt10Foundation0H0VSgvg",
+                        "moduleName": "PrivySDK",
+                        "implicit": true,
+                        "accessorKind": "get"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "Constructor",
+                    "name": "init",
+                    "printedName": "init(name:version:chainId:verifyingContract:salt:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EIP712Domain",
+                        "printedName": "PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Domain",
+                        "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "hasDefaultArg": true,
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Constructor",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4name7version7chainId17verifyingContract4saltAGSSSg_AMSiSgAM10Foundation0H0VSgtcfc",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV4name7version7chainId17verifyingContract4saltAGSSSg_AMSiSgAM10Foundation0H0VSgtcfc",
+                    "moduleName": "PrivySDK",
+                    "declAttributes": [
+                      "AccessControl"
+                    ],
+                    "init_kind": "Designated"
+                  },
+                  {
+                    "kind": "Function",
+                    "name": "encode",
+                    "printedName": "encode(to:)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encoder",
+                        "printedName": "any Swift.Encoder",
+                        "usr": "s:s7EncoderP"
+                      }
+                    ],
+                    "declKind": "Func",
+                    "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV6encode2toys7Encoder_p_tKF",
+                    "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV6encode2toys7Encoder_p_tKF",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "throwing": true,
+                    "funcSelfKind": "NonMutating"
+                  }
+                ],
+                "declKind": "Struct",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Sendable",
+                    "printedName": "Sendable",
+                    "usr": "s:s8SendableP",
+                    "mangledName": "$ss8SendableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Encodable",
+                    "printedName": "Encodable",
+                    "usr": "s:SE",
+                    "mangledName": "$sSE"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV6encode2toys7Encoder_p_tKF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV",
+            "mangledName": "$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
           }
         ],
         "declKind": "Struct",

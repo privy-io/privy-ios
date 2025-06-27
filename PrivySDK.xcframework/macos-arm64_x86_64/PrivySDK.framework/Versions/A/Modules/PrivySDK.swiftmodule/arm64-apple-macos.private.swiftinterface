@@ -61,10 +61,48 @@ public struct WalletLoginMetadata : Swift.Sendable {
     get
   }
 }
+extension PrivySDK.EthereumRpcRequest {
+  public struct UnsignedEthTransaction : Swift.Sendable, Swift.Encodable {
+    public enum Quantity {
+      case int(Swift.Int)
+      case hexadecimalNumber(Swift.String)
+    }
+    public typealias Address = Swift.String
+    public typealias HexQuantity = Swift.String
+    public typealias EIP2718TransactionType = Swift.Int
+    public init(from: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Address? = nil, to: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Address? = nil, nonce: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, gasLimit: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, gasPrice: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, data: Swift.String? = nil, value: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, chainId: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, type: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.EIP2718TransactionType? = nil, maxFeePerGas: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, maxPriorityFeePerGas: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil)
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
+}
 public struct CustomAuth : Swift.Sendable {
   public let userId: Swift.String
   public let firstVerifiedAt: Foundation.Date?
   public let latestVerifiedAt: Foundation.Date?
+}
+extension PrivySDK.EthereumRpcRequest {
+  public struct EIP712TypedData : Swift.Sendable, Swift.Encodable {
+    public let domain: PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Domain
+    public let primaryType: Swift.String
+    public let types: [Swift.String : [PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]]
+    public let message: any Swift.Encodable & Swift.Sendable
+    public init(domain: PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Domain, primaryType: Swift.String, types: [Swift.String : [PrivySDK.EthereumRpcRequest.EIP712TypedData.EIP712Type]], message: any Swift.Encodable & Swift.Sendable)
+    public struct EIP712Type : Swift.Sendable, Swift.Encodable {
+      public let name: Swift.String
+      public let type: Swift.String
+      public init(_ name: Swift.String, type: Swift.String)
+      public func encode(to encoder: any Swift.Encoder) throws
+    }
+    public struct EIP712Domain : Swift.Sendable, Swift.Encodable {
+      public let name: Swift.String?
+      public let version: Swift.String?
+      public let chainId: Swift.Int?
+      public let verifyingContract: Swift.String?
+      public let salt: Foundation.Data?
+      public init(name: Swift.String? = nil, version: Swift.String? = nil, chainId: Swift.Int? = nil, verifyingContract: Swift.String? = nil, salt: Foundation.Data? = nil)
+      public func encode(to encoder: any Swift.Encoder) throws
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+  }
 }
 public protocol PrivyUser : Swift.Sendable {
   var id: Swift.String { get }
@@ -433,6 +471,12 @@ public struct EthereumRpcRequest : Swift.Sendable {
   public let method: Swift.String
   public let params: [Swift.String]
   public init(method: Swift.String, params: [Swift.String])
+  public static func personalSign(message: Swift.String, address: Swift.String) -> PrivySDK.EthereumRpcRequest
+  public static func secp256k1Sign(hash: Swift.String) -> PrivySDK.EthereumRpcRequest
+  public static func ethSign(address: Swift.String, message: Swift.String) -> PrivySDK.EthereumRpcRequest
+  public static func ethSignTypedDataV4(address: Swift.String, typedData: PrivySDK.EthereumRpcRequest.EIP712TypedData) throws -> PrivySDK.EthereumRpcRequest
+  public static func ethSignTransaction(transaction: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction) throws -> PrivySDK.EthereumRpcRequest
+  public static func ethSendTransaction(transaction: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction) throws -> PrivySDK.EthereumRpcRequest
 }
 public enum LinkedAccount : Swift.Sendable {
   case customAuth(PrivySDK.CustomAuth)
