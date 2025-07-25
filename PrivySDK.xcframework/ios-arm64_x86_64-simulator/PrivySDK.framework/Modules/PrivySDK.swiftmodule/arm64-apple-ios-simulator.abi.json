@@ -7120,6 +7120,33 @@
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
             "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAuthState",
+            "printedName": "getAuthState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A0P12getAuthStateAA0dE0OyYaF",
+            "mangledName": "$s8PrivySDK0A0P12getAuthStateAA0dE0OyYaF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
             "protocolReq": true,
             "declAttributes": [
               "RawDocComment"
