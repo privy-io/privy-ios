@@ -245,7 +245,10 @@ public protocol Privy : Swift.Sendable {
   @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
   func awaitReady() async
   func getAuthState() async -> PrivySDK.AuthState
+  @available(*, deprecated, message: "Use 'getUser() async -> PrivyUser?' instead, which handles awaiting ready under the hood.")
   var user: (any PrivySDK.PrivyUser)? { get }
+  func getUser() async -> (any PrivySDK.PrivyUser)?
+  @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
   var authState: PrivySDK.AuthState { get }
   var authStateStream: _Concurrency.AsyncStream<PrivySDK.AuthState> { get }
   var email: any PrivySDK.LoginWithEmail { get }
