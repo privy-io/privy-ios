@@ -7178,8 +7178,10 @@
             "usr": "s:8PrivySDK0A0P4userAA0A4User_pSgvp",
             "mangledName": "$s8PrivySDK0A0P4userAA0A4User_pSgvp",
             "moduleName": "PrivySDK",
+            "deprecated": true,
             "protocolReq": true,
             "declAttributes": [
+              "Available",
               "RawDocComment"
             ],
             "accessors": [
@@ -7216,6 +7218,39 @@
             ]
           },
           {
+            "kind": "Function",
+            "name": "getUser",
+            "printedName": "getUser()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PrivySDK.PrivyUser)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PrivyUser",
+                    "printedName": "any PrivySDK.PrivyUser",
+                    "usr": "s:8PrivySDK0A4UserP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A0P7getUserAA0aD0_pSgyYaF",
+            "mangledName": "$s8PrivySDK0A0P7getUserAA0aD0_pSgyYaF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "authState",
             "printedName": "authState",
@@ -7231,8 +7266,10 @@
             "usr": "s:8PrivySDK0A0P9authStateAA04AuthD0Ovp",
             "mangledName": "$s8PrivySDK0A0P9authStateAA04AuthD0Ovp",
             "moduleName": "PrivySDK",
+            "deprecated": true,
             "protocolReq": true,
             "declAttributes": [
+              "Available",
               "RawDocComment"
             ],
             "accessors": [
