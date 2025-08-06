@@ -12544,6 +12544,80 @@
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "linkWithCode",
+            "printedName": "linkWithCode(_:sentTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK12LoginWithSmsP04linkD4Code_6sentToySS_SStYaKF",
+            "mangledName": "$s8PrivySDK12LoginWithSmsP04linkD4Code_6sentToySS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSms>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSms>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateWithCode",
+            "printedName": "updateWithCode(_:sentTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK12LoginWithSmsP06updateD4Code_6sentToySS_SStYaKF",
+            "mangledName": "$s8PrivySDK12LoginWithSmsP06updateD4Code_6sentToySS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSms>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSms>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -13913,6 +13987,86 @@
                 "declKind": "EnumElement",
                 "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO013failureDuringE0yAEs0C0_p_tcAEmF",
                 "mangledName": "$s8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO013failureDuringE0yAEs0C0_p_tcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "emailNotFound",
+                "printedName": "emailNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.AuthenticationFailureReason.Type) -> PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationFailureReason",
+                        "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                        "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AuthenticationFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO13emailNotFoundyA2EmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO13emailNotFoundyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "phoneNotFound",
+                "printedName": "phoneNotFound",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.AuthenticationFailureReason.Type) -> PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationFailureReason",
+                        "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                        "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AuthenticationFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO13phoneNotFoundyA2EmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO13phoneNotFoundyA2EmF",
                 "moduleName": "PrivySDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -18140,6 +18294,43 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK14LoginWithEmailP04linkD4Code_6sentToySS_SStYaKF",
             "mangledName": "$s8PrivySDK14LoginWithEmailP04linkD4Code_6sentToySS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateWithCode",
+            "printedName": "updateWithCode(_:sentTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithEmailP06updateD4Code_6sentToySS_SStYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithEmailP06updateD4Code_6sentToySS_SStYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",

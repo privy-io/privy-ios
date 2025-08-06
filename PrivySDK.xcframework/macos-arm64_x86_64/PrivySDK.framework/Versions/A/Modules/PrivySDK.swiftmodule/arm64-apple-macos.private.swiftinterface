@@ -391,6 +391,8 @@ public enum ChainType : Swift.String, Swift.Sendable {
 public protocol LoginWithSms : Swift.Sendable {
   func sendCode(to phoneNumber: Swift.String) async throws
   func loginWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws -> any PrivySDK.PrivyUser
+  func linkWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws
+  func updateWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws
 }
 public struct AppleAccount : Swift.Sendable {
   public let subject: Swift.String
@@ -429,6 +431,8 @@ public enum PrivyErrorCode : Swift.Sendable {
     case invalidJwt
     case incorrectCredentials(loginMethod: PrivySDK.LoginMethod)
     case failureDuringAuthentication(error: any Swift.Error)
+    case emailNotFound
+    case phoneNotFound
   }
   public enum EmbeddedWalletFailureReason : Swift.Sendable {
     case timeout
@@ -499,6 +503,7 @@ public protocol LoginWithEmail : Swift.Sendable {
   func sendCode(to email: Swift.String) async throws
   func loginWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws -> any PrivySDK.PrivyUser
   func linkWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws
+  func updateWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws
 }
 public protocol LoginWithOAuth : Swift.Sendable {
   func login(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> any PrivySDK.PrivyUser
