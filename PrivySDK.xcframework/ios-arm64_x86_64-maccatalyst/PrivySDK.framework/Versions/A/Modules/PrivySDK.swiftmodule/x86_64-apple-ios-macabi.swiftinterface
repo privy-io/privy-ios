@@ -476,6 +476,15 @@ public typealias TokenProvider = @Sendable () async throws -> Swift.String?
 public protocol LoginWithCustomAccessToken : Swift.Sendable {
   func loginWithCustomAccessToken() async throws -> any PrivySDK.PrivyUser
 }
+public enum ApiError : Foundation.LocalizedError {
+  case couldNotConstructRequest
+  case decodingError(any Swift.Error)
+  case networkError(responseCode: Swift.Int, description: Swift.String? = nil)
+  case malformedResponse
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
 public struct EthereumRpcRequest : Swift.Sendable {
   public let method: Swift.String
   public let params: [Swift.String]
