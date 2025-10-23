@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios16.0-macabi -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name PrivySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios16.0-macabi -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name PrivySDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AuthenticationServices
 import Combine
 import CryptoKit
@@ -51,7 +51,9 @@ public protocol EmbeddedSolanaWalletProvider : Swift.Sendable {
   func signMessage(message: Swift.String) async throws -> Swift.String
 }
 public struct WalletLoginMetadata : Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(walletClientType: PrivySDK.WalletClientType?, connectorType: Swift.String?)
+  #endif
 }
 @_hasMissingDesignatedInitializers public actor PrivySdk {
   public static func initialize(config: PrivySDK.PrivyConfig) -> any PrivySDK.Privy
@@ -70,7 +72,9 @@ extension PrivySDK.EthereumRpcRequest {
     public typealias Address = Swift.String
     public typealias HexQuantity = Swift.String
     public typealias EIP2718TransactionType = Swift.Int
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(from: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Address? = nil, to: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Address? = nil, nonce: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, gasLimit: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, gasPrice: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, data: Swift.String? = nil, value: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, chainId: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, type: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.EIP2718TransactionType? = nil, maxFeePerGas: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil, maxPriorityFeePerGas: PrivySDK.EthereumRpcRequest.UnsignedEthTransaction.Quantity? = nil)
+    #endif
     public func encode(to encoder: any Swift.Encoder) throws
   }
 }
@@ -98,7 +102,9 @@ extension PrivySDK.EthereumRpcRequest {
       public let chainId: Swift.Int?
       public let verifyingContract: Swift.String?
       public let salt: Foundation.Data?
+      #if compiler(>=5.3) && $NonescapableTypes
       public init(name: Swift.String? = nil, version: Swift.String? = nil, chainId: Swift.Int? = nil, verifyingContract: Swift.String? = nil, salt: Foundation.Data? = nil)
+      #endif
       public func encode(to encoder: any Swift.Encoder) throws
     }
     public func encode(to encoder: any Swift.Encoder) throws
@@ -106,20 +112,27 @@ extension PrivySDK.EthereumRpcRequest {
 }
 public protocol PrivyUser : Swift.Sendable {
   var id: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var identityToken: Swift.String? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var createdAt: Foundation.Date? { get }
+  #endif
   var linkedAccounts: [PrivySDK.LinkedAccount] { get }
   var embeddedEthereumWallets: [any PrivySDK.EmbeddedEthereumWallet] { get }
   var embeddedSolanaWallets: [any PrivySDK.EmbeddedSolanaWallet] { get }
   func getAccessToken() async throws -> Swift.String
-  func createEthereumWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedEthereumWallet
-  func createSolanaWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedSolanaWallet
+  func createEthereumWallet(allowAdditional: Swift.Bool, timeout: Swift.Duration) async throws -> any PrivySDK.EmbeddedEthereumWallet
+  func createSolanaWallet(allowAdditional: Swift.Bool, timeout: Swift.Duration) async throws -> any PrivySDK.EmbeddedSolanaWallet
   func refresh() async throws
   func logout()
   func logout() async
 }
 extension PrivySDK.PrivyUser {
+  public func createEthereumWallet() async throws -> any PrivySDK.EmbeddedSolanaWallet
   public func createSolanaWallet() async throws -> any PrivySDK.EmbeddedSolanaWallet
+  public func createEthereumWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedEthereumWallet
+  public func createSolanaWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedSolanaWallet
 }
 public protocol EmbeddedSolanaWallet : PrivySDK.EmbeddedWallet {
   var provider: any PrivySDK.EmbeddedSolanaWalletProvider { get }
@@ -182,16 +195,22 @@ public enum WalletClientType : Swift.String, Swift.Sendable {
   case bitizen
   case blocto
   case safemoon
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public protocol EmbeddedWallet : Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   var id: Swift.String? { get }
+  #endif
   var address: Swift.String { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var recoveryMethod: Swift.String? { get }
+  #endif
   var hdWalletIndex: Swift.Int { get }
   var chainType: PrivySDK.ChainType { get }
 }
@@ -204,7 +223,9 @@ public struct GoogleAccount : Swift.Sendable {
 }
 public protocol StorageAdapter : Swift.Sendable {
   func createOrUpdate(key: Swift.String, data: Foundation.Data) async throws
+  #if compiler(>=5.3) && $NonescapableTypes
   func get(key: Swift.String) async -> Foundation.Data?
+  #endif
   func delete(key: Swift.String) async
 }
 public struct EmbeddedEthereumWalletAccount {
@@ -217,7 +238,9 @@ public struct EmbeddedEthereumWalletAccount {
   public let hdWalletIndex: Swift.Int
 }
 public struct Utils {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func toHexString(_ value: Any) -> Swift.String?
+  #endif
 }
 public protocol EmbeddedEthereumWallet : PrivySDK.EmbeddedWallet {
   var provider: any PrivySDK.EmbeddedEthereumWalletProvider { get }
@@ -230,7 +253,9 @@ extension PrivySDK.EmbeddedEthereumWallet {
 public protocol EmbeddedEthereumWalletProvider : Swift.Sendable {
   var chainId: Swift.Int { get async }
   func request(_ request: PrivySDK.EthereumRpcRequest) async throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   func switchChain(chainId: Swift.Int, rpcUrl: Swift.String?) async
+  #endif
 }
 public struct ExternalWallet : Swift.Sendable {
   public let address: Swift.String
@@ -245,9 +270,13 @@ public protocol Privy : Swift.Sendable {
   @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
   func awaitReady() async
   func getAuthState() async -> PrivySDK.AuthState
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use 'getUser() async -> PrivyUser?' instead, which handles awaiting ready under the hood.")
   var user: (any PrivySDK.PrivyUser)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func getUser() async -> (any PrivySDK.PrivyUser)?
+  #endif
   @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
   var authState: PrivySDK.AuthState { get }
   var authStateStream: _Concurrency.AsyncStream<PrivySDK.AuthState> { get }
@@ -263,12 +292,16 @@ public struct PrivyConfig : Swift.Sendable {
   public let appClientId: Swift.String?
   public let loggingConfig: PrivySDK.PrivyLoggingConfig?
   public let customAuthConfig: PrivySDK.PrivyLoginWithCustomAuthConfig?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(appId: Swift.String, appClientId: Swift.String, loggingConfig: PrivySDK.PrivyLoggingConfig? = nil, customAuthConfig: PrivySDK.PrivyLoginWithCustomAuthConfig? = nil)
+  #endif
 }
 public struct PrivyLoggingConfig : Swift.Sendable {
   public let logLevel: PrivySDK.PrivyLogLevel
   public let logMessage: (@Sendable (PrivySDK.PrivyLogLevel, Swift.String) -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(logLevel: PrivySDK.PrivyLogLevel, logMessage: (@Sendable (PrivySDK.PrivyLogLevel, Swift.String) -> Swift.Void)? = nil)
+  #endif
 }
 public struct PrivyLoginWithCustomAuthConfig : Swift.Sendable {
   public let tokenProvider: PrivySDK.TokenProvider
@@ -296,11 +329,11 @@ public enum SupportedChain : Swift.CaseIterable {
   case filecoinCalibration
   case arbitrumGoerli
   public static func == (a: PrivySDK.SupportedChain, b: PrivySDK.SupportedChain) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [PrivySDK.SupportedChain]
   nonisolated public static var allCases: [PrivySDK.SupportedChain] {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -322,7 +355,9 @@ public enum SessionUpdateAction : Swift.String, Swift.Decodable, Swift.Sendable 
   case set
   case clear
   case ignore
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -337,7 +372,9 @@ public struct ChainInfo {
   public let blockExplorers: PrivySDK.BlockExplorers
   public let contracts: PrivySDK.Contracts?
   public let testnet: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, name: Swift.String, network: Swift.String, nativeCurrency: PrivySDK.NativeCurrency, rpcUrls: PrivySDK.RpcUrls, blockExplorers: PrivySDK.BlockExplorers, contracts: PrivySDK.Contracts? = nil, testnet: Swift.Bool = false)
+  #endif
 }
 public struct NativeCurrency {
   public let name: Swift.String
@@ -355,7 +392,9 @@ public struct RpcUrls {
   public let alchemy: PrivySDK.RpcUrl?
   public let infura: PrivySDK.RpcUrl?
   public let privy: PrivySDK.RpcUrl?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(default: PrivySDK.RpcUrl, public: PrivySDK.RpcUrl, alchemy: PrivySDK.RpcUrl? = nil, infura: PrivySDK.RpcUrl? = nil, blast: PrivySDK.RpcUrl? = nil, privy: PrivySDK.RpcUrl? = nil)
+  #endif
 }
 public struct BlockExplorer {
   public let name: Swift.String
@@ -365,7 +404,9 @@ public struct BlockExplorers {
   public let etherscan: PrivySDK.BlockExplorer
   public let `default`: PrivySDK.BlockExplorer?
   public let filscan: PrivySDK.BlockExplorer?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(etherscan: PrivySDK.BlockExplorer, default: PrivySDK.BlockExplorer? = nil, filscan: PrivySDK.BlockExplorer? = nil)
+  #endif
 }
 public struct Contracts {
   public let multicall3: PrivySDK.Multicall3
@@ -382,7 +423,9 @@ public struct PhoneNumberAccount : Swift.Sendable {
 public enum ChainType : Swift.String, Swift.Sendable {
   case ethereum
   case solana
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -407,18 +450,20 @@ public enum PrivyLogLevel : Swift.Comparable, Swift.Sendable {
   case info
   case debug
   case verbose
+  public static func < (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public static func == (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
-  public static func < (a: PrivySDK.PrivyLogLevel, b: PrivySDK.PrivyLogLevel) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
   }
 }
 public struct PrivyError : Foundation.LocalizedError {
   public let errorCode: PrivySDK.PrivyErrorCode
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public enum PrivyErrorCode : Swift.Sendable {
   case authenticationFailure(reason: PrivySDK.PrivyErrorCode.AuthenticationFailureReason)
@@ -465,8 +510,8 @@ public enum LoginMethod : Swift.Codable, Swift.Sendable {
   case siwe
   case oauth
   public static func == (a: PrivySDK.LoginMethod, b: PrivySDK.LoginMethod) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
   public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -481,9 +526,11 @@ public enum ApiError : Foundation.LocalizedError {
   case decodingError(any Swift.Error)
   case networkError(responseCode: Swift.Int, description: Swift.String? = nil)
   case malformedResponse
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public struct EthereumRpcRequest : Swift.Sendable {
   public let method: Swift.String
@@ -515,15 +562,21 @@ public protocol LoginWithEmail : Swift.Sendable {
   func updateWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws
 }
 public protocol LoginWithOAuth : Swift.Sendable {
+  #if compiler(>=5.3) && $NonescapableTypes
   func login(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> any PrivySDK.PrivyUser
+  #endif
 }
 extension PrivySDK.LoginWithOAuth {
   public func login(with provider: PrivySDK.OAuthProvider) async throws -> any PrivySDK.PrivyUser
 }
 public protocol LoginWithSiwe : Swift.Sendable {
   func generateSiweMessage(params: PrivySDK.SiweMessageParams) async throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   func loginWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws
+  #endif
 }
 extension PrivySDK.LoginWithSiwe {
   public func loginWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws -> any PrivySDK.PrivyUser

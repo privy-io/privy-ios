@@ -335,6 +335,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -739,6 +746,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -884,6 +898,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1154,6 +1175,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1394,6 +1422,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           }
@@ -1427,6 +1462,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1506,6 +1548,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1632,6 +1681,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1777,6 +1833,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2031,6 +2094,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2432,7 +2502,7 @@
           {
             "kind": "Function",
             "name": "createEthereumWallet",
-            "printedName": "createEthereumWallet(allowAdditional:)",
+            "printedName": "createEthereumWallet(allowAdditional:timeout:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2445,11 +2515,17 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Duration",
+                "printedName": "Swift.Duration",
+                "usr": "s:s8DurationV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK0A4UserP20createEthereumWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
-            "mangledName": "$s8PrivySDK0A4UserP20createEthereumWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
+            "usr": "s:8PrivySDK0A4UserP20createEthereumWallet15allowAdditional7timeoutAA08EmbeddedeF0_pSb_s8DurationVtYaKF",
+            "mangledName": "$s8PrivySDK0A4UserP20createEthereumWallet15allowAdditional7timeoutAA08EmbeddedeF0_pSb_s8DurationVtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
             "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
@@ -2464,7 +2540,7 @@
           {
             "kind": "Function",
             "name": "createSolanaWallet",
-            "printedName": "createSolanaWallet(allowAdditional:)",
+            "printedName": "createSolanaWallet(allowAdditional:timeout:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2477,11 +2553,17 @@
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Duration",
+                "printedName": "Swift.Duration",
+                "usr": "s:s8DurationV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK0A4UserP18createSolanaWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
-            "mangledName": "$s8PrivySDK0A4UserP18createSolanaWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
+            "usr": "s:8PrivySDK0A4UserP18createSolanaWallet15allowAdditional7timeoutAA08EmbeddedeF0_pSb_s8DurationVtYaKF",
+            "mangledName": "$s8PrivySDK0A4UserP18createSolanaWallet15allowAdditional7timeoutAA08EmbeddedeF0_pSb_s8DurationVtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
             "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
@@ -2565,6 +2647,31 @@
           },
           {
             "kind": "Function",
+            "name": "createEthereumWallet",
+            "printedName": "createEthereumWallet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmbeddedSolanaWallet",
+                "printedName": "any PrivySDK.EmbeddedSolanaWallet",
+                "usr": "s:8PrivySDK20EmbeddedSolanaWalletP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserPAAE20createEthereumWalletAA014EmbeddedSolanaF0_pyYaKF",
+            "mangledName": "$s8PrivySDK0A4UserPAAE20createEthereumWalletAA014EmbeddedSolanaF0_pyYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "createSolanaWallet",
             "printedName": "createSolanaWallet()",
             "children": [
@@ -2578,6 +2685,68 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK0A4UserPAAE18createSolanaWalletAA08EmbeddedeF0_pyYaKF",
             "mangledName": "$s8PrivySDK0A4UserPAAE18createSolanaWalletAA08EmbeddedeF0_pyYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createEthereumWallet",
+            "printedName": "createEthereumWallet(allowAdditional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmbeddedEthereumWallet",
+                "printedName": "any PrivySDK.EmbeddedEthereumWallet",
+                "usr": "s:8PrivySDK22EmbeddedEthereumWalletP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserPAAE20createEthereumWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
+            "mangledName": "$s8PrivySDK0A4UserPAAE20createEthereumWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createSolanaWallet",
+            "printedName": "createSolanaWallet(allowAdditional:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EmbeddedSolanaWallet",
+                "printedName": "any PrivySDK.EmbeddedSolanaWallet",
+                "usr": "s:8PrivySDK20EmbeddedSolanaWalletP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserPAAE18createSolanaWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
+            "mangledName": "$s8PrivySDK0A4UserPAAE18createSolanaWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
             "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
@@ -2620,6 +2789,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2835,6 +3011,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4924,6 +5107,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5235,6 +5425,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5594,6 +5791,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -5756,6 +5960,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6205,6 +6416,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6446,6 +6664,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -6648,6 +6873,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7088,6 +7320,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7639,6 +7878,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -7976,6 +8222,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -8238,6 +8491,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -8409,6 +8669,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -9864,6 +10131,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -10142,6 +10416,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12185,6 +12466,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12461,6 +12749,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12651,6 +12946,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -12908,6 +13210,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13355,6 +13664,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -13539,6 +13855,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -14101,6 +14424,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -14684,6 +15014,13 @@
                 "printedName": "Sendable",
                 "usr": "s:s8SendableP",
                 "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           }
@@ -14717,6 +15054,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15149,6 +15493,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15633,6 +15984,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -15706,6 +16064,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -16053,6 +16418,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -16850,6 +17222,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           },
@@ -17329,6 +17708,13 @@
                     "printedName": "Encodable",
                     "usr": "s:SE",
                     "mangledName": "$sSE"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -17794,6 +18180,13 @@
                     "printedName": "Encodable",
                     "usr": "s:SE",
                     "mangledName": "$sSE"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "SendableMetatype",
+                    "printedName": "SendableMetatype",
+                    "usr": "s:s16SendableMetatypeP",
+                    "mangledName": "$ss16SendableMetatypeP"
                   }
                 ]
               },
@@ -17861,6 +18254,13 @@
                 "printedName": "Encodable",
                 "usr": "s:SE",
                 "mangledName": "$sSE"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
               }
             ]
           }
@@ -17894,6 +18294,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -18469,6 +18876,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -18676,6 +19090,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -18886,6 +19307,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -19172,6 +19600,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -19437,7 +19872,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivySdk.swift",
       "kind": "BooleanLiteral",
-      "offset": 143,
+      "offset": 163,
       "length": 5,
       "value": "false"
     },
@@ -20024,57 +20459,71 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 8503,
-      "length": 4,
-      "value": "15.0"
+      "kind": "IntegerLiteral",
+      "offset": 8514,
+      "length": 2,
+      "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 13251,
+      "offset": 13369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 15955,
+      "offset": 16078,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 17668,
+      "offset": 17783,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 18580,
-      "length": 5,
-      "value": "150.0"
+      "kind": "IntegerLiteral",
+      "offset": 18825,
+      "length": 3,
+      "value": "150"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 18588,
-      "length": 4,
-      "value": "1000"
+      "offset": 19693,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 22012,
-      "length": 4,
-      "value": "60.0"
+      "kind": "IntegerLiteral",
+      "offset": 20009,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20342,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22411,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 23409,
+      "offset": 23807,
       "length": 5,
       "value": "false"
     }
