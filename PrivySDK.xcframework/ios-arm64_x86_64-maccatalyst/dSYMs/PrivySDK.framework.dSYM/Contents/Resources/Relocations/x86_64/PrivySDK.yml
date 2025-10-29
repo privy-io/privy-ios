@@ -1147,8 +1147,8 @@ relocations:
   - { offset: 0x2989DD, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataVSEAASE6encode2toys7Encoder_p_tKFTW', symObjAddr: 0x1470, symBinAddr: 0x2EB80, symSize: 0x10 }
   - { offset: 0x2989F1, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV0F6DomainV10CodingKeys022_2B1D18C4F53307E08DAA4L9FE34FD576LLO11stringValueAJSgSS_tcfCTf4nd_n', symObjAddr: 0x2820, symBinAddr: 0x2F9C0, symSize: 0x190 }
   - { offset: 0x298AAC, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK18EthereumRpcRequestV15EIP712TypedDataV12EncodingKeysO8rawValueAGSgSS_tcfCTf4nd_n', symObjAddr: 0x29B0, symBinAddr: 0x2FB50, symSize: 0x60 }
-  - { offset: 0x298BEE, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE20createEthereumWalletAA014EmbeddedSolanaF0_pyYaKF', symObjAddr: 0x0, symBinAddr: 0x2FBD0, symSize: 0x80 }
-  - { offset: 0x298C06, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE20createEthereumWalletAA014EmbeddedSolanaF0_pyYaKF', symObjAddr: 0x0, symBinAddr: 0x2FBD0, symSize: 0x80 }
+  - { offset: 0x298BEE, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE20createEthereumWalletAA08EmbeddedeF0_pyYaKF', symObjAddr: 0x0, symBinAddr: 0x2FBD0, symSize: 0x80 }
+  - { offset: 0x298C06, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE20createEthereumWalletAA08EmbeddedeF0_pyYaKF', symObjAddr: 0x0, symBinAddr: 0x2FBD0, symSize: 0x80 }
   - { offset: 0x298C49, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE18createSolanaWalletAA08EmbeddedeF0_pyYaKF', symObjAddr: 0x80, symBinAddr: 0x2FC50, symSize: 0x80 }
   - { offset: 0x298C8C, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE20createEthereumWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF', symObjAddr: 0x100, symBinAddr: 0x2FCD0, symSize: 0x90 }
   - { offset: 0x298CDF, size: 0x8, addend: 0x0, symName: '_$s8PrivySDK0A4UserPAAE18createSolanaWallet15allowAdditionalAA08EmbeddedeF0_pSb_tYaKF', symObjAddr: 0x190, symBinAddr: 0x2FD60, symSize: 0x90 }
