@@ -129,7 +129,7 @@ public protocol PrivyUser : Swift.Sendable {
   func logout() async
 }
 extension PrivySDK.PrivyUser {
-  public func createEthereumWallet() async throws -> any PrivySDK.EmbeddedSolanaWallet
+  public func createEthereumWallet() async throws -> any PrivySDK.EmbeddedEthereumWallet
   public func createSolanaWallet() async throws -> any PrivySDK.EmbeddedSolanaWallet
   public func createEthereumWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedEthereumWallet
   public func createSolanaWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedSolanaWallet

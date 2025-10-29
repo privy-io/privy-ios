@@ -2652,14 +2652,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "EmbeddedSolanaWallet",
-                "printedName": "any PrivySDK.EmbeddedSolanaWallet",
-                "usr": "s:8PrivySDK20EmbeddedSolanaWalletP"
+                "name": "EmbeddedEthereumWallet",
+                "printedName": "any PrivySDK.EmbeddedEthereumWallet",
+                "usr": "s:8PrivySDK22EmbeddedEthereumWalletP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK0A4UserPAAE20createEthereumWalletAA014EmbeddedSolanaF0_pyYaKF",
-            "mangledName": "$s8PrivySDK0A4UserPAAE20createEthereumWalletAA014EmbeddedSolanaF0_pyYaKF",
+            "usr": "s:8PrivySDK0A4UserPAAE20createEthereumWalletAA08EmbeddedeF0_pyYaKF",
+            "mangledName": "$s8PrivySDK0A4UserPAAE20createEthereumWalletAA08EmbeddedeF0_pyYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
             "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
