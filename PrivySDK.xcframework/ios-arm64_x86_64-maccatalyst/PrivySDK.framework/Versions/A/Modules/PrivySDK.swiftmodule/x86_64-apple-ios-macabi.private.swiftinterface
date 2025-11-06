@@ -464,6 +464,9 @@ public struct PrivyError : Foundation.LocalizedError {
     get
   }
   #endif
+  public var isWalletTimeoutError: Swift.Bool {
+    get
+  }
 }
 public enum PrivyErrorCode : Swift.Sendable {
   case authenticationFailure(reason: PrivySDK.PrivyErrorCode.AuthenticationFailureReason)
