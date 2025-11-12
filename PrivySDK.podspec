@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '16.0'
   s.swift_version    = '5.0'
 
-  s.source           = { :git => 'https://github.com/privy-io/privy-ios.git', :tag => '2.4.1' }
+  s.source           = { :git => 'https://github.com/privy-io/privy-ios.git', :tag => '2.5.3' }
   s.vendored_frameworks = 'PrivySDK.xcframework'
   # Frameworks to link with the project
 
