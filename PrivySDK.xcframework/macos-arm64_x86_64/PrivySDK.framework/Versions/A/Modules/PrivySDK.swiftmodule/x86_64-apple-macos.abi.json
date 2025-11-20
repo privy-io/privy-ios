@@ -346,6 +346,346 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "SolanaCluster",
+        "printedName": "SolanaCluster",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "caip2",
+            "printedName": "caip2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13SolanaClusterV5caip2SSvp",
+            "mangledName": "$s8PrivySDK13SolanaClusterV5caip2SSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13SolanaClusterV5caip2SSvg",
+                "mangledName": "$s8PrivySDK13SolanaClusterV5caip2SSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rpcUrl",
+            "printedName": "rpcUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13SolanaClusterV6rpcUrlSSvp",
+            "mangledName": "$s8PrivySDK13SolanaClusterV6rpcUrlSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13SolanaClusterV6rpcUrlSSvg",
+                "mangledName": "$s8PrivySDK13SolanaClusterV6rpcUrlSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(caip2:rpcUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK13SolanaClusterV5caip26rpcUrlACSS_SStcfc",
+            "mangledName": "$s8PrivySDK13SolanaClusterV5caip26rpcUrlACSS_SStcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "mainnet",
+            "printedName": "mainnet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13SolanaClusterV7mainnetACvpZ",
+            "mangledName": "$s8PrivySDK13SolanaClusterV7mainnetACvpZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SolanaCluster",
+                    "printedName": "PrivySDK.SolanaCluster",
+                    "usr": "s:8PrivySDK13SolanaClusterV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13SolanaClusterV7mainnetACvgZ",
+                "mangledName": "$s8PrivySDK13SolanaClusterV7mainnetACvgZ",
+                "moduleName": "PrivySDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "devnet",
+            "printedName": "devnet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13SolanaClusterV6devnetACvpZ",
+            "mangledName": "$s8PrivySDK13SolanaClusterV6devnetACvpZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SolanaCluster",
+                    "printedName": "PrivySDK.SolanaCluster",
+                    "usr": "s:8PrivySDK13SolanaClusterV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13SolanaClusterV6devnetACvgZ",
+                "mangledName": "$s8PrivySDK13SolanaClusterV6devnetACvgZ",
+                "moduleName": "PrivySDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testnet",
+            "printedName": "testnet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13SolanaClusterV7testnetACvpZ",
+            "mangledName": "$s8PrivySDK13SolanaClusterV7testnetACvpZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SolanaCluster",
+                    "printedName": "PrivySDK.SolanaCluster",
+                    "usr": "s:8PrivySDK13SolanaClusterV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13SolanaClusterV7testnetACvgZ",
+                "mangledName": "$s8PrivySDK13SolanaClusterV7testnetACvgZ",
+                "moduleName": "PrivySDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "with",
+            "printedName": "with(rpcUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13SolanaClusterV4with6rpcUrlACSS_tF",
+            "mangledName": "$s8PrivySDK13SolanaClusterV4with6rpcUrlACSS_tF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK13SolanaClusterV",
+        "mangledName": "$s8PrivySDK13SolanaClusterV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -361,8 +701,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -395,8 +735,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -412,32 +752,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
-        "declKind": "Import",
-        "moduleName": "PrivySDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -460,8 +776,32 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -792,8 +1132,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -802,25 +1142,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
-        "declKind": "Import",
-        "moduleName": "PrivySDK",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -836,8 +1159,42 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -951,8 +1308,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -968,8 +1325,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -985,13 +1342,20 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -1549,6 +1913,127 @@
             "throwing": true,
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signTransaction",
+            "printedName": "signTransaction(transaction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK28EmbeddedSolanaWalletProviderP15signTransaction11transactionSS10Foundation4DataV_tYaKF",
+            "mangledName": "$s8PrivySDK28EmbeddedSolanaWalletProviderP15signTransaction11transactionSS10Foundation4DataV_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedSolanaWalletProvider>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedSolanaWalletProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signAndSendTransaction",
+            "printedName": "signAndSendTransaction(transaction:cluster:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.SolanaSendOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SolanaSendOptions",
+                    "printedName": "PrivySDK.SolanaSendOptions",
+                    "usr": "s:8PrivySDK17SolanaSendOptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK28EmbeddedSolanaWalletProviderP22signAndSendTransaction11transaction7cluster7optionsSS10Foundation4DataV_AA0D7ClusterVAA0dI7OptionsVSgtYaKF",
+            "mangledName": "$s8PrivySDK28EmbeddedSolanaWalletProviderP22signAndSendTransaction11transaction7cluster7optionsSS10Foundation4DataV_AA0D7ClusterVAA0dI7OptionsVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedSolanaWalletProvider>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedSolanaWalletProvider>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signAndSendTransaction",
+            "printedName": "signAndSendTransaction(transaction:cluster:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaCluster",
+                "printedName": "PrivySDK.SolanaCluster",
+                "usr": "s:8PrivySDK13SolanaClusterV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK28EmbeddedSolanaWalletProviderPAAE22signAndSendTransaction11transaction7clusterSS10Foundation4DataV_AA0D7ClusterVtYaKF",
+            "mangledName": "$s8PrivySDK28EmbeddedSolanaWalletProviderPAAE22signAndSendTransaction11transaction7clusterSS10Foundation4DataV_AA0D7ClusterVtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedSolanaWalletProvider>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedSolanaWalletProvider>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -1608,8 +2093,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -1899,6 +2384,850 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "TypeDecl",
+        "name": "SolanaSendOptions",
+        "printedName": "SolanaSendOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "skipPreflight",
+            "printedName": "skipPreflight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SolanaSendOptionsV13skipPreflightSbSgvp",
+            "mangledName": "$s8PrivySDK17SolanaSendOptionsV13skipPreflightSbSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV13skipPreflightSbSgvg",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV13skipPreflightSbSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preflightCommitment",
+            "printedName": "preflightCommitment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.SolanaSendOptions.Commitment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Commitment",
+                    "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                    "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SolanaSendOptionsV19preflightCommitmentAC0G0OSgvp",
+            "mangledName": "$s8PrivySDK17SolanaSendOptionsV19preflightCommitmentAC0G0OSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.SolanaSendOptions.Commitment?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV19preflightCommitmentAC0G0OSgvg",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV19preflightCommitmentAC0G0OSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxRetries",
+            "printedName": "maxRetries",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SolanaSendOptionsV10maxRetriesSiSgvp",
+            "mangledName": "$s8PrivySDK17SolanaSendOptionsV10maxRetriesSiSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10maxRetriesSiSgvg",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10maxRetriesSiSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minContextSlot",
+            "printedName": "minContextSlot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SolanaSendOptionsV14minContextSlotSiSgvp",
+            "mangledName": "$s8PrivySDK17SolanaSendOptionsV14minContextSlotSiSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV14minContextSlotSiSgvg",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV14minContextSlotSiSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(skipPreflight:preflightCommitment:maxRetries:minContextSlot:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SolanaSendOptions",
+                "printedName": "PrivySDK.SolanaSendOptions",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.SolanaSendOptions.Commitment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Commitment",
+                    "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                    "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK17SolanaSendOptionsV13skipPreflight19preflightCommitment10maxRetries14minContextSlotACSbSg_AC0I0OSgSiSgALtcfc",
+            "mangledName": "$s8PrivySDK17SolanaSendOptionsV13skipPreflight19preflightCommitment10maxRetries14minContextSlotACSbSg_AC0I0OSgSiSgALtcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Commitment",
+            "printedName": "Commitment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "processed",
+                "printedName": "processed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO9processedyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO9processedyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "confirmed",
+                "printedName": "confirmed",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO9confirmedyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO9confirmedyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "finalized",
+                "printedName": "finalized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO9finalizedyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO9finalizedyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "recent",
+                "printedName": "recent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO6recentyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO6recentyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "single",
+                "printedName": "single",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO6singleyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO6singleyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "singleGossip",
+                "printedName": "singleGossip",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO12singleGossipyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO12singleGossipyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "root",
+                "printedName": "root",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO4rootyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO4rootyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "max",
+                "printedName": "max",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SolanaSendOptions.Commitment.Type) -> PrivySDK.SolanaSendOptions.Commitment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Commitment",
+                            "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO3maxyA2EmF",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO3maxyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.SolanaSendOptions.Commitment?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Commitment",
+                        "printedName": "PrivySDK.SolanaSendOptions.Commitment",
+                        "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO8rawValueAESgSS_tcfc",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO8rawValueAESgSS_tcfc",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO8rawValueSSvp",
+                "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO8rawValueSSvp",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO8rawValueSSvg",
+                    "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO8rawValueSSvg",
+                    "moduleName": "PrivySDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8PrivySDK17SolanaSendOptionsV10CommitmentO",
+            "mangledName": "$s8PrivySDK17SolanaSendOptionsV10CommitmentO",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "SendableMetatype",
+                "printedName": "SendableMetatype",
+                "usr": "s:s16SendableMetatypeP",
+                "mangledName": "$ss16SendableMetatypeP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK17SolanaSendOptionsV",
+        "mangledName": "$s8PrivySDK17SolanaSendOptionsV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1911,6 +3240,316 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginWithSiws",
+        "printedName": "LoginWithSiws",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "generateMessage",
+            "printedName": "generateMessage(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiwsMessageParams",
+                "printedName": "PrivySDK.SiwsMessageParams",
+                "usr": "s:8PrivySDK17SiwsMessageParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsP15generateMessage6paramsSSAA0eG6ParamsV_tYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsP15generateMessage6paramsSSAA0eG6ParamsV_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(message:signature:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsP5login7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsP5login7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "link",
+            "printedName": "link(message:signature:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsP4link7message9signature8metadataySS_SSAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsP4link7message9signature8metadataySS_SSAA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlink",
+            "printedName": "unlink(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsP6unlink7addressySS_tYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsP6unlink7addressySS_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(message:signature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsPAAE5login7message9signatureAA0A4User_pSS_SStYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE5login7message9signatureAA0A4User_pSS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "link",
+            "printedName": "link(message:signature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsPAAE4link7message9signatureySS_SStYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE4link7message9signatureySS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8PrivySDK13LoginWithSiwsP",
+        "mangledName": "$s8PrivySDK13LoginWithSiwsP",
+        "moduleName": "PrivySDK",
+        "genericSig": "<τ_0_0 : Swift.Sendable>",
+        "sugared_genericSig": "<Self : Swift.Sendable>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2849,8 +4488,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -2873,8 +4512,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -2897,8 +4536,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -5488,8 +7127,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -5844,8 +7483,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -6020,8 +7659,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -6476,8 +8115,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -6724,8 +8363,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -6734,8 +8373,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -7768,6 +9407,51 @@
           },
           {
             "kind": "Var",
+            "name": "siws",
+            "printedName": "siws",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginWithSiws",
+                "printedName": "any PrivySDK.LoginWithSiws",
+                "usr": "s:8PrivySDK13LoginWithSiwsP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A0P4siwsAA13LoginWithSiws_pvp",
+            "mangledName": "$s8PrivySDK0A0P4siwsAA13LoginWithSiws_pvp",
+            "moduleName": "PrivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginWithSiws",
+                    "printedName": "any PrivySDK.LoginWithSiws",
+                    "usr": "s:8PrivySDK13LoginWithSiwsP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A0P4siwsAA13LoginWithSiws_pvg",
+                "mangledName": "$s8PrivySDK0A0P4siwsAA13LoginWithSiws_pvg",
+                "moduleName": "PrivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+                "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "customJwt",
             "printedName": "customJwt",
             "children": [
@@ -8715,8 +10399,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -9775,8 +11459,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -12547,8 +14231,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -13287,8 +14971,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -13741,8 +15425,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -14985,6 +16669,66 @@
               },
               {
                 "kind": "Var",
+                "name": "jsonRpcError",
+                "printedName": "jsonRpcError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(message: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO07jsonRpcC0yAESS_tcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO07jsonRpcC0yAESS_tcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "rpcError",
                 "printedName": "rpcError",
                 "children": [
@@ -15078,6 +16822,66 @@
                 "declKind": "EnumElement",
                 "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO14unsupportedRPCyAESS_tcAEmF",
                 "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO14unsupportedRPCyAESS_tcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "invalidSolanaTransaction",
+                "printedName": "invalidSolanaTransaction",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(details: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO24invalidSolanaTransactionyAESS_tcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO24invalidSolanaTransactionyAESS_tcAEmF",
                 "moduleName": "PrivySDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -15617,8 +17421,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -15648,8 +17452,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -15672,8 +17476,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -15838,6 +17642,43 @@
             "declKind": "EnumElement",
             "usr": "s:8PrivySDK11LoginMethodO4siweyA2CmF",
             "mangledName": "$s8PrivySDK11LoginMethodO4siweyA2CmF",
+            "moduleName": "PrivySDK"
+          },
+          {
+            "kind": "Var",
+            "name": "siws",
+            "printedName": "siws",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LoginMethod.Type) -> PrivySDK.LoginMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginMethod",
+                    "printedName": "PrivySDK.LoginMethod",
+                    "usr": "s:8PrivySDK11LoginMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LoginMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginMethod",
+                        "printedName": "PrivySDK.LoginMethod",
+                        "usr": "s:8PrivySDK11LoginMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK11LoginMethodO4siwsyA2CmF",
+            "mangledName": "$s8PrivySDK11LoginMethodO4siwsyA2CmF",
             "moduleName": "PrivySDK"
           },
           {
@@ -16209,8 +18050,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -16542,8 +18383,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -16566,8 +18407,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -16583,8 +18424,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -18993,8 +20834,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19214,8 +21055,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19245,8 +21086,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19276,6 +21117,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -19424,8 +21275,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19456,6 +21307,38 @@
         "children": [
           {
             "kind": "Function",
+            "name": "generateMessage",
+            "printedName": "generateMessage(params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP15generateMessage6paramsSSAA0eG6ParamsV_tYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP15generateMessage6paramsSSAA0eG6ParamsV_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "generateSiweMessage",
             "printedName": "generateSiweMessage(params:)",
             "children": [
@@ -19475,6 +21358,66 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK13LoginWithSiweP08generateE7Message6paramsSSAA0eG6ParamsV_tYaKF",
             "mangledName": "$s8PrivySDK13LoginWithSiweP08generateE7Message6paramsSSAA0eG6ParamsV_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(message:signature:params:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP5login7message9signature6params8metadataAA0A4User_pSS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP5login7message9signature6params8metadataAA0A4User_pSS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
@@ -19536,6 +21479,65 @@
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "link",
+            "printedName": "link(message:signature:params:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP4link7message9signature6params8metadataySS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP4link7message9signature6params8metadataySS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
             "protocolReq": true,
             "declAttributes": [
               "RawDocComment"
@@ -19593,12 +21595,57 @@
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "deprecated": true,
             "protocolReq": true,
             "declAttributes": [
+              "Available",
               "RawDocComment"
             ],
             "throwing": true,
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "login",
+            "printedName": "login(message:signature:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE5login7message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE5login7message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -19634,6 +21681,50 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK13LoginWithSiwePAAE05logindE07message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
             "mangledName": "$s8PrivySDK13LoginWithSiwePAAE05logindE07message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "deprecated": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "link",
+            "printedName": "link(message:signature:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SiweMessageParams",
+                "printedName": "PrivySDK.SiweMessageParams",
+                "usr": "s:8PrivySDK17SiweMessageParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE4link7message9signature6paramsySS_SSAA0E13MessageParamsVtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE4link7message9signature6paramsySS_SSAA0E13MessageParamsVtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
@@ -19679,7 +21770,9 @@
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "deprecated": true,
             "declAttributes": [
+              "Available",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -19747,8 +21840,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19771,8 +21864,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19785,6 +21878,232 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SiwsMessageParams",
+        "printedName": "SiwsMessageParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SiwsMessageParamsV6domainSSvp",
+            "mangledName": "$s8PrivySDK17SiwsMessageParamsV6domainSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SiwsMessageParamsV6domainSSvg",
+                "mangledName": "$s8PrivySDK17SiwsMessageParamsV6domainSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uri",
+            "printedName": "uri",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SiwsMessageParamsV3uriSSvp",
+            "mangledName": "$s8PrivySDK17SiwsMessageParamsV3uriSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SiwsMessageParamsV3uriSSvg",
+                "mangledName": "$s8PrivySDK17SiwsMessageParamsV3uriSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17SiwsMessageParamsV7addressSSvp",
+            "mangledName": "$s8PrivySDK17SiwsMessageParamsV7addressSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17SiwsMessageParamsV7addressSSvg",
+                "mangledName": "$s8PrivySDK17SiwsMessageParamsV7addressSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(domain:uri:address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SiwsMessageParams",
+                "printedName": "PrivySDK.SiwsMessageParams",
+                "usr": "s:8PrivySDK17SiwsMessageParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK17SiwsMessageParamsV6domain3uri7addressACSS_S2Stcfc",
+            "mangledName": "$s8PrivySDK17SiwsMessageParamsV6domain3uri7addressACSS_S2Stcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK17SiwsMessageParamsV",
+        "mangledName": "$s8PrivySDK17SiwsMessageParamsV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -19898,8 +22217,8 @@
       },
       {
         "kind": "Import",
-        "name": "Factory",
-        "printedName": "Factory",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
         "declKind": "Import",
         "moduleName": "PrivySDK",
         "declAttributes": [
@@ -19921,16 +22240,72 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/Solana\/SignTransactionSolana.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 8,
+      "value": "\"base64\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/Solana\/SignTransactionSolana.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 8,
+      "value": "\"base64\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaCluster.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 41,
+      "value": "\"solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaCluster.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 37,
+      "value": "\"https:\/\/api.mainnet-beta.solana.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaCluster.swift",
+      "kind": "StringLiteral",
+      "offset": 900,
+      "length": 41,
+      "value": "\"solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaCluster.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 31,
+      "value": "\"https:\/\/api.devnet.solana.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaCluster.swift",
+      "kind": "StringLiteral",
+      "offset": 1142,
+      "length": 41,
+      "value": "\"solana:4uhcVJyU9pJkvQyS88uRDiswHXSCkY3z\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaCluster.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 32,
+      "value": "\"https:\/\/api.testnet.solana.com\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyIFrameWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 3952,
+      "offset": 4525,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/NetworkMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 520,
       "length": 23,
       "value": "\"privy.network.monitor\""
     },
@@ -19963,11 +22338,123 @@
       "value": "\"cla06f34x0001mh08l8nsr496\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Solana\/SolanaJsonRpcClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3415,
+      "length": 8,
+      "value": "\"base64\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Solana\/SolanaJsonRpcClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4335,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/Solana\/SignAndSendTransactionSolana.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 8,
+      "value": "\"base64\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Analytics\/ClientAnalyticsIdRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 463,
       "length": 24,
       "value": "\"privyAnalyticsClientId\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 15,
+      "value": "\"connectorType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 18,
+      "value": "\"walletClientType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 14,
+      "value": "\"message_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 13,
+      "value": "\"transaction\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 673,
+      "length": 7,
+      "value": "\"plain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 756,
+      "length": 11,
+      "value": "\"no-signup\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 18,
+      "value": "\"login-or-sign-up\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1174,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1522,
+      "length": 15,
+      "value": "\"connectorType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 18,
+      "value": "\"walletClientType\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 14,
+      "value": "\"message_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 13,
+      "value": "\"transaction\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWS\/SiwsApiModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1795,
+      "length": 7,
+      "value": "\"plain\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
@@ -19986,21 +22473,21 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 673,
       "length": 14,
       "value": "\"authTokensV3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
       "kind": "StringLiteral",
-      "offset": 828,
+      "offset": 831,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
       "kind": "StringLiteral",
-      "offset": 886,
+      "offset": 889,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -20082,6 +22569,62 @@
       "value": "\"privy:user-signer:sign\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 11,
+      "value": "\"processed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1174,
+      "length": 11,
+      "value": "\"confirmed\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1322,
+      "length": 11,
+      "value": "\"finalized\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1448,
+      "length": 8,
+      "value": "\"recent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1612,
+      "length": 8,
+      "value": "\"single\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 14,
+      "value": "\"singleGossip\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 6,
+      "value": "\"root\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Wallet\/SolanaSendOptions.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 5,
+      "value": "\"max\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/RefreshUserResponse.swift",
       "kind": "StringLiteral",
       "offset": 276,
@@ -20091,28 +22634,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7979,
+      "offset": 7982,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8043,
+      "offset": 8046,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyReadyStateHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 861,
+      "offset": 864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Storage\/StorageAdapter.swift",
       "kind": "StringLiteral",
-      "offset": 1326,
+      "offset": 1329,
       "length": 10,
       "value": "\"io.privy\""
     },
@@ -20126,14 +22669,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/PKCEHelperImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 313,
+      "offset": 316,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewAppLifecycleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 803,
+      "offset": 814,
       "length": 5,
       "value": "false"
     },
@@ -20474,6 +23017,20 @@
       "value": "\"signMessage\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/WalletApiRpc.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 17,
+      "value": "\"signTransaction\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/WalletApiRpc.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 24,
+      "value": "\"signAndSendTransaction\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/JWT\/JWT.swift",
       "kind": "IntegerLiteral",
       "offset": 1776,
@@ -20518,35 +23075,35 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 426,
       "length": 34,
       "value": "\"4df5e2316331463a9130964bd6078dfa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 497,
       "length": 38,
       "value": "\"fe9c30fc-3bc5-4064-91e2-6ab5887f8f4d\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
       "kind": "IntegerLiteral",
-      "offset": 855,
+      "offset": 858,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewLoadedStateHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 435,
+      "offset": 434,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/SIWE\/LoginWithSiweImpl.swift",
       "kind": "StringLiteral",
-      "offset": 306,
+      "offset": 309,
       "length": 120,
       "value": "\"By signing, you are proving you own this wallet and logging in. This does not initiate a transaction or cost any fees.\""
     },
@@ -20609,70 +23166,70 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 1879,
+      "offset": 1885,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2350,
+      "offset": 2356,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2666,
+      "offset": 2672,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2999,
+      "offset": 3005,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 3638,
+      "offset": 3644,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 6847,
+      "offset": 6856,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7889,
+      "offset": 7898,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8504,
+      "offset": 8513,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8837,
+      "offset": 8846,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 9419,
+      "offset": 9428,
       "length": 5,
       "value": "false"
     }
