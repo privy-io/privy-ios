@@ -817,6 +817,487 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MfaMethod",
+        "printedName": "MfaMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sms",
+            "printedName": "sms",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.MfaMethod.Type) -> (PrivySDK.SmsMfaMethod) -> PrivySDK.MfaMethod",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.SmsMfaMethod) -> PrivySDK.MfaMethod",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SmsMfaMethod",
+                        "printedName": "PrivySDK.SmsMfaMethod",
+                        "usr": "s:8PrivySDK12SmsMfaMethodV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.MfaMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK9MfaMethodO3smsyAcA03SmscD0VcACmF",
+            "mangledName": "$s8PrivySDK9MfaMethodO3smsyAcA03SmscD0VcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totp",
+            "printedName": "totp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.MfaMethod.Type) -> (PrivySDK.TotpMfaMethod) -> PrivySDK.MfaMethod",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.TotpMfaMethod) -> PrivySDK.MfaMethod",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TotpMfaMethod",
+                        "printedName": "PrivySDK.TotpMfaMethod",
+                        "usr": "s:8PrivySDK13TotpMfaMethodV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.MfaMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK9MfaMethodO4totpyAcA04TotpcD0VcACmF",
+            "mangledName": "$s8PrivySDK9MfaMethodO4totpyAcA04TotpcD0VcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passkey",
+            "printedName": "passkey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.MfaMethod.Type) -> (PrivySDK.PasskeyMfaMethod) -> PrivySDK.MfaMethod",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PasskeyMfaMethod) -> PrivySDK.MfaMethod",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PasskeyMfaMethod",
+                        "printedName": "PrivySDK.PasskeyMfaMethod",
+                        "usr": "s:8PrivySDK16PasskeyMfaMethodV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.MfaMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK9MfaMethodO7passkeyyAcA07PasskeycD0VcACmF",
+            "mangledName": "$s8PrivySDK9MfaMethodO7passkeyyAcA07PasskeycD0VcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK9MfaMethodO",
+        "mangledName": "$s8PrivySDK9MfaMethodO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SmsMfaMethod",
+        "printedName": "SmsMfaMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verifiedAt",
+            "printedName": "verifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK12SmsMfaMethodV10verifiedAt10Foundation4DateVvp",
+            "mangledName": "$s8PrivySDK12SmsMfaMethodV10verifiedAt10Foundation4DateVvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK12SmsMfaMethodV10verifiedAt10Foundation4DateVvg",
+                "mangledName": "$s8PrivySDK12SmsMfaMethodV10verifiedAt10Foundation4DateVvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK12SmsMfaMethodV",
+        "mangledName": "$s8PrivySDK12SmsMfaMethodV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TotpMfaMethod",
+        "printedName": "TotpMfaMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verifiedAt",
+            "printedName": "verifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK13TotpMfaMethodV10verifiedAt10Foundation4DateVvp",
+            "mangledName": "$s8PrivySDK13TotpMfaMethodV10verifiedAt10Foundation4DateVvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK13TotpMfaMethodV10verifiedAt10Foundation4DateVvg",
+                "mangledName": "$s8PrivySDK13TotpMfaMethodV10verifiedAt10Foundation4DateVvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK13TotpMfaMethodV",
+        "mangledName": "$s8PrivySDK13TotpMfaMethodV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PasskeyMfaMethod",
+        "printedName": "PasskeyMfaMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "verifiedAt",
+            "printedName": "verifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK16PasskeyMfaMethodV10verifiedAt10Foundation4DateVvp",
+            "mangledName": "$s8PrivySDK16PasskeyMfaMethodV10verifiedAt10Foundation4DateVvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK16PasskeyMfaMethodV10verifiedAt10Foundation4DateVvg",
+                "mangledName": "$s8PrivySDK16PasskeyMfaMethodV10verifiedAt10Foundation4DateVvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK16PasskeyMfaMethodV",
+        "mangledName": "$s8PrivySDK16PasskeyMfaMethodV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "OAuthProvider",
         "printedName": "OAuthProvider",
         "children": [
@@ -4015,6 +4496,67 @@
                 "declKind": "Accessor",
                 "usr": "s:8PrivySDK0A4UserP14linkedAccountsSayAA13LinkedAccountOGvg",
                 "mangledName": "$s8PrivySDK0A4UserP14linkedAccountsSayAA13LinkedAccountOGvg",
+                "moduleName": "PrivySDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
+                "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mfaMethods",
+            "printedName": "mfaMethods",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrivySDK.MfaMethod]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MfaMethod",
+                    "printedName": "PrivySDK.MfaMethod",
+                    "usr": "s:8PrivySDK9MfaMethodO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK0A4UserP10mfaMethodsSayAA9MfaMethodOGvp",
+            "mangledName": "$s8PrivySDK0A4UserP10mfaMethodsSayAA9MfaMethodOGvp",
+            "moduleName": "PrivySDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PrivySDK.MfaMethod]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MfaMethod",
+                        "printedName": "PrivySDK.MfaMethod",
+                        "usr": "s:8PrivySDK9MfaMethodO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK0A4UserP10mfaMethodsSayAA9MfaMethodOGvg",
+                "mangledName": "$s8PrivySDK0A4UserP10mfaMethodsSayAA9MfaMethodOGvg",
                 "moduleName": "PrivySDK",
                 "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
                 "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
@@ -19474,6 +20016,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "FactoryKit",
         "printedName": "FactoryKit",
         "declKind": "Import",
@@ -23603,16 +24152,23 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
-      "offset": 328,
+      "offset": 377,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 420,
       "length": 17,
       "value": "\"linked_accounts\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/UserResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 13,
+      "value": "\"mfa_methods\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
@@ -24446,6 +25002,27 @@
       "offset": 1776,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/MfaMethodResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 13,
+      "value": "\"verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/MfaMethodResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 13,
+      "value": "\"verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/MfaMethodResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1589,
+      "length": 13,
+      "value": "\"verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/Ethereum\/Types\/WalletApiUnsignedEthereumTransaction.swift",
