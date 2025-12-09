@@ -30,6 +30,20 @@ public struct SolanaCluster : Swift.Sendable {
   public static let testnet: PrivySDK.SolanaCluster
   public func with(rpcUrl: Swift.String) -> PrivySDK.SolanaCluster
 }
+public enum MfaMethod : Swift.Sendable {
+  case sms(PrivySDK.SmsMfaMethod)
+  case totp(PrivySDK.TotpMfaMethod)
+  case passkey(PrivySDK.PasskeyMfaMethod)
+}
+public struct SmsMfaMethod : Swift.Sendable {
+  public let verifiedAt: Foundation.Date
+}
+public struct TotpMfaMethod : Swift.Sendable {
+  public let verifiedAt: Foundation.Date
+}
+public struct PasskeyMfaMethod : Swift.Sendable {
+  public let verifiedAt: Foundation.Date
+}
 public enum OAuthProvider : Swift.Sendable {
   case google
   case apple
@@ -176,6 +190,7 @@ public protocol PrivyUser : Swift.Sendable {
   var createdAt: Foundation.Date? { get }
   #endif
   var linkedAccounts: [PrivySDK.LinkedAccount] { get }
+  var mfaMethods: [PrivySDK.MfaMethod] { get }
   var embeddedEthereumWallets: [any PrivySDK.EmbeddedEthereumWallet] { get }
   var embeddedSolanaWallets: [any PrivySDK.EmbeddedSolanaWallet] { get }
   func getAccessToken() async throws -> Swift.String
