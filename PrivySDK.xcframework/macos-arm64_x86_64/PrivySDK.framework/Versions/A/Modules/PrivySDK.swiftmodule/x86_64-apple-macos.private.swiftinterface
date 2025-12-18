@@ -141,13 +141,13 @@ public protocol LoginWithSiws : Swift.Sendable {
   func login(message: Swift.String, signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  func link(message: Swift.String, signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws
+  func link(message: Swift.String, signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
   #endif
-  func unlink(address: Swift.String) async throws
+  func unlink(address: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 extension PrivySDK.LoginWithSiws {
   public func login(message: Swift.String, signature: Swift.String) async throws -> any PrivySDK.PrivyUser
-  public func link(message: Swift.String, signature: Swift.String) async throws
+  public func link(message: Swift.String, signature: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 public struct CustomAuth : Swift.Sendable {
   public let userId: Swift.String
@@ -508,8 +508,9 @@ public enum ChainType : Swift.String, Swift.Sendable {
 public protocol LoginWithSms : Swift.Sendable {
   func sendCode(to phoneNumber: Swift.String) async throws
   func loginWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws -> any PrivySDK.PrivyUser
-  func linkWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws
+  func linkWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws -> any PrivySDK.PrivyUser
   func updateWithCode(_ code: Swift.String, sentTo phoneNumber: Swift.String) async throws
+  func unlink(phoneNumber: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 public protocol LoginWithPasskey : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -517,9 +518,9 @@ public protocol LoginWithPasskey : Swift.Sendable {
   #endif
   func login(relyingParty: Swift.String) async throws -> any PrivySDK.PrivyUser
   #if compiler(>=5.3) && $NonescapableTypes
-  func link(relyingParty: Swift.String, displayName: Swift.String?) async throws
+  func link(relyingParty: Swift.String, displayName: Swift.String?) async throws -> any PrivySDK.PrivyUser
   #endif
-  func unlink(credentialId: Swift.String) async throws
+  func unlink(credentialId: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 public struct AppleAccount : Swift.Sendable {
   public let subject: Swift.String
@@ -665,13 +666,15 @@ public enum LinkedAccount : Swift.Sendable {
 public protocol LoginWithEmail : Swift.Sendable {
   func sendCode(to email: Swift.String) async throws
   func loginWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws -> any PrivySDK.PrivyUser
-  func linkWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws
+  func linkWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws -> any PrivySDK.PrivyUser
   func updateWithCode(_ code: Swift.String, sentTo email: Swift.String) async throws
+  func unlink(email: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 public protocol LoginWithOAuth : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   func login(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> any PrivySDK.PrivyUser
   #endif
+  func unlink(with provider: PrivySDK.OAuthProvider, subject: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 extension PrivySDK.LoginWithOAuth {
   public func login(with provider: PrivySDK.OAuthProvider) async throws -> any PrivySDK.PrivyUser
@@ -688,20 +691,21 @@ public protocol LoginWithSiwe : Swift.Sendable {
   func loginWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  func link(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws
+  func link(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
   #endif
+  func unlink(address: Swift.String) async throws -> any PrivySDK.PrivyUser
   #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "link", message: "Use link instead, which has identical functionality but simpler naming")
-  func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws
+  func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
   #endif
 }
 extension PrivySDK.LoginWithSiwe {
   public func login(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws -> any PrivySDK.PrivyUser
   @available(*, deprecated, renamed: "login", message: "Use login instead, which has identical functionality but simpler naming")
   public func loginWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws -> any PrivySDK.PrivyUser
-  public func link(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws
+  public func link(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws -> any PrivySDK.PrivyUser
   @available(*, deprecated, renamed: "link", message: "Use link instead, which has identical functionality but simpler naming")
-  public func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws
+  public func linkWithSiwe(message: Swift.String, signature: Swift.String, params: PrivySDK.SiweMessageParams) async throws -> any PrivySDK.PrivyUser
 }
 public struct SiwsMessageParams : Swift.Sendable {
   public let domain: Swift.String

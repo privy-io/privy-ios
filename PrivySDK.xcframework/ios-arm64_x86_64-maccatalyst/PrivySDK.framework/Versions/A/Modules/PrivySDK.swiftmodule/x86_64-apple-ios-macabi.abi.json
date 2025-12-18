@@ -800,6 +800,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "FactoryKit",
         "printedName": "FactoryKit",
         "declKind": "Import",
@@ -3842,8 +3849,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -3873,8 +3881,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiwsP4link7message9signature8metadataySS_SSAA06WalletC8MetadataVSgtYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiwsP4link7message9signature8metadataySS_SSAA06WalletC8MetadataVSgtYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiwsP4link7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsP4link7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
@@ -3893,8 +3901,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -3904,8 +3913,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiwsP6unlink7addressySS_tYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiwsP6unlink7addressySS_tYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiwsP6unlink7addressAA0A4User_pSS_tYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsP6unlink7addressAA0A4User_pSS_tYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
@@ -3961,8 +3970,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -3978,8 +3988,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiwsPAAE4link7message9signatureySS_SStYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE4link7message9signatureySS_SStYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiwsPAAE4link7message9signatureAA0A4User_pSS_SStYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE4link7message9signatureAA0A4User_pSS_SStYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
@@ -15190,8 +15200,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -15207,8 +15218,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK12LoginWithSmsP04linkD4Code_6sentToySS_SStYaKF",
-            "mangledName": "$s8PrivySDK12LoginWithSmsP04linkD4Code_6sentToySS_SStYaKF",
+            "usr": "s:8PrivySDK12LoginWithSmsP04linkD4Code_6sentToAA0A4User_pSS_SStYaKF",
+            "mangledName": "$s8PrivySDK12LoginWithSmsP04linkD4Code_6sentToAA0A4User_pSS_SStYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSms>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSms>",
@@ -15246,6 +15257,38 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK12LoginWithSmsP06updateD4Code_6sentToySS_SStYaKF",
             "mangledName": "$s8PrivySDK12LoginWithSmsP06updateD4Code_6sentToySS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSms>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSms>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlink",
+            "printedName": "unlink(phoneNumber:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK12LoginWithSmsP6unlink11phoneNumberAA0A4User_pSS_tYaKF",
+            "mangledName": "$s8PrivySDK12LoginWithSmsP6unlink11phoneNumberAA0A4User_pSS_tYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSms>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSms>",
@@ -15396,8 +15439,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -15421,8 +15465,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK16LoginWithPasskeyP4link12relyingParty11displayNameySS_SSSgtYaKF",
-            "mangledName": "$s8PrivySDK16LoginWithPasskeyP4link12relyingParty11displayNameySS_SSSgtYaKF",
+            "usr": "s:8PrivySDK16LoginWithPasskeyP4link12relyingParty11displayNameAA0A4User_pSS_SSSgtYaKF",
+            "mangledName": "$s8PrivySDK16LoginWithPasskeyP4link12relyingParty11displayNameAA0A4User_pSS_SSSgtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithPasskey>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithPasskey>",
@@ -15441,8 +15485,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -15452,8 +15497,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK16LoginWithPasskeyP6unlink12credentialIdySS_tYaKF",
-            "mangledName": "$s8PrivySDK16LoginWithPasskeyP6unlink12credentialIdySS_tYaKF",
+            "usr": "s:8PrivySDK16LoginWithPasskeyP6unlink12credentialIdAA0A4User_pSS_tYaKF",
+            "mangledName": "$s8PrivySDK16LoginWithPasskeyP6unlink12credentialIdAA0A4User_pSS_tYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithPasskey>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithPasskey>",
@@ -22623,8 +22668,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -22640,8 +22686,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK14LoginWithEmailP04linkD4Code_6sentToySS_SStYaKF",
-            "mangledName": "$s8PrivySDK14LoginWithEmailP04linkD4Code_6sentToySS_SStYaKF",
+            "usr": "s:8PrivySDK14LoginWithEmailP04linkD4Code_6sentToAA0A4User_pSS_SStYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithEmailP04linkD4Code_6sentToAA0A4User_pSS_SStYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
@@ -22679,6 +22725,38 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK14LoginWithEmailP06updateD4Code_6sentToySS_SStYaKF",
             "mangledName": "$s8PrivySDK14LoginWithEmailP06updateD4Code_6sentToySS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlink",
+            "printedName": "unlink(email:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithEmailP6unlink5emailAA0A4User_pSS_tYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithEmailP6unlink5emailAA0A4User_pSS_tYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithEmail>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithEmail>",
@@ -22875,6 +22953,44 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK14LoginWithOAuthP5login4with12appUrlSchemeAA0A4User_pAA0E8ProviderO_SSSgtYaKF",
             "mangledName": "$s8PrivySDK14LoginWithOAuthP5login4with12appUrlSchemeAA0A4User_pAA0E8ProviderO_SSSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithOAuth>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithOAuth>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlink",
+            "printedName": "unlink(with:subject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthProvider",
+                "printedName": "PrivySDK.OAuthProvider",
+                "usr": "s:8PrivySDK13OAuthProviderO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14LoginWithOAuthP6unlink4with7subjectAA0A4User_pAA0E8ProviderO_SStYaKF",
+            "mangledName": "$s8PrivySDK14LoginWithOAuthP6unlink4with7subjectAA0A4User_pAA0E8ProviderO_SStYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithOAuth>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithOAuth>",
@@ -23189,8 +23305,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -23226,8 +23343,40 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiweP4link7message9signature6params8metadataySS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiweP4link7message9signature6params8metadataySS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiweP4link7message9signature6params8metadataAA0A4User_pSS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP4link7message9signature6params8metadataAA0A4User_pSS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unlink",
+            "printedName": "unlink(address:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiweP6unlink7addressAA0A4User_pSS_tYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP6unlink7addressAA0A4User_pSS_tYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
@@ -23246,8 +23395,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -23283,8 +23433,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiweP04linkdE07message9signature6params8metadataySS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiweP04linkdE07message9signature6params8metadataySS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiweP04linkdE07message9signature6params8metadataAA0A4User_pSS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiweP04linkdE07message9signature6params8metadataAA0A4User_pSS_SSAA0E13MessageParamsVAA06WalletC8MetadataVSgtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
@@ -23393,8 +23543,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -23416,8 +23567,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiwePAAE4link7message9signature6paramsySS_SSAA0E13MessageParamsVtYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE4link7message9signature6paramsySS_SSAA0E13MessageParamsVtYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE4link7message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE4link7message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
@@ -23435,8 +23586,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
               },
               {
                 "kind": "TypeNominal",
@@ -23458,8 +23610,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PrivySDK13LoginWithSiwePAAE04linkdE07message9signature6paramsySS_SSAA0E13MessageParamsVtYaKF",
-            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE04linkdE07message9signature6paramsySS_SSAA0E13MessageParamsVtYaKF",
+            "usr": "s:8PrivySDK13LoginWithSiwePAAE04linkdE07message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwePAAE04linkdE07message9signature6paramsAA0A4User_pSS_SSAA0E13MessageParamsVtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiwe>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiwe>",
@@ -24334,14 +24486,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7982,
+      "offset": 8380,
       "length": 19,
       "value": "\"privy_oauth_state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/OAuth\/LoginWithOAuthImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8046,
+      "offset": 8444,
       "length": 18,
       "value": "\"privy_oauth_code\""
     },
