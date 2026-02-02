@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-compiler-version: Apple Swift version 6.2.3 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name PrivySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AuthenticationServices
 import Combine
 import CryptoKit
@@ -191,6 +191,7 @@ public protocol PrivyUser : Swift.Sendable {
   #endif
   var linkedAccounts: [PrivySDK.LinkedAccount] { get }
   var mfaMethods: [PrivySDK.MfaMethod] { get }
+  var mfa: any PrivySDK.PrivyUserMfa { get }
   var embeddedEthereumWallets: [any PrivySDK.EmbeddedEthereumWallet] { get }
   var embeddedSolanaWallets: [any PrivySDK.EmbeddedSolanaWallet] { get }
   func getAccessToken() async throws -> Swift.String
@@ -199,6 +200,7 @@ public protocol PrivyUser : Swift.Sendable {
   func refresh() async throws
   func logout()
   func logout() async
+  func generateAuthorizationSignature<T>(payload: PrivySDK.WalletApiPayload<T>) async throws -> Swift.String where T : Swift.Encodable
 }
 extension PrivySDK.PrivyUser {
   public func createEthereumWallet() async throws -> any PrivySDK.EmbeddedEthereumWallet
@@ -274,6 +276,72 @@ public enum WalletClientType : Swift.String, Swift.Sendable {
   public var rawValue: Swift.String {
     get
   }
+}
+public protocol PrivyMfa : Swift.Sendable {
+  func setConfig(_ config: PrivySDK.PrivyMFAConfig)
+  #if compiler(>=5.3) && $NonescapableTypes
+  func resumeBlockedActions(throwing error: (any Swift.Error)?) async
+  #endif
+}
+extension PrivySDK.PrivyMfa {
+  public func resumeBlockedActions() async
+}
+public protocol PrivyMfaPromptDelegate : Swift.Sendable {
+  @_Concurrency.MainActor func onMfaRequired(for user: any PrivySDK.PrivyUser)
+}
+public protocol PrivyUserMfa : Swift.Sendable {
+  var totp: any PrivySDK.PrivyUserTotpMfa { get }
+  var sms: any PrivySDK.PrivyUserSmsMfa { get }
+  var passkeys: any PrivySDK.PrivyUserPasskeysMfa { get }
+  #if compiler(>=5.3) && $NonescapableTypes
+  func resumeBlockedActions(throwing error: (any Swift.Error)?) async
+  #endif
+}
+extension PrivySDK.PrivyUserMfa {
+  public func resumeBlockedActions() async
+}
+public protocol PrivyUserPasskeysMfa : Swift.Sendable {
+  var enroll: any PrivySDK.PrivyUserPasskeysMfaEnroll { get }
+  var verify: any PrivySDK.PrivyUserPasskeysMfaVerify { get }
+  func unenroll(removeForLogin: Swift.Bool) async throws -> any PrivySDK.PrivyUser
+}
+extension PrivySDK.PrivyUserPasskeysMfa {
+  public func unenroll() async throws -> any PrivySDK.PrivyUser
+}
+public protocol PrivyUserPasskeysMfaEnroll : Swift.Sendable {
+  func submit(credentialIds: [Swift.String]) async throws -> any PrivySDK.PrivyUser
+}
+public protocol PrivyUserPasskeysMfaVerify : Swift.Sendable {
+  func submit(relyingParty: Swift.String) async throws
+}
+public protocol PrivyUserSmsMfa : Swift.Sendable {
+  var enroll: any PrivySDK.PrivyUserSmsMfaEnroll { get }
+  var verify: any PrivySDK.PrivyUserSmsMfaVerify { get }
+  func unenroll() async throws -> any PrivySDK.PrivyUser
+}
+public protocol PrivyUserSmsMfaEnroll : Swift.Sendable {
+  func sendCode(to phoneNumber: Swift.String) async throws
+  func submit(code: Swift.String, sentTo phoneNumber: Swift.String) async throws -> any PrivySDK.PrivyUser
+}
+public protocol PrivyUserSmsMfaVerify : Swift.Sendable {
+  func sendCode() async throws
+  func submit(code: Swift.String) async throws
+}
+public protocol PrivyUserTotpMfa : Swift.Sendable {
+  var enroll: any PrivySDK.PrivyUserTotpMfaEnroll { get }
+  var verify: any PrivySDK.PrivyUserTotpMfaVerify { get }
+  func unenroll() async throws -> any PrivySDK.PrivyUser
+}
+public protocol PrivyUserTotpMfaEnroll : Swift.Sendable {
+  func generateSecret() async throws -> PrivySDK.TotpSecret
+  func submit(code: Swift.String) async throws -> any PrivySDK.PrivyUser
+}
+public protocol PrivyUserTotpMfaVerify : Swift.Sendable {
+  func submit(code: Swift.String) async throws
+}
+public struct TotpSecret : Swift.Sendable {
+  public let secret: Swift.String
+  public let authUrl: Swift.String
 }
 public protocol EmbeddedWallet : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -359,6 +427,7 @@ public protocol Privy : Swift.Sendable {
   var customJwt: any PrivySDK.LoginWithCustomAccessToken { get }
   var oAuth: any PrivySDK.LoginWithOAuth { get }
   var passkey: any PrivySDK.LoginWithPasskey { get }
+  var mfa: any PrivySDK.PrivyMfa { get }
   func onNetworkRestored() async
 }
 public struct PrivyConfig : Swift.Sendable {
@@ -366,8 +435,9 @@ public struct PrivyConfig : Swift.Sendable {
   public let appClientId: Swift.String?
   public let loggingConfig: PrivySDK.PrivyLoggingConfig?
   public let customAuthConfig: PrivySDK.PrivyLoginWithCustomAuthConfig?
+  public let mfaConfig: PrivySDK.PrivyMFAConfig
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(appId: Swift.String, appClientId: Swift.String, loggingConfig: PrivySDK.PrivyLoggingConfig? = nil, customAuthConfig: PrivySDK.PrivyLoginWithCustomAuthConfig? = nil)
+  public init(appId: Swift.String, appClientId: Swift.String, loggingConfig: PrivySDK.PrivyLoggingConfig? = nil, customAuthConfig: PrivySDK.PrivyLoginWithCustomAuthConfig? = nil, mfaConfig: PrivySDK.PrivyMFAConfig? = nil)
   #endif
 }
 public struct PrivyLoggingConfig : Swift.Sendable {
@@ -380,6 +450,11 @@ public struct PrivyLoggingConfig : Swift.Sendable {
 public struct PrivyLoginWithCustomAuthConfig : Swift.Sendable {
   public let tokenProvider: PrivySDK.TokenProvider
   public init(tokenProvider: @escaping PrivySDK.TokenProvider)
+}
+public struct PrivyMFAConfig : Swift.Sendable {
+  public let delegate: (any PrivySDK.PrivyMfaPromptDelegate)?
+  public let mfaTimeout: Swift.Duration
+  public init(delegate: any PrivySDK.PrivyMfaPromptDelegate, mfaTimeout: Swift.Duration = .seconds(300))
 }
 public enum SupportedChain : Swift.CaseIterable {
   case mainnet
@@ -520,7 +595,10 @@ public protocol LoginWithPasskey : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   func link(relyingParty: Swift.String, displayName: Swift.String?) async throws -> any PrivySDK.PrivyUser
   #endif
-  func unlink(credentialId: Swift.String) async throws -> any PrivySDK.PrivyUser
+  func unlink(credentialId: Swift.String, removeAsMfa: Swift.Bool) async throws -> any PrivySDK.PrivyUser
+}
+extension PrivySDK.LoginWithPasskey {
+  public func unlink(credentialId: Swift.String) async throws -> any PrivySDK.PrivyUser
 }
 public struct AppleAccount : Swift.Sendable {
   public let subject: Swift.String
@@ -586,6 +664,10 @@ public enum PrivyErrorCode : Swift.Sendable {
     case rpcError
     case unsupportedRPC(rpcMethod: Swift.String)
     case invalidSolanaTransaction(details: Swift.String)
+    case missingOrInvalidMfa
+    case timeoutOnMfa
+    case mfaChallengeExpired
+    case mfaVerificationMaxAttemptsReached
   }
 }
 public struct EmbeddedSolanaWalletAccount {
@@ -596,6 +678,15 @@ public struct EmbeddedSolanaWalletAccount {
   public let firstVerifiedAt: Foundation.Date?
   public let latestVerifiedAt: Foundation.Date?
   public let hdWalletIndex: Swift.Int
+}
+public struct WalletApiPayload<T> : Swift.Encodable where T : Swift.Encodable {
+  public let version: Swift.Int
+  public let url: Swift.String
+  public let method: Swift.String
+  public let headers: [Swift.String : Swift.String]
+  public let body: T
+  public init(version: Swift.Int, url: Swift.String, method: Swift.String, headers: [Swift.String : Swift.String], body: T)
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum LoginMethod : Swift.Codable, Swift.Sendable {
   case customAccessToken
@@ -631,6 +722,7 @@ public struct PasskeyAccount : Swift.Sendable {
 public enum ApiError : Foundation.LocalizedError {
   case couldNotConstructRequest
   case decodingError(any Swift.Error)
+  case apiError(httpCode: Swift.Int, errorCode: Swift.String, description: Swift.String)
   case networkError(responseCode: Swift.Int, description: Swift.String? = nil)
   case malformedResponse
   #if compiler(>=5.3) && $NonescapableTypes
@@ -675,9 +767,13 @@ public protocol LoginWithOAuth : Swift.Sendable {
   func login(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> any PrivySDK.PrivyUser
   #endif
   func unlink(with provider: PrivySDK.OAuthProvider, subject: Swift.String) async throws -> any PrivySDK.PrivyUser
+  #if compiler(>=5.3) && $NonescapableTypes
+  func link(with provider: PrivySDK.OAuthProvider, appUrlScheme: Swift.String?) async throws -> any PrivySDK.PrivyUser
+  #endif
 }
 extension PrivySDK.LoginWithOAuth {
   public func login(with provider: PrivySDK.OAuthProvider) async throws -> any PrivySDK.PrivyUser
+  public func link(with provider: PrivySDK.OAuthProvider) async throws -> any PrivySDK.PrivyUser
 }
 public protocol LoginWithSiwe : Swift.Sendable {
   func generateMessage(params: PrivySDK.SiweMessageParams) async throws -> Swift.String
