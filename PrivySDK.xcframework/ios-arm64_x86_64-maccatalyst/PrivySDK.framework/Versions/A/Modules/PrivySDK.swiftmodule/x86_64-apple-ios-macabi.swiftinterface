@@ -724,6 +724,7 @@ public enum PrivyErrorCode : Swift.Sendable {
     case mfaChallengeExpired
     case mfaVerificationMaxAttemptsReached
     case walletMigrationFailed(errors: [any Swift.Error])
+    case iframeError(type: Swift.String, message: Swift.String)
   }
 }
 extension PrivySDK.EthereumRpcRequest {
