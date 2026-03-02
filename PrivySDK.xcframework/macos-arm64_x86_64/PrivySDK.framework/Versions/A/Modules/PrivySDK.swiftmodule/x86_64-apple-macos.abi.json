@@ -25822,6 +25822,72 @@
                 "declAttributes": [
                   "RawDocComment"
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "iframeError",
+                "printedName": "iframeError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String, Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String, Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(type: Swift.String, message: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO06iframeC0yAESS_SStcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO06iframeC0yAESS_SStcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               }
             ],
             "declKind": "Enum",
