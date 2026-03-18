@@ -356,6 +356,12 @@ public protocol EmbeddedWallet : Swift.Sendable {
   var hdWalletIndex: Swift.Int { get }
   var chainType: PrivySDK.ChainType { get }
   var imported: Swift.Bool { get }
+  func addSigners(_ signers: [PrivySDK.SignerInput]) async throws
+  func removeSigner(signerId: Swift.String) async throws
+  func removeAllSigners() async throws
+}
+extension PrivySDK.EmbeddedWallet {
+  public func addSigner(_ signer: PrivySDK.SignerInput) async throws
 }
 public protocol Privy : Swift.Sendable {
   @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
@@ -416,6 +422,13 @@ extension PrivySDK.PrivyUser {
   public func createSolanaWallet() async throws -> any PrivySDK.EmbeddedSolanaWallet
   public func createEthereumWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedEthereumWallet
   public func createSolanaWallet(allowAdditional: Swift.Bool) async throws -> any PrivySDK.EmbeddedSolanaWallet
+}
+public struct SignerInput : Swift.Sendable {
+  public let signerId: Swift.String
+  public let policyIds: [Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(signerId: Swift.String, policyIds: [Swift.String]? = nil)
+  #endif
 }
 public enum SessionUpdateAction : Swift.String, Swift.Decodable, Swift.Sendable {
   case set
@@ -725,6 +738,7 @@ public enum PrivyErrorCode : Swift.Sendable {
     case mfaVerificationMaxAttemptsReached
     case walletMigrationFailed(errors: [any Swift.Error])
     case iframeError(type: Swift.String, message: Swift.String)
+    case signerError(message: Swift.String)
   }
 }
 extension PrivySDK.EthereumRpcRequest {
