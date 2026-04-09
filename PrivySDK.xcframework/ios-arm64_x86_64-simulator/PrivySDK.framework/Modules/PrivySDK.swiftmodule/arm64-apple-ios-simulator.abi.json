@@ -28634,21 +28634,28 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 675,
+      "length": 14,
+      "value": "\"authTokensV4\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1006,
       "length": 14,
       "value": "\"authTokensV3\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
       "kind": "StringLiteral",
-      "offset": 831,
+      "offset": 1164,
       "length": 14,
       "value": "\"authTokensV2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthSessionTokensRepository.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 1222,
       "length": 10,
       "value": "\"io.privy\""
     },
