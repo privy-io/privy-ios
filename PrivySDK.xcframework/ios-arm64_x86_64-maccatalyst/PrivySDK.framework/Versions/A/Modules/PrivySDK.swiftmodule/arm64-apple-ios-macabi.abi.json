@@ -13654,6 +13654,38 @@
           },
           {
             "kind": "Function",
+            "name": "generateAuthorizationSignature",
+            "printedName": "generateAuthorizationSignature(payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A4UserP30generateAuthorizationSignature7payloadSS10Foundation4DataV_tYaKF",
+            "mangledName": "$s8PrivySDK0A4UserP30generateAuthorizationSignature7payloadSS10Foundation4DataV_tYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.PrivyUser>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.PrivyUser>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "createEthereumWallet",
             "printedName": "createEthereumWallet()",
             "children": [
