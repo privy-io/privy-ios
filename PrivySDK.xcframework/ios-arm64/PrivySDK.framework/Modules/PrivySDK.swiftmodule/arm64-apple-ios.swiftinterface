@@ -416,6 +416,7 @@ public protocol PrivyUser : Swift.Sendable {
   func logout()
   func logout() async
   func generateAuthorizationSignature<T>(payload: PrivySDK.WalletApiPayload<T>) async throws -> Swift.String where T : Swift.Encodable
+  func generateAuthorizationSignature(payload: Foundation.Data) async throws -> Swift.String
 }
 extension PrivySDK.PrivyUser {
   public func createEthereumWallet() async throws -> any PrivySDK.EmbeddedEthereumWallet
