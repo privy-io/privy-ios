@@ -84,6 +84,7 @@ public enum LinkedAccount : Swift.Sendable {
   case twitter(PrivySDK.TwitterAccount)
   case apple(PrivySDK.AppleAccount)
   case discord(PrivySDK.DiscordAccount)
+  case telegram(PrivySDK.TelegramAccount)
   case passkey(PrivySDK.PasskeyAccount)
 }
 public enum LoginMethod : Swift.Codable, Swift.Sendable {
@@ -129,6 +130,15 @@ public struct PasskeyAccount : Swift.Sendable {
 }
 public struct PhoneNumberAccount : Swift.Sendable {
   public let phoneNumber: Swift.String
+  public let firstVerifiedAt: Foundation.Date?
+  public let latestVerifiedAt: Foundation.Date?
+}
+public struct TelegramAccount : Swift.Sendable {
+  public let telegramUserId: Swift.String
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let username: Swift.String?
+  public let photoUrl: Swift.String?
   public let firstVerifiedAt: Foundation.Date?
   public let latestVerifiedAt: Foundation.Date?
 }
@@ -229,6 +239,7 @@ public enum OAuthProvider : Swift.Sendable {
   case apple
   case twitter
   case discord
+  case telegram
   public static func == (a: PrivySDK.OAuthProvider, b: PrivySDK.OAuthProvider) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
