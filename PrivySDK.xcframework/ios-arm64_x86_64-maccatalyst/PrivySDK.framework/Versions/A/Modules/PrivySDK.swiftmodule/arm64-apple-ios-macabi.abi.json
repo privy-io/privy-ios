@@ -3393,6 +3393,59 @@
           },
           {
             "kind": "Var",
+            "name": "telegram",
+            "printedName": "telegram",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.LinkedAccount.Type) -> (PrivySDK.TelegramAccount) -> PrivySDK.LinkedAccount",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.TelegramAccount) -> PrivySDK.LinkedAccount",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TelegramAccount",
+                        "printedName": "PrivySDK.TelegramAccount",
+                        "usr": "s:8PrivySDK15TelegramAccountV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.LinkedAccount.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedAccount",
+                        "printedName": "PrivySDK.LinkedAccount",
+                        "usr": "s:8PrivySDK13LinkedAccountO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13LinkedAccountO8telegramyAcA08TelegramD0VcACmF",
+            "mangledName": "$s8PrivySDK13LinkedAccountO8telegramyAcA08TelegramD0VcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "passkey",
             "printedName": "passkey",
             "children": [
@@ -5194,6 +5247,469 @@
         "declKind": "Struct",
         "usr": "s:8PrivySDK18PhoneNumberAccountV",
         "mangledName": "$s8PrivySDK18PhoneNumberAccountV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TelegramAccount",
+        "printedName": "TelegramAccount",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "telegramUserId",
+            "printedName": "telegramUserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV14telegramUserIdSSvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV14telegramUserIdSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV14telegramUserIdSSvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV14telegramUserIdSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstName",
+            "printedName": "firstName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV9firstNameSSSgvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV9firstNameSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV9firstNameSSSgvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV9firstNameSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastName",
+            "printedName": "lastName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV8lastNameSSSgvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV8lastNameSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV8lastNameSSSgvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV8lastNameSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV8usernameSSSgvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV8usernameSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV8usernameSSSgvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV8usernameSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "photoUrl",
+            "printedName": "photoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV8photoUrlSSSgvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV8photoUrlSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV8photoUrlSSSgvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV8photoUrlSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstVerifiedAt",
+            "printedName": "firstVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV15firstVerifiedAt10Foundation4DateVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV15firstVerifiedAt10Foundation4DateVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latestVerifiedAt",
+            "printedName": "latestVerifiedAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK15TelegramAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "mangledName": "$s8PrivySDK15TelegramAccountV16latestVerifiedAt10Foundation4DateVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK15TelegramAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "mangledName": "$s8PrivySDK15TelegramAccountV16latestVerifiedAt10Foundation4DateVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK15TelegramAccountV",
+        "mangledName": "$s8PrivySDK15TelegramAccountV",
         "moduleName": "PrivySDK",
         "declAttributes": [
           "AccessControl",
@@ -8434,6 +8950,46 @@
             "declKind": "EnumElement",
             "usr": "s:8PrivySDK13OAuthProviderO7discordyA2CmF",
             "mangledName": "$s8PrivySDK13OAuthProviderO7discordyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "telegram",
+            "printedName": "telegram",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.OAuthProvider.Type) -> PrivySDK.OAuthProvider",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthProvider",
+                    "printedName": "PrivySDK.OAuthProvider",
+                    "usr": "s:8PrivySDK13OAuthProviderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.OAuthProvider.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthProvider",
+                        "printedName": "PrivySDK.OAuthProvider",
+                        "usr": "s:8PrivySDK13OAuthProviderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13OAuthProviderO8telegramyA2CmF",
+            "mangledName": "$s8PrivySDK13OAuthProviderO8telegramyA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -26904,6 +27460,109 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "EmbeddedEthereumWalletProvider",
         "printedName": "EmbeddedEthereumWalletProvider",
@@ -28281,35 +28940,35 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/MFA\/PrivyOngoingMFAManager.swift",
       "kind": "Dictionary",
-      "offset": 576,
+      "offset": 641,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/MFA\/PrivyOngoingMFAManager.swift",
       "kind": "StringLiteral",
-      "offset": 5592,
+      "offset": 6609,
       "length": 24,
       "value": "\"missing_or_invalid_mfa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/MFA\/PrivyOngoingMFAManager.swift",
       "kind": "StringLiteral",
-      "offset": 5644,
+      "offset": 6661,
       "length": 30,
       "value": "\"expired_or_invalid_mfa_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/MFA\/PrivyOngoingMFAManager.swift",
       "kind": "StringLiteral",
-      "offset": 5702,
+      "offset": 6719,
       "length": 13,
       "value": "\"mfa_timeout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/MFA\/PrivyOngoingMFAManager.swift",
       "kind": "StringLiteral",
-      "offset": 5743,
+      "offset": 6760,
       "length": 39,
       "value": "\"mfa_verification_max_attempts_reached\""
     },
@@ -28764,7 +29423,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyIFrameWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 4525,
+      "offset": 4623,
       "length": 2,
       "value": "15"
     },
@@ -28799,70 +29458,70 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2252,
+      "offset": 2408,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 2723,
+      "offset": 2879,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 3039,
+      "offset": 3195,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 3372,
+      "offset": 3528,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 4011,
+      "offset": 4167,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 7946,
+      "offset": 8102,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8988,
+      "offset": 9144,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9603,
+      "offset": 9759,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9936,
+      "offset": 10092,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11692,
+      "offset": 11848,
       "length": 5,
       "value": "false"
     },
@@ -28918,238 +29577,280 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2939,
       "length": 16,
       "value": "\"custom_user_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2987,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2812,
+      "offset": 3039,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5075,
+      "offset": 5302,
       "length": 10,
       "value": "\"chain_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5111,
+      "offset": 5338,
       "length": 12,
       "value": "\"chain_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5156,
+      "offset": 5383,
       "length": 20,
       "value": "\"wallet_client_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5206,
+      "offset": 5433,
       "length": 16,
       "value": "\"connector_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5254,
+      "offset": 5481,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5306,
+      "offset": 5533,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5358,
+      "offset": 5585,
       "length": 17,
       "value": "\"recovery_method\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5405,
+      "offset": 5632,
       "length": 14,
       "value": "\"wallet_index\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5919,
+      "offset": 6146,
       "length": 9,
       "value": "\"address\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 5960,
+      "offset": 6187,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6012,
+      "offset": 6239,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6403,
+      "offset": 6630,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6455,
+      "offset": 6682,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6941,
+      "offset": 7168,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 6993,
+      "offset": 7220,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7535,
+      "offset": 7762,
       "length": 21,
       "value": "\"profile_picture_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7588,
+      "offset": 7815,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 7640,
+      "offset": 7867,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8138,
+      "offset": 8365,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8190,
+      "offset": 8417,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8624,
+      "offset": 8851,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 8676,
+      "offset": 8903,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9348,
+      "offset": 9422,
+      "length": 18,
+      "value": "\"telegram_user_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 9466,
+      "length": 12,
+      "value": "\"first_name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 9503,
+      "length": 11,
+      "value": "\"last_name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 9561,
+      "length": 11,
+      "value": "\"photo_url\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 9604,
+      "length": 19,
+      "value": "\"first_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 9656,
+      "length": 20,
+      "value": "\"latest_verified_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 10328,
       "length": 15,
       "value": "\"credential_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9397,
+      "offset": 10377,
       "length": 20,
       "value": "\"authenticator_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9452,
+      "offset": 10432,
       "length": 22,
       "value": "\"created_with_browser\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9504,
+      "offset": 10484,
       "length": 17,
       "value": "\"created_with_os\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9555,
+      "offset": 10535,
       "length": 21,
       "value": "\"created_with_device\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9602,
+      "offset": 10582,
       "length": 12,
       "value": "\"public_key\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9644,
+      "offset": 10624,
       "length": 17,
       "value": "\"enrolled_in_mfa\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9693,
+      "offset": 10673,
       "length": 19,
       "value": "\"first_verified_at\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
       "kind": "StringLiteral",
-      "offset": 9745,
+      "offset": 10725,
       "length": 20,
       "value": "\"latest_verified_at\""
     },
@@ -29425,6 +30126,76 @@
       "offset": 646,
       "length": 17,
       "value": "\"privy:mfa:clear\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/UserSignerRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 491,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/UserSignerRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 10,
+      "value": "\"user_jwt\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 17,
+      "value": "\"encryption_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 22,
+      "value": "\"recipient_public_key\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 17,
+      "value": "\"encryption_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 18,
+      "value": "\"encapsulated_key\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 29,
+      "value": "\"encrypted_authorization_key\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/WalletAuthenticate\/WalletAuthenticateResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 12,
+      "value": "\"expires_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/NativeSigner\/UserSignerStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 14,
+      "value": "\"userSignerV1\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/Providers\/Ethereum\/EthereumEmbeddedWalletProviderImpl.swift",
