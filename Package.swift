@@ -20,5 +20,8 @@ let package = Package(
         .binaryTarget(
             name: "PrivySDK",
             path: "PrivySDK.xcframework"),
+        .testTarget(
+            name: "PrivySDKTests",
+            dependencies: ["PrivySDK"]),
     ]
 )
