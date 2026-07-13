@@ -12652,6 +12652,31 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getAuthStateWithoutRefresh",
+            "printedName": "getAuthStateWithoutRefresh()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AuthState",
+                "printedName": "PrivySDK.AuthState",
+                "usr": "s:8PrivySDK9AuthStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK0A0P26getAuthStateWithoutRefreshAA0dE0OyF",
+            "mangledName": "$s8PrivySDK0A0P26getAuthStateWithoutRefreshAA0dE0OyF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.Privy>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.Privy>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "user",
             "printedName": "user",
@@ -25822,6 +25847,46 @@
                 "declAttributes": [
                   "RawDocComment"
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "sessionExpired",
+                "printedName": "sessionExpired",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.AuthenticationFailureReason.Type) -> PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthenticationFailureReason",
+                        "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                        "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AuthenticationFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.AuthenticationFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO14sessionExpiredyA2EmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27AuthenticationFailureReasonO14sessionExpiredyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               }
             ],
             "declKind": "Enum",
@@ -29360,28 +29425,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/InternalHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 413,
-      "length": 27,
-      "value": "\"cm3yrt9s504jt1210xvu4tlvz\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/InternalHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 27,
-      "value": "\"clv6fw8s306zb9ubei8siuud9\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/InternalHelpers.swift",
-      "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 378,
       "length": 27,
       "value": "\"clpijy3tw0001kz0g6ixs9z15\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Internal\/InternalHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 621,
+      "offset": 438,
       "length": 27,
       "value": "\"cla06f34x0001mh08l8nsr496\""
     },
@@ -29423,7 +29474,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/PrivyIFrameWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 4623,
+      "offset": 4805,
       "length": 2,
       "value": "15"
     },
@@ -29493,35 +29544,35 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 8102,
+      "offset": 8022,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9144,
+      "offset": 9064,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 9759,
+      "offset": 9679,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 10092,
+      "offset": 10012,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WebViewHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 11848,
+      "offset": 11768,
       "length": 5,
       "value": "false"
     },
@@ -29535,42 +29586,42 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 472,
+      "offset": 474,
       "length": 15,
       "value": "\"refresh_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 519,
       "length": 16,
       "value": "\"identity_token\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 571,
       "length": 23,
       "value": "\"session_update_action\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 682,
       "length": 5,
       "value": "\"set\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 703,
+      "offset": 705,
       "length": 7,
       "value": "\"clear\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
       "kind": "StringLiteral",
-      "offset": 729,
+      "offset": 731,
       "length": 8,
       "value": "\"ignore\""
     },
