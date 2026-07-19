@@ -378,6 +378,7 @@ public protocol Privy : Swift.Sendable {
   @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
   func awaitReady() async
   func getAuthState() async -> PrivySDK.AuthState
+  func getAuthStateWithoutRefresh() -> PrivySDK.AuthState
   #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use 'getUser() async -> PrivyUser?' instead, which handles awaiting ready under the hood.")
   var user: (any PrivySDK.PrivyUser)? { get }
@@ -385,7 +386,7 @@ public protocol Privy : Swift.Sendable {
   #if compiler(>=5.3) && $NonescapableTypes
   func getUser() async -> (any PrivySDK.PrivyUser)?
   #endif
-  @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
+  @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood. If you are reading auth state from a background task or extension where triggering a refresh is unsafe, use 'getAuthStateWithoutRefresh()' instead.")
   var authState: PrivySDK.AuthState { get }
   var authStateStream: _Concurrency.AsyncStream<PrivySDK.AuthState> { get }
   var email: any PrivySDK.LoginWithEmail { get }
@@ -728,6 +729,7 @@ public enum PrivyErrorCode : Swift.Sendable {
     case passkeyAuthenticationFailed(Swift.String)
     case passkeyUserCancelled
     case passkeyNoCredentials
+    case sessionExpired
   }
   public enum EmbeddedWalletFailureReason : Swift.Sendable {
     case timeout
