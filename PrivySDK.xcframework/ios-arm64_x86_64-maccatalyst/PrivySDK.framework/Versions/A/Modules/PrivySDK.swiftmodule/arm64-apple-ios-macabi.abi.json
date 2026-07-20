@@ -12518,6 +12518,38 @@
           },
           {
             "kind": "Function",
+            "name": "getTransactions",
+            "printedName": "getTransactions(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionsPage",
+                "printedName": "PrivySDK.TransactionsPage",
+                "usr": "s:8PrivySDK16TransactionsPageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetTransactionsParams",
+                "printedName": "PrivySDK.GetTransactionsParams",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14EmbeddedWalletP15getTransactionsyAA0F4PageVAA03GetF6ParamsVYaKF",
+            "mangledName": "$s8PrivySDK14EmbeddedWalletP15getTransactionsyAA0F4PageVAA03GetF6ParamsVYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "addSigner",
             "printedName": "addSigner(_:)",
             "children": [
@@ -19505,6 +19537,3004 @@
             ],
             "usr": "s:s12CaseIterableP",
             "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionsPage",
+        "printedName": "TransactionsPage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "transactions",
+            "printedName": "transactions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrivySDK.WalletTransaction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletTransaction",
+                    "printedName": "PrivySDK.WalletTransaction",
+                    "usr": "s:8PrivySDK17WalletTransactionV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK16TransactionsPageV12transactionsSayAA17WalletTransactionVGvp",
+            "mangledName": "$s8PrivySDK16TransactionsPageV12transactionsSayAA17WalletTransactionVGvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PrivySDK.WalletTransaction]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WalletTransaction",
+                        "printedName": "PrivySDK.WalletTransaction",
+                        "usr": "s:8PrivySDK17WalletTransactionV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK16TransactionsPageV12transactionsSayAA17WalletTransactionVGvg",
+                "mangledName": "$s8PrivySDK16TransactionsPageV12transactionsSayAA17WalletTransactionVGvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nextCursor",
+            "printedName": "nextCursor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK16TransactionsPageV10nextCursorSSSgvp",
+            "mangledName": "$s8PrivySDK16TransactionsPageV10nextCursorSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK16TransactionsPageV10nextCursorSSSgvg",
+                "mangledName": "$s8PrivySDK16TransactionsPageV10nextCursorSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK16TransactionsPageV",
+        "mangledName": "$s8PrivySDK16TransactionsPageV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WalletTransaction",
+        "printedName": "WalletTransaction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "caip2",
+            "printedName": "caip2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV5caip2SSvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV5caip2SSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV5caip2SSvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV5caip2SSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transactionHash",
+            "printedName": "transactionHash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV15transactionHashSSSgvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV15transactionHashSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV15transactionHashSSSgvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV15transactionHashSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userOperationHash",
+            "printedName": "userOperationHash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV17userOperationHashSSSgvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV17userOperationHashSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV17userOperationHashSSSgvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV17userOperationHashSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionStatus",
+                "printedName": "PrivySDK.TransactionStatus",
+                "usr": "s:8PrivySDK17TransactionStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV6statusAA0D6StatusOvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV6statusAA0D6StatusOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV6statusAA0D6StatusOvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV6statusAA0D6StatusOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV9createdAtSivp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV9createdAtSivp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV9createdAtSivg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV9createdAtSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sponsored",
+            "printedName": "sponsored",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV9sponsoredSbvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV9sponsoredSbvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV9sponsoredSbvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV9sponsoredSbvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privyTransactionId",
+            "printedName": "privyTransactionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV05privyD2IdSSSgvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV05privyD2IdSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV05privyD2IdSSSgvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV05privyD2IdSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "walletId",
+            "printedName": "walletId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV8walletIdSSvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV8walletIdSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV8walletIdSSvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV8walletIdSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "details",
+            "printedName": "details",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransactionDetails?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionDetails",
+                    "printedName": "PrivySDK.TransactionDetails",
+                    "usr": "s:8PrivySDK18TransactionDetailsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK17WalletTransactionV7detailsAA0D7DetailsVSgvp",
+            "mangledName": "$s8PrivySDK17WalletTransactionV7detailsAA0D7DetailsVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.TransactionDetails?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionDetails",
+                        "printedName": "PrivySDK.TransactionDetails",
+                        "usr": "s:8PrivySDK18TransactionDetailsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK17WalletTransactionV7detailsAA0D7DetailsVSgvg",
+                "mangledName": "$s8PrivySDK17WalletTransactionV7detailsAA0D7DetailsVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK17WalletTransactionV",
+        "mangledName": "$s8PrivySDK17WalletTransactionV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionStatus",
+        "printedName": "TransactionStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "broadcasted",
+            "printedName": "broadcasted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO11broadcastedyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO11broadcastedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confirmed",
+            "printedName": "confirmed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO9confirmedyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO9confirmedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "executionReverted",
+            "printedName": "executionReverted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO17executionRevertedyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO17executionRevertedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO6failedyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO6failedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "replaced",
+            "printedName": "replaced",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO8replacedyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO8replacedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finalized",
+            "printedName": "finalized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO9finalizedyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO9finalizedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "providerError",
+            "printedName": "providerError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO13providerErroryA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO13providerErroryA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pending",
+            "printedName": "pending",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionStatus",
+                    "printedName": "PrivySDK.TransactionStatus",
+                    "usr": "s:8PrivySDK17TransactionStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO7pendingyA2CmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO7pendingyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionStatus.Type) -> (Swift.String) -> PrivySDK.TransactionStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransactionStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionStatus",
+                        "printedName": "PrivySDK.TransactionStatus",
+                        "usr": "s:8PrivySDK17TransactionStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK17TransactionStatusO7unknownyACSScACmF",
+            "mangledName": "$s8PrivySDK17TransactionStatusO7unknownyACSScACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK17TransactionStatusO",
+        "mangledName": "$s8PrivySDK17TransactionStatusO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionType",
+        "printedName": "TransactionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "transferSent",
+            "printedName": "transferSent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionType.Type) -> PrivySDK.TransactionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionType",
+                    "printedName": "PrivySDK.TransactionType",
+                    "usr": "s:8PrivySDK15TransactionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionType",
+                        "printedName": "PrivySDK.TransactionType",
+                        "usr": "s:8PrivySDK15TransactionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransactionTypeO12transferSentyA2CmF",
+            "mangledName": "$s8PrivySDK15TransactionTypeO12transferSentyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "transferReceived",
+            "printedName": "transferReceived",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionType.Type) -> PrivySDK.TransactionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionType",
+                    "printedName": "PrivySDK.TransactionType",
+                    "usr": "s:8PrivySDK15TransactionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionType",
+                        "printedName": "PrivySDK.TransactionType",
+                        "usr": "s:8PrivySDK15TransactionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransactionTypeO16transferReceivedyA2CmF",
+            "mangledName": "$s8PrivySDK15TransactionTypeO16transferReceivedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionType.Type) -> (Swift.String) -> PrivySDK.TransactionType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransactionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionType",
+                        "printedName": "PrivySDK.TransactionType",
+                        "usr": "s:8PrivySDK15TransactionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionType",
+                        "printedName": "PrivySDK.TransactionType",
+                        "usr": "s:8PrivySDK15TransactionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransactionTypeO7unknownyACSScACmF",
+            "mangledName": "$s8PrivySDK15TransactionTypeO7unknownyACSScACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK15TransactionTypeO",
+        "mangledName": "$s8PrivySDK15TransactionTypeO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionDetails",
+        "printedName": "TransactionDetails",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionType",
+                "printedName": "PrivySDK.TransactionType",
+                "usr": "s:8PrivySDK15TransactionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV4typeAA0C4TypeOvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV4typeAA0C4TypeOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionType",
+                    "printedName": "PrivySDK.TransactionType",
+                    "usr": "s:8PrivySDK15TransactionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV4typeAA0C4TypeOvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV4typeAA0C4TypeOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sender",
+            "printedName": "sender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV6senderSSvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV6senderSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV6senderSSvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV6senderSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "senderPrivyUserId",
+            "printedName": "senderPrivyUserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV06senderA6UserIdSSSgvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV06senderA6UserIdSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV06senderA6UserIdSSSgvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV06senderA6UserIdSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recipient",
+            "printedName": "recipient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV9recipientSSvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV9recipientSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV9recipientSSvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV9recipientSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recipientPrivyUserId",
+            "printedName": "recipientPrivyUserId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV09recipientA6UserIdSSSgvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV09recipientA6UserIdSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV09recipientA6UserIdSSSgvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV09recipientA6UserIdSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chain",
+            "printedName": "chain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV5chainSSvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV5chainSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV5chainSSvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV5chainSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asset",
+            "printedName": "asset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV5assetSSvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV5assetSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV5assetSSvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV5assetSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV8rawValueSSvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV8rawValueSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV8rawValueSSvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV8rawValueSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawValueDecimals",
+            "printedName": "rawValueDecimals",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV16rawValueDecimalsSivp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV16rawValueDecimalsSivp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV16rawValueDecimalsSivg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV16rawValueDecimalsSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayValues",
+            "printedName": "displayValues",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransactionDetailsV13displayValuesSDyS2SGvp",
+            "mangledName": "$s8PrivySDK18TransactionDetailsV13displayValuesSDyS2SGvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransactionDetailsV13displayValuesSDyS2SGvg",
+                "mangledName": "$s8PrivySDK18TransactionDetailsV13displayValuesSDyS2SGvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK18TransactionDetailsV",
+        "mangledName": "$s8PrivySDK18TransactionDetailsV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionChain",
+        "printedName": "TransactionChain",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ethereum",
+            "printedName": "ethereum",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO8ethereumyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO8ethereumyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arbitrum",
+            "printedName": "arbitrum",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO8arbitrumyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO8arbitrumyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "avalanche",
+            "printedName": "avalanche",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO9avalancheyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO9avalancheyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "base",
+            "printedName": "base",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO4baseyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO4baseyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bsc",
+            "printedName": "bsc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO3bscyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO3bscyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tempo",
+            "printedName": "tempo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO5tempoyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO5tempoyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "linea",
+            "printedName": "linea",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO5lineayA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO5lineayA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "optimism",
+            "printedName": "optimism",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO8optimismyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO8optimismyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "polygon",
+            "printedName": "polygon",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO7polygonyA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO7polygonyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "solana",
+            "printedName": "solana",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO6solanayA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO6solanayA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sepolia",
+            "printedName": "sepolia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO7sepoliayA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO7sepoliayA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> (Swift.String) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransactionChain",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO6customyACSScACmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO6customyACSScACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK16TransactionChainO",
+        "mangledName": "$s8PrivySDK16TransactionChainO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetTransactionsParams",
+        "printedName": "GetTransactionsParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "chain",
+            "printedName": "chain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionChain",
+                "printedName": "PrivySDK.TransactionChain",
+                "usr": "s:8PrivySDK16TransactionChainO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV5chainAA16TransactionChainOvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV5chainAA16TransactionChainOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV5chainAA16TransactionChainOvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV5chainAA16TransactionChainOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assets",
+            "printedName": "assets",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV6assetsSaySSGSgvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV6assetsSaySSGSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV6assetsSaySSGSgvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV6assetsSaySSGSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tokens",
+            "printedName": "tokens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV6tokensSaySSGSgvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV6tokensSaySSGSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV6tokensSaySSGSgvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV6tokensSaySSGSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "txHash",
+            "printedName": "txHash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV6txHashSSSgvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV6txHashSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV6txHashSSSgvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV6txHashSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "limit",
+            "printedName": "limit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV5limitSiSgvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV5limitSiSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV5limitSiSgvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV5limitSiSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cursor",
+            "printedName": "cursor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV6cursorSSSgvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV6cursorSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV6cursorSSSgvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV6cursorSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "includeArchived",
+            "printedName": "includeArchived",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV15includeArchivedSbSgvp",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV15includeArchivedSbSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV15includeArchivedSbSgvg",
+                "mangledName": "$s8PrivySDK21GetTransactionsParamsV15includeArchivedSbSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(chain:assets:tokens:txHash:limit:cursor:includeArchived:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetTransactionsParams",
+                "printedName": "PrivySDK.GetTransactionsParams",
+                "usr": "s:8PrivySDK21GetTransactionsParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionChain",
+                "printedName": "PrivySDK.TransactionChain",
+                "usr": "s:8PrivySDK16TransactionChainO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK21GetTransactionsParamsV5chain6assets6tokens6txHash5limit6cursor15includeArchivedAcA16TransactionChainO_SaySSGSgANSSSgSiSgAOSbSgtcfc",
+            "mangledName": "$s8PrivySDK21GetTransactionsParamsV5chain6assets6tokens6txHash5limit6cursor15includeArchivedAcA16TransactionChainO_SaySSGSgANSSSgSiSgAOSbSgtcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK21GetTransactionsParamsV",
+        "mangledName": "$s8PrivySDK21GetTransactionsParamsV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -26951,6 +29981,66 @@
                 "declAttributes": [
                   "RawDocComment"
                 ]
+              },
+              {
+                "kind": "Var",
+                "name": "transactionError",
+                "printedName": "transactionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(message: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO011transactionC0yAESS_tcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO011transactionC0yAESS_tcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
               }
             ],
             "declKind": "Enum",
@@ -28090,6 +31180,30 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -30471,6 +33585,83 @@
       "offset": 637,
       "length": 21,
       "value": "\"override_policy_ids\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 13,
+      "value": "\"next_cursor\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1095,
+      "length": 18,
+      "value": "\"transaction_hash\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1147,
+      "length": 21,
+      "value": "\"user_operation_hash\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
+      "length": 22,
+      "value": "\"privy_transaction_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1331,
+      "length": 11,
+      "value": "\"wallet_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 22,
+      "value": "\"sender_privy_user_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2894,
+      "length": 25,
+      "value": "\"recipient_privy_user_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2982,
+      "length": 11,
+      "value": "\"raw_value\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3026,
+      "length": 20,
+      "value": "\"raw_value_decimals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransactions\/WalletTransactionModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3076,
+      "length": 16,
+      "value": "\"display_values\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletUpdate\/WalletApiGetResponse.swift",
