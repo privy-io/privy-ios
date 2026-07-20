@@ -370,6 +370,7 @@ public protocol EmbeddedWallet : Swift.Sendable {
   func addSigners(_ signers: [PrivySDK.SignerInput]) async throws
   func removeSigner(signerId: Swift.String) async throws
   func removeAllSigners() async throws
+  func getTransactions(_ params: PrivySDK.GetTransactionsParams) async throws -> PrivySDK.TransactionsPage
 }
 extension PrivySDK.EmbeddedWallet {
   public func addSigner(_ signer: PrivySDK.SignerInput) async throws
@@ -590,6 +591,75 @@ extension PrivySDK.SupportedChain {
     get
   }
 }
+public struct TransactionsPage : Swift.Sendable {
+  public let transactions: [PrivySDK.WalletTransaction]
+  public let nextCursor: Swift.String?
+}
+public struct WalletTransaction : Swift.Sendable {
+  public let caip2: Swift.String
+  public let transactionHash: Swift.String?
+  public let userOperationHash: Swift.String?
+  public let status: PrivySDK.TransactionStatus
+  public let createdAt: Swift.Int
+  public let sponsored: Swift.Bool
+  public let privyTransactionId: Swift.String?
+  public let walletId: Swift.String
+  public let details: PrivySDK.TransactionDetails?
+}
+public enum TransactionStatus : Swift.Sendable {
+  case broadcasted
+  case confirmed
+  case executionReverted
+  case failed
+  case replaced
+  case finalized
+  case providerError
+  case pending
+  case unknown(Swift.String)
+}
+public enum TransactionType : Swift.Sendable {
+  case transferSent
+  case transferReceived
+  case unknown(Swift.String)
+}
+public struct TransactionDetails : Swift.Sendable {
+  public let type: PrivySDK.TransactionType
+  public let sender: Swift.String
+  public let senderPrivyUserId: Swift.String?
+  public let recipient: Swift.String
+  public let recipientPrivyUserId: Swift.String?
+  public let chain: Swift.String
+  public let asset: Swift.String
+  public let rawValue: Swift.String
+  public let rawValueDecimals: Swift.Int
+  public let displayValues: [Swift.String : Swift.String]
+}
+public enum TransactionChain : Swift.Sendable {
+  case ethereum
+  case arbitrum
+  case avalanche
+  case base
+  case bsc
+  case tempo
+  case linea
+  case optimism
+  case polygon
+  case solana
+  case sepolia
+  case custom(Swift.String)
+}
+public struct GetTransactionsParams : Swift.Sendable {
+  public let chain: PrivySDK.TransactionChain
+  public let assets: [Swift.String]?
+  public let tokens: [Swift.String]?
+  public let txHash: Swift.String?
+  public let limit: Swift.Int?
+  public let cursor: Swift.String?
+  public let includeArchived: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(chain: PrivySDK.TransactionChain, assets: [Swift.String]? = nil, tokens: [Swift.String]? = nil, txHash: Swift.String? = nil, limit: Swift.Int? = nil, cursor: Swift.String? = nil, includeArchived: Swift.Bool? = nil)
+  #endif
+}
 public enum WalletClientType : Swift.String, Swift.Sendable {
   case other
   case privy
@@ -753,6 +823,7 @@ public enum PrivyErrorCode : Swift.Sendable {
     case walletMigrationFailed(errors: [any Swift.Error])
     case iframeError(type: Swift.String, message: Swift.String)
     case signerError(message: Swift.String)
+    case transactionError(message: Swift.String)
   }
 }
 extension PrivySDK.EthereumRpcRequest {
