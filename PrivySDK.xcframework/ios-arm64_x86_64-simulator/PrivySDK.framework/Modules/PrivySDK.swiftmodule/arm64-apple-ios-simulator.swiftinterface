@@ -444,18 +444,6 @@ public struct SignerInput : Swift.Sendable {
   public init(signerId: Swift.String, policyIds: [Swift.String]? = nil)
   #endif
 }
-public enum SessionUpdateAction : Swift.String, Swift.Decodable, Swift.Sendable {
-  case set
-  case clear
-  case ignore
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init?(rawValue: Swift.String)
-  #endif
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public enum ApiError : Foundation.LocalizedError {
   case couldNotConstructRequest
   case decodingError(any Swift.Error)
@@ -639,6 +627,7 @@ public enum TransactionChain : Swift.Sendable {
   case arbitrum
   case avalanche
   case base
+  case baseSepolia
   case bsc
   case tempo
   case linea
@@ -924,9 +913,6 @@ extension PrivySDK.LoginMethod : Swift.Hashable {}
 extension PrivySDK.OAuthProvider : Swift.Equatable {}
 extension PrivySDK.OAuthProvider : Swift.Hashable {}
 extension PrivySDK.PrivyLogLevel : Swift.Hashable {}
-extension PrivySDK.SessionUpdateAction : Swift.Equatable {}
-extension PrivySDK.SessionUpdateAction : Swift.Hashable {}
-extension PrivySDK.SessionUpdateAction : Swift.RawRepresentable {}
 extension PrivySDK.SolanaSendOptions.Commitment : Swift.Equatable {}
 extension PrivySDK.SolanaSendOptions.Commitment : Swift.Hashable {}
 extension PrivySDK.SolanaSendOptions.Commitment : Swift.RawRepresentable {}
