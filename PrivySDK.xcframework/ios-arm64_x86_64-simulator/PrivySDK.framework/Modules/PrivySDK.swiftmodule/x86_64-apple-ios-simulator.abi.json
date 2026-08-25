@@ -14762,277 +14762,6 @@
         "moduleName": "PrivySDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "SessionUpdateAction",
-        "printedName": "SessionUpdateAction",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "set",
-            "printedName": "set",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PrivySDK.SessionUpdateAction.Type) -> PrivySDK.SessionUpdateAction",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SessionUpdateAction",
-                    "printedName": "PrivySDK.SessionUpdateAction",
-                    "usr": "s:8PrivySDK19SessionUpdateActionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PrivySDK.SessionUpdateAction.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SessionUpdateAction",
-                        "printedName": "PrivySDK.SessionUpdateAction",
-                        "usr": "s:8PrivySDK19SessionUpdateActionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8PrivySDK19SessionUpdateActionO3setyA2CmF",
-            "mangledName": "$s8PrivySDK19SessionUpdateActionO3setyA2CmF",
-            "moduleName": "PrivySDK"
-          },
-          {
-            "kind": "Var",
-            "name": "clear",
-            "printedName": "clear",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PrivySDK.SessionUpdateAction.Type) -> PrivySDK.SessionUpdateAction",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SessionUpdateAction",
-                    "printedName": "PrivySDK.SessionUpdateAction",
-                    "usr": "s:8PrivySDK19SessionUpdateActionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PrivySDK.SessionUpdateAction.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SessionUpdateAction",
-                        "printedName": "PrivySDK.SessionUpdateAction",
-                        "usr": "s:8PrivySDK19SessionUpdateActionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8PrivySDK19SessionUpdateActionO5clearyA2CmF",
-            "mangledName": "$s8PrivySDK19SessionUpdateActionO5clearyA2CmF",
-            "moduleName": "PrivySDK"
-          },
-          {
-            "kind": "Var",
-            "name": "ignore",
-            "printedName": "ignore",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PrivySDK.SessionUpdateAction.Type) -> PrivySDK.SessionUpdateAction",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SessionUpdateAction",
-                    "printedName": "PrivySDK.SessionUpdateAction",
-                    "usr": "s:8PrivySDK19SessionUpdateActionO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PrivySDK.SessionUpdateAction.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SessionUpdateAction",
-                        "printedName": "PrivySDK.SessionUpdateAction",
-                        "usr": "s:8PrivySDK19SessionUpdateActionO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8PrivySDK19SessionUpdateActionO6ignoreyA2CmF",
-            "mangledName": "$s8PrivySDK19SessionUpdateActionO6ignoreyA2CmF",
-            "moduleName": "PrivySDK"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PrivySDK.SessionUpdateAction?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SessionUpdateAction",
-                    "printedName": "PrivySDK.SessionUpdateAction",
-                    "usr": "s:8PrivySDK19SessionUpdateActionO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:8PrivySDK19SessionUpdateActionO8rawValueACSgSS_tcfc",
-            "mangledName": "$s8PrivySDK19SessionUpdateActionO8rawValueACSgSS_tcfc",
-            "moduleName": "PrivySDK",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8PrivySDK19SessionUpdateActionO8rawValueSSvp",
-            "mangledName": "$s8PrivySDK19SessionUpdateActionO8rawValueSSvp",
-            "moduleName": "PrivySDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8PrivySDK19SessionUpdateActionO8rawValueSSvg",
-                "mangledName": "$s8PrivySDK19SessionUpdateActionO8rawValueSSvg",
-                "moduleName": "PrivySDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8PrivySDK19SessionUpdateActionO",
-        "mangledName": "$s8PrivySDK19SessionUpdateActionO",
-        "moduleName": "PrivySDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -21539,6 +21268,46 @@
             "declKind": "EnumElement",
             "usr": "s:8PrivySDK16TransactionChainO4baseyA2CmF",
             "mangledName": "$s8PrivySDK16TransactionChainO4baseyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseSepolia",
+            "printedName": "baseSepolia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransactionChain.Type) -> PrivySDK.TransactionChain",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransactionChain.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK16TransactionChainO11baseSepoliayA2CmF",
+            "mangledName": "$s8PrivySDK16TransactionChainO11baseSepoliayA2CmF",
             "moduleName": "PrivySDK",
             "declAttributes": [
               "RawDocComment"
@@ -32490,14 +32259,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 15587,
+      "offset": 15835,
       "length": 15,
       "value": "\"credential_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Authentication\/AuthRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 15630,
+      "offset": 15878,
       "length": 15,
       "value": "\"remove_as_mfa\""
     },
@@ -32717,27 +32486,6 @@
       "offset": 571,
       "length": 23,
       "value": "\"session_update_action\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 5,
-      "value": "\"set\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 705,
-      "length": 7,
-      "value": "\"clear\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/AuthResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 731,
-      "length": 8,
-      "value": "\"ignore\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Types\/Networking\/LinkedAccountResponse.swift",
