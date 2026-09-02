@@ -33,5 +33,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           VERSION: ${{ steps.version.outputs.version }}
         run: |
+          ANCHOR="${VERSION//./-}"
+
           gh release create "$VERSION" \
-            --title "$VERSION"
+            --title "$VERSION" \
+            --notes "See the [Privy iOS SDK $VERSION changelog](https://docs.privy.io/basics/swift/changelog#$ANCHOR) for release details."
