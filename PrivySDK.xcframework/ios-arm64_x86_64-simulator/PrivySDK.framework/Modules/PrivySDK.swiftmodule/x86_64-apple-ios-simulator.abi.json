@@ -10883,6 +10883,57 @@
           },
           {
             "kind": "Function",
+            "name": "login",
+            "printedName": "login(message:signature:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsPAAE5login7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE5login7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "link",
             "printedName": "link(message:signature:params:)",
             "children": [
@@ -10951,6 +11002,57 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK13LoginWithSiwsPAAE4link7message9signatureAA0A4User_pSS_SStYaKF",
             "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE4link7message9signatureAA0A4User_pSS_SStYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "link",
+            "printedName": "link(message:signature:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivyUser",
+                "printedName": "any PrivySDK.PrivyUser",
+                "usr": "s:8PrivySDK0A4UserP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.WalletLoginMetadata?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WalletLoginMetadata",
+                    "printedName": "PrivySDK.WalletLoginMetadata",
+                    "usr": "s:8PrivySDK19WalletLoginMetadataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK13LoginWithSiwsPAAE4link7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
+            "mangledName": "$s8PrivySDK13LoginWithSiwsPAAE4link7message9signature8metadataAA0A4User_pSS_SSAA06WalletC8MetadataVSgtYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.LoginWithSiws>",
             "sugared_genericSig": "<Self where Self : PrivySDK.LoginWithSiws>",
