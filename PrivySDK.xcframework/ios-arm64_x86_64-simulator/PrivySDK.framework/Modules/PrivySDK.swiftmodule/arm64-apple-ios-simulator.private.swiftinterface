@@ -320,8 +320,14 @@ public protocol LoginWithSiws : Swift.Sendable {
 extension PrivySDK.LoginWithSiws {
   public func login(message: Swift.String, signature: Swift.String, params: PrivySDK.SiwsMessageParams) async throws -> any PrivySDK.PrivyUser
   public func login(message: Swift.String, signature: Swift.String) async throws -> any PrivySDK.PrivyUser
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func login(message: Swift.String, signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
+  #endif
   public func link(message: Swift.String, signature: Swift.String, params: PrivySDK.SiwsMessageParams) async throws -> any PrivySDK.PrivyUser
   public func link(message: Swift.String, signature: Swift.String) async throws -> any PrivySDK.PrivyUser
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func link(message: Swift.String, signature: Swift.String, metadata: PrivySDK.WalletLoginMetadata?) async throws -> any PrivySDK.PrivyUser
+  #endif
   public func transferAccount(nonce: Swift.String, message: Swift.String, signature: Swift.String, params: PrivySDK.SiwsMessageParams) async throws -> any PrivySDK.PrivyUser
 }
 public struct SiwsMessageParams : Swift.Sendable {
