@@ -12564,6 +12564,13 @@
         "moduleName": "PrivySDK"
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "PrivyInternal",
         "printedName": "PrivyInternal",
@@ -26536,7 +26543,8 @@
                 "moduleName": "PrivySDK",
                 "declAttributes": [
                   "HasStorage",
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "isLet": true,
                 "hasStorage": true,
@@ -32375,17 +32383,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftyJSON",
-        "printedName": "SwiftyJSON",
-        "declKind": "Import",
-        "moduleName": "PrivySDK",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -34659,14 +34656,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/Ethereum\/SignTypedDataV4.swift",
       "kind": "StringLiteral",
-      "offset": 1611,
+      "offset": 1595,
       "length": 14,
       "value": "\"primary_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletRpc\/Ethereum\/SignTypedDataV4.swift",
       "kind": "StringLiteral",
-      "offset": 2176,
+      "offset": 2160,
       "length": 12,
       "value": "\"typed_data\""
     },
