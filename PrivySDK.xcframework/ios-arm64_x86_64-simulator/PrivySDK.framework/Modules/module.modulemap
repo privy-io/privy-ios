@@ -7,5 +7,4 @@ framework module PrivySDK {
 
 module PrivySDK.Swift {
   header "PrivySDK-Swift.h"
-  requires objc
 }
