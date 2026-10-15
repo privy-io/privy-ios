@@ -46,6 +46,7 @@ public struct EmbeddedEthereumWalletAccount {
   public let latestVerifiedAt: Foundation::Date?
   public let hdWalletIndex: Swift::Int
   public let imported: Swift::Bool
+  public let userCanSign: Swift::Bool
 }
 public struct EmbeddedSolanaWalletAccount {
   public let id: Swift::String?
@@ -56,6 +57,7 @@ public struct EmbeddedSolanaWalletAccount {
   public let latestVerifiedAt: Foundation::Date?
   public let hdWalletIndex: Swift::Int
   public let imported: Swift::Bool
+  public let userCanSign: Swift::Bool
 }
 public struct ExternalWallet : Swift::Sendable {
   public let address: Swift::String
@@ -325,6 +327,7 @@ public protocol PrivyBreadcrumbHandler : Swift::Sendable {
   func receive(_ breadcrumb: PrivySDK::PrivyBreadcrumb)
 }
 @_hasMissingDesignatedInitializers public class PrivyInternal {
+  @available(*, deprecated, message: "Use setConfig(platform:sdkVersion:) instead. Will be removed in a future major release.")
   public static func setConfig(config: [Swift::String : Swift::String])
   @objc deinit
 }
@@ -365,12 +368,16 @@ public protocol EmbeddedWallet : Swift::Sendable {
   var hdWalletIndex: Swift::Int { get }
   var chainType: PrivySDK::ChainType { get }
   var imported: Swift::Bool { get }
+  var userCanSign: Swift::Bool { get }
   func addSigners(_ signers: [PrivySDK::SignerInput]) async throws
   func removeSigner(signerId: Swift::String) async throws
   func removeAllSigners() async throws
   func getTransactions(_ params: PrivySDK::GetTransactionsParams) async throws -> PrivySDK::TransactionsPage
 }
 extension PrivySDK::EmbeddedWallet {
+  public var userCanSign: Swift::Bool {
+    get
+  }
   public func addSigner(_ signer: PrivySDK::SignerInput) async throws
 }
 public protocol Privy : Swift::Sendable {
