@@ -32,13 +32,14 @@ jobs:
       )
     runs-on: ubuntu-latest
     environment: package-release
+    env:
+      RELEASE_TARGET: ${{ inputs.target_commit || github.event.pull_request.merge_commit_sha }}
     steps:
       - name: Validate release inputs
         id: version
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
           VERSION: ${{ inputs.version }}
-          RELEASE_TARGET: ${{ inputs.target_commit || github.event.pull_request.merge_commit_sha }}
         run: |
           VERSION="${VERSION:-${PR_TITLE#chore: release }}"
           if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+([.-][0-9A-Za-z.-]+)?$ ]]; then
@@ -50,18 +51,15 @@ jobs:
             exit 1
           fi
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-          echo "target=$RELEASE_TARGET" >> "$GITHUB_OUTPUT"
 
       - name: Checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
-          ref: ${{ steps.version.outputs.target }}
+          ref: ${{ env.RELEASE_TARGET }}
           fetch-depth: 0
           persist-credentials: false
 
       - name: Verify release target is on main
-        env:
-          RELEASE_TARGET: ${{ steps.version.outputs.target }}
         run: git merge-base --is-ancestor "$RELEASE_TARGET" origin/main
 
       - name: Mint Builder Blobby token
@@ -77,7 +75,6 @@ jobs:
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
-          RELEASE_TARGET: ${{ steps.version.outputs.target }}
           VERSION: ${{ steps.version.outputs.version }}
         run: |
           ANCHOR="${VERSION//./-}"
