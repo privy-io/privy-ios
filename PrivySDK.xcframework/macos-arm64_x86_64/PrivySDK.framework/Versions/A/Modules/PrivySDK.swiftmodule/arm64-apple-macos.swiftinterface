@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-compiler-version: Apple Swift version 6.4.2 (swiftlang-6.4.2.1.9 clang-2100.4.1.1)
 // swift-module-flags: -target arm64-apple-macos14.0 -enable-objc-interop -enable-library-evolution -language-mode 6 -O -enable-experimental-feature DebugDescriptionMacro -module-name PrivySDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4.2
 import AppKit
 import AuthenticationServices
 @preconcurrency import Combine
@@ -420,6 +420,7 @@ public protocol PrivyUser : Swift::Sendable {
   func getAccessToken() async throws -> Swift::String
   func createEthereumWallet(allowAdditional: Swift::Bool, timeout: Swift::Duration) async throws -> any PrivySDK::EmbeddedEthereumWallet
   func createSolanaWallet(allowAdditional: Swift::Bool, timeout: Swift::Duration) async throws -> any PrivySDK::EmbeddedSolanaWallet
+  func importWallet(chainType: PrivySDK::WalletImportSupportedChainType, address: Swift::String, secret: PrivySDK::WalletImportSecret) async throws -> any PrivySDK::EmbeddedWallet
   func refresh() async throws
   func migrateWalletsIfNeeded() async throws
   func logout()
@@ -432,11 +433,36 @@ extension PrivySDK::PrivyUser {
   public func createSolanaWallet() async throws -> any PrivySDK::EmbeddedSolanaWallet
   public func createEthereumWallet(allowAdditional: Swift::Bool) async throws -> any PrivySDK::EmbeddedEthereumWallet
   public func createSolanaWallet(allowAdditional: Swift::Bool) async throws -> any PrivySDK::EmbeddedSolanaWallet
+  public func importWallet(chainType: PrivySDK::WalletImportSupportedChainType, address: Swift::String, secret: PrivySDK::WalletImportSecret) async throws -> any PrivySDK::EmbeddedWallet
 }
 public struct SignerInput : Swift::Sendable {
   public let signerId: Swift::String
   public let policyIds: [Swift::String]?
   public init(signerId: Swift::String, policyIds: [Swift::String]? = nil)
+}
+public enum WalletImportSecret : Swift::Sendable {
+  case privateKey(Foundation::Data)
+  case mnemonic(Swift::String, index: Swift::Int)
+}
+extension PrivySDK::WalletImportSecret : Swift::CustomStringConvertible, Swift::CustomDebugStringConvertible, Swift::CustomReflectable {
+  public var description: Swift::String {
+    get
+  }
+  public var debugDescription: Swift::String {
+    get
+  }
+  public var customMirror: Swift::Mirror {
+    get
+  }
+}
+public enum WalletImportSupportedChainType : Swift::String, Swift::Encodable, Swift::Sendable {
+  case ethereum
+  case solana
+  public init?(rawValue: Swift::String)
+  public typealias RawValue = Swift::String
+  public var rawValue: Swift::String {
+    get
+  }
 }
 public enum ApiError : Foundation::LocalizedError {
   case couldNotConstructRequest
@@ -787,6 +813,13 @@ public enum PrivyErrorCode : Swift::Sendable {
     case iframeError(type: Swift::String, message: Swift::String)
     case signerError(message: Swift::String)
     case transactionError(message: Swift::String)
+    case importNotSupported
+    case invalidAddress
+    case invalidPrivateKey
+    case invalidSeedPhrase
+    case addressMismatch
+    case walletAlreadyExists
+    case importFailed(message: Swift::String)
   }
 }
 extension PrivySDK::EthereumRpcRequest {
@@ -857,7 +890,7 @@ public struct WalletApiPayload<T> : Swift::Encodable where T : Swift::Encodable 
   public init(version: Swift::Int, url: Swift::String, method: Swift::String, headers: [Swift::String : Swift::String], body: T)
   public func encode(to encoder: any Swift::Encoder) throws
 }
-public enum ChainType : Swift::String, Swift::Sendable {
+public enum ChainType : Swift::String, Swift::Codable, Swift::Sendable {
   case ethereum
   case solana
   public init?(rawValue: Swift::String)
@@ -873,6 +906,9 @@ extension PrivySDK::LoginMethod : Swift::Hashable {}
 extension PrivySDK::OAuthProvider : Swift::Equatable {}
 extension PrivySDK::OAuthProvider : Swift::Hashable {}
 extension PrivySDK::PrivyLogLevel : Swift::Hashable {}
+extension PrivySDK::WalletImportSupportedChainType : Swift::Equatable {}
+extension PrivySDK::WalletImportSupportedChainType : Swift::Hashable {}
+extension PrivySDK::WalletImportSupportedChainType : Swift::RawRepresentable {}
 extension PrivySDK::SolanaSendOptions.PrivySDK::Commitment : Swift::Equatable {}
 extension PrivySDK::SolanaSendOptions.PrivySDK::Commitment : Swift::Hashable {}
 extension PrivySDK::SolanaSendOptions.PrivySDK::Commitment : Swift::RawRepresentable {}
