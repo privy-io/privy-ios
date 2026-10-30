@@ -1,7 +1,8 @@
 name: Release
 
 on:
-  pull_request:
+  # Use the base branch context for the protected release environment.
+  pull_request_target:
     types: [closed]
     branches: [main]
 
