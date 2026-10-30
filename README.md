@@ -8,5 +8,4 @@ The Privy Swift SDK is a Swift library client for Privy that allows you to add s
 
 ## Usage
 
-See Privy's [iOS SDK guide](https://docs.privy.io/guide/guides/swift-sdk) for
-setup and usage.
+See Privy's [iOS SDK guide](https://docs.privy.io/guide/guides/swift-sdk) for setup and usage.
