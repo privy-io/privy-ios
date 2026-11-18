@@ -14137,6 +14137,70 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "transfer",
+            "printedName": "transfer(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAction",
+                "printedName": "PrivySDK.TransferAction",
+                "usr": "s:8PrivySDK14TransferActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransferParams",
+                "printedName": "PrivySDK.TransferParams",
+                "usr": "s:8PrivySDK14TransferParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14EmbeddedWalletP8transferyAA14TransferActionVAA0F6ParamsVYaKF",
+            "mangledName": "$s8PrivySDK14EmbeddedWalletP8transferyAA14TransferActionVAA0F6ParamsVYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTransferAction",
+            "printedName": "getTransferAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAction",
+                "printedName": "PrivySDK.TransferAction",
+                "usr": "s:8PrivySDK14TransferActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14EmbeddedWalletP17getTransferActionyAA0fG0VSSYaKF",
+            "mangledName": "$s8PrivySDK14EmbeddedWalletP17getTransferActionyAA0fG0VSSYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "userCanSign",
             "printedName": "userCanSign",
@@ -14200,6 +14264,68 @@
             "declKind": "Func",
             "usr": "s:8PrivySDK14EmbeddedWalletPAAE9addSigneryyAA0F5InputVYaKF",
             "mangledName": "$s8PrivySDK14EmbeddedWalletPAAE9addSigneryyAA0F5InputVYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transfer",
+            "printedName": "transfer(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAction",
+                "printedName": "PrivySDK.TransferAction",
+                "usr": "s:8PrivySDK14TransferActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransferParams",
+                "printedName": "PrivySDK.TransferParams",
+                "usr": "s:8PrivySDK14TransferParamsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14EmbeddedWalletPAAE8transferyAA14TransferActionVAA0F6ParamsVYaKF",
+            "mangledName": "$s8PrivySDK14EmbeddedWalletPAAE8transferyAA14TransferActionVAA0F6ParamsVYaKF",
+            "moduleName": "PrivySDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
+            "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTransferAction",
+            "printedName": "getTransferAction(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAction",
+                "printedName": "PrivySDK.TransferAction",
+                "usr": "s:8PrivySDK14TransferActionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK14EmbeddedWalletPAAE17getTransferActionyAA0fG0VSSYaKF",
+            "mangledName": "$s8PrivySDK14EmbeddedWalletPAAE17getTransferActionyAA0fG0VSSYaKF",
             "moduleName": "PrivySDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PrivySDK.EmbeddedWallet>",
             "sugared_genericSig": "<Self where Self : PrivySDK.EmbeddedWallet>",
@@ -24610,6 +24736,3454 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "TransferAction",
+        "printedName": "TransferAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV2idSSvp",
+            "mangledName": "$s8PrivySDK14TransferActionV2idSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV2idSSvg",
+                "mangledName": "$s8PrivySDK14TransferActionV2idSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferStatus",
+                "printedName": "PrivySDK.TransferStatus",
+                "usr": "s:8PrivySDK14TransferStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV6statusAA0C6StatusOvp",
+            "mangledName": "$s8PrivySDK14TransferActionV6statusAA0C6StatusOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferStatus",
+                    "printedName": "PrivySDK.TransferStatus",
+                    "usr": "s:8PrivySDK14TransferStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV6statusAA0C6StatusOvg",
+                "mangledName": "$s8PrivySDK14TransferActionV6statusAA0C6StatusOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "walletId",
+            "printedName": "walletId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV8walletIdSSvp",
+            "mangledName": "$s8PrivySDK14TransferActionV8walletIdSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV8walletIdSSvg",
+                "mangledName": "$s8PrivySDK14TransferActionV8walletIdSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV9createdAtSSvp",
+            "mangledName": "$s8PrivySDK14TransferActionV9createdAtSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV9createdAtSSvg",
+                "mangledName": "$s8PrivySDK14TransferActionV9createdAtSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceId",
+            "printedName": "referenceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV11referenceIdSSSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV11referenceIdSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV11referenceIdSSSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV11referenceIdSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureMessage",
+            "printedName": "failureMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV14failureMessageSSSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV14failureMessageSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV14failureMessageSSSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV14failureMessageSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amountType",
+            "printedName": "amountType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransferAmountType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferAmountType",
+                    "printedName": "PrivySDK.TransferAmountType",
+                    "usr": "s:8PrivySDK18TransferAmountTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV10amountTypeAA0c6AmountF0OSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV10amountTypeAA0c6AmountF0OSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.TransferAmountType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAmountType",
+                        "printedName": "PrivySDK.TransferAmountType",
+                        "usr": "s:8PrivySDK18TransferAmountTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV10amountTypeAA0c6AmountF0OSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV10amountTypeAA0c6AmountF0OSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "source",
+            "printedName": "source",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferActionSource",
+                "printedName": "PrivySDK.TransferActionSource",
+                "usr": "s:8PrivySDK20TransferActionSourceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV6sourceAA0cD6SourceVvp",
+            "mangledName": "$s8PrivySDK14TransferActionV6sourceAA0cD6SourceVvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferActionSource",
+                    "printedName": "PrivySDK.TransferActionSource",
+                    "usr": "s:8PrivySDK20TransferActionSourceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV6sourceAA0cD6SourceVvg",
+                "mangledName": "$s8PrivySDK14TransferActionV6sourceAA0cD6SourceVvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "destination",
+            "printedName": "destination",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferActionDestination",
+                "printedName": "PrivySDK.TransferActionDestination",
+                "usr": "s:8PrivySDK25TransferActionDestinationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV11destinationAA0cD11DestinationVvp",
+            "mangledName": "$s8PrivySDK14TransferActionV11destinationAA0cD11DestinationVvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferActionDestination",
+                    "printedName": "PrivySDK.TransferActionDestination",
+                    "usr": "s:8PrivySDK25TransferActionDestinationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV11destinationAA0cD11DestinationVvg",
+                "mangledName": "$s8PrivySDK14TransferActionV11destinationAA0cD11DestinationVvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "estimatedFees",
+            "printedName": "estimatedFees",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[PrivySDK.TransferFee]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PrivySDK.TransferFee]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFee",
+                        "printedName": "PrivySDK.TransferFee",
+                        "usr": "s:8PrivySDK11TransferFeeV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV13estimatedFeesSayAA0C3FeeVGSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV13estimatedFeesSayAA0C3FeeVGSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[PrivySDK.TransferFee]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PrivySDK.TransferFee]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TransferFee",
+                            "printedName": "PrivySDK.TransferFee",
+                            "usr": "s:8PrivySDK11TransferFeeV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV13estimatedFeesSayAA0C3FeeVGSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV13estimatedFeesSayAA0C3FeeVGSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "estimatedGas",
+            "printedName": "estimatedGas",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransferGas?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferGas",
+                    "printedName": "PrivySDK.TransferGas",
+                    "usr": "s:8PrivySDK11TransferGasV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV12estimatedGasAA0cF0VSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV12estimatedGasAA0cF0VSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.TransferGas?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferGas",
+                        "printedName": "PrivySDK.TransferGas",
+                        "usr": "s:8PrivySDK11TransferGasV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV12estimatedGasAA0cF0VSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV12estimatedGasAA0cF0VSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fees",
+            "printedName": "fees",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[PrivySDK.TransferFee]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PrivySDK.TransferFee]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFee",
+                        "printedName": "PrivySDK.TransferFee",
+                        "usr": "s:8PrivySDK11TransferFeeV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV4feesSayAA0C3FeeVGSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV4feesSayAA0C3FeeVGSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[PrivySDK.TransferFee]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[PrivySDK.TransferFee]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TransferFee",
+                            "printedName": "PrivySDK.TransferFee",
+                            "usr": "s:8PrivySDK11TransferFeeV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV4feesSayAA0C3FeeVGSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV4feesSayAA0C3FeeVGSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gas",
+            "printedName": "gas",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransferGas?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferGas",
+                    "printedName": "PrivySDK.TransferGas",
+                    "usr": "s:8PrivySDK11TransferGasV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferActionV3gasAA0C3GasVSgvp",
+            "mangledName": "$s8PrivySDK14TransferActionV3gasAA0C3GasVSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.TransferGas?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferGas",
+                        "printedName": "PrivySDK.TransferGas",
+                        "usr": "s:8PrivySDK11TransferGasV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferActionV3gasAA0C3GasVSgvg",
+                "mangledName": "$s8PrivySDK14TransferActionV3gasAA0C3GasVSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK14TransferActionV",
+        "mangledName": "$s8PrivySDK14TransferActionV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferActionSource",
+        "printedName": "TransferActionSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "asset",
+            "printedName": "asset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK20TransferActionSourceV5assetSSSgvp",
+            "mangledName": "$s8PrivySDK20TransferActionSourceV5assetSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK20TransferActionSourceV5assetSSSgvg",
+                "mangledName": "$s8PrivySDK20TransferActionSourceV5assetSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetAddress",
+            "printedName": "assetAddress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK20TransferActionSourceV12assetAddressSSSgvp",
+            "mangledName": "$s8PrivySDK20TransferActionSourceV12assetAddressSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK20TransferActionSourceV12assetAddressSSSgvg",
+                "mangledName": "$s8PrivySDK20TransferActionSourceV12assetAddressSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetDecimals",
+            "printedName": "assetDecimals",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK20TransferActionSourceV13assetDecimalsSiSgvp",
+            "mangledName": "$s8PrivySDK20TransferActionSourceV13assetDecimalsSiSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK20TransferActionSourceV13assetDecimalsSiSgvg",
+                "mangledName": "$s8PrivySDK20TransferActionSourceV13assetDecimalsSiSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK20TransferActionSourceV6amountSSSgvp",
+            "mangledName": "$s8PrivySDK20TransferActionSourceV6amountSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK20TransferActionSourceV6amountSSSgvg",
+                "mangledName": "$s8PrivySDK20TransferActionSourceV6amountSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chain",
+            "printedName": "chain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK20TransferActionSourceV5chainSSvp",
+            "mangledName": "$s8PrivySDK20TransferActionSourceV5chainSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK20TransferActionSourceV5chainSSvg",
+                "mangledName": "$s8PrivySDK20TransferActionSourceV5chainSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK20TransferActionSourceV",
+        "mangledName": "$s8PrivySDK20TransferActionSourceV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferActionDestination",
+        "printedName": "TransferActionDestination",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK25TransferActionDestinationV7addressSSvp",
+            "mangledName": "$s8PrivySDK25TransferActionDestinationV7addressSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK25TransferActionDestinationV7addressSSvg",
+                "mangledName": "$s8PrivySDK25TransferActionDestinationV7addressSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asset",
+            "printedName": "asset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK25TransferActionDestinationV5assetSSSgvp",
+            "mangledName": "$s8PrivySDK25TransferActionDestinationV5assetSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK25TransferActionDestinationV5assetSSSgvg",
+                "mangledName": "$s8PrivySDK25TransferActionDestinationV5assetSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chain",
+            "printedName": "chain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK25TransferActionDestinationV5chainSSSgvp",
+            "mangledName": "$s8PrivySDK25TransferActionDestinationV5chainSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK25TransferActionDestinationV5chainSSSgvg",
+                "mangledName": "$s8PrivySDK25TransferActionDestinationV5chainSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK25TransferActionDestinationV6amountSSSgvp",
+            "mangledName": "$s8PrivySDK25TransferActionDestinationV6amountSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK25TransferActionDestinationV6amountSSSgvg",
+                "mangledName": "$s8PrivySDK25TransferActionDestinationV6amountSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK25TransferActionDestinationV",
+        "mangledName": "$s8PrivySDK25TransferActionDestinationV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferStatus",
+        "printedName": "TransferStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pending",
+            "printedName": "pending",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferStatus.Type) -> PrivySDK.TransferStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferStatus",
+                    "printedName": "PrivySDK.TransferStatus",
+                    "usr": "s:8PrivySDK14TransferStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferStatus",
+                        "printedName": "PrivySDK.TransferStatus",
+                        "usr": "s:8PrivySDK14TransferStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK14TransferStatusO7pendingyA2CmF",
+            "mangledName": "$s8PrivySDK14TransferStatusO7pendingyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "succeeded",
+            "printedName": "succeeded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferStatus.Type) -> PrivySDK.TransferStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferStatus",
+                    "printedName": "PrivySDK.TransferStatus",
+                    "usr": "s:8PrivySDK14TransferStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferStatus",
+                        "printedName": "PrivySDK.TransferStatus",
+                        "usr": "s:8PrivySDK14TransferStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK14TransferStatusO9succeededyA2CmF",
+            "mangledName": "$s8PrivySDK14TransferStatusO9succeededyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rejected",
+            "printedName": "rejected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferStatus.Type) -> PrivySDK.TransferStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferStatus",
+                    "printedName": "PrivySDK.TransferStatus",
+                    "usr": "s:8PrivySDK14TransferStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferStatus",
+                        "printedName": "PrivySDK.TransferStatus",
+                        "usr": "s:8PrivySDK14TransferStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK14TransferStatusO8rejectedyA2CmF",
+            "mangledName": "$s8PrivySDK14TransferStatusO8rejectedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferStatus.Type) -> PrivySDK.TransferStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferStatus",
+                    "printedName": "PrivySDK.TransferStatus",
+                    "usr": "s:8PrivySDK14TransferStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferStatus",
+                        "printedName": "PrivySDK.TransferStatus",
+                        "usr": "s:8PrivySDK14TransferStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK14TransferStatusO6failedyA2CmF",
+            "mangledName": "$s8PrivySDK14TransferStatusO6failedyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferStatus.Type) -> (Swift.String) -> PrivySDK.TransferStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransferStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferStatus",
+                        "printedName": "PrivySDK.TransferStatus",
+                        "usr": "s:8PrivySDK14TransferStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferStatus",
+                        "printedName": "PrivySDK.TransferStatus",
+                        "usr": "s:8PrivySDK14TransferStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK14TransferStatusO7unknownyACSScACmF",
+            "mangledName": "$s8PrivySDK14TransferStatusO7unknownyACSScACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTerminal",
+            "printedName": "isTerminal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferStatusO10isTerminalSbvp",
+            "mangledName": "$s8PrivySDK14TransferStatusO10isTerminalSbvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferStatusO10isTerminalSbvg",
+                "mangledName": "$s8PrivySDK14TransferStatusO10isTerminalSbvg",
+                "moduleName": "PrivySDK",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK14TransferStatusO",
+        "mangledName": "$s8PrivySDK14TransferStatusO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferFee",
+        "printedName": "TransferFee",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferFeeType",
+                "printedName": "PrivySDK.TransferFeeType",
+                "usr": "s:8PrivySDK15TransferFeeTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK11TransferFeeV4typeAA0cD4TypeOvp",
+            "mangledName": "$s8PrivySDK11TransferFeeV4typeAA0cD4TypeOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferFeeType",
+                    "printedName": "PrivySDK.TransferFeeType",
+                    "usr": "s:8PrivySDK15TransferFeeTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK11TransferFeeV4typeAA0cD4TypeOvg",
+                "mangledName": "$s8PrivySDK11TransferFeeV4typeAA0cD4TypeOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK11TransferFeeV6amountSSvp",
+            "mangledName": "$s8PrivySDK11TransferFeeV6amountSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK11TransferFeeV6amountSSvg",
+                "mangledName": "$s8PrivySDK11TransferFeeV6amountSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recipient",
+            "printedName": "recipient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK11TransferFeeV9recipientSSSgvp",
+            "mangledName": "$s8PrivySDK11TransferFeeV9recipientSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK11TransferFeeV9recipientSSSgvg",
+                "mangledName": "$s8PrivySDK11TransferFeeV9recipientSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK11TransferFeeV",
+        "mangledName": "$s8PrivySDK11TransferFeeV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferFeeType",
+        "printedName": "TransferFeeType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "relayer",
+            "printedName": "relayer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferFeeType.Type) -> PrivySDK.TransferFeeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferFeeType",
+                    "printedName": "PrivySDK.TransferFeeType",
+                    "usr": "s:8PrivySDK15TransferFeeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferFeeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFeeType",
+                        "printedName": "PrivySDK.TransferFeeType",
+                        "usr": "s:8PrivySDK15TransferFeeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransferFeeTypeO7relayeryA2CmF",
+            "mangledName": "$s8PrivySDK15TransferFeeTypeO7relayeryA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "privy",
+            "printedName": "privy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferFeeType.Type) -> PrivySDK.TransferFeeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferFeeType",
+                    "printedName": "PrivySDK.TransferFeeType",
+                    "usr": "s:8PrivySDK15TransferFeeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferFeeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFeeType",
+                        "printedName": "PrivySDK.TransferFeeType",
+                        "usr": "s:8PrivySDK15TransferFeeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransferFeeTypeO5privyyA2CmF",
+            "mangledName": "$s8PrivySDK15TransferFeeTypeO5privyyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "developer",
+            "printedName": "developer",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferFeeType.Type) -> PrivySDK.TransferFeeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferFeeType",
+                    "printedName": "PrivySDK.TransferFeeType",
+                    "usr": "s:8PrivySDK15TransferFeeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferFeeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFeeType",
+                        "printedName": "PrivySDK.TransferFeeType",
+                        "usr": "s:8PrivySDK15TransferFeeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransferFeeTypeO9developeryA2CmF",
+            "mangledName": "$s8PrivySDK15TransferFeeTypeO9developeryA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferFeeType.Type) -> (Swift.String) -> PrivySDK.TransferFeeType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransferFeeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFeeType",
+                        "printedName": "PrivySDK.TransferFeeType",
+                        "usr": "s:8PrivySDK15TransferFeeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferFeeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferFeeType",
+                        "printedName": "PrivySDK.TransferFeeType",
+                        "usr": "s:8PrivySDK15TransferFeeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK15TransferFeeTypeO7unknownyACSScACmF",
+            "mangledName": "$s8PrivySDK15TransferFeeTypeO7unknownyACSScACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK15TransferFeeTypeO",
+        "mangledName": "$s8PrivySDK15TransferFeeTypeO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferGas",
+        "printedName": "TransferGas",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseAmount",
+            "printedName": "baseAmount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK11TransferGasV10baseAmountSSvp",
+            "mangledName": "$s8PrivySDK11TransferGasV10baseAmountSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK11TransferGasV10baseAmountSSvg",
+                "mangledName": "$s8PrivySDK11TransferGasV10baseAmountSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK11TransferGasV6amountSSvp",
+            "mangledName": "$s8PrivySDK11TransferGasV6amountSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK11TransferGasV6amountSSvg",
+                "mangledName": "$s8PrivySDK11TransferGasV6amountSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gasAsset",
+            "printedName": "gasAsset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK11TransferGasV8gasAssetSSvp",
+            "mangledName": "$s8PrivySDK11TransferGasV8gasAssetSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK11TransferGasV8gasAssetSSvg",
+                "mangledName": "$s8PrivySDK11TransferGasV8gasAssetSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK11TransferGasV",
+        "mangledName": "$s8PrivySDK11TransferGasV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferParams",
+        "printedName": "TransferParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "amount",
+            "printedName": "amount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV6amountSSvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV6amountSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV6amountSSvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV6amountSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asset",
+            "printedName": "asset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAsset",
+                "printedName": "PrivySDK.TransferAsset",
+                "usr": "s:8PrivySDK13TransferAssetO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV5assetAA0C5AssetOvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV5assetAA0C5AssetOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferAsset",
+                    "printedName": "PrivySDK.TransferAsset",
+                    "usr": "s:8PrivySDK13TransferAssetO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV5assetAA0C5AssetOvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV5assetAA0C5AssetOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chain",
+            "printedName": "chain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionChain",
+                "printedName": "PrivySDK.TransactionChain",
+                "usr": "s:8PrivySDK16TransactionChainO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV5chainAA16TransactionChainOvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV5chainAA16TransactionChainOvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV5chainAA16TransactionChainOvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV5chainAA16TransactionChainOvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "destination",
+            "printedName": "destination",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferDestination",
+                "printedName": "PrivySDK.TransferDestination",
+                "usr": "s:8PrivySDK19TransferDestinationV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV11destinationAA0C11DestinationVvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV11destinationAA0C11DestinationVvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferDestination",
+                    "printedName": "PrivySDK.TransferDestination",
+                    "usr": "s:8PrivySDK19TransferDestinationV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV11destinationAA0C11DestinationVvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV11destinationAA0C11DestinationVvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amountType",
+            "printedName": "amountType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransferAmountType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferAmountType",
+                    "printedName": "PrivySDK.TransferAmountType",
+                    "usr": "s:8PrivySDK18TransferAmountTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV10amountTypeAA0c6AmountF0OSgvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV10amountTypeAA0c6AmountF0OSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.TransferAmountType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAmountType",
+                        "printedName": "PrivySDK.TransferAmountType",
+                        "usr": "s:8PrivySDK18TransferAmountTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV10amountTypeAA0c6AmountF0OSgvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV10amountTypeAA0c6AmountF0OSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "slippageBps",
+            "printedName": "slippageBps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV11slippageBpsSiSgvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV11slippageBpsSiSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV11slippageBpsSiSgvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV11slippageBpsSiSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "referenceId",
+            "printedName": "referenceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK14TransferParamsV11referenceIdSSSgvp",
+            "mangledName": "$s8PrivySDK14TransferParamsV11referenceIdSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK14TransferParamsV11referenceIdSSSgvg",
+                "mangledName": "$s8PrivySDK14TransferParamsV11referenceIdSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(amount:asset:chain:destination:amountType:slippageBps:referenceId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferParams",
+                "printedName": "PrivySDK.TransferParams",
+                "usr": "s:8PrivySDK14TransferParamsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAsset",
+                "printedName": "PrivySDK.TransferAsset",
+                "usr": "s:8PrivySDK13TransferAssetO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionChain",
+                "printedName": "PrivySDK.TransactionChain",
+                "usr": "s:8PrivySDK16TransactionChainO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransferDestination",
+                "printedName": "PrivySDK.TransferDestination",
+                "usr": "s:8PrivySDK19TransferDestinationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransferAmountType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferAmountType",
+                    "printedName": "PrivySDK.TransferAmountType",
+                    "usr": "s:8PrivySDK18TransferAmountTypeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK14TransferParamsV6amount5asset5chain11destination0E4Type11slippageBps11referenceIdACSS_AA0C5AssetOAA16TransactionChainOAA0C11DestinationVAA0c6AmountI0OSgSiSgSSSgtcfc",
+            "mangledName": "$s8PrivySDK14TransferParamsV6amount5asset5chain11destination0E4Type11slippageBps11referenceIdACSS_AA0C5AssetOAA16TransactionChainOAA0C11DestinationVAA0c6AmountI0OSgSiSgSSSgtcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK14TransferParamsV",
+        "mangledName": "$s8PrivySDK14TransferParamsV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferAsset",
+        "printedName": "TransferAsset",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "named",
+            "printedName": "named",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferAsset.Type) -> (Swift.String) -> PrivySDK.TransferAsset",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransferAsset",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAsset",
+                        "printedName": "PrivySDK.TransferAsset",
+                        "usr": "s:8PrivySDK13TransferAssetO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferAsset.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAsset",
+                        "printedName": "PrivySDK.TransferAsset",
+                        "usr": "s:8PrivySDK13TransferAssetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13TransferAssetO5namedyACSScACmF",
+            "mangledName": "$s8PrivySDK13TransferAssetO5namedyACSScACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferAsset.Type) -> (Swift.String) -> PrivySDK.TransferAsset",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> PrivySDK.TransferAsset",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAsset",
+                        "printedName": "PrivySDK.TransferAsset",
+                        "usr": "s:8PrivySDK13TransferAssetO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(address: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferAsset.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAsset",
+                        "printedName": "PrivySDK.TransferAsset",
+                        "usr": "s:8PrivySDK13TransferAssetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK13TransferAssetO6customyACSS_tcACmF",
+            "mangledName": "$s8PrivySDK13TransferAssetO6customyACSS_tcACmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK13TransferAssetO",
+        "mangledName": "$s8PrivySDK13TransferAssetO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferDestination",
+        "printedName": "TransferDestination",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK19TransferDestinationV7addressSSvp",
+            "mangledName": "$s8PrivySDK19TransferDestinationV7addressSSvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK19TransferDestinationV7addressSSvg",
+                "mangledName": "$s8PrivySDK19TransferDestinationV7addressSSvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asset",
+            "printedName": "asset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK19TransferDestinationV5assetSSSgvp",
+            "mangledName": "$s8PrivySDK19TransferDestinationV5assetSSSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK19TransferDestinationV5assetSSSgvg",
+                "mangledName": "$s8PrivySDK19TransferDestinationV5assetSSSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "chain",
+            "printedName": "chain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransactionChain?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK19TransferDestinationV5chainAA16TransactionChainOSgvp",
+            "mangledName": "$s8PrivySDK19TransferDestinationV5chainAA16TransactionChainOSgvp",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PrivySDK.TransactionChain?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransactionChain",
+                        "printedName": "PrivySDK.TransactionChain",
+                        "usr": "s:8PrivySDK16TransactionChainO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK19TransferDestinationV5chainAA16TransactionChainOSgvg",
+                "mangledName": "$s8PrivySDK19TransferDestinationV5chainAA16TransactionChainOSgvg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:asset:chain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransferDestination",
+                "printedName": "PrivySDK.TransferDestination",
+                "usr": "s:8PrivySDK19TransferDestinationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PrivySDK.TransactionChain?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionChain",
+                    "printedName": "PrivySDK.TransactionChain",
+                    "usr": "s:8PrivySDK16TransactionChainO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PrivySDK19TransferDestinationV7address5asset5chainACSS_SSSgAA16TransactionChainOSgtcfc",
+            "mangledName": "$s8PrivySDK19TransferDestinationV7address5asset5chainACSS_SSSgAA16TransactionChainOSgtcfc",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PrivySDK19TransferDestinationV",
+        "mangledName": "$s8PrivySDK19TransferDestinationV",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransferAmountType",
+        "printedName": "TransferAmountType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "exactInput",
+            "printedName": "exactInput",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferAmountType.Type) -> PrivySDK.TransferAmountType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferAmountType",
+                    "printedName": "PrivySDK.TransferAmountType",
+                    "usr": "s:8PrivySDK18TransferAmountTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferAmountType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAmountType",
+                        "printedName": "PrivySDK.TransferAmountType",
+                        "usr": "s:8PrivySDK18TransferAmountTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK18TransferAmountTypeO10exactInputyA2CmF",
+            "mangledName": "$s8PrivySDK18TransferAmountTypeO10exactInputyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "exactOutput",
+            "printedName": "exactOutput",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrivySDK.TransferAmountType.Type) -> PrivySDK.TransferAmountType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransferAmountType",
+                    "printedName": "PrivySDK.TransferAmountType",
+                    "usr": "s:8PrivySDK18TransferAmountTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrivySDK.TransferAmountType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferAmountType",
+                        "printedName": "PrivySDK.TransferAmountType",
+                        "usr": "s:8PrivySDK18TransferAmountTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PrivySDK18TransferAmountTypeO11exactOutputyA2CmF",
+            "mangledName": "$s8PrivySDK18TransferAmountTypeO11exactOutputyA2CmF",
+            "moduleName": "PrivySDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAmountType",
+                "printedName": "PrivySDK.TransferAmountType",
+                "usr": "s:8PrivySDK18TransferAmountTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransferAmountType",
+                "printedName": "PrivySDK.TransferAmountType",
+                "usr": "s:8PrivySDK18TransferAmountTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18TransferAmountTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8PrivySDK18TransferAmountTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrivySDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PrivySDK18TransferAmountTypeO9hashValueSivp",
+            "mangledName": "$s8PrivySDK18TransferAmountTypeO9hashValueSivp",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PrivySDK18TransferAmountTypeO9hashValueSivg",
+                "mangledName": "$s8PrivySDK18TransferAmountTypeO9hashValueSivg",
+                "moduleName": "PrivySDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PrivySDK18TransferAmountTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8PrivySDK18TransferAmountTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "PrivySDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PrivySDK18TransferAmountTypeO",
+        "mangledName": "$s8PrivySDK18TransferAmountTypeO",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "TypeDecl",
         "name": "WalletClientType",
         "printedName": "WalletClientType",
         "children": [
@@ -31424,7 +34998,9 @@
                 "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO021maxNumberOfAdditionalF0yAESi_tcAEmF",
                 "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO021maxNumberOfAdditionalF0yAESi_tcAEmF",
                 "moduleName": "PrivySDK",
+                "deprecated": true,
                 "declAttributes": [
+                  "Available",
                   "RawDocComment"
                 ]
               },
@@ -32250,6 +35826,66 @@
               },
               {
                 "kind": "Var",
+                "name": "transferError",
+                "printedName": "transferError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> (Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(message: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO08transferC0yAESS_tcAEmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO08transferC0yAESS_tcAEmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "importNotSupported",
                 "printedName": "importNotSupported",
                 "children": [
@@ -32283,6 +35919,86 @@
                 "declKind": "EnumElement",
                 "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO18importNotSupportedyA2EmF",
                 "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO18importNotSupportedyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "transferNotSupported",
+                "printedName": "transferNotSupported",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedWalletFailureReason",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO20transferNotSupportedyA2EmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO20transferNotSupportedyA2EmF",
+                "moduleName": "PrivySDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "getTransferActionNotSupported",
+                "printedName": "getTransferActionNotSupported",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type) -> PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedWalletFailureReason",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                        "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EmbeddedWalletFailureReason",
+                            "printedName": "PrivySDK.PrivyErrorCode.EmbeddedWalletFailureReason",
+                            "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO29getTransferActionNotSupportedyA2EmF",
+                "mangledName": "$s8PrivySDK0A9ErrorCodeO27EmbeddedWalletFailureReasonO29getTransferActionNotSupportedyA2EmF",
                 "moduleName": "PrivySDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -33710,6 +37426,44 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FactoryKit",
+        "printedName": "FactoryKit",
+        "declKind": "Import",
+        "moduleName": "PrivySDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
         "name": "FactoryKit",
         "printedName": "FactoryKit",
         "declKind": "Import",
@@ -33734,13 +37488,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PrivySDK"
-      },
-      {
-        "kind": "Import",
         "name": "FactoryKit",
         "printedName": "FactoryKit",
         "declKind": "Import",
@@ -33748,6 +37495,20 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivySDK"
       },
       {
         "kind": "Import",
@@ -35181,7 +38942,7 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/Core\/Public\/Privy\/WalletImportSecret.swift",
       "kind": "Array",
-      "offset": 1923,
+      "offset": 2530,
       "length": 2,
       "value": "[]"
     },
@@ -36304,6 +40065,167 @@
       "offset": 3076,
       "length": 16,
       "value": "\"display_values\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 13,
+      "value": "\"amount_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 14,
+      "value": "\"slippage_bps\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 14,
+      "value": "\"reference_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1224,
+      "length": 15,
+      "value": "\"asset_address\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 11,
+      "value": "\"wallet_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1169,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 14,
+      "value": "\"reference_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 16,
+      "value": "\"failure_reason\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 13,
+      "value": "\"amount_type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1337,
+      "length": 14,
+      "value": "\"source_asset\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 22,
+      "value": "\"source_asset_address\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 23,
+      "value": "\"source_asset_decimals\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1496,
+      "length": 15,
+      "value": "\"source_amount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 14,
+      "value": "\"source_chain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1588,
+      "length": 21,
+      "value": "\"destination_address\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 19,
+      "value": "\"destination_asset\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 19,
+      "value": "\"destination_chain\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1747,
+      "length": 20,
+      "value": "\"destination_amount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 16,
+      "value": "\"estimated_fees\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1842,
+      "length": 15,
+      "value": "\"estimated_gas\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2388,
+      "length": 13,
+      "value": "\"base_amount\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletApiTransferResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2454,
+      "length": 11,
+      "value": "\"gas_asset\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletTransfer\/WalletTransferService.swift",
+      "kind": "StringLiteral",
+      "offset": 5514,
+      "length": 20,
+      "value": "\"Failed to transfer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-headless-sdk\/ios-headless-sdk\/PrivySDK\/EmbeddedWallet\/WalletApi\/WalletUpdate\/WalletApiGetResponse.swift",

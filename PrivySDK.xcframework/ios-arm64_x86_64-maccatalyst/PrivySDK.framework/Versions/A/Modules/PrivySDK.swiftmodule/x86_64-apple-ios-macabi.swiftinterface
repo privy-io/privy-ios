@@ -373,12 +373,16 @@ public protocol EmbeddedWallet : Swift::Sendable {
   func removeSigner(signerId: Swift::String) async throws
   func removeAllSigners() async throws
   func getTransactions(_ params: PrivySDK::GetTransactionsParams) async throws -> PrivySDK::TransactionsPage
+  func transfer(_ params: PrivySDK::TransferParams) async throws -> PrivySDK::TransferAction
+  func getTransferAction(_ actionId: Swift::String) async throws -> PrivySDK::TransferAction
 }
 extension PrivySDK::EmbeddedWallet {
   public var userCanSign: Swift::Bool {
     get
   }
   public func addSigner(_ signer: PrivySDK::SignerInput) async throws
+  public func transfer(_ params: PrivySDK::TransferParams) async throws -> PrivySDK::TransferAction
+  public func getTransferAction(_ actionId: Swift::String) async throws -> PrivySDK::TransferAction
 }
 public protocol Privy : Swift::Sendable {
   @available(*, deprecated, message: "Use 'getAuthState() async -> AuthState' instead, which handles awaiting ready under the hood.")
@@ -655,6 +659,89 @@ public struct GetTransactionsParams : Swift::Sendable {
   public let includeArchived: Swift::Bool?
   public init(chain: PrivySDK::TransactionChain, assets: [Swift::String]? = nil, tokens: [Swift::String]? = nil, txHash: Swift::String? = nil, limit: Swift::Int? = nil, cursor: Swift::String? = nil, includeArchived: Swift::Bool? = nil)
 }
+public struct TransferAction : Swift::Sendable {
+  public let id: Swift::String
+  public let status: PrivySDK::TransferStatus
+  public let walletId: Swift::String
+  public let createdAt: Swift::String
+  public let referenceId: Swift::String?
+  public let failureMessage: Swift::String?
+  public let amountType: PrivySDK::TransferAmountType?
+  public let source: PrivySDK::TransferActionSource
+  public let destination: PrivySDK::TransferActionDestination
+  public let estimatedFees: [PrivySDK::TransferFee]?
+  public let estimatedGas: PrivySDK::TransferGas?
+  public let fees: [PrivySDK::TransferFee]?
+  public let gas: PrivySDK::TransferGas?
+}
+public struct TransferActionSource : Swift::Sendable {
+  public let asset: Swift::String?
+  public let assetAddress: Swift::String?
+  public let assetDecimals: Swift::Int?
+  public let amount: Swift::String?
+  public let chain: Swift::String
+}
+public struct TransferActionDestination : Swift::Sendable {
+  public let address: Swift::String
+  public let asset: Swift::String?
+  public let chain: Swift::String?
+  public let amount: Swift::String?
+}
+public enum TransferStatus : Swift::Sendable {
+  case pending
+  case succeeded
+  case rejected
+  case failed
+  case unknown(Swift::String)
+  public var isTerminal: Swift::Bool {
+    get
+  }
+}
+public struct TransferFee : Swift::Sendable {
+  public let type: PrivySDK::TransferFeeType
+  public let amount: Swift::String
+  public let recipient: Swift::String?
+}
+public enum TransferFeeType : Swift::Sendable {
+  case relayer
+  case privy
+  case developer
+  case unknown(Swift::String)
+}
+public struct TransferGas : Swift::Sendable {
+  public let baseAmount: Swift::String
+  public let amount: Swift::String
+  public let gasAsset: Swift::String
+}
+public struct TransferParams : Swift::Sendable {
+  public let amount: Swift::String
+  public let asset: PrivySDK::TransferAsset
+  public let chain: PrivySDK::TransactionChain
+  public let destination: PrivySDK::TransferDestination
+  public let amountType: PrivySDK::TransferAmountType?
+  public let slippageBps: Swift::Int?
+  public let referenceId: Swift::String?
+  public init(amount: Swift::String, asset: PrivySDK::TransferAsset, chain: PrivySDK::TransactionChain, destination: PrivySDK::TransferDestination, amountType: PrivySDK::TransferAmountType? = nil, slippageBps: Swift::Int? = nil, referenceId: Swift::String? = nil)
+}
+public enum TransferAsset : Swift::Sendable {
+  case named(Swift::String)
+  case custom(address: Swift::String)
+}
+public struct TransferDestination : Swift::Sendable {
+  public let address: Swift::String
+  public let asset: Swift::String?
+  public let chain: PrivySDK::TransactionChain?
+  public init(address: Swift::String, asset: Swift::String? = nil, chain: PrivySDK::TransactionChain? = nil)
+}
+public enum TransferAmountType : Swift::Sendable {
+  case exactInput
+  case exactOutput
+  public static func == (a: PrivySDK::TransferAmountType, b: PrivySDK::TransferAmountType) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
+    get
+  }
+}
 public enum WalletClientType : Swift::String, Swift::Sendable {
   case other
   case privy
@@ -796,6 +883,7 @@ public enum PrivyErrorCode : Swift::Sendable {
     case creationFailed
     case additionalWalletsBlocked
     case noWalletAvailable
+    @available(*, deprecated, message: "Never thrown. Wallet limits are reported by the API as other errors. Will be removed in a future major version.")
     case maxNumberOfAdditionalWallet(count: Swift::Int)
     case unsupportedChain
     case rpcUrlNotFound
@@ -813,7 +901,10 @@ public enum PrivyErrorCode : Swift::Sendable {
     case iframeError(type: Swift::String, message: Swift::String)
     case signerError(message: Swift::String)
     case transactionError(message: Swift::String)
+    case transferError(message: Swift::String)
     case importNotSupported
+    case transferNotSupported
+    case getTransferActionNotSupported
     case invalidAddress
     case invalidPrivateKey
     case invalidSeedPhrase
@@ -914,6 +1005,8 @@ extension PrivySDK::SolanaSendOptions.PrivySDK::Commitment : Swift::Hashable {}
 extension PrivySDK::SolanaSendOptions.PrivySDK::Commitment : Swift::RawRepresentable {}
 extension PrivySDK::SupportedChain : Swift::Equatable {}
 extension PrivySDK::SupportedChain : Swift::Hashable {}
+extension PrivySDK::TransferAmountType : Swift::Equatable {}
+extension PrivySDK::TransferAmountType : Swift::Hashable {}
 extension PrivySDK::WalletClientType : Swift::Equatable {}
 extension PrivySDK::WalletClientType : Swift::Hashable {}
 extension PrivySDK::WalletClientType : Swift::RawRepresentable {}
